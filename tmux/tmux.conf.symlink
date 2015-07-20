@@ -1,0 +1,171 @@
+unbind-key -a
+bind-key        C-b send-prefix
+bind-key        C-o rotate-window
+bind-key        C-z suspend-client
+bind-key      Space next-layout
+bind-key          ! break-pane
+bind-key          '"' split-window
+bind-key          '#' list-buffers
+bind-key          '$' command-prompt -I #S "rename-session '%%'"
+bind-key          % split-window -h
+bind-key          & confirm-before -p "kill-window #W? (y/n)" kill-window
+bind-key          "\'" command-prompt -p index "select-window -t ':%%'"
+bind-key          ( switch-client -p
+bind-key          ) switch-client -n
+bind-key          , command-prompt -I #W "rename-window '%%'"
+bind-key          - delete-buffer
+bind-key          . command-prompt "move-window -t '%%'"
+bind-key          0 select-window -t :0
+bind-key          1 select-window -t :1
+bind-key          2 select-window -t :2
+bind-key          3 select-window -t :3
+bind-key          4 select-window -t :4
+bind-key          5 select-window -t :5
+bind-key          6 select-window -t :6
+bind-key          7 select-window -t :7
+bind-key          8 select-window -t :8
+bind-key          9 select-window -t :9
+bind-key          : command-prompt
+bind-key          \; last-pane
+bind-key          = choose-buffer
+bind-key          ? list-keys
+bind-key          D choose-client
+bind-key          L switch-client -l
+bind-key          [ copy-mode
+bind-key          ] paste-buffer
+bind-key          c new-window
+bind-key          d detach-client
+bind-key          f command-prompt "find-window '%%'"
+bind-key          i display-message
+bind-key          l last-window
+bind-key          n next-window
+bind-key          o select-pane -t :.+
+bind-key          p previous-window
+bind-key          q display-panes
+bind-key          r refresh-client
+bind-key          s choose-tree
+bind-key          t clock-mode
+bind-key          w choose-window
+bind-key          x confirm-before -p "kill-pane #P? (y/n)" kill-pane
+bind-key          z resize-pane -Z
+bind-key          { swap-pane -U
+bind-key          } swap-pane -D
+bind-key          '~' show-messages
+bind-key      PPage copy-mode -u
+bind-key -r      Up select-pane -U
+bind-key -r    Down select-pane -D
+bind-key -r    Left select-pane -L
+bind-key -r   Right select-pane -R
+bind-key        M-1 select-layout even-horizontal
+bind-key        M-2 select-layout even-vertical
+bind-key        M-3 select-layout main-horizontal
+bind-key        M-4 select-layout main-vertical
+bind-key        M-5 select-layout tiled
+bind-key        M-n next-window -a
+bind-key        M-o rotate-window -D
+bind-key        M-p previous-window -a
+bind-key -r    M-Up resize-pane -U 5
+bind-key -r  M-Down resize-pane -D 5
+bind-key -r  M-Left resize-pane -L 5
+bind-key -r M-Right resize-pane -R 5
+bind-key -r    C-Up resize-pane -U
+bind-key -r  C-Down resize-pane -D
+bind-key -r  C-Left resize-pane -L
+bind-key -r C-Right resize-pane -R
+
+# Smart pane switching with awareness of vim splits
+is_vim='echo "#{pane_current_command}" | grep -iqE "(^|\/)g?(view|n?vim?|vifm)(diff)?$"'
+
+bind -n C-x send-keys -R \; clear-history
+# C-i short cut CAN NOT be set. It produces same code value as <TAB> key in terminal - tab key would no work in vim
+#bind -n C-i run-shell 'tmux rename-window #{pane_current_command}'
+bind -r left if-shell "$is_vim" "send-keys C-h" "run-shell 'tmux_sys_win_aware_navigation.sh left && tmux rename-window #{pane_current_command}'"
+bind -r down if-shell "$is_vim" "send-keys C-j" "run-shell 'tmux_sys_win_aware_navigation.sh down && tmux rename-window #{pane_current_command}'"
+bind -r up if-shell "$is_vim" "send-keys C-k" "run-shell 'tmux_sys_win_aware_navigation.sh up && tmux rename-window #{pane_current_command}'"
+bind -r right if-shell "$is_vim" "send-keys C-l" "run-shell 'tmux_sys_win_aware_navigation.sh right && tmux rename-window #{pane_current_command}'"
+bind C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l ; run-shell 'tmux rename-window #{pane_current_command}'"
+
+## set the default TERM
+set -g default-terminal screen
+
+## update the TERM variable of terminal emulator when creating a new session or attaching a existing session
+set -g update-environment 'DISPLAY SSH_ASKPASS SSH_AGENT_PID SSH_CONNECTION WINDOWID XAUTHORITY TERM'
+## determine if we should enable 256-colour support
+if "[[ ${TERM} =~ 256color || ${TERM} == fbterm ]]" 'set -g default-terminal screen-256color'
+
+set-option -g set-titles on
+#set-option -g set-titles-string '#S:#I.#P #W'
+set-option -g set-titles-string 'tmux #S:#I.#P #W'
+set-window-option -g automatic-rename on
+
+# Set vim mode for tmux
+setw -g mode-keys vi
+bind-key -t vi-copy 'v' begin-selection
+#bind-key -t vi-copy 'y' copy-selection
+bind -t vi-copy y copy-pipe 'xclip -in -selection clipboard'
+#
+# set window split
+bind-key v split-window -h
+bind-key s split-window
+bind-key q kill-pane
+
+# Moving with tabs/windows
+bind-key j previous-window
+bind-key k next-window
+
+#Status bar
+set-option -g status-position top
+
+# C-b is not acceptable -- Vim uses it
+set-option -g prefix C-a
+bind-key C-a send-prefix #send key to underlying program (so vim can used it too)
+
+# Activity monitoring
+setw -g monitor-activity on
+set -g visual-activity on
+
+# Start numbering at 1
+set -g base-index 1
+
+# Allows for faster key repetition
+set -s escape-time 0
+
+# pane number display
+set-option -g display-panes-active-colour colour33 #blue
+set-option -g display-panes-colour colour166 #orange
+
+# Powerline plugin settings
+set-option -g status on
+set-option -g status-interval 2
+set-option -g status-utf8 on
+set-option -g status-justify "centre"
+set-option -g status-left-length 60
+set-option -g status-right-length 90
+#set-option -g status-left "#(~/.tmux/tmux-powerline/powerline.sh left)"
+#set-option -g status-right "#(~/.tmux/tmux-powerline/powerline.sh right)"
+
+#Restore these programs with tmux session
+set -g @resurrect-processes 'ssh mysql sqlite3 vifm'
+set -g @resurrect-strategy-vim 'session' #automatically restore vim session
+
+run-shell "powerline-daemon -q"
+source "$HOME/.local/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf"
+#
+# List of plugins
+# Supports `github_username/repo` or full git repo URLs
+set -g @tpm_plugins '              \
+  tmux-plugins/tpm                 \
+  tmux-plugins/tmux-sensible       \
+  tmux-plugins/tmux-resurrect      \
+  tmux-plugins/tmux-open           \
+  tmux-plugins/tmux-logging        \
+  tmux-plugins/tmux-sessionist     \
+'
+# Other examples:
+# github_username/plugin_name    \
+# git@github.com/user/plugin     \
+# git@bitbucket.com/user/plugin  \
+
+# Initializes TMUX plugin manager.
+# Keep this line at the very bottom of tmux.conf.
+run-shell '~/.tmux/plugins/tpm/tpm'

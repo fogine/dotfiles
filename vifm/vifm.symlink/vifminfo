@@ -1,0 +1,848 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'C
+	/home/fogine/Documents
+	..
+1432996541
+'D
+	/home/fogine/Downloads
+	..
+1432996541
+'H
+	/home/fogine/
+	..
+1433073347
+'P
+	/home/fogine/Pictures
+	..
+1432996541
+'R
+	/
+	..
+1432998616
+'T
+	/usr/share/doc/w3m
+	MANUAL.html
+1433086227
+'V
+	/usr/share/vim/vimfiles
+	vimrc
+1433014100
+'Z
+	/home/fogine/.vifm
+	..
+1432996541
+'a
+	/home/fogine/Documents/backup/config/.vifm
+	colorschemes
+1433528532
+'c
+	/home/fogine/Documents
+	..
+1435162114
+'d
+	/home/fogine/Downloads
+	..
+1435091846
+'f
+	/
+	bin
+1436291617
+'h
+	/home/fogine/
+	..
+1437428388
+'j
+	/home/fogine/Projects/BI/account_api/libs
+	middleware
+1435684729
+'m
+	/media/fogine/Seagate/Movie/
+	..
+1436600290
+'p
+	/home/fogine/Projects
+	..
+1434657663
+'r
+	/
+	..
+1435086817
+'t
+	/media/fogine/Seagate/MP3/Soundtrack
+	3 Hours   The Very Best of Epic Music   76 Tracks.mp4.idx2
+1433980556
+'u
+	/usr
+	..
+1433082065
+'v
+	/home/fogine/.vim
+	..
+1437428388
+'x
+	/home/fogine/.vim
+	..
+1434657319
+'z
+	/home/fogine/.vifm
+	..
+1437428388
+
+# Command line history (oldest to newest):
+:locate powerline-config
+:!vifm -c "echo layoutis('only')" %m
+:!sudo fc-cache -fv
+:echo $XDG_CONFIG_HOME
+:mkdir .fonts.conf
+:!python setup.py install
+:!git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+:git clone git://github.com/tpope/vim-obsession.git
+:!git clone git://github.com/tpope/vim-obsession.git
+:locate powerline
+:!chown sudo:sudo %c
+:!chown root:root %c
+:!sudo chown root:root %c
+:!sudo -v
+:!groups %c
+:!chmod -R u+x %c
+:!sudo make
+:mkcd vifm8beta
+:u'u
+:!unlink %c
+:!sudo unlink %c
+:!rm %c
+:!rm plugins
+:empty
+:extra
+:sudo
+:!sudo
+:groupts fogine
+:!groups fogine
+:!vim vifm_ideas
+:!vim &
+:!git clone https://github.com/godlygeek/tabular.git
+:!standard %c
+:/usr/local/lib/node_modules/google-closure-compiler/compiler.jar
+:!git clone https://github.com/jelera/vim-javascript-syntax.git
+:mkdir vifm8beta2
+:h timefmt
+:set timefmt?
+:set timefmt="%d/%m %Y %H:%M"
+:set timefmt="%d/%m %y %H:%M"
+:set timefmt="%d/%m/%y %H:%M"
+:jobs
+:!git clone https://github.com/tj/git-extras.git
+:!git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
+:!sudo make install
+:!git clone https://github.com/carlcarl/powerline-zsh
+:!git clone https://github.com/losingkeys/dmenu-custom.git
+:!dmenu-custom
+:!vlc %c
+:htop
+:set split?
+:let split?
+:&split
+:has(split)
+:h hes
+:h has
+:kl
+:inoremap <C-@> <C-Space>
+:v
+:'pj
+:!git push
+:/
+:!node_oauth_prod_sync.sh
+:!node_oauth_prod_sync.shhhjkjjklj
+:!git pull
+:mkcd vifmbeta3
+:/home/fogine/Music
+:!echo %f:p
+:!echo %f
+:!echo $((date +%s%N | cut -b1-13))
+:!echo $(date +%s%N | cut -b1-13)
+:!echo $(($(date +%s%N)/1000))
+:!echo $(($(date +%s%N)/1000)) %s
+:!echo test %s
+:!vim listsFiles.sh
+::gs?pat?sub? %m
+:echo %f:p:gs?" "?"[SPACE]"? %m
+:echo %f:p:gs? ?SPACE? %m
+:!echo %f:p:gs? ?SPACE? %m
+:!echo %f:p:gs? ?[[SPACE]]? %m
+:!echo %f:p:gs? ?[:SPACE:]? %m
+:mkcd 
+:!vim audio_in_ubuntu.txt
+:mkcd i3status
+:mkcd .vlc
+:mkcd lua
+:mkcd extensions
+:!vim vf
+:execute '!echo %d > ~/.vifm/lastdir' | quit
+:mkdir scripts
+:!git 
+:!git clone https://github.com/vifm/vifm.git
+:layoutis('vsplit')
+:echo layoutis()
+:echo layoutis('vsplit')
+:echo layoutis('hsplit')
+:echo layoutis('only')
+:!vifm -c ""
+:!vifm -c "wincmd l"
+:!vifm -c "wincmd l" %s
+:echo layoutis('split')
+:wincmd l
+:!vifm --remote -c 'echo layoutis("split")'
+:!vifm --remote -c "echo layoutis('split')"
+:echo layout
+:layout
+:echo $VIFM
+:!$VIFM/scripts/navigation.sh
+:!$VIFM/scripts/navigation.sh %s
+:%c %s
+:%f %s
+:!$VIFM/scripts/navigation.sh %
+:!vifm --remote -c "echo layoutis(only)"
+:!vifm --remote -c "echo layoutis('only')"
+:!$VIFM/scripts/navigation.sh %m
+:isHSplit
+:isVSplit
+:navigation isVSplit
+:navigation 1
+:navigation 0
+:if filetype(’.’) == ’reg’ | execute ’!!echo regular file’ | endif
+:f isVSplit | execute '!$VIFM/scripts/navigation.sh vsplit' | endif
+:if isHSplit | execute '!$VIFM/scripts/navigation.sh vsplit' | endif
+:if isVSplit | execute '!$VIFM/scripts/navigation.sh vsplit' | endif
+:if layoutis('split') | execute '!$VIFM/scripts/navigation.sh vsplit' | endif
+:if layoutis('split') | execute '!$VIFM/scripts/navigation.sh split' | endif
+:if layoutis('only') | execute '!$VIFM/scripts/navigation.sh split' | endif
+:execute "!vifm --remote -c 'echo layoutis("vsplit")'
+:execute "!vifm --remote -c 'echo layoutis(\"vsplit\")'
+:execute "!vifm --remote -c 'echo layoutis(\'vsplit\')'
+:execute "!vifm --remote -c 'echo layoutis(vsplit)'
+:execute !vifm --remote -c 'echo layoutis("vsplit")'
+:execute "!vifm --remote -c 'wincmd l'
+:execute "!vifm --remote -c ':wincmd l'
+:execute "!vifm --remote -c 'wincmd l'"
+:execute "!vifm --remote -c 'echo layoutis(\'vsplit\')'"
+:execute "!vifm --remote -c 'echo layoutis('vsplit')'"
+:execute "!vifm --remote -c 'echo layoutis(\"vsplit\")'"
+:execute "!vifm --remote -c 'echo layoutis(\"split\")'"
+:execute "!vifm --remote -c 'echo layoutis(\"only\")'"
+:exit
+:navigation
+:if !wincmd l | echo 'ok' | endif
+:if wincmd l | echo 'ok' | endif
+:if layoutis('split') | echo 'ok' | endif
+:echo wincmd h
+:wincmd h
+:popd
+:wincmd
+:volumes
+:cd
+:filetype
+:m
+:!sudo vim %c
+:restore
+:vim
+:vi
+:!git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+: jlj
+:mkcd ftplugin
+:goog
+:!git clone https://github.com/honza/vim-snippets.git
+:!git clone https://github.com/SirVer/ultisnips.git
+:!vim %c
+:diff
+:!vim
+:only
+:split
+:vsplit
+:!vim .gitignore
+:!git clone https://github.com/fogine/vim-i3wm-tmux-navigator.git
+:!git clone https://github.com/fogine/vim-space.git
+:!git clone https://github.com/fogine/vim-snippets.git
+:mkcd c
+:;sort
+:sort
+:mkcd system
+:mkcd etc
+:mkcd /etc/sudoers.d
+:mkcd sudoers.d/
+:mkcd vlc
+:mkcd tmux
+:mkdir dmenu
+:mkdir bash
+:mkdir .i3.symlink
+:mkdir vifm
+:mkcd bundle
+:!git submodule add https://github.com/gmarik/Vundle.vim.git 
+:!git submodule add https://github.com/gmarik/Vundle.vim.git Vundle.vim
+:mkcd .tmux.symlink
+:mkcd resurrect
+:!git submodule add https://git::@github.com/tmux-plugins/tmux-resurrect 
+:!git submodule add https://git::@github.com/tmux-plugins/tmux-resurrect tmux-resurrect
+:!touch .gitignore
+:mkcd testdir-notincludedingit
+:mkcd vim
+:mkcd vifm
+:mkcd i3
+:mkcd atom
+:touch .gitignore
+:mkcd fontconfig
+:mkcd config
+:chown fogine:fogine
+:!./bootstrap
+:mkdir tmux
+:mkdir vim
+:jjjkkkj
+:execute
+:colortheme
+:colorscheme
+:version
+:paneisat()
+:echo paneisat()
+:echo paneisat('vsplit')
+:echo paneisat('left')
+:echo paneisat('right')
+:echo paneisat('top')
+:echo paneisat('bottom')
+:extractfiles
+:exe
+:!navigation.sh 'test'
+:execute 'navigation.sh' layoutis('vsplit')
+:execute '!navigation.sh' layoutis('vsplit')
+:execute '!navigation.sh' layoutis('hsplit')
+:execute '!navigation.sh' layoutis('split')
+:execute '!navigation.sh' layoutis('only')
+:touch .localrc
+:!git clone https://github.com/fogine/vim-syntaxattr.git
+:!git clone https://github.com/fogine/vim-dragvisuals.git
+
+# Search history (oldest to newest):
+/giti
+/cache
+/dme
+/pol
+/ai
+/vif
+/python
+/Makefile
+/Z'Z
+/pic
+/Pic
+/Doc
+/home
+/termin
+/Termi
+/xdg
+/Xdef
+/xsess
+/ter
+/xtem
+/xterm
+/xt
+/nomou
+/.bashrc
+/user
+/usr
+/w3
+/doc
+/w3m
+/*.png
+/.+\.png
+/.+\.tiff
+/.+\.gif
+/\.X
+/.wine
+/*.jpg
+/.+\.jpg
+/cry
+/seth
+/Seth
+/Ver
+/hjkhk
+/fstab
+/vifmrc
+/*.html
+/.*.html
+/yd
+/.*.7z
+/con
+/colo
+/uni
+/clon
+/fin
+/\.jpg
+/gun
+/auto
+/tern
+/;
+/com
+/pers
+/person
+/Per
+/Up
+/Upsi
+/pro
+/ctrl
+/input
+/bas
+/tm
+/lo
+/font
+/pow
+/fo
+/fon
+/air
+/pytho
+/tras
+/extra
+/extr
+/ext
+/ex
+/node
+/aj
+/dirhi
+/power
+/oh
+/dmenu
+/cach
+/cac
+/ca
+/spa
+/fug
+/ssh
+/li
+/dmen
+/i3
+/.vl
+/stable-daily
+/vlc
+/v
+/confi
+/xf
+/config
+/powe
+/cpu
+/.git
+/panpa
+/path
+/fol
+/mkcd ftplugin
+/test
+/fold
+/tes
+/2j
+/ultisnips
+/snip
+/snipma
+/bash
+/she
+/javas
+/lara
+/sh
+/java
+/php
+/mkcd c
+/loca
+/d
+/open
+/h
+/git
+/mk
+/do
+/symli
+/proc
+/zsh
+/tmux
+/dot
+/dotfi
+/vifm
+/local
+/vim
+/synt
+/dra
+/dotfil
+
+# Prompt history (oldest to newest):
+pi3_vim_focus.c
+pxdotool
+ppreferences
+plistsFiles.sh
+plistsToClipboard
+pbla
+pvimrc
+ptest.png
+pSolus-Beta2.iso.
+pKim-Kardashian-The-Sex-Tape.
+pSolus-Beta2.iso.ok
+pSolus-Beta2.iso.part
+pCaptain.Phillips.2013.720p.BluRay.x264.YIFY
+pCaptain.Phillips.2013.720p.BluRay.x264.YIFY.mp4
+pvifm_0.7.8.orig.tar.
+patom-amd64.
+pvifm_0.7.8-3_amd64.
+pvifm_0.7.8-3_amd64
+pgoogle-chrome-stable_current_amd64
+pvifm_0.7.8.orig
+pvifm_0.7.8.orig.tar.bz2
+ptest
+pvim-7.4.tar.b
+pvim-7.4.tar.bz2
+pvim74a
+pw3m-0.5.3.tar.gz
+pextract_files_try_to_extract_files_with_correct_path
+pextract_files_7z
+pextract_files_atool
+pextract_files
+pname
+poauth
+paccount_api
+pDejaVuSansMono-Powerline.ttf
+pDejaVu_Sans_Mono_Bold_Oblique_for_Powerline.ttf
+pfonts
+pfonts.conf
+pMr.Robot.S01E01.HDTV.x264.PROPER-LOL.srt
+pMr.Robot.S01E01.PROPER.HDTV.XviD-FUM.avi
+pMr.Robot.S01E01.PROPER.HDTV.XviD-FUM
+pMr.Robot.S01E01.PROPER.HDTV.XviD-FUM.srt
+pdmenu2-0.2.tar.gz
+pGame of Thrones S05E03 720p HDTV x264-RiPRG.mkv
+pGame of Thrones S05E03 720p HDTV x264-RiPRG.srt
+pGame of Thrones S05E04 720p HDTV x264-RiPRG.mkv
+pGame of Thrones S05E04 720p HDTV x264-RiPRG.srt
+pstoredev
+pstoredev.ssh
+pGame of Thrones S05E05 720p HDTV x264-RiPRG.mkv
+pGame of Thrones S05E05 720p HDTV x264-RiPRG`
+pGame of Thrones S05E05 720p HDTV x264-RiPRG .srty
+pGame of Thrones S05E05 720p HDTV x264-RiPRG.srt
+pGame of Thrones S05E06 720p HDTV x264-RiPRG.mkv
+pGame of Thrones S05E06 720p HDTV x264-RiPRG.srty
+pGame of Thrones S05E06 720p HDTV x264-RiPRG.srt
+pGame.of.Thrones.S05E08.HDTV.x264-KILLERS.mp4
+pGame.of.Thrones.S05E08.HDTV.x264-KILLERS.srt
+pGame.of.Thrones.S05E08.HDTV.x264-KILLERS/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game.of.Thrones.S05E08.HDTV.x264-KILLERS[ettv]/game.of.thrones.s05e08.hdtv.x264-killers.nfo
+pgame.of.thrones.s05e08.hdtv.x264-killers.nfo
+pGame of Thrones S05E09 720p HDTV x264-RiPRG.mkv
+pGame of Thrones S05E09 720p HDTV x264-RiPRG
+pGame.of.Thrones.S05E09.PROPER.HDTV.x264-KILLERS.mp4
+pGame.of.Thrones.S05E09.PROPER.HDTV.x264-KILLERS
+pexport.sql
+pexport
+pexport.
+pupdate_final
+pupdate_final.sql
+pnfig
+pconfig
+pMr.Robot.S01E03.720p.HDTV.x264-IMMERSE.srt
+p.vim.symlink
+pi3wm_tmux_navigator.vim
+pi3wm-tmux-navigator.txt
+pdotfiles
+p.dotfiles
+pbin
+pi3_vim_focus
+pi3_tmux_vim_focus.c
+pi3_tmux_vim_focus
+p.atom.symlink
+p.tmux.symlink
+p.tmux
+p.tmux.conf.symlink
+p.Xdefaults.symlink
+p.bash_aliases.symlink
+p.bashrc.symlink
+p.dmenu-terminal.symlink
+p.dmenu-web.symlink
+p.gitignore.symlink
+p.profile.symlink
+p.gitignore
+pvifmrc.symlink
+p.vifm.symlink
+pvif`
+pvifmrc
+presurrect
+ptmux-resurrect
+pplugins
+ptmux.conf.symlink
+pdmenu-web.symlink
+pdmenu-terminal.symlink
+pXdefaults.symlink
+pprofile.symlink
+pbashrc.symlink
+pbash_aliases.symlink
+pvifm.symlink
+pi3.symlink
+patom.symlink
+p10-powerline-symbols.
+p10-powerline-symbols.conf.symlink
+pfonts.conf.symlink
+ptmux.symlink
+pvim.symlink
+ps
+pvifm_navigation.sh
+
+# Trash content:
+t/home/fogine/.vifm-Trash/002_vifm-0.8-beta
+	/home/fogine/Downloads/vifm-0.8-beta
+t/home/fogine/.vifm-Trash/000_vim-javascript-syntax
+	/home/fogine/.vim/bundle/vim-javascript-syntax
+t/home/fogine/.vifm-Trash/000_dmenu2-0.2.tar.gz
+	/home/fogine/Downloads/dmenu2-0.2.tar.gz
+t/home/fogine/.vifm-Trash/000_Adele 21-Lq__lU6uG6o.mp4.part
+	/home/fogine/Adele 21-Lq__lU6uG6o.mp4.part
+t/home/fogine/.vifm-Trash/000_Adele 21-Lq__lU6uG6o.mp4
+	/home/fogine/Adele 21-Lq__lU6uG6o.mp4
+t/home/fogine/.vifm-Trash/000_couch.js
+	/home/fogine/Projects/BI/couch.js
+t/media/fogine/Seagate/.vifm-Trash/000_Game of Thrones S05E05 720p HDTV x264-RiPRG.srt
+	/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game of Thrones S05 720p HDTV x264-RiPRG/Game of Thrones S05E05 720p HDTV x264-RiPRG.srt
+t/media/fogine/Seagate/.vifm-Trash/001_Game of Thrones S05E05 720p HDTV x264-RiPRG.srt
+	/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game of Thrones S05 720p HDTV x264-RiPRG/Game of Thrones S05E05 720p HDTV x264-RiPRG.srt
+t/media/fogine/Seagate/.vifm-Trash/000_Game of Thrones S05E06 720p HDTV x264-RiPRG.srt
+	/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game of Thrones S05 720p HDTV x264-RiPRG/Game of Thrones S05E06 720p HDTV x264-RiPRG.srt
+t/media/fogine/Seagate/.vifm-Trash/001_Game of Thrones S05E06 720p HDTV x264-RiPRG.srt
+	/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game of Thrones S05 720p HDTV x264-RiPRG/Game of Thrones S05E06 720p HDTV x264-RiPRG.srt
+t/media/fogine/Seagate/.vifm-Trash/002_Game of Thrones S05E06 720p HDTV x264-RiPRG.srt
+	/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game of Thrones S05 720p HDTV x264-RiPRG/Game of Thrones S05E06 720p HDTV x264-RiPRG.srt
+t/home/fogine/.vifm-Trash/000_extract_files.sh
+	/home/fogine/extract_files.sh
+t/home/fogine/.vifm-Trash/000_extract_files_atool.sh
+	/home/fogine/extract_files_atool.sh
+t/home/fogine/.vifm-Trash/000_extract_files_try_to_extract_files_with_correct_path.sh
+	/home/fogine/extract_files_try_to_extract_files_with_correct_path.sh
+t/home/fogine/.vifm-Trash/000_listsFiles.sh
+	/home/fogine/listsFiles.sh
+t/home/fogine/.vifm-Trash/000_VeraMono.ttf
+	/home/fogine/.vifm/scripts/VeraMono.ttf
+t/home/fogine/.vifm-Trash/001_Adele 21-Lq__lU6uG6o.mp4.part
+	/home/fogine/Adele 21-Lq__lU6uG6o.mp4.part
+t/media/fogine/Seagate/.vifm-Trash/000_Game of Thrones S05E09 720p HDTV x264-RiPRG.srt
+	/media/fogine/Seagate/Movie/Serial/Game_of_Thrones/S05/Game of Thrones S05 720p HDTV x264-RiPRG/Game of Thrones S05E09 720p HDTV x264-RiPRG.srt
+t//.vifm-Trash/000_vlc_2.1.6-0ubuntu14.04.1_amd64.deb
+	/var/cache/apt/archives/vlc_2.1.6-0ubuntu14.04.1_amd64.deb
+t//.vifm-Trash/000_preferences
+	/etc/apt/preferences
+t//.vifm-Trash/001_vlc_2.1.6-0ubuntu14.04.1_amd64.deb
+	/var/cache/apt/archives/vlc_2.1.6-0ubuntu14.04.1_amd64.deb
+t/home/fogine/.vifm-Trash/000_i3ipc-0.6.0
+	/home/fogine/Downloads/i3-xfce4-dependencies/i3ipc-0.6.0
+t/home/fogine/.vifm-Trash/000_xfce4-panel.xml
+	/home/fogine/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+t//.vifm-Trash/000_i3_vim_focus2
+	/home/fogine/Downloads/i3_vim_focus/i3_vim_focus2
+t//.vifm-Trash/001_i3_vim_focus
+	/home/fogine/.local/bin/i3_vim_focus
+t//.vifm-Trash/001_i3_vim_focus2
+	/home/fogine/Downloads/i3_vim_focus/i3_vim_focus2
+t//.vifm-Trash/002_i3_vim_focus
+	/home/fogine/.local/bin/i3_vim_focus
+t/home/fogine/.vifm-Trash/000_tmux_sys_win_aware_navigation.sh
+	/home/fogine/.local/bin/tmux_sys_win_aware_navigation.sh
+t//.vifm-Trash/000_tmux_sys_win_aware_navigation.sh
+	/usr/local/bin/tmux_sys_win_aware_navigation.sh
+t/home/fogine/.vifm-Trash/000_i3_vim_focus
+	/home/fogine/.vim/bundle/i3_vim_focus
+t/home/fogine/.vifm-Trash/000_vim-pathogen
+	/home/fogine/.vim/bundle/vim-pathogen
+t//.vifm-Trash/000_phpfolding.vim
+	/usr/local/share/vim/vim74/ftplugin/phpfolding.vim
+t/home/fogine/.vifm-Trash/000_phpfolding.vim
+	/home/fogine/.vim/ftplugin/phpfolding.vim
+t/home/fogine/.vifm-Trash/000_vim-snipmate
+	/home/fogine/.vim/bundle/vim-snipmate
+t/home/fogine/.vifm-Trash/000_res
+	/home/fogine/dotfiles/bin/res
+t/home/fogine/.vifm-Trash/000_set-defaults
+	/home/fogine/dotfiles/bin/set-defaults
+t/home/fogine/.vifm-Trash/000_mustacheme
+	/home/fogine/dotfiles/bin/mustacheme
+t/home/fogine/.vifm-Trash/000_movieme
+	/home/fogine/dotfiles/bin/movieme
+t/home/fogine/.vifm-Trash/000_headers
+	/home/fogine/dotfiles/bin/headers
+t/home/fogine/.vifm-Trash/000_gitio
+	/home/fogine/dotfiles/bin/gitio
+t/home/fogine/.vifm-Trash/000_dot
+	/home/fogine/dotfiles/bin/dot
+t/home/fogine/.vifm-Trash/000_osx
+	/home/fogine/dotfiles/osx
+t/home/fogine/.vifm-Trash/000_homebrew
+	/home/fogine/dotfiles/homebrew
+t/home/fogine/.vifm-Trash/000__brew
+	/home/fogine/dotfiles/functions/_brew
+t/home/fogine/.vifm-Trash/000_xcode
+	/home/fogine/dotfiles/xcode
+t/home/fogine/.vifm-Trash/000_ruby
+	/home/fogine/dotfiles/ruby
+t/home/fogine/.vifm-Trash/000_python
+	/home/fogine/dotfiles/python
+t/home/fogine/.vifm-Trash/000_go
+	/home/fogine/dotfiles/go
+t/home/fogine/.vifm-Trash/000__boom
+	/home/fogine/dotfiles/functions/_boom
+t/home/fogine/.vifm-Trash/000_grc.zsh
+	/home/fogine/dotfiles/system/grc.zsh
+t/home/fogine/.vifm-Trash/000_vimrc.symlink
+	/home/fogine/dotfiles/.vim.symlink/vimrc.symlink
+t/home/fogine/.vifm-Trash/000_tmux_navigator.vim
+	/home/fogine/Projects/vim/vim-i3wm-tmux-navigator/plugin/tmux_navigator.vim
+t/home/fogine/.vifm-Trash/000_vim-tmux-navigator
+	/home/fogine/.vim/bundle/vim-tmux-navigator
+t/home/fogine/.vifm-Trash/000_space.txt
+	/home/fogine/Projects/vim/vim-space/doc/space.txt
+t/home/fogine/.vifm-Trash/000_space.vim
+	/home/fogine/Projects/vim/vim-space/plugin/space.vim
+t/home/fogine/.vifm-Trash/000_README.markdown
+	/home/fogine/Projects/vim/vim-space/README.markdown
+t/home/fogine/.vifm-Trash/000_vim-space
+	/home/fogine/.vim/bundle/vim-space
+t/home/fogine/.vifm-Trash/000_php.snippets
+	/home/fogine/Projects/vim/vim-snippets/UltiSnips/php.snippets
+t/home/fogine/.vifm-Trash/000_java.snippets
+	/home/fogine/Projects/vim/vim-snippets/UltiSnips/java.snippets
+t/home/fogine/.vifm-Trash/001_php.snippets
+	/home/fogine/Projects/vim/vim-snippets/snippets/php.snippets
+t/home/fogine/.vifm-Trash/000_vim-snippets
+	/home/fogine/.vim/bundle/vim-snippets
+t/home/fogine/.vifm-Trash/001_vimrc
+	/home/fogine/.dotfiles/.vim.symlink/vimrc
+t/home/fogine/.vifm-Trash/000_vimrc.save
+	/home/fogine/.dotfiles/.vim.symlink/vimrc.save
+t/home/fogine/.vifm-Trash/000_vf
+	/home/fogine/.local/bin/vf
+t/home/fogine/.vifm-Trash/000_i3_vim_focus2
+	/home/fogine/.vim/bundle/vim-i3wm-tmux-navigator/c/i3_vim_focus2
+t/home/fogine/.vifm-Trash/000_c
+	/home/fogine/.vim/bundle/vim-i3wm-tmux-navigator/bin/c
+t/home/fogine/.vifm-Trash/001_tmux_sys_win_aware_navigation.sh
+	/home/fogine/.dotfiles/bin/tmux_sys_win_aware_navigation.sh
+t/home/fogine/.vifm-Trash/000_vlc
+	/home/fogine/Documents/backup/config/system/etc/vlc
+t//.vifm-Trash/000_vlc
+	/etc/vlc
+t/home/fogine/.vifm-Trash/000_config.cson
+	/home/fogine/.dotfiles/.atom.symlink/config.cson
+t/home/fogine/.vifm-Trash/000_init.coffee
+	/home/fogine/.dotfiles/.atom.symlink/init.coffee
+t/home/fogine/.vifm-Trash/000_scripts
+	/home/fogine/.tmux/scripts
+t/home/fogine/.vifm-Trash/000_%home%fogine%dotfiles%vim%vimrc.symlink
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%dotfiles%vim%vimrc.symlink
+t/home/fogine/.vifm-Trash/000_%home%fogine%dotfiles%zsh%zshrc.symlink
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%dotfiles%zsh%zshrc.symlink
+t/home/fogine/.vifm-Trash/000_vimproc.vim
+	/home/fogine/.dotfiles/vim/vim.symlink/bundle/vimproc.vim
+t/home/fogine/.vifm-Trash/000_YouCompleteMe
+	/home/fogine/.dotfiles/vim/vim.symlink/bundle/YouCompleteMe
+t/home/fogine/.vifm-Trash/000_aliases.zsh
+	/home/fogine/.dotfiles/system/aliases.zsh
+t/home/fogine/.vifm-Trash/000_.gitignore
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/.gitignore
+t/home/fogine/.vifm-Trash/000_%etc%apt%preferences
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%etc%apt%preferences
+t/home/fogine/.vifm-Trash/000_%etc%apt%sources.list
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%etc%apt%sources.list
+t/home/fogine/.vifm-Trash/000_%etc%sysctl.conf
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%etc%sysctl.conf
+t/home/fogine/.vifm-Trash/000_%home%fogine%.bashrc
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.bashrc
+t/home/fogine/.vifm-Trash/000_%home%fogine%.cache%dmenu
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.cache%dmenu
+t/home/fogine/.vifm-Trash/000_%home%fogine%.config%i3status%config%config
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.config%i3status%config%config
+t/home/fogine/.vifm-Trash/000_%home%fogine%.config%powerline%themes%vim%default.json
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.config%powerline%themes%vim%default.json
+t/home/fogine/.vifm-Trash/000_%home%fogine%.dmenu-terminal
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.dmenu-terminal
+t/home/fogine/.vifm-Trash/000_%home%fogine%.dmenu-web
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.dmenu-web
+t/home/fogine/.vifm-Trash/000_%home%fogine%.dotfiles%tmux%tmux.symlink%plugins%tmux-resurrect%.git
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.dotfiles%tmux%tmux.symlink%plugins%tmux-resurrect%.git
+t/home/fogine/.vifm-Trash/000_%home%fogine%.dotfiles%vim%vim.symlink%bundle%Vundle.vim%.git
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.dotfiles%vim%vim.symlink%bundle%Vundle.vim%.git
+t/home/fogine/.vifm-Trash/000_%home%fogine%.i3%config
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.i3%config
+t/home/fogine/.vifm-Trash/000_%home%fogine%.local%bin%tmux_sys_win_aware_navigation.sh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.local%bin%tmux_sys_win_aware_navigation.sh
+t/home/fogine/.vifm-Trash/000_%home%fogine%.local%bin%vf
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.local%bin%vf
+t/home/fogine/.vifm-Trash/000_%home%fogine%.oh-my-zsh%plugins%powerline-zsh%powerline-zsh.py
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.oh-my-zsh%plugins%powerline-zsh%powerline-zsh.py
+t/home/fogine/.vifm-Trash/000_%home%fogine%.tmux%scripts%select_next_pane_or_system_window.sh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.tmux%scripts%select_next_pane_or_system_window.sh
+t/home/fogine/.vifm-Trash/000_%home%fogine%.tmux.conf
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.tmux.conf
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vifm%scripts%listsToClipboard.sh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vifm%scripts%listsToClipboard.sh
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vifm%scripts%navigation.sh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vifm%scripts%navigation.sh
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vifm%vifmrc
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vifm%vifmrc
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%i3_vim_focus%plugin%i3_vim_focus.vim
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%i3_vim_focus%plugin%i3_vim_focus.vim
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%phpfolding.vim%plugin%phpfolding.vim
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%phpfolding.vim%plugin%phpfolding.vim
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%vim-snippets%UltiSnips%php.snippets
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%vim-snippets%UltiSnips%php.snippets
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%vim-snippets%snippets%php.snippets
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%vim-snippets%snippets%php.snippets
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%vim-space%doc%space.txt
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%vim-space%doc%space.txt
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%vim-space%plugin%space.vim
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%vim-space%plugin%space.vim
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%bundle%vim-tmux-navigator%plugin%tmux_navigator.vim
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%bundle%vim-tmux-navigator%plugin%tmux_navigator.vim
+t/home/fogine/.vifm-Trash/000_%home%fogine%.vim%vimrc
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.vim%vimrc
+t/home/fogine/.vifm-Trash/000_%home%fogine%.zshrc
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%.zshrc
+t/home/fogine/.vifm-Trash/000_%home%fogine%Downloads%dmenu-custom%dmenu-custom
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Downloads%dmenu-custom%dmenu-custom
+t/home/fogine/.vifm-Trash/000_%home%fogine%Downloads%i3_vim_focus%i3_vim_focus
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Downloads%i3_vim_focus%i3_vim_focus
+t/home/fogine/.vifm-Trash/000_%home%fogine%Downloads%i3_vim_focus%i3_vim_focus2.c
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Downloads%i3_vim_focus%i3_vim_focus2.c
+t/home/fogine/.vifm-Trash/000_%home%fogine%Projects%BI%account_api%.git%COMMIT_EDITMSG
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Projects%BI%account_api%.git%COMMIT_EDITMSG
+t/home/fogine/.vifm-Trash/000_%home%fogine%Projects%BI%account_api%libs%db%couch.js
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Projects%BI%account_api%libs%db%couch.js
+t/home/fogine/.vifm-Trash/000_%home%fogine%Projects%BI%account_api%libs%models%user.js
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Projects%BI%account_api%libs%models%user.js
+t/home/fogine/.vifm-Trash/000_%home%fogine%Projects%BI%account_api%libs%routes%users.js
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Projects%BI%account_api%libs%routes%users.js
+t/home/fogine/.vifm-Trash/000_%home%fogine%Projects%BI%couch.js
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Projects%BI%couch.js
+t/home/fogine/.vifm-Trash/000_%home%fogine%Projects%dochazka%export.sql
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%Projects%dochazka%export.sql
+t/home/fogine/.vifm-Trash/000_%home%fogine%dotfiles%system%_path.zsh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%dotfiles%system%_path.zsh
+t/home/fogine/.vifm-Trash/000_%home%fogine%dotfiles%system%aliases.zsh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%dotfiles%system%aliases.zsh
+t/home/fogine/.vifm-Trash/000_%home%fogine%dotfiles%system%env.zsh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%dotfiles%system%env.zsh
+t/home/fogine/.vifm-Trash/000_%home%fogine%dotfiles%system%keys.zsh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%dotfiles%system%keys.zsh
+t/home/fogine/.vifm-Trash/000_%home%fogine%kernel_err.log
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%kernel_err.log
+t/home/fogine/.vifm-Trash/000_%home%fogine%listsFiles.sh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%listsFiles.sh
+t/home/fogine/.vifm-Trash/000_%home%fogine%test.php
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%test.php
+t/home/fogine/.vifm-Trash/000_%home%fogine%vifm_ideas
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%vifm_ideas
+t/home/fogine/.vifm-Trash/000_%home%fogine%vim_plugin_list
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%home%fogine%vim_plugin_list
+t/home/fogine/.vifm-Trash/000_%media%fogine%Seagate%Tutorial%Ubuntu%audio_in_ubuntu.txt
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%media%fogine%Seagate%Tutorial%Ubuntu%audio_in_ubuntu.txt
+t/home/fogine/.vifm-Trash/000_%usr%local%bin%dmenu-custom
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%usr%local%bin%dmenu-custom
+t/home/fogine/.vifm-Trash/000_%usr%local%bin%tmux_sys_win_aware_navigation.sh
+	/home/fogine/.dotfiles/vim/vim.symlink/undo/%usr%local%bin%tmux_sys_win_aware_navigation.sh
+t/home/fogine/.vifm-Trash/001_scripts
+	/home/fogine/.dotfiles/vifm/vifm.symlink/scripts
+t/home/fogine/.vifm-Trash/000_command-t
+	/home/fogine/.dotfiles/vim/vim.symlink/bundle/command-t

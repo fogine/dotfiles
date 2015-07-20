@@ -1,0 +1,8 @@
+/.apm/
+/.node-gyp/
+/.storage/
+/compile-cache/
+/packages/
+/storage/
+/themes/
+

@@ -1,0 +1,8 @@
+# comments start with a # sign at the start of a line
+# url,keyword,optional-keyword
+https://google.com/search?q=%s,google,g
+http://www.csfd.cz/hledat/?q=%s,csfd,cfd
+https://www.youtube.com/results?search_query=%s,yt,youtu,youtube
+https://github.com/,gh,github
+http://www.heureka.cz/?h%5Bfraze%5D=%s,he,heureka
+http://www.edna.cz/%s,edna

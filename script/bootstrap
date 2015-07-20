@@ -100,11 +100,11 @@ link_file () {
     backup=${backup:-$backup_all}
     skip=${skip:-$skip_all}
 
-    if [ "$overwrite" == "true" ]
-    then
-      rm -rf "$dst"
-      success "removed $dst"
-    fi
+    #if [ "$overwrite" == "true" ]
+    #then
+      #rm -rf "$dst"
+      #success "removed $dst"
+    #fi
 
     if [ "$backup" == "true" ]
     then
@@ -130,12 +130,32 @@ install_dotfiles () {
 
   local overwrite_all=false backup_all=false skip_all=false
 
-  for src in $(find -H "$DOTFILES_ROOT" -maxdepth 2 -name '*.symlink')
+  for src in $(find "$DOTFILES_ROOT" -name '*.symlink')
   do
-    dst="$HOME/.$(basename "${src%.*}")"
+    relative_src=$(echo $src | sed -e "s=$DOTFILES_ROOT==" -e "s=.symlink==")
+    dst="$HOME/.$(echo $relative_src | cut -d "/" -f3-)"
+
+    # create directory if needed
+    dir=$(dirname $dst)
+    if ! [ -d $dir ]
+    then
+      mkdir -p $dir
+    fi
+
     link_file "$src" "$dst"
   done
 }
+#install_dotfiles () {
+  #info 'installing dotfiles'
+
+  #local overwrite_all=false backup_all=false skip_all=false
+
+  #for src in $(find -H "$DOTFILES_ROOT" -maxdepth 2 -name '*.symlink')
+  #do
+    #dst="$HOME/.$(basename "${src%.*}")"
+    #link_file "$src" "$dst"
+  #done
+#}
 
 setup_gitconfig
 install_dotfiles

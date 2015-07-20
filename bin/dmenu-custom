@@ -1,0 +1,86 @@
+#!/bin/sh
+
+# this script can be found at https://github.com/losingkeys/dmenu-custom
+
+export PS4="\$LINENO: "     # Prints out the line number being executed by debug
+set -xv                     # Turn on debugging
+
+
+cachedir=${XDG_CACHE_HOME:-"$HOME/.cache"}
+cache=$cachedir/dmenu
+websitesList="$HOME/.dmenu-web"
+terminalProgramsList="$HOME/.dmenu-terminal"
+
+if [ -e "$websitesList" ]; then
+   # use dmenu to ask the user to choose a website/program
+   choice="$(
+    echo "$(
+      grep -v ^# "$websitesList"   | \
+      cut -d, -f2,3,4,5,6,7,8,9,10 | \
+      tr , "\n"                    | \
+      tr -d "[:blank:]"            | \
+      sort -r                      | \
+      uniq                         | \
+      tr -s "\n"                   | \
+      sort
+    )" \
+    "$(
+      # shellcheck disable=SC2012
+      cat $cache |
+      sort
+    )" | \
+    dmenu -q -i -b
+  )"
+else
+  # FIXME not sure how to do this with find
+  # (https://github.com/koalaman/shellcheck/wiki/Directive)
+  # shellcheck disable=SC2012
+  choice="$(find /bin /usr/local/bin $HOME/.local/bin -exec basename {} \; | dmenu -q -i -b)"
+fi
+
+# blank input
+if [ -z "$(echo "$choice" | tr -d "[:blank:]")" ]; then
+  exit 0
+fi
+
+websiteKeyword="$(echo "$choice" | cut -d" " -f1)"
+searchPattern="$(echo "$choice" | cut -d" " -f2,3,4,5,6,7,8,9,10,11,12,13,14,15)"
+url="$(
+  grep -v "^#" "$websitesList"           | \
+  #TODO check more preciselly
+  grep --word-regexp "$websiteKeyword" | \
+  cut -d, -f1                            | \
+  tr -d "[:blank:]"
+)"
+#Substitute spaces with plus "+" sign in search pattern
+searchPattern=$(echo $searchPattern | sed "s/ /+/")
+url=$(echo $url | sed "s/%s/$searchPattern/")
+
+if [ -n "$url" ]; then
+  exec i3-msg "workspace 8:NET" &>/dev/null && google-chrome "$url"
+  exit 0
+fi
+
+if [ -e "$terminalProgramsList" ]; then
+  # chop the choice up so you can pass arguments via dmenu
+  # (e.g. mutt -R to open a mutt (mail program) in read-only mode)
+  firstWordOfChoice="$(echo "$choice" | cut -d" " -f1)"
+
+  terminalProgram="$(
+    grep -v "^#" "$terminalProgramsList" | \
+    tr -sc "[:alpha:]._-" "\n"              | \
+    grep "$firstWordOfChoice"            | \
+    tr -d "[:blank:]"
+  )"
+
+  if [ -n "$terminalProgram" ]; then
+    # allow word-splitting so arguments can be passed to programs
+    # shellcheck disable=SC2086
+    exec xterm -e $choice
+  fi
+fi
+
+# allow word-splitting so arguments can be passed to programs
+# shellcheck disable=SC2086
+exec $choice
+set +xv

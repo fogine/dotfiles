@@ -1,0 +1,16 @@
+#Following is one of the lines which add support for aliases in vim/vifm etc..
+shopt -s expand_aliases
+alias setclip="xclip -selection c"
+alias getclip="xclip -o -selection c"
+alias archivemountreadonly="archivemount -o"
+
+# Disable flow controll (ctrl-q, ctrl-s) for vim
+# No ttyctl, so we need to save and then restore terminal settings
+vim()
+{
+    # osx users, use stty -g
+    local STTYOPTS="$(stty --save)"
+    stty -ixon
+    command vim "$@"
+    stty "$STTYOPTS"
+}
