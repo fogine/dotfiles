@@ -59,7 +59,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'fogine/vim-snippets'
 Plugin 'fogine/vim-syntaxattr'
 Plugin 'fogine/vim-dragvisuals'
-Plugin 'vim-scripts/phpfolding.vim'
+Plugin 'fogine/phpfolding.vim'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 
