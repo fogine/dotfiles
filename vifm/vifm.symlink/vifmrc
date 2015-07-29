@@ -160,6 +160,8 @@ command! run !! ./%f
 command! make !!make %a
 command! mkcd :mkdir %a | cd %a
 command! vgrep vim "+grep %a"
+command! todo :!tudu
+command! tudu :!tudu
 command! reload :write | restart
 command! isVSplit :echo layoutis('vsplit')
 command! isHSplit :echo layoutis('hsplit')

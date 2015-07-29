@@ -57,8 +57,8 @@ if [ -d "$HOME/.local/bin" ]; then
     export PATH="$HOME/.local/bin:$PATH"
 fi
 
-. /home/fogine/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
-export POWERLINE_COMMAND=powerline
+#. /home/fogine/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+#export POWERLINE_COMMAND=powerline
 
 if [ "$COLORTERM" == "xfce4-terminal" ] ; then
     #If inside tmux, do not owerride settigns
@@ -138,7 +138,7 @@ unset color_prompt force_color_prompt
 #esac
 
 #TMUX setting
-PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+#PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then

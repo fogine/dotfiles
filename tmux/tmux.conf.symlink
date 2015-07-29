@@ -104,6 +104,7 @@ bind-key -t vi-copy 'v' begin-selection
 #bind-key -t vi-copy 'y' copy-selection
 bind -t vi-copy y copy-pipe 'xclip -in -selection clipboard'
 #
+bind-key b set status off
 # set window split
 bind-key v split-window -h
 bind-key s split-window
