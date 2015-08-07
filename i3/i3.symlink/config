@@ -241,6 +241,8 @@ client.urgent               $yw     $rd         $tx     $id
 
 # My stuff
 
+#Set background
+exec --no-startup-id feh --bg-fill /usr/share/xfce4/backdrops/mybackground.jpg
 # auto enable floating mode
 # class is usually 1st letter Capitalize and everything else lowercase
 # use 'xprop' or 'xwininfo' to get window information
@@ -249,8 +251,16 @@ for_window [class="Guake"] floating enable
 for_window [class="Screenkey"] floating enable
 for_window [class="Xfce4-notifyd"] floating enable
 for_window [title="Whisker Menu"] floating enable
+#for_window [title="Tilda"] floating enable
 for_window [title="Panel"] floating enable
 
+## quick terminal
+#exec tilda -c dropdown -p dropdown -T "Dropdown tilda" -H --geometry=300x300
+#for_window [class="Dropdown tilda" instance="dropdown"] floating enable
+exec tilda
+for_window [instance="tilda"] floating enable;
+for_window [instance="tilda"] move scratchpad; [instance="tilda"] scratchpad show; move position 0px 23px; resize shrink height 300; resize grow width 300; move scratchpad
+bindsym $mod+t [instance="tilda"] scratchpad show
 # assign program to specific workspace
 #assign [class="Mcomix"] 8: manga
 #assign [class="Calibre"] 8: manga
@@ -278,9 +288,10 @@ for_window [title="Hangouts"] border none
 
 # autostart apps
 # http://i3wm.org/docs/userguide.html#_automatically_starting_applications_on_i3_startup
-exec i3-msg 'workspace 8:NET; exec /usr/bin/google-chrome --class="chrome_autostart"'
-exec --no-startup-id i3-msg 'workspace 1:DEV; exec /usr/bin/x-terminal-emulator'
-for_window [class="chrome_autostart"] move workspace number 1
+#exec i3-msg 'workspace 8:NET; exec /usr/bin/google-chrome --class="chrome_autostart"'
+#exec --no-startup-id i3-msg 'workspace 1:DEV; exec /usr/bin/x-terminal-emulator'
+#for_window [class="chrome_autostart"] move workspace number 1
+
 #exec --no-startup-id xfce4-panel --disable-wm-check
 #exec --no-startup-id nm-applet
 #exec --no-startup-id /usr/libexec/mate-panel/notification-area-applet

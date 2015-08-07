@@ -160,11 +160,13 @@ command! run !! ./%f
 command! make !!make %a
 command! mkcd :mkdir %a | cd %a
 command! vgrep vim "+grep %a"
+command! todo :!tudu
+command! tudu :!tudu
 command! reload :write | restart
 command! isVSplit :echo layoutis('vsplit')
 command! isHSplit :echo layoutis('hsplit')
 command! isOnly   :echo layoutis('only')
-command! navigation :execute '!$VIFM/scripts/navigation.sh'
+command! navigation :execute '!navigation.sh' paneisat('top') paneisat('left') layoutis('vsplit') layoutis('hsplit')
 
 " Toggle visibility of preview window
 nnoremap w :view<cr>
@@ -224,8 +226,8 @@ nmap bb :marks <cr>
 map yy :copy&<cr>
 
 "synchronize panes
-nmap s :sync!<cr>
-nmap <c-s> :sync!<cr>
+map s :sync!<cr>
+map <c-s> :sync!<cr>
 
 " move files to the opposite pane
 "nmap ym :!mv %f %D<cr>
