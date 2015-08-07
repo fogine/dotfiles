@@ -132,9 +132,9 @@ colorscheme zenburn_1
 
  mark r /
  mark u /usr
- mark h /home/fogine ../
- mark z /home/fogine/.vifm ../
- mark v /home/fogine/.vim ../
+ mark h $HOME ../
+ mark z $HOME/.vifm ../
+ mark v $HOME/.vim ../
  mark m /media/fogine/Seagate/Movie/
  mark h ~
  mark c ~/Documents
