@@ -164,7 +164,17 @@ command! todo :!tudu
 command! tudu :!tudu
 command! reload :write | restart
 command! navigation :execute '!navigation.sh' %a paneisat('top') paneisat('left') layoutis('vsplit') layoutis('hsplit')
+command! navVsplitLeft :if layoutis('vsplit') == 1 | navLeft | else | execute "!tmux_sys_win_aware_navigation.sh 'left' &" | endif
+command! navLeft :if paneisat('left') == 0 | execute "wincmd h" | else | execute "!tmux_sys_win_aware_navigation.sh 'left' &" | endif
 
+command! navVsplitRight :if layoutis('vsplit') == 1 | navRight | else | execute "!tmux_sys_win_aware_navigation.sh 'right' &" | endif
+command! navRight :if paneisat('left') == 1 | execute "wincmd l" | else | execute "!tmux_sys_win_aware_navigation.sh 'right' &" | endif
+
+command! navSplitDown :if layoutis('hsplit') == 1 | navDown | else | execute "!tmux_sys_win_aware_navigation.sh 'down' &" | endif
+command! navDown :if paneisat('up') == 1 | execute "wincmd j" | else | execute "!tmux_sys_win_aware_navigation.sh 'down' &" | endif
+
+command! navSplitUp :if layoutis('hsplit') == 1 | navUp | else | execute "!tmux_sys_win_aware_navigation.sh 'up' &" | endif
+command! navUp :if paneisat('up') == 0 | execute "wincmd k" | else | execute "!tmux_sys_win_aware_navigation.sh 'up' &" | endif
 " Toggle visibility of preview window
 nnoremap w :view<cr>
 vnoremap w :view<cr>gv
@@ -245,10 +255,10 @@ nmap DD :!trash-empty & <cr>
 "nmap <c-j> <c-w>j
 "nmap <c-k> <c-w>k
 
-nmap <c-h> :navigation "h"<cr>
-nmap <c-l> :navigation "l"<cr>
-nmap <c-j> :navigation "j"<cr>
-nmap <c-k> :navigation "k"<cr>
+nmap <c-h> :navVsplitLeft <cr>
+nmap <c-l> :navVsplitRight <cr>
+nmap <c-j> :navSplitDown<cr>
+nmap <c-k> :navSplitUp<cr>
 " Open console in current directory
 nnoremap ,t :!xterm &<cr>
 
