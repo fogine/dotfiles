@@ -163,10 +163,7 @@ command! vgrep vim "+grep %a"
 command! todo :!tudu
 command! tudu :!tudu
 command! reload :write | restart
-command! isVSplit :echo layoutis('vsplit')
-command! isHSplit :echo layoutis('hsplit')
-command! isOnly   :echo layoutis('only')
-command! navigation :execute '!navigation.sh' paneisat('top') paneisat('left') layoutis('vsplit') layoutis('hsplit')
+command! navigation :execute '!navigation.sh' %a paneisat('top') paneisat('left') layoutis('vsplit') layoutis('hsplit')
 
 " Toggle visibility of preview window
 nnoremap w :view<cr>
@@ -242,12 +239,16 @@ nmap DR :!restore-trash & <cr>
 nmap DD :!trash-empty & <cr>
 
 "Moving between panes
-nmap <c-h> <bs>
-nmap <c-h> <c-w>h
-nmap <c-l> <c-w>l
-nmap <c-j> <c-w>j
-nmap <c-k> <c-w>k
+"nmap <c-h> <bs>
+"nmap <c-h> <c-w>h
+"nmap <c-l> <c-w>l
+"nmap <c-j> <c-w>j
+"nmap <c-k> <c-w>k
 
+nmap <c-h> :navigation "h"<cr>
+nmap <c-l> :navigation "l"<cr>
+nmap <c-j> :navigation "j"<cr>
+nmap <c-k> :navigation "k"<cr>
 " Open console in current directory
 nnoremap ,t :!xterm &<cr>
 
@@ -286,7 +287,7 @@ fileviewer *.pdf pdftotext -nopgbrk %c -
 :filextype *.avi,*.mp4,*.mp3,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v vlc %c %i
 
 "Image
-:filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm wine "/home/fogine/.local/share/wineprefixes/irfanview/drive_c/Program Files (x86)/IrfanView/i_view32.exe" %f %i
+:filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm wine "$HOME/.local/share/wineprefixes/irfanview/drive_c/Program Files (x86)/IrfanView/i_view32.exe" %f %i
 
 "HTML
 :filextype *.html,*.htm google-chrome %c %i &
