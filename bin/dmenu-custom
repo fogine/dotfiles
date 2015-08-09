@@ -1,15 +1,21 @@
 #!/bin/sh
 
-# this script can be found at https://github.com/losingkeys/dmenu-custom
+# this script can be found at https://github.com/fogine/dmenu-custom
 
-export PS4="\$LINENO: "     # Prints out the line number being executed by debug
-set -xv                     # Turn on debugging
-
+#export PS4="\$LINENO: "     # Prints out the line number being executed by debug
+#set -xv                     # Turn on debugging
 
 cachedir=${XDG_CACHE_HOME:-"$HOME/.cache"}
 cache=$cachedir/dmenu
 websitesList="$HOME/.dmenu-web"
 terminalProgramsList="$HOME/.dmenu-terminal"
+
+if [ "$1" = "updatecache" ]; then
+    echo 'Updating cache file...'
+    find '/bin' "$HOME/.local/bin" '/usr/local/bin' '/usr/bin' -exec basename {} \; > "$cache"
+    exit 0
+fi
+echo "$1"
 
 if [ -e "$websitesList" ]; then
    # use dmenu to ask the user to choose a website/program
@@ -83,4 +89,4 @@ fi
 # allow word-splitting so arguments can be passed to programs
 # shellcheck disable=SC2086
 exec $choice
-set +xv
+#set +xv
