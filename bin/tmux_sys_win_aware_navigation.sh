@@ -26,8 +26,12 @@ exists_another_pane_in_direction() {
     local paneActiveLeft="$(echo "$paneActive" | cut -d' ' -f2)"
 
     while read -r line; do
-        local left="$(echo "$line" | cut -d' ' -f2)"
+        local left="$(echo "$line" | cut -d' ' -f2 | tr -d "[:blank:]" | tr -d "\n")"
         local top="$(echo "$line" | cut -d' ' -f1)"
+
+        if [ "$top" = '' ] && [ "$left" = '' ]; then
+            break # There is not other window
+        fi
 
         if [ "$direction" = 'up' ]
         then
@@ -91,10 +95,11 @@ else
     exit 1
 fi
 
-if [ $exists = 0 ]
+if [ $exists = '0' ]
 then
     tmux select-pane -$tmuxArg
 else
     i3-msg -q focus $dir
 fi
+exit 0
 #set +xv #end of debug
