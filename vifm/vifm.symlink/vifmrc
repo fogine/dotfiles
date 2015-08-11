@@ -135,13 +135,16 @@ colorscheme zenburn_1
  mark r /
  mark u /usr
  mark h $HOME ../
- mark z $HOME/.vifm ../
+ mark V $HOME/.vifm ../
  mark v $HOME/.vim ../
  mark m /media/fogine/Seagate/Movie/
  mark h ~
- mark c ~/Documents
+ mark D ~/Documents
  mark d ~/Downloads
+ mark c ~/.dotfiles
+ mark s ~/.ssh
  mark p ~/Projects
+ mark P ~/Pictures
 
 " :com[mand] command_name action
 " The following macros can be used in a command

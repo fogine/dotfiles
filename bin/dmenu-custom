@@ -10,7 +10,7 @@ cache=$cachedir/dmenu
 websitesList="$HOME/.dmenu-web"
 terminalProgramsList="$HOME/.dmenu-terminal"
 
-if [ "$1" = "updatecache" ]; then
+if [ "$1" = "updatecache" ] || [ "$1" = "update-cache" ] || [ "$1" = "cache-update" ]; then
     echo 'Updating cache file...'
     find '/bin' "$HOME/.local/bin" '/usr/local/bin' '/usr/bin' -exec basename {} \; > "$cache"
     exit 0
