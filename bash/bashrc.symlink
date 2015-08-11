@@ -177,3 +177,6 @@ if ! shopt -oq posix; then
 fi
 export GOPATH=$HOME/gocode
 export PATH=$GOPATH:$GOPATH/bin:$PATH
+
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
