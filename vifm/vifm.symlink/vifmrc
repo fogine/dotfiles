@@ -137,7 +137,6 @@ colorscheme zenburn_1
  mark h $HOME ../
  mark V $HOME/.vifm ../
  mark v $HOME/.vim ../
- mark m /media/fogine/Seagate/Movie/
  mark h ~
  mark D ~/Documents
  mark d ~/Downloads

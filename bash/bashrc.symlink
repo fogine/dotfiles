@@ -57,7 +57,7 @@ if [ -d "$HOME/.local/bin" ]; then
     export PATH="$HOME/.local/bin:$PATH"
 fi
 
-#. /home/fogine/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+#. $HOME.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 #export POWERLINE_COMMAND=powerline
 
 if [ "$COLORTERM" == "xfce4-terminal" ] ; then
