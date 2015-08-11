@@ -19,6 +19,8 @@ set vicmd=vim
 "Don not automatically select matched files after search
 set nohlsearch
 windo set viewcolumns=-{name},7{size},-13{mtime}
+"Show hidden files at as default
+windo normal zo
 set vimhelp
 set wildmenu
 "set ignorecase
