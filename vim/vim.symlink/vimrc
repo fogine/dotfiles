@@ -430,6 +430,7 @@ augroup END
 augroup vim_autocmd_js
     autocmd!
     "imap <c-space> <c-x><c-o>
+    "Ternjs go to definition
     autocmd FileType javascript nnoremap gd :TernDef<CR>
 augroup END
 
