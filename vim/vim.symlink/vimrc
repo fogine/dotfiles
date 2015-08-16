@@ -465,7 +465,7 @@ au FocusGained * silent redraw!
 " => Startify plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:startify_bookmarks = [ '~/.vim/vimrc', '~/.vifm/vifmrc', '~/.tmux.conf', '~/.bashrc', '~/.zshrc', '~/.i3/config', '~/.profile' ]
+let g:startify_bookmarks = [ '~/.vim/vimrc', '~/.vifm/vifmrc', '~/.tmux.conf', '~/.bashrc', '~/.zshrc', '~/.i3/config', '~/.profile', '/etc/php5/apache2/php.ini' ]
 let g:startify_session_autoload = 1
 let g:startify_session_delete_buffers = 1
 
@@ -551,7 +551,7 @@ set t_Co=256
 let g:phpcomplete_index_composer_command = 'composer'
 augroup vim_autocmd phpCompletion
     autocmd!
-    autocmd  FileType  php set omnifunc=phpcomplete_extended#CompletePHP
+    autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
 augroup END
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
