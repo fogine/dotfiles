@@ -25,8 +25,10 @@ Plugin 'scrooloose/nerdcommenter.git'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'tobyS/pdv.git'
 Plugin 'StanAngeloff/php.vim.git'
-Plugin 'm2mdas/phpcomplete-extended.git'
-Plugin 'm2mdas/phpcomplete-extended-laravel'
+Plugin 'mkusher/padawan.vim'
+Plugin 'vim-maximizer'
+"Plugin 'm2mdas/phpcomplete-extended.git'
+"Plugin 'm2mdas/phpcomplete-extended-laravel'
 Plugin 'rstacruz/sparkup'
 Plugin 'godlygeek/tabular.git'
 Plugin 'majutsushi/tagbar'
@@ -456,6 +458,12 @@ abbrev rbdb !php artisan migrate:rollback
 abbrev mdb !php artisan migrate
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Maximize plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <F12> :MaximizerToggle<CR>
+map <c-w><c-o> :MaximizerToggle<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Tmux navigator plugin settngs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "It must here!
@@ -548,11 +556,11 @@ set t_Co=256
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => PHPCOMPLETE plugin conf
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:phpcomplete_index_composer_command = 'composer'
-augroup vim_autocmd phpCompletion
-    autocmd!
-    autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
-augroup END
+"let g:phpcomplete_index_composer_command = 'composer'
+"augroup vim_autocmd phpCompletion
+    "autocmd!
+    "autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+"augroup END
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ultisnips plugin  settings
@@ -594,6 +602,7 @@ nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <C-p> :CommandT<CR>
 let g:CommandTMaxHeight = 10
+let g:CommandTFileScanner = 'git'
 let g:ctrlp_by_filename = 1
 let g:ctrlp_extensions = ['buffertag', 'rtscript', 'tag']
 let g:ctrlp_working_path_mode = 'r'
@@ -652,6 +661,9 @@ nmap <F4> :!start ctags --fields=+l -R . <CR>
 "let g:ycm_autoclose_preview_window_after_completion = 1
 "let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_complete_in_comments = 1
+let g:ycm_semantic_triggers = {}
+let g:ycm_semantic_triggers.php =
+\ ['->', '::', '(', 'use ', 'namespace ', '\']
 "let g:ycm_add_preview_to_completeopt = 0
 "let g:ycm_key_detailed_diagnostics = '<leader>ycmd'
 "let g:ycm_path_to_python_interpreter = 'c:\Python27\'
