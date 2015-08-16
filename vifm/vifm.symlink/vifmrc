@@ -298,7 +298,7 @@ filextype *.pdf apvlv %c, zathura %c %i &, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
 
 "Video/mp3
-:filextype *.avi,*.mp4,*.mp3,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v vlc %c %i
+:filextype *.avi,*.mp4,*.mpg,*.mp3,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v vlc %c %i
 
 "Image
 :filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm wine "$HOME/.local/share/wineprefixes/irfanview/drive_c/Program Files (x86)/IrfanView/i_view32.exe" %f %i
