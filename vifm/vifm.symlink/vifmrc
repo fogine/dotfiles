@@ -270,6 +270,7 @@ nnoremap ,t :!xterm &<cr>
 "nmap <F4> :!vlc %f & %i<CR>
 nmap iv :!vlc %f & %i<CR>
 nmap isv :!vlc %f && sudo shutdown -h now & %i <CR>
+map ig :!gimp %f %i<CR>
 
 " quicker quitting program; it will resume where you left off
 nmap q ZZ
