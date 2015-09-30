@@ -2,6 +2,7 @@
 # url,keyword,optional-keyword
 https://google.com/search?q=%s,google,g
 https://google.com/search?q=%s&btnI,imfeelinglucky,l
+https://translate.google.cz/?hl=en#en/cs/%s,gt,google-translate,translate
 https://www.google.com/maps?q=%s,googlemap,gm
 https://duckduckgo.com/?q=%s,duckduckgo,d
 http://www.amazon.com/s/?field-keywords=%s,amazon,az

@@ -113,6 +113,8 @@ bind-key q kill-pane
 # Moving with tabs/windows
 bind-key j previous-window
 bind-key k next-window
+bind-key h swap-window -t -1
+bind-key l swap-window -t +1
 
 #Status bar
 set-option -g status-position top
