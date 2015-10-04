@@ -5,6 +5,10 @@
 #export PS4="\$LINENO: "     # Prints out the line number being executed by debug
 #set -xv                     # Turn on debugging
 
+#TODO
+#mailto: command
+#command history
+
 cachedir=${XDG_CACHE_HOME:-"$HOME/.cache"}
 cache=$cachedir/dmenu
 websitesList="$HOME/.dmenu-web"
@@ -15,7 +19,6 @@ if [ "$1" = "updatecache" ] || [ "$1" = "update-cache" ] || [ "$1" = "cache-upda
     find '/bin' "$HOME/.local/bin" '/usr/local/bin' '/usr/bin' -exec basename {} \; > "$cache"
     exit 0
 fi
-echo "$1"
 
 if [ -e "$websitesList" ]; then
    # use dmenu to ask the user to choose a website/program
@@ -35,7 +38,7 @@ if [ -e "$websitesList" ]; then
       cat $cache |
       sort
     )" | \
-    dmenu -q -i -b
+    dmenu -z -q -b
   )"
 else
   # FIXME not sure how to do this with find
