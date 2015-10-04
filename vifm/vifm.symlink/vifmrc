@@ -168,17 +168,17 @@ command! todo :!tudu
 command! tudu :!tudu
 command! reload :write | restart
 command! navigation :execute '!navigation.sh' %a paneisat('top') paneisat('left') layoutis('vsplit') layoutis('hsplit')
-command! navVsplitLeft :if layoutis('vsplit') == 1 | navLeft | else | execute "!tmux_sys_win_aware_navigation.sh 'left' &" | endif
-command! navLeft :if paneisat('left') == 0 | execute "wincmd h" | else | execute "!tmux_sys_win_aware_navigation.sh 'left' &" | endif
+command! navVsplitLeft :if layoutis('vsplit') == 1 | navLeft | else | execute "!tmux_sys_win_aware_navigation.sh 'left' 'tmux-only' &" | endif
+command! navLeft :if paneisat('left') == 0 | execute "wincmd h" | else | execute "!tmux_sys_win_aware_navigation.sh 'left' 'tmux-only' &" | endif
 
-command! navVsplitRight :if layoutis('vsplit') == 1 | navRight | else | execute "!tmux_sys_win_aware_navigation.sh 'right' &" | endif
-command! navRight :if paneisat('left') == 1 | execute "wincmd l" | else | execute "!tmux_sys_win_aware_navigation.sh 'right' &" | endif
+command! navVsplitRight :if layoutis('vsplit') == 1 | navRight | else | execute "!tmux_sys_win_aware_navigation.sh 'right' 'tmux-only' &" | endif
+command! navRight :if paneisat('left') == 1 | execute "wincmd l" | else | execute "!tmux_sys_win_aware_navigation.sh 'right' 'tmux-only' &" | endif
 
-command! navSplitDown :if layoutis('hsplit') == 1 | navDown | else | execute "!tmux_sys_win_aware_navigation.sh 'down' &" | endif
-command! navDown :if paneisat('up') == 1 | execute "wincmd j" | else | execute "!tmux_sys_win_aware_navigation.sh 'down' &" | endif
+command! navSplitDown :if layoutis('hsplit') == 1 | navDown | else | execute "!tmux_sys_win_aware_navigation.sh 'down' 'tmux-only' &" | endif
+command! navDown :if paneisat('up') == 1 | execute "wincmd j" | else | execute "!tmux_sys_win_aware_navigation.sh 'down' 'tmux-only' &" | endif
 
-command! navSplitUp :if layoutis('hsplit') == 1 | navUp | else | execute "!tmux_sys_win_aware_navigation.sh 'up' &" | endif
-command! navUp :if paneisat('up') == 0 | execute "wincmd k" | else | execute "!tmux_sys_win_aware_navigation.sh 'up' &" | endif
+command! navSplitUp :if layoutis('hsplit') == 1 | navUp | else | execute "!tmux_sys_win_aware_navigation.sh 'up' 'tmux-only' &" | endif
+command! navUp :if paneisat('up') == 0 | execute "wincmd k" | else | execute "!tmux_sys_win_aware_navigation.sh 'up' 'tmux-only' &" | endif
 " Toggle visibility of preview window
 nnoremap w :view<cr>
 vnoremap w :view<cr>gv
@@ -350,8 +350,8 @@ filextype */
 fileviewer .*/,*/ tree %f
 
 
-":fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-"         \ imgt %px %py %pw %ph %c
+:fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+         \ vifm-w3mimgdisplay %px %py %pw %ph %c
 "
 " :filetype extensions FUSE_MOUNT2|some_mount_command using %PARAM and %DESTINATION_DIR variables
 " %PARAM and %DESTINATION_DIR are filled in by vifm at runtime.

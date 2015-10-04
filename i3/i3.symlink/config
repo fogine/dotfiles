@@ -40,10 +40,10 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+q kill
 
 # change focus
-bindsym Control+h exec "i3_tmux_vim_focus left"
-bindsym Control+j exec "i3_tmux_vim_focus down"
-bindsym Control+k exec "i3_tmux_vim_focus up"
-bindsym Control+l exec "i3_tmux_vim_focus right"
+#bindsym Control+h exec "i3_tmux_vim_focus left"
+#bindsym Control+j exec "i3_tmux_vim_focus down"
+#bindsym Control+k exec "i3_tmux_vim_focus up"
+#bindsym Control+l exec "i3_tmux_vim_focus right"
 
 # alternatively, you can use the cursor keys:
 #bindsym $mod+Left  exec "i3_vim_focus left"
@@ -243,6 +243,22 @@ client.urgent               $yw     $rd         $tx     $id
 
 #Set background
 exec --no-startup-id feh --bg-fill /usr/share/xfce4/backdrops/mybackground.jpg
+#exec --no-startup-id blueman-applet
+#exec --no-startup-id /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+#exec --no-startup-id /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+#exec --no-startup-id /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+#exec --no-startup-id nm-applet
+#exec --no-startup-id /etc/nomouseacc.sh
+#exec --no-startup-id parcellite
+#exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+#exec --no-startup-id xfce4-power-manager
+#exec --no-startup-id system-config-printer-applet
+#exec --no-startup-id start-pulseaudio-x11
+#exec --no-startup-id update-notifier
+#exec --no-startup-id xfce4-volumed
+#exec --no-startup-id xfsettingsd
+#exec --no-startup-id zeitgeist-datahub
+#exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh
 # auto enable floating mode
 # class is usually 1st letter Capitalize and everything else lowercase
 # use 'xprop' or 'xwininfo' to get window information

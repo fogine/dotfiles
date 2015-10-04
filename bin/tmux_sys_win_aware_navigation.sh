@@ -76,7 +76,8 @@ exists_another_pane_in_direction() {
 }
 
 dir=$1 #direction
-exists=$(exists_another_pane_in_direction $dir)
+mode=$2 #if value  = "tmux-only", navigation shortcuts won't apply in system's window scope
+        # ....so this script won't be used and navigation will be handled by tmux only
 
 if [ "$dir" = "up" ]
 then
@@ -94,6 +95,15 @@ else
     echo -e "Invalid dirrection parameter supplied\nUsage: tmux_sys_win_aware_navigation up|right|down|left"
     exit 1
 fi
+
+if [ "$mode" = "tmux-only" ]
+then
+    tmux select-pane -$tmuxArg
+    exit 0
+fi
+
+exists=$(exists_another_pane_in_direction $dir)
+
 
 if [ $exists = '0' ]
 then
