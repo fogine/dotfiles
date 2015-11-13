@@ -10,6 +10,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+"Plugin 'janko-m/vim-test'
+Plugin 'vim-scripts/SQLUtilities'
+Plugin 'vim-scripts/Align'
 Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/syntastic.git'
 Plugin 'Valloric/YouCompleteMe.git'
@@ -367,9 +370,14 @@ set expandtab
 set smarttab
 
 " Run PHPUnit tests
-nmap <leader>t yiw:!phpunit --filter "<cr>
-map <leader>tt :!phpunit %<cr>
-map <leader>T :!phpunit app/tests/<cr>
+"nmap <leader>t yiw:!phpunit --filter "<cr>
+"map <leader>tt :!phpunit %<cr>
+"map <leader>T :!phpunit app/tests/<cr>
+"nmap <leader>t :TestNearest<cr>
+"nmap <leader>tl :TestLast<cr>
+"nmap <leader>tv :TestVisit<cr>
+"map <leader>tt :TestFile<cr>
+"map <leader>T :TestSuite<cr>
 
 " Minimal number of screen lines to keep above and below the cursor.
 set scrolloff=999
