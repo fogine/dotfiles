@@ -1,0 +1,423 @@
+  <g
+     id="layer21"
+     fill="#407dec"
+     inkscape:label="progressbar-progress"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="progressbar-progress-normal-top">
+      <path
+         id="path12279"
+         fill="#407dec"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565"
+         d="m3-1v3h1v-3h-1z" />
+    </g>
+    <g
+       id="progressbar-progress-normal-bottom">
+      <path
+         id="path12282"
+         d="m4 5h-1v3h1v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal-left">
+      <path
+         id="path12285"
+         d="m2 4v-1h-3v1h3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal-right">
+      <path
+         id="path12288"
+         d="m5 3v1h3v-1h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal-topleft">
+      <path
+         id="path12291"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal-topright">
+      <path
+         id="path12294"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal-bottomleft">
+      <path
+         id="path12297"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal-bottomright">
+      <path
+         id="path12300"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-top"
+       transform="translate(11)">
+      <path
+         id="path12303"
+         fill="#407dec"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565"
+         d="m3-1v3h1v-3h-1z" />
+    </g>
+    <g
+       id="progressbar-progress-focused-bottom"
+       transform="translate(11)">
+      <path
+         id="path12306"
+         d="m4 5h-1v3h1v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-left"
+       transform="translate(11)">
+      <path
+         id="path12309"
+         d="m2 4v-1h-3v1h3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-right"
+       transform="translate(11)">
+      <path
+         id="path12312"
+         d="m5 3v1h3v-1h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-topleft"
+       transform="translate(11)">
+      <path
+         id="path12315"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-topright"
+       transform="translate(11)">
+      <path
+         id="path12318"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-bottomleft"
+       transform="translate(11)">
+      <path
+         id="path12321"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-focused-bottomright"
+       transform="translate(11)">
+      <path
+         id="path12324"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-top"
+       transform="translate(22)">
+      <path
+         id="path12327"
+         fill="#407dec"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565"
+         d="m3-1v3h1v-3h-1z" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-bottom"
+       transform="translate(22)">
+      <path
+         id="path12330"
+         d="m4 5h-1v3h1v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-left"
+       transform="translate(22)">
+      <path
+         id="path12333"
+         d="m2 4v-1h-3v1h3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-right"
+       transform="translate(22)">
+      <path
+         id="path12336"
+         d="m5 3v1h3v-1h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-topleft"
+       transform="translate(22)">
+      <path
+         id="path12339"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-topright"
+       transform="translate(22)">
+      <path
+         id="path12342"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-bottomleft"
+       transform="translate(22)">
+      <path
+         id="path12345"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-pressed-bottomright"
+       transform="translate(22)">
+      <path
+         id="path12348"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       fill="#FFF"
+       id="g1187">
+      <g
+         id="progressbar-progress-toggled-top"
+         transform="translate(33)">
+        <path
+           id="path12351"
+           fill="#FFF"
+           inkscape:connector-curvature="0"
+           inkscape:label="#p56565"
+           d="m3-1v3h1v-3h-1z" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-bottom"
+         transform="translate(33)">
+        <path
+           id="path12354"
+           d="m4 5h-1v3h1v-3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-left"
+         transform="translate(33)">
+        <path
+           id="path12357"
+           d="m2 4v-1h-3v1h3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-right"
+         transform="translate(33)">
+        <path
+           id="path12360"
+           d="m5 3v1h3v-1h-3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-topleft"
+         transform="translate(33)">
+        <path
+           id="path12363"
+           d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-topright"
+         transform="translate(33)">
+        <path
+           id="path12366"
+           d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-bottomleft"
+         transform="translate(33)">
+        <path
+           id="path12369"
+           d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="progressbar-progress-toggled-bottomright"
+         transform="translate(33)">
+        <path
+           id="path12372"
+           d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+           fill="#FFF"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="progressbar-progress-disabled-top"
+       transform="translate(44)">
+      <path
+         id="path12375"
+         fill="#407dec"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565"
+         d="m3-1v3h1v-3h-1z" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-bottom"
+       transform="translate(44)">
+      <path
+         id="path12378"
+         d="m4 5h-1v3h1v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-left"
+       transform="translate(44)">
+      <path
+         id="path12381"
+         d="m2 4v-1h-3v1h3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-right"
+       transform="translate(44)">
+      <path
+         id="path12384"
+         d="m5 3v1h3v-1h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-topleft"
+       transform="translate(44)">
+      <path
+         id="path12387"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-topright"
+       transform="translate(44)">
+      <path
+         id="path12390"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-bottomleft"
+       transform="translate(44)">
+      <path
+         id="path12393"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-disabled-bottomright"
+       transform="translate(44)">
+      <path
+         id="path12396"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         fill="#407dec"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-progress-normal">
+      <rect
+         id="rect16412"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="progressbar-progress-focused"
+       transform="translate(11)">
+      <rect
+         id="rect16415"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="progressbar-progress-pressed"
+       transform="translate(22)">
+      <rect
+         id="rect16418"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="progressbar-progress-toggled"
+       fill="#FFF"
+       transform="translate(33)">
+      <rect
+         id="rect16421"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#FFF" />
+    </g>
+    <g
+       id="progressbar-progress-disabled"
+       transform="translate(44)">
+      <rect
+         id="rect16424"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+  </g>

@@ -1,0 +1,30 @@
+#panel {
+	background:black;
+	padding:1px;
+	margin:0px;}
+
+#panel QLineEdit {
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.01);}
+
+QToolButton {
+	margin:1px;
+	border:none;
+	background:none;
+	padding:0px;}
+
+#closeButton {
+	qproperty-icon: url(images/ivy-close.svg);
+	qproperty-iconSize:22px;}
+
+#actionButton {
+	qproperty-iconSize:22px;}
+
+#actionButton::menu-indicator {
+	subcontrol-position: right bottom;
+	subcontrol-origin: margin;}
+
+#commandList {
+	border:1px solid #bfbfbf;
+	padding:0px;
+	margin:0px;}

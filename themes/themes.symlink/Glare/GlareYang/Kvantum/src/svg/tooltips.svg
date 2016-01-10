@@ -1,0 +1,561 @@
+  <g
+     id="layer28"
+     inkscape:label="tooltip"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="tooltip-normal-top"
+       transform="matrix(.1 0 0 1 1.7748 -98.029)">
+      <rect
+         id="rect5957"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-normal-bottom"
+       transform="matrix(.1 0 0 1 1.7748 -107.03)">
+      <rect
+         id="rect5960"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-normal-left"
+       transform="translate(1e-5,9.89e-4)">
+      <rect
+         id="rect5963"
+         y="2.9991"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect5965"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-normal-right"
+       transform="matrix(1 0 0 .1 -18.252 -7.1029)">
+      <rect
+         id="rect5968"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-normal-topleft"
+       transform="translate(1e-5,9.89e-4)">
+      <rect
+         id="rect5971"
+         y=".99901"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect5973"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="tooltip-normal-topright"
+       transform="translate(-18.252 -98.029)">
+      <rect
+         id="rect5976"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-normal-bottomleft"
+       transform="translate(1e-5,9.89e-4)">
+      <rect
+         id="rect5979"
+         y="5"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect5981"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-normal-bottomright"
+       transform="translate(-18.252 -107.03)">
+      <rect
+         id="rect5984"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-focused-top"
+       transform="matrix(.1 0 0 1 8.7748 -98.029)">
+      <rect
+         id="rect5987"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-focused-bottom"
+       transform="matrix(.1 0 0 1 8.7748 -107.03)">
+      <rect
+         id="rect5990"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-focused-left"
+       transform="translate(7 .000989)">
+      <rect
+         id="rect5993"
+         y="2.9991"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect5996"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-focused-right"
+       transform="matrix(1 0 0 .1 -11.252 -7.1029)">
+      <rect
+         id="rect5999"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-focused-topleft"
+       transform="translate(7 .000989)">
+      <rect
+         id="rect6002"
+         y=".99901"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6004"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="tooltip-focused-topright"
+       transform="translate(-11.252 -98.029)">
+      <rect
+         id="rect6007"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-focused-bottomleft"
+       transform="translate(7 .000989)">
+      <rect
+         id="rect6010"
+         y="5"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6012"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-focused-bottomright"
+       transform="translate(-11.252 -107.03)">
+      <rect
+         id="rect6015"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-pressed-top"
+       transform="matrix(.1 0 0 1 15.775 -98.029)">
+      <rect
+         id="rect6018"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-pressed-bottom"
+       transform="matrix(.1 0 0 1 15.775 -107.03)">
+      <rect
+         id="rect6021"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-pressed-left"
+       transform="translate(14 .000989)">
+      <rect
+         id="rect6024"
+         y="2.9991"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6026"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-pressed-right"
+       transform="matrix(1 0 0 .1 -4.2519 -7.1029)">
+      <rect
+         id="rect6029"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-pressed-topleft"
+       transform="translate(14 .000989)">
+      <rect
+         id="rect6032"
+         y=".99901"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6034"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="tooltip-pressed-topright"
+       transform="translate(-4.2519 -98.029)">
+      <rect
+         id="rect6037"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-pressed-bottomleft"
+       transform="translate(14 .000989)">
+      <rect
+         id="rect6040"
+         y="5"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6042"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-pressed-bottomright"
+       transform="translate(-4.2519 -107.03)">
+      <rect
+         id="rect6045"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-toggled-top"
+       transform="matrix(.1 0 0 1 22.775 -98.029)">
+      <rect
+         id="rect6048"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-toggled-bottom"
+       transform="matrix(.1 0 0 1 22.775 -107.03)">
+      <rect
+         id="rect6051"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-toggled-left"
+       transform="translate(21 .000989)">
+      <rect
+         id="rect6054"
+         y="2.9991"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6056"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-toggled-right"
+       transform="matrix(1 0 0 .1 2.7481 -7.1029)">
+      <rect
+         id="rect6059"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-toggled-topleft"
+       transform="translate(21 .000989)">
+      <rect
+         id="rect6062"
+         y=".99901"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6064"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="tooltip-toggled-topright"
+       transform="translate(2.7481 -98.029)">
+      <rect
+         id="rect6067"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-toggled-bottomleft"
+       transform="translate(21 .000989)">
+      <rect
+         id="rect6070"
+         y="5"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6072"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-toggled-bottomright"
+       transform="translate(2.7481 -107.03)">
+      <rect
+         id="rect6075"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-disabled-top"
+       transform="matrix(.1 0 0 1 29.775 -98.029)">
+      <rect
+         id="rect6078"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-disabled-bottom"
+       transform="matrix(.1 0 0 1 29.775 -107.03)">
+      <rect
+         id="rect6081"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="tooltip-disabled-left"
+       transform="translate(28 .000989)">
+      <rect
+         id="rect6084"
+         y="2.9991"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6086"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-disabled-right"
+       transform="matrix(1 0 0 .1 9.7481 -7.1029)">
+      <rect
+         id="rect6089"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-disabled-topleft"
+       transform="translate(28 .000989)">
+      <rect
+         id="rect6092"
+         y=".99901"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6094"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="tooltip-disabled-topright"
+       transform="translate(9.7481 -98.029)">
+      <rect
+         id="rect6097"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-disabled-bottomleft"
+       transform="translate(28 .000989)">
+      <rect
+         id="rect6100"
+         y="5"
+         x="1.0001"
+         height="1"
+         width="1" />
+      <rect
+         id="rect6102"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="tooltip-disabled-bottomright"
+       transform="translate(9.7481 -107.03)">
+      <rect
+         id="rect6105"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="tooltip-normal"
+       transform="translate(-5,-3)">
+      <rect
+         id="rect9276"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="tooltip-focused"
+       transform="translate(2,-3)">
+      <rect
+         id="rect9279"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="tooltip-pressed"
+       transform="translate(9,-3)">
+      <rect
+         id="rect9282"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="tooltip-toggled"
+       transform="translate(16,-3)">
+      <rect
+         id="rect9285"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="tooltip-disabled"
+       transform="translate(23,-3)">
+      <rect
+         id="rect9288"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+  </g> 

@@ -1,0 +1,22 @@
+GtkEntry{
+-GtkEntry-icon-prelight:0;}
+
+.entry{
+padding:4px 2px 5px 2px;
+background:@basebg;
+border:1px solid @genborder;}
+
+.entry:focus{
+border:1px solid @genborderdark;}
+
+.entry:selected,
+.entry:active,
+.entry:selected:focused,
+.entry.progressbar{
+background:@hilight;
+color:@hilighttext;
+border-radius:0px;}
+
+.entry.image.left,
+.entry.image.right{
+padding:2px;}

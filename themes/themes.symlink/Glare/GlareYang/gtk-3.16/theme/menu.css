@@ -1,0 +1,19 @@
+.menu{
+padding:1px;
+background:@basebg;
+border:1px solid @genborderdark;}
+
+.menu>.menuitem{
+background:@basebg;
+padding:4px 10px;}
+
+.menu>.menuitem:hover,
+.popup:hover{
+background:@hilight;
+color:@hilighttext;}
+
+/* more kindergarten here (o_O) */
+.popover {
+color: @windowtext;
+border:1px solid @genborderdark;
+background:@basebg;}

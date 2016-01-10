@@ -1,0 +1,6 @@
+/* XPM */
+static char * dadada_xpm[] = {
+"1 1 2 1",
+" 	c None",
+".	c #ff00ff s active_hilight_2",
+"."};

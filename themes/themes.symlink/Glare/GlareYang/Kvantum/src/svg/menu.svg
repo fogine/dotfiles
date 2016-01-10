@@ -1,0 +1,510 @@
+  <g
+     id="layer22"
+     inkscape:label="menu"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="g1232">
+      <g
+         id="menu-normal-top"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 1.7748 -98.03)">
+        <rect
+           id="rect4667"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-normal-bottom"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 1.7748 -107.03)">
+        <rect
+           id="rect4670"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-normal-left"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -9.2519 -7.1039)">
+        <rect
+           id="rect4673"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-normal-right"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -18.252 -7.1039)">
+        <rect
+           id="rect4676"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-normal-topleft"
+         opacity=".1"
+         transform="translate(-9.2519 -98.03)">
+        <rect
+           id="rect4679"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-normal-topright"
+         opacity=".1"
+         transform="translate(-18.252 -98.03)">
+        <rect
+           id="rect4682"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-normal-bottomleft"
+         opacity=".1"
+         transform="translate(-9.2519 -107.03)">
+        <rect
+           id="rect4686"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-normal-bottomright"
+         opacity=".1"
+         transform="translate(-18.252 -107.03)">
+        <rect
+           id="rect4689"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-focused-top"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 8.7748 -98.03)">
+        <rect
+           id="rect4692"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-focused-bottom"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 8.7748 -107.03)">
+        <rect
+           id="rect4696"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-focused-left"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -2.2519 -7.1039)">
+        <rect
+           id="rect4699"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-focused-right"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -11.252 -7.1039)">
+        <rect
+           id="rect4702"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-focused-topleft"
+         opacity=".1"
+         transform="translate(-2.2519 -98.03)">
+        <rect
+           id="rect4705"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-focused-topright"
+         opacity=".1"
+         transform="translate(-11.252 -98.03)">
+        <rect
+           id="rect4708"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-focused-bottomleft"
+         opacity=".1"
+         transform="translate(-2.2519 -107.03)">
+        <rect
+           id="rect4711"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-focused-bottomright"
+         opacity=".1"
+         transform="translate(-11.252 -107.03)">
+        <rect
+           id="rect4714"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-pressed-top"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 15.775 -98.03)">
+        <rect
+           id="rect4717"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-pressed-bottom"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 15.775 -107.03)">
+        <rect
+           id="rect4720"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-pressed-left"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 4.7481 -7.1039)">
+        <rect
+           id="rect4723"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-pressed-right"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -4.2519 -7.1039)">
+        <rect
+           id="rect4726"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-pressed-topleft"
+         opacity=".1"
+         transform="translate(4.7481 -98.03)">
+        <rect
+           id="rect4729"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-pressed-topright"
+         opacity=".1"
+         transform="translate(-4.2519 -98.03)">
+        <rect
+           id="rect4732"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-pressed-bottomleft"
+         opacity=".1"
+         transform="translate(4.7481 -107.03)">
+        <rect
+           id="rect4735"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-pressed-bottomright"
+         opacity=".1"
+         transform="translate(-4.2519 -107.03)">
+        <rect
+           id="rect4738"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-toggled-top"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 22.775 -98.03)">
+        <rect
+           id="rect4741"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-toggled-bottom"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 22.775 -107.03)">
+        <rect
+           id="rect4744"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-toggled-left"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 11.748 -7.1039)">
+        <rect
+           id="rect4747"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-toggled-right"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 2.7481 -7.1039)">
+        <rect
+           id="rect4750"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-toggled-topleft"
+         opacity=".1"
+         transform="translate(11.748 -98.03)">
+        <rect
+           id="rect4753"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-toggled-topright"
+         opacity=".1"
+         transform="translate(2.7481 -98.03)">
+        <rect
+           id="rect4756"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-toggled-bottomleft"
+         opacity=".1"
+         transform="translate(11.748 -107.03)">
+        <rect
+           id="rect4759"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-toggled-bottomright"
+         opacity=".1"
+         transform="translate(2.7481 -107.03)">
+        <rect
+           id="rect4762"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-disabled-top"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 29.775 -98.03)">
+        <rect
+           id="rect4765"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-disabled-bottom"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 29.775 -107.03)">
+        <rect
+           id="rect4768"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="menu-disabled-left"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 18.748 -7.1039)">
+        <rect
+           id="rect4771"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-disabled-right"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 9.7481 -7.1039)">
+        <rect
+           id="rect4774"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-disabled-topleft"
+         opacity=".1"
+         transform="translate(18.748 -98.03)">
+        <rect
+           id="rect4777"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-disabled-topright"
+         opacity=".1"
+         transform="translate(9.7481 -98.03)">
+        <rect
+           id="rect4780"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="menu-disabled-bottomleft"
+         opacity=".1"
+         transform="translate(18.748 -107.03)">
+        <rect
+           id="rect4783"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="menu-disabled-bottomright"
+         opacity=".1"
+         transform="translate(9.7481 -107.03)">
+        <rect
+           id="rect4786"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+    </g>
+    <g
+       id="menu-normal"
+       fill="#fff"
+       transform="translate(-5 -3.001)">
+      <rect
+         id="rect6963"
+         height="1"
+         width="1"
+         y="6"
+         x="8"
+         fill="#fff" />
+    </g>
+    <g
+       fill="#407dec"
+       id="g1316">
+      <g
+         id="menu-focused"
+         transform="translate(2 -3.001)">
+        <rect
+           id="rect6966"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#407dec" />
+      </g>
+      <g
+         id="menu-pressed"
+         transform="translate(9 -3.001)">
+        <rect
+           id="rect6969"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#407dec" />
+      </g>
+      <g
+         id="menu-toggled"
+         transform="translate(16 -3.001)">
+        <rect
+           id="rect6972"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#407dec" />
+      </g>
+    </g>
+    <g
+       id="menu-disabled"
+       fill="#fff"
+       transform="translate(23 -3.001)">
+      <rect
+         id="rect6975"
+         height="1"
+         width="1"
+         y="6"
+         x="8"
+         fill="#fff" />
+    </g>
+  </g> 

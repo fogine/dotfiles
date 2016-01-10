@@ -1,0 +1,11 @@
+*.separator,
+*.deperator:backdrop{
+-GtkWidget-wide-separators:false;
+-GtkWidget-separator-width:1px;
+color:@separator;
+background:@separator;}
+
+GtkTreeView.view.separator,
+GtkTreeView.view.separator:backdrop{
+color:@separator; }
+

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Glare Yin
+Comment=simple dark theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Glare Yin
+Type=X-GNOME-Metatheme
+Comment=simple dark theme
+Encoding=UTF-8
+GtkTheme=GlareYin
+MetacityTheme=Glare
+IconTheme=Ivy
+CursorTheme=Vanilla-DMZ
+CursorSize=24
+NotificationTheme=Slider
+

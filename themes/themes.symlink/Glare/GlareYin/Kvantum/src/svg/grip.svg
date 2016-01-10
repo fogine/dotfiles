@@ -1,0 +1,261 @@
+  <g
+     id="layer34"
+     inkscape:label="grip"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="grip-normal"
+       transform="translate(1)">
+      <rect
+         id="rect5132"
+         opacity="0"
+         height="8"
+         width="8"
+         y="-1"
+         x="-2" />
+      <g
+         id="g5068"
+         fill-rule="evenodd"
+         transform="translate(1,-1045)">
+        <path
+           id="path5070"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1044h2v1h-2z" />
+        <path
+           id="path5072"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1047h2v1h-2z" />
+        <path
+           id="path5074"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1050h2v1h-2z" />
+      </g>
+      <g
+         fill-rule="evenodd"
+         fill="#FFF"
+         id="g658">
+        <path
+           id="path5078"
+           opacity=".3"
+           d="m1 0h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5080"
+           opacity=".3"
+           d="m1 3h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5082"
+           opacity=".3"
+           d="m1 6h2v1h-2z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="grip-focused"
+       transform="translate(10)">
+      <rect
+         id="rect5717"
+         opacity="0"
+         height="8"
+         width="8"
+         y="-1"
+         x="-2" />
+      <g
+         id="g5719"
+         fill-rule="evenodd"
+         transform="translate(1,-1045)">
+        <path
+           id="path5721"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1044h2v1h-2z" />
+        <path
+           id="path5723"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1047h2v1h-2z" />
+        <path
+           id="path5725"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1050h2v1h-2z" />
+      </g>
+      <g
+         fill-rule="evenodd"
+         fill="#FFF"
+         id="g669">
+        <path
+           id="path5727"
+           opacity=".3"
+           d="m1 0h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5729"
+           opacity=".3"
+           d="m1 3h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5731"
+           opacity=".3"
+           d="m1 6h2v1h-2z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="grip-pressed"
+       transform="translate(19)">
+      <rect
+         id="rect5734"
+         opacity="0"
+         height="8"
+         width="8"
+         y="-1"
+         x="-2" />
+      <g
+         id="g5736"
+         fill-rule="evenodd"
+         transform="translate(1,-1045)">
+        <path
+           id="path5738"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1044h2v1h-2z" />
+        <path
+           id="path5740"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1047h2v1h-2z" />
+        <path
+           id="path5742"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1050h2v1h-2z" />
+      </g>
+      <g
+         fill-rule="evenodd"
+         fill="#FFF"
+         id="g680">
+        <path
+           id="path5744"
+           opacity=".3"
+           d="m1 0h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5746"
+           opacity=".3"
+           d="m1 3h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5748"
+           opacity=".3"
+           d="m1 6h2v1h-2z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="grip-toggled"
+       transform="translate(28)">
+      <rect
+         id="rect5751"
+         opacity="0"
+         height="8"
+         width="8"
+         y="-1"
+         x="-2" />
+      <g
+         id="g5753"
+         fill-rule="evenodd"
+         transform="translate(1,-1045)">
+        <path
+           id="path5755"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1044h2v1h-2z" />
+        <path
+           id="path5757"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1047h2v1h-2z" />
+        <path
+           id="path5759"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1050h2v1h-2z" />
+      </g>
+      <g
+         fill-rule="evenodd"
+         fill="#FFF"
+         id="g691">
+        <path
+           id="path5761"
+           opacity=".3"
+           d="m1 0h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5763"
+           opacity=".3"
+           d="m1 3h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5765"
+           opacity=".3"
+           d="m1 6h2v1h-2z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="grip-disabled"
+       transform="translate(37)">
+      <rect
+         id="rect5768"
+         opacity="0"
+         height="8"
+         width="8"
+         y="-1"
+         x="-2" />
+      <g
+         id="g5770"
+         fill-rule="evenodd"
+         transform="translate(1,-1045)">
+        <path
+           id="path5772"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1044h2v1h-2z" />
+        <path
+           id="path5774"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1047h2v1h-2z" />
+        <path
+           id="path5776"
+           opacity=".3"
+           inkscape:connector-curvature="0"
+           d="m0 1050h2v1h-2z" />
+      </g>
+      <g
+         fill-rule="evenodd"
+         fill="#FFF"
+         id="g702">
+        <path
+           id="path5778"
+           opacity=".3"
+           d="m1 0h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5780"
+           opacity=".3"
+           d="m1 3h2v1h-2z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5782"
+           opacity=".3"
+           d="m1 6h2v1h-2z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g> 

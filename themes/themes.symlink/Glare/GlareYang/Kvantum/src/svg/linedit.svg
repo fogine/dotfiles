@@ -1,0 +1,512 @@
+  <g
+     id="layer11"
+     inkscape:label="lineedit"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="g805">
+      <g
+         id="lineedit-normal-top"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 1.7747 -98.03)">
+        <rect
+           id="rect4129"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-normal-bottom"
+         opacity=".1"
+         transform="matrix(.1 0 0 1 1.7747 -107.03)">
+        <rect
+           id="rect4132"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-normal-left"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -9.252 -7.1039)">
+        <rect
+           id="rect4135"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-normal-right"
+         opacity=".1"
+         transform="matrix(1 0 0 .1 -18.252 -7.1039)">
+        <rect
+           id="rect4138"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-normal-topleft"
+         opacity=".1"
+         transform="translate(-9.252 -98.03)">
+        <rect
+           id="rect4141"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-normal-topright"
+         opacity=".1"
+         transform="translate(-18.252 -98.03)">
+        <rect
+           id="rect4144"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-normal-bottomleft"
+         opacity=".1"
+         transform="translate(-9.252 -107.03)">
+        <rect
+           id="rect4147"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-normal-bottomright"
+         opacity=".1"
+         transform="translate(-18.252 -107.03)">
+        <rect
+           id="rect4150"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+    </g>
+    <g
+       id="lineedit-normal"
+       fill="#FFF"
+       transform="translate(-5.0001 -3.001)">
+      <rect
+         id="rect5333"
+         height="1"
+         width="1"
+         y="6"
+         x="8"
+         fill="#FFF" />
+    </g>
+    <g
+       id="g825">
+      <g
+         id="lineedit-focused-top"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 8.7747 -98.03)">
+        <rect
+           id="rect6540"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-focused-bottom"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 8.7747 -107.03)">
+        <rect
+           id="rect6543"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-focused-left"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 -2.252 -7.1039)">
+        <rect
+           id="rect6546"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-focused-right"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 -11.252 -7.1039)">
+        <rect
+           id="rect6549"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-focused-topleft"
+         opacity=".2"
+         transform="translate(-2.252 -98.03)">
+        <rect
+           id="rect6553"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-focused-topright"
+         opacity=".2"
+         transform="translate(-11.252 -98.03)">
+        <rect
+           id="rect6556"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-focused-bottomleft"
+         opacity=".2"
+         transform="translate(-2.252 -107.03)">
+        <rect
+           id="rect6559"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-focused-bottomright"
+         opacity=".2"
+         transform="translate(-11.252,-107.03)">
+        <rect
+           id="rect6562"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-pressed-top"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 15.775 -98.03)">
+        <rect
+           id="rect6565"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-pressed-bottom"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 15.775 -107.03)">
+        <rect
+           id="rect6568"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-pressed-left"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 4.748 -7.1039)">
+        <rect
+           id="rect6571"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-pressed-right"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 -4.252 -7.1039)">
+        <rect
+           id="rect6574"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-pressed-topleft"
+         opacity=".2"
+         transform="translate(4.748 -98.03)">
+        <rect
+           id="rect6577"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-pressed-topright"
+         opacity=".2"
+         transform="translate(-4.252 -98.03)">
+        <rect
+           id="rect6580"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-pressed-bottomleft"
+         opacity=".2"
+         transform="translate(4.748 -107.03)">
+        <rect
+           id="rect6583"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-pressed-bottomright"
+         opacity=".2"
+         transform="translate(-4.252 -107.03)">
+        <rect
+           id="rect6586"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-toggled-top"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 22.775 -98.03)">
+        <rect
+           id="rect6589"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-toggled-bottom"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 22.775 -107.03)">
+        <rect
+           id="rect6592"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-toggled-left"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 11.748 -7.1039)">
+        <rect
+           id="rect6595"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-toggled-right"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 2.748 -7.1039)">
+        <rect
+           id="rect6598"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-toggled-topleft"
+         opacity=".2"
+         transform="translate(11.748 -98.03)">
+        <rect
+           id="rect6601"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-toggled-topright"
+         opacity=".2"
+         transform="translate(2.748 -98.03)">
+        <rect
+           id="rect6604"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-toggled-bottomleft"
+         opacity=".2"
+         transform="translate(11.748,-107.03)">
+        <rect
+           id="rect6607"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-toggled-bottomright"
+         opacity=".2"
+         transform="translate(2.748 -107.03)">
+        <rect
+           id="rect6610"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-disabled-top"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 29.775 -98.03)">
+        <rect
+           id="rect6613"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-disabled-bottom"
+         opacity=".2"
+         transform="matrix(.1 0 0 1 29.775 -107.03)">
+        <rect
+           id="rect6616"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252" />
+      </g>
+      <g
+         id="lineedit-disabled-left"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 18.748 -7.1039)">
+        <rect
+           id="rect6619"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-disabled-right"
+         opacity=".2"
+         transform="matrix(1 0 0 .1 9.748 -7.1039)">
+        <rect
+           id="rect6622"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-disabled-topleft"
+         opacity=".2"
+         transform="translate(18.748 -98.03)">
+        <rect
+           id="rect6625"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-disabled-topright"
+         opacity=".2"
+         transform="translate(9.748 -98.03)">
+        <rect
+           id="rect6628"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252" />
+      </g>
+      <g
+         id="lineedit-disabled-bottomleft"
+         opacity=".2"
+         transform="translate(18.748,-107.03)">
+        <rect
+           id="rect6631"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252" />
+      </g>
+      <g
+         id="lineedit-disabled-bottomright"
+         opacity=".2"
+         transform="translate(9.748 -107.03)">
+        <rect
+           id="rect6634"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252" />
+      </g>
+    </g>
+    <g
+       fill="#FFF"
+       id="g891">
+      <g
+         id="lineedit-focused"
+         transform="translate(1.9999 -3.001)">
+        <rect
+           id="rect7951"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#FFF" />
+      </g>
+      <g
+         id="lineedit-pressed"
+         transform="translate(8.9999 -3.001)">
+        <rect
+           id="rect7954"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#FFF" />
+      </g>
+      <g
+         id="lineedit-toggled"
+         transform="translate(16 -3.001)">
+        <rect
+           id="rect7957"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#FFF" />
+      </g>
+      <g
+         id="lineedit-disabled"
+         transform="translate(23 -3.001)">
+        <rect
+           id="rect7960"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#FFF" />
+      </g>
+    </g>
+  </g>

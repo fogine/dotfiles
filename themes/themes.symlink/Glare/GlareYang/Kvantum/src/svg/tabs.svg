@@ -1,0 +1,1324 @@
+  <g
+     id="layer26"
+     inkscape:label="tabs"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="tab-normal">
+      <rect
+         id="rect13745"
+         height="1"
+         width="1"
+         y="4"
+         x="4"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="tab-normal-topleft">
+      <rect
+         id="rect13775"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="0" />
+      <rect
+         id="rect13718"
+         height="3"
+         width="3"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13747"
+         height="3"
+         width="1"
+         y="0"
+         x="0"
+         fill="#dbdbdb" />
+      <rect
+         id="rect13749"
+         transform="rotate(90)"
+         height="3"
+         width="1"
+         y="-3"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-top">
+      <rect
+         id="rect13773"
+         opacity="0"
+         height="5"
+         width="1"
+         y="-2"
+         x="4" />
+      <rect
+         id="rect13731"
+         height="3"
+         width="1"
+         y="0"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13751"
+         height="1"
+         width="1"
+         y="0"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-topright">
+      <rect
+         id="rect13771"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="6" />
+      <rect
+         id="rect13733"
+         height="3"
+         width="3"
+         y="0"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13753"
+         height="1"
+         width="3"
+         y="0"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect13755"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-right">
+      <rect
+         id="rect13735"
+         height="1"
+         width="3"
+         y="4"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13757"
+         transform="rotate(90)"
+         height="1"
+         width="1"
+         y="-9"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-bottomright">
+      <rect
+         id="rect13741"
+         height="3"
+         width="3"
+         y="6"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13759"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect13761"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-bottom">
+      <rect
+         id="rect13743"
+         height="3"
+         width="1"
+         y="6"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13763"
+         transform="scale(-1)"
+         height="1"
+         width="1"
+         y="-9"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-bottomleft">
+      <rect
+         id="rect13739"
+         height="3"
+         width="3"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13765"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-3"
+         fill="#dbdbdb" />
+      <rect
+         id="rect13767"
+         transform="rotate(-90)"
+         height="1"
+         width="3"
+         y="0"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-normal-left">
+      <rect
+         id="rect13737"
+         height="1"
+         width="3"
+         y="4"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect13769"
+         transform="rotate(-90)"
+         height="1"
+         width="1"
+         y="0"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-top"
+       transform="translate(11)">
+      <rect
+         id="rect15071"
+         opacity="0"
+         height="5"
+         width="1"
+         y="-2"
+         x="4" />
+      <rect
+         id="rect15073"
+         height="3"
+         width="1"
+         y="0"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15075"
+         height="1"
+         width="1"
+         y="0"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-bottom"
+       transform="translate(11)">
+      <rect
+         id="rect15078"
+         height="3"
+         width="1"
+         y="6"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15080"
+         transform="scale(-1)"
+         height="1"
+         width="1"
+         y="-9"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-left"
+       transform="translate(11)">
+      <rect
+         id="rect15083"
+         height="1"
+         width="3"
+         y="4"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15085"
+         transform="rotate(-90)"
+         height="1"
+         width="1"
+         y="0"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-right"
+       transform="translate(11)">
+      <rect
+         id="rect15088"
+         height="1"
+         width="3"
+         y="4"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15090"
+         transform="rotate(90)"
+         height="1"
+         width="1"
+         y="-9"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-topleft"
+       transform="translate(11)">
+      <rect
+         id="rect15093"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="0" />
+      <rect
+         id="rect15095"
+         height="3"
+         width="3"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15097"
+         height="3"
+         width="1"
+         y="0"
+         x="0"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15099"
+         transform="rotate(90)"
+         height="3"
+         width="1"
+         y="-3"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-topright"
+       transform="translate(11)">
+      <rect
+         id="rect15102"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="6" />
+      <rect
+         id="rect15104"
+         height="3"
+         width="3"
+         y="0"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15106"
+         height="1"
+         width="3"
+         y="0"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15108"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-bottomleft"
+       transform="translate(11)">
+      <rect
+         id="rect15111"
+         height="3"
+         width="3"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15113"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-3"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15115"
+         transform="rotate(-90)"
+         height="1"
+         width="3"
+         y="0"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused-bottomright"
+       transform="translate(11)">
+      <rect
+         id="rect15118"
+         height="3"
+         width="3"
+         y="6"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15120"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15122"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-top"
+       transform="translate(22)">
+      <rect
+         id="rect15125"
+         opacity="0"
+         height="5"
+         width="1"
+         y="-2"
+         x="4" />
+      <rect
+         id="rect15127"
+         height="3"
+         width="1"
+         y="0"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15129"
+         height="1"
+         width="1"
+         y="0"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-bottom"
+       transform="translate(22)">
+      <rect
+         id="rect15132"
+         height="3"
+         width="1"
+         y="6"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15134"
+         transform="scale(-1)"
+         height="1"
+         width="1"
+         y="-9"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-left"
+       transform="translate(22)">
+      <rect
+         id="rect15137"
+         height="1"
+         width="3"
+         y="4"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15139"
+         transform="rotate(-90)"
+         height="1"
+         width="1"
+         y="0"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-right"
+       transform="translate(22)">
+      <rect
+         id="rect15142"
+         height="1"
+         width="3"
+         y="4"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15144"
+         transform="rotate(90)"
+         height="1"
+         width="1"
+         y="-9"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-topleft"
+       transform="translate(22)">
+      <rect
+         id="rect15147"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="0" />
+      <rect
+         id="rect15149"
+         height="3"
+         width="3"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15151"
+         height="3"
+         width="1"
+         y="0"
+         x="0"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15153"
+         transform="rotate(90)"
+         height="3"
+         width="1"
+         y="-3"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-topright"
+       transform="translate(22)">
+      <rect
+         id="rect15156"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="6" />
+      <rect
+         id="rect15158"
+         height="3"
+         width="3"
+         y="0"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15160"
+         height="1"
+         width="3"
+         y="0"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15162"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-bottomleft"
+       transform="translate(22)">
+      <rect
+         id="rect15165"
+         height="3"
+         width="3"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15167"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-3"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15169"
+         transform="rotate(-90)"
+         height="1"
+         width="3"
+         y="0"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-pressed-bottomright"
+       transform="translate(22)">
+      <rect
+         id="rect15172"
+         height="3"
+         width="3"
+         y="6"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15174"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15176"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-toggled-top"
+       transform="translate(33)">
+      <rect
+         id="rect15179"
+         height="5"
+         width="1"
+         y="-2"
+         x="4"
+         fill="#407dec" />
+      <rect
+         id="rect15181"
+         height="3"
+         width="1"
+         y="0"
+         x="4"
+         fill="#fff" />
+      <rect
+         id="rect15183"
+         height="1"
+         width="1"
+         y="0"
+         x="4"
+         fill="#407dec" />
+    </g>
+    <g
+       id="tab-toggled-bottom"
+       transform="translate(33)">
+      <rect
+         id="rect15186"
+         height="3"
+         width="1"
+         y="6"
+         x="4"
+         fill="#fff" />
+      <rect
+         id="rect15188"
+         transform="scale(-1)"
+         height="1"
+         width="1"
+         y="-9"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-toggled-left"
+       transform="translate(33)">
+      <rect
+         id="rect15191"
+         height="1"
+         width="3"
+         y="4"
+         x="0"
+         fill="#fff" />
+      <rect
+         id="rect15193"
+         transform="rotate(-90)"
+         height="1"
+         width="1"
+         y="0"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-toggled-right"
+       transform="translate(33)">
+      <rect
+         id="rect15196"
+         height="1"
+         width="3"
+         y="4"
+         x="6"
+         fill="#fff" />
+      <rect
+         id="rect15198"
+         transform="rotate(90)"
+         height="1"
+         width="1"
+         y="-9"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-toggled-topleft"
+       transform="translate(33)">
+      <rect
+         id="rect15201"
+         height="5"
+         width="3"
+         y="-2"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect15203"
+         height="3"
+         width="3"
+         y="0"
+         x="0"
+         fill="#fff" />
+      <rect
+         id="rect15205"
+         height="3"
+         width="1"
+         y="0"
+         x="0"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15207"
+         transform="rotate(90)"
+         height="3"
+         width="1"
+         y="-3"
+         x="0"
+         fill="#407dec" />
+    </g>
+    <g
+       id="tab-toggled-topright"
+       transform="translate(33)">
+      <rect
+         id="rect15210"
+         height="5"
+         width="3"
+         y="-2"
+         x="6"
+         fill="#407dec" />
+      <rect
+         id="rect15212"
+         height="3"
+         width="3"
+         y="0"
+         x="6"
+         fill="#fff" />
+      <rect
+         id="rect15216"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="0"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15214"
+         height="1"
+         width="3"
+         y="0"
+         x="6"
+         fill="#407dec" />
+    </g>
+    <g
+       id="tab-toggled-bottomleft"
+       transform="translate(33)">
+      <rect
+         id="rect15219"
+         height="3"
+         width="3"
+         y="6"
+         x="0"
+         fill="#fff" />
+      <rect
+         id="rect15221"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-3"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15223"
+         transform="rotate(-90)"
+         height="1"
+         width="3"
+         y="0"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-toggled-bottomright"
+       transform="translate(33)">
+      <rect
+         id="rect15226"
+         height="3"
+         width="3"
+         y="6"
+         x="6"
+         fill="#fff" />
+      <rect
+         id="rect15228"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15230"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-top"
+       transform="translate(44)">
+      <rect
+         id="rect15233"
+         opacity="0"
+         height="5"
+         width="1"
+         y="-2"
+         x="4" />
+      <rect
+         id="rect15235"
+         height="3"
+         width="1"
+         y="0"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15237"
+         height="1"
+         width="1"
+         y="0"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-bottom"
+       transform="translate(44)">
+      <rect
+         id="rect15240"
+         height="3"
+         width="1"
+         y="6"
+         x="4"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15242"
+         transform="scale(-1)"
+         height="1"
+         width="1"
+         y="-9"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-left"
+       transform="translate(44)">
+      <rect
+         id="rect15245"
+         height="1"
+         width="3"
+         y="4"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15247"
+         transform="rotate(-90)"
+         height="1"
+         width="1"
+         y="0"
+         x="-5"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-right"
+       transform="translate(44)">
+      <rect
+         id="rect15250"
+         height="1"
+         width="3"
+         y="4"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15252"
+         transform="rotate(90)"
+         height="1"
+         width="1"
+         y="-9"
+         x="4"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-topleft"
+       transform="translate(44)">
+      <rect
+         id="rect15255"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="0" />
+      <rect
+         id="rect15257"
+         height="3"
+         width="3"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15259"
+         height="3"
+         width="1"
+         y="0"
+         x="0"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15261"
+         transform="rotate(90)"
+         height="3"
+         width="1"
+         y="-3"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-topright"
+       transform="translate(44)">
+      <rect
+         id="rect15264"
+         opacity="0"
+         height="5"
+         width="3"
+         y="-2"
+         x="6" />
+      <rect
+         id="rect15266"
+         height="3"
+         width="3"
+         y="0"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15268"
+         height="1"
+         width="3"
+         y="0"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15270"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="0"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-bottomleft"
+       transform="translate(44)">
+      <rect
+         id="rect15273"
+         height="3"
+         width="3"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15275"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-3"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15277"
+         transform="rotate(-90)"
+         height="1"
+         width="3"
+         y="0"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-disabled-bottomright"
+       transform="translate(44)">
+      <rect
+         id="rect15280"
+         height="3"
+         width="3"
+         y="6"
+         x="6"
+         fill="#e6e6e6" />
+      <rect
+         id="rect15282"
+         transform="rotate(90)"
+         height="1"
+         width="3"
+         y="-9"
+         x="6"
+         fill="#dbdbdb" />
+      <rect
+         id="rect15284"
+         transform="scale(-1)"
+         height="1"
+         width="3"
+         y="-9"
+         x="-9"
+         fill="#dbdbdb" />
+    </g>
+    <g
+       id="tab-focused"
+       transform="translate(11)">
+      <rect
+         id="rect18035"
+         height="1"
+         width="1"
+         y="4"
+         x="4"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="tab-pressed"
+       transform="translate(22)">
+      <rect
+         id="rect18038"
+         height="1"
+         width="1"
+         y="4"
+         x="4"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="tab-toggled"
+       transform="translate(33)">
+      <rect
+         id="rect18041"
+         height="1"
+         width="1"
+         y="4"
+         x="4"
+         fill="#fff" />
+    </g>
+    <g
+       id="tab-disabled"
+       transform="translate(44)">
+      <rect
+         id="rect18044"
+         height="1"
+         width="1"
+         y="4"
+         x="4"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="tab-tear"
+       transform="translate(6,13)">
+      <rect
+         id="rect37145"
+         fill-rule="evenodd"
+         height="2"
+         width="2"
+         y="-16"
+         x="49"
+         fill="#407dec" />
+    </g>
+    <g
+       id="tab-close-normal">
+      <rect
+         id="rect40605"
+         opacity="0"
+         height="16"
+         width="16"
+         y="-33"
+         x="10" />
+      <g
+         id="g40613"
+         opacity=".1"
+         transform="translate(10,-32)">
+        <path
+           id="path40615"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path40617"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#linearGradient40619)" />
+      </g>
+      <path
+         id="path40581"
+         d="m10-28v6h16v-6h-16z"
+         fill="url(#linearGradient40611)"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g40583"
+         fill="none"
+         transform="translate(10,-33)">
+        <path
+           id="path40585"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path40587"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#0)" />
+      </g>
+    </g>
+    <g
+       id="tab-close-focused"
+       transform="translate(30)">
+      <rect
+         id="rect42253"
+         opacity="0"
+         height="16"
+         width="16"
+         y="-33"
+         x="10" />
+      <g
+         id="g42255"
+         opacity=".1"
+         transform="translate(10,-32)">
+        <path
+           id="path42257"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42259"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#linearGradient40619)" />
+      </g>
+      <path
+         id="path42261"
+         d="m10-28v6h16v-6h-16z"
+         fill="url(#linearGradient40611)"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g42263"
+         fill="none"
+         transform="translate(10,-33)">
+        <path
+           id="path42265"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42267"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#0)" />
+      </g>
+    </g>
+    <g
+       id="tab-close-pressed"
+       transform="translate(60)">
+      <rect
+         id="rect42270"
+         opacity="0"
+         height="16"
+         width="16"
+         y="-33"
+         x="10" />
+      <g
+         id="g42272"
+         opacity=".1"
+         transform="translate(10,-32)">
+        <path
+           id="path42274"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42276"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#linearGradient40619)" />
+      </g>
+      <path
+         id="path42278"
+         d="m10-28v6h16v-6h-16z"
+         fill="url(#linearGradient40611)"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g42280"
+         fill="none"
+         transform="translate(10,-33)">
+        <path
+           id="path42282"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42284"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#0)" />
+      </g>
+    </g>
+    <g
+       id="tab-close-toggled"
+       transform="translate(90)">
+      <rect
+         id="rect42287"
+         opacity="0"
+         height="16"
+         width="16"
+         y="-33"
+         x="10" />
+      <g
+         id="g42289"
+         opacity=".1"
+         transform="translate(10,-32)">
+        <path
+           id="path42291"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42293"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#linearGradient40619)" />
+      </g>
+      <path
+         id="path42295"
+         d="m10-28v6h16v-6h-16z"
+         fill="url(#linearGradient40611)"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g42297"
+         fill="none"
+         transform="translate(10,-33)">
+        <path
+           id="path42299"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42301"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#0)" />
+      </g>
+    </g>
+    <g
+       id="tab-close-disabled"
+       opacity=".5"
+       transform="translate(120)">
+      <rect
+         id="rect42304"
+         opacity="0"
+         height="16"
+         width="16"
+         y="-33"
+         x="10" />
+      <g
+         id="g42306"
+         opacity=".1"
+         transform="translate(10,-32)">
+        <path
+           id="path42308"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42310"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#linearGradient40619-373)" />
+      </g>
+      <path
+         id="path42312"
+         d="m10-28v6h16v-6h-16z"
+         fill="url(#linearGradient40611-61)"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g42314"
+         fill="none"
+         transform="translate(10,-33)">
+        <path
+           id="path42316"
+           opacity="0.38"
+           d="m0.5 5.5v5h15v-5h-15z"
+           inkscape:connector-curvature="0"
+           stroke="#000" />
+        <path
+           id="path42318"
+           opacity="0.38"
+           d="m1.5 6.5v3h13v-3h-13z"
+           inkscape:connector-curvature="0"
+           stroke="url(#0-849)" />
+      </g>
+    </g>
+  </g> 

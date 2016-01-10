@@ -1,0 +1,103 @@
+/*##Mate-Panel##*/
+
+.mate-panel-menu-bar {
+background-color: black;
+background-image: none;
+color: white;
+-PanelMenuBar-icon-visible: true;}
+
+MatePanelApplet{
+border:none;
+font: bold;}
+
+MatePanelAppletFrameDBus PanelSeparator,
+PanelSeparator,
+MatePanelAppletFrameDBus {
+border-width: 0;
+background: black;
+color:black;
+padding:0px;}
+
+PanelMenuBar.menubar>.menuitem {
+padding: 3px 5px;
+background:black;}
+
+PanelMenuBar.menubar .menuitem:hover {
+color: white;
+border:none;}
+
+WnckTasklist .button,
+WnckTasklist .button.flat {
+border:none;
+border-radius:0px;
+padding:0px;
+margin:0px;
+font:bold;}
+
+WnckTasklist .button:hover,
+WnckTasklist .button.flat:hover {
+background:transparent;
+border:none;
+border-radius:0px;
+padding:0px;
+margin:0px;
+color:@hilighttext;}
+
+WnckTasklist .button:active,
+WnckTasklist .button.flat:active,
+WnckTasklist .button:active:hover,
+WnckTasklist .button.flat:active:hover  {
+background:shade (@hilight, 0.9);
+border:none;
+border-radius:0px;
+padding:0px;
+margin:0px;
+color:@hilighttext;}
+
+WnckTasklist .button:checked,
+WnckTasklist .button.flat:checked,
+WnckTasklist .button:checked:hover,
+WnckTasklist .button.flat:checked:hover  {
+background:@hilight;
+border:none;
+border-radius:0px;
+padding:0px;
+margin:0px;
+color:@hilighttext;}
+
+ClockBox,
+.mate-panel-menu-bar.menubar,
+MatePanelApplet > GtkMenuBar.menubar {
+font:bold;}
+
+NaTrayApplet {
+-NaTrayApplet-icon-padding: 12px;
+-NaTrayApplet-icon-size: 16;}
+
+.mate-panel-menu-bar {
+-PanelMenuBar-icon-visible: true;}
+
+WnckPager,
+WnckPager:hover {
+background: rgba(255,255,255,0.2);
+border: none;}
+
+/*##why cant those stupid apps not use default gtk ids?##*/
+
+CajaWindow FMTreeView .view,
+CajaWindow CajaNotesViewer .view,
+CajaWindow CajaPlacesSidebar .view,
+CajaWindow CajaHistorySidebar .view,
+CajaWindow CajaInformationPanel GtkVBox,
+CajaWindow CajaEmblemSidebar GtkViewport {
+background-color: @sidebarbg;
+color: @windowtext;}
+
+CajaWindow .view,
+CajaView.frame {
+border:none;
+color:@windowtext;}
+
+CajaDesktopWindow FMDesktopIconView .view {
+background-color: transparent;
+background-image: none;}

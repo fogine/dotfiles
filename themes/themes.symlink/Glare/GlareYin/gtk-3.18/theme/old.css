@@ -1,0 +1,19 @@
+.grip {
+-GtkWindow-resize-grip-height:15;
+-GtkWindow-resize-grip-width:17;
+background-color:transparent;
+background-image:url("images/old_resize-grip.svg");}
+
+GtkWindow > GtkVBox > .dock > GtkHBox,
+GtkHandleBox {
+-GtkHandleBox-shadow-type:none;
+-GtkHandleBox-shadow:none;
+background:@toolbar;
+box-shadow:inset 0px 1px 0px 0px @lightborder,inset 0px -1px 0px 0px @genborder;
+padding:1px 2px;}
+
+SPRuler,
+ruler,
+.ruler,
+.spruler {
+background-color:#ff00ff;}

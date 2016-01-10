@@ -1,0 +1,65 @@
+/*welcome to the kindergarten!*/
+.titlebar,
+.header-bar,
+.maximized .titlebar,
+.tiled .titlebar,
+.titlebar.default-decoration,
+.titlebar:backdrop {
+color:@windowtext;
+background:@toolbar;
+box-shadow:inset 0px 1px 0px 0px @lightborder,inset 0px -1px 0px 0px @genborder;
+border-radius:0px;
+padding:4px 2px;}
+
+.titlebar .title,
+.header-bar .title,
+.titlebar .subtitle,
+.header-bar .subtitle,
+.titlebar .title:hover,
+.header-bar .title:hover,
+.titlebar .subtitle:hover,
+.header-bar .subtitle:hover{
+color:@toolbar;}
+
+.titlebar .title.button,
+.header-bar .title.button{
+color:@windowtext}
+
+.window-frame,
+.window-frame:backdrop,
+.window-frame.ssd,
+.window-frame.popup,
+.window-frame.tiled,
+.window-frame.solid-csd,
+.window-frame.csd.popup,
+.window-frame.csd.tooltip,
+.window-frame.csd.message-dialog{
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+border-radius:0;
+border-width:0px;
+text-shadow:none;
+background-color:transparent;
+border:1px solid rgba(0,0,0,0.4);
+border-radius:0px;
+padding:0px;
+margin:0px;}
+
+.overshoot.top,
+.overshoot.top:backdrop,
+.overshoot.bottom,
+.overshoot.bottom:backdrop,
+.overshoot.left,
+.overshoot.left:backdrop,
+.overshoot.right,
+.overshoot.right:backdrop,
+.undershoot.top,
+.undershoot.top:backdrop,
+.undershoot.bottom,
+.undershoot.bottom:backdrop,
+.undershoot.left,
+.undershoot.left:backdrop,
+.undershoot.right,
+.undershoot.right:backdrop {
+background:transparent;
+border:none;
+box-shadow:none; }

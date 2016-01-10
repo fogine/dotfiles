@@ -1,0 +1,17 @@
+.tooltip,
+.tooltip.background,
+.tooltip *,
+.popover.osd,
+.app-notification,
+.osd {
+font-weight:bold;
+background:black;
+color:white;
+border-color:black;
+padding:0px;}
+
+.popover.osd .button,
+.app-notification .button,
+.osd .button  {
+background:transparent;
+color:@hilight;}

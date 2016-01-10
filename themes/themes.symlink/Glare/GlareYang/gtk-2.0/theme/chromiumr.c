@@ -1,0 +1,10 @@
+style"chromium"{
+ChromeGtkFrame::frame-color=@menubar
+ChromeGtkFrame::inactive-frame-color=@window
+ChromeGtkFrame::frame-gradient-size=0
+ChromeGtkFrame::frame-gradient-color=@menubar
+ChromeGtkFrame::scrollbar-trough-color=@window
+ChromeGtkFrame::scrollbar-slider-prelight-color=@window
+ChromeGtkFrame::scrollbar-slider-normal-color=@window
+engine"mist"{}}
+class"ChromeGtkFrame"style"chromium"

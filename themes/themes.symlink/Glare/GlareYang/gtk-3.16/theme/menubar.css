@@ -1,0 +1,18 @@
+.menubar,
+.menubar>.menuitem{
+-GtkWidget-window-dragging:false;
+box-shadow:inset 0px 1px 0px 0px @menubartopborder,inset 0px -1px 0px 0px @menubarbottomborder;
+background:@menubar;
+padding:0px 0px;}
+
+.menubar>.menuitem{
+font:bold;
+padding:2px 2px;
+padding-right:4px;}
+
+.menubar>.menuitem:hover{
+color:@hilighttext;
+background:@hilight;}
+
+.menubar>.menuitem .menu{
+font:regular;}

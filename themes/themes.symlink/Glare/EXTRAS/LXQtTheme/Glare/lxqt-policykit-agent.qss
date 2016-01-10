@@ -1,0 +1,16 @@
+QGridLayout {
+	padding:5px;}
+
+QLabel#messageLabel,
+QLabel#label,
+QLabel#promptLabel {
+	padding-right:10px;
+	font: bold;}
+
+QLineEdit#passwordEdit,
+QComboBox#identityComboBox {
+	padding:3px;
+	padding-left:5px;}
+	
+QLabel#messageLabel {
+	padding-left:30px;}

@@ -1,0 +1,5 @@
+TopMenuAppMenuBar,
+TopMenuAppMenuBar.menubar,
+TopMenuAppMenuBar.menubar>.menuitem {
+background:black;
+color:white;}

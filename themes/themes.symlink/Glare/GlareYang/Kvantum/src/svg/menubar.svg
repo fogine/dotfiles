@@ -1,0 +1,722 @@
+  <g
+     id="layer8"
+     inkscape:label="menubar"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="menubar-normal"
+       transform="translate(1)">
+      <rect
+         id="rect3221"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-normal-topleft"
+       transform="translate(1,1)">
+      <rect
+         id="rect3991"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect3995"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-normal-bottomleft"
+       transform="translate(1,-1)">
+      <rect
+         id="rect3993"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect3997"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-normal-left"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(-1)">
+      <rect
+         id="rect4012"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-normal-right"
+       transform="translate(3)">
+      <rect
+         id="rect4016"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-normal-top"
+       transform="translate(3,1)">
+      <rect
+         id="rect4020"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4022"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-normal-topright"
+       transform="translate(5,1)">
+      <rect
+         id="rect4026"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4028"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-normal-bottom"
+       transform="translate(3,-1)">
+      <rect
+         id="rect4032"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4034"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-normal-bottomright"
+       transform="translate(5,-1)">
+      <rect
+         id="rect4038"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4040"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused-top"
+       transform="translate(10,1)">
+      <rect
+         id="rect4310"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4312"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused-bottom"
+       transform="translate(10,-1)">
+      <rect
+         id="rect4315"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4317"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused-left"
+       fill="#e6e6e6"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(6)">
+      <rect
+         id="rect4320"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-focused-right"
+       fill="#e6e6e6"
+       transform="translate(10)">
+      <rect
+         id="rect4323"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-focused-topleft"
+       transform="translate(8,1)">
+      <rect
+         id="rect4326"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4328"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused-topright"
+       transform="translate(12,1)">
+      <rect
+         id="rect4331"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4333"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused-bottomleft"
+       transform="translate(8,-1)">
+      <rect
+         id="rect4336"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4338"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused-bottomright"
+       transform="translate(12,-1)">
+      <rect
+         id="rect4341"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4343"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-pressed-top"
+       transform="translate(17,1)">
+      <rect
+         id="rect4346"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect4348"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-pressed-bottom"
+       transform="translate(17,-1)">
+      <rect
+         id="rect4351"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect4353"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-pressed-left"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(13)">
+      <rect
+         id="rect4356"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#407dec" />
+    </g>
+    <g
+       id="menubar-pressed-right"
+       transform="translate(17)">
+      <rect
+         id="rect4359"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#407dec" />
+    </g>
+    <g
+       id="menubar-pressed-topleft"
+       transform="translate(15,1)">
+      <rect
+         id="rect4362"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect4364"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-pressed-topright"
+       transform="translate(19,1)">
+      <rect
+         id="rect4367"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect4369"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-pressed-bottomleft"
+       transform="translate(15,-1)">
+      <rect
+         id="rect4372"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect4374"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-pressed-bottomright"
+       transform="translate(19,-1)">
+      <rect
+         id="rect4377"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#407dec" />
+      <rect
+         id="rect4379"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-toggled-top"
+       transform="translate(24,1)">
+      <rect
+         id="rect4382"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4384"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-toggled-bottom"
+       transform="translate(24,-1)">
+      <rect
+         id="rect4387"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4389"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-toggled-left"
+       fill="#e6e6e6"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(20)">
+      <rect
+         id="rect4392"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-toggled-right"
+       fill="#e6e6e6"
+       transform="translate(24)">
+      <rect
+         id="rect4395"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-toggled-topleft"
+       transform="translate(22,1)">
+      <rect
+         id="rect4398"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4400"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-toggled-topright"
+       transform="translate(26,1)">
+      <rect
+         id="rect4403"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4405"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-toggled-bottomleft"
+       transform="translate(22,-1)">
+      <rect
+         id="rect4408"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4410"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-toggled-bottomright"
+       transform="translate(26,-1)">
+      <rect
+         id="rect4413"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4415"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-disabled-top"
+       transform="translate(31,1)">
+      <rect
+         id="rect4418"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4420"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-disabled-bottom"
+       transform="translate(31,-1)">
+      <rect
+         id="rect4423"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4425"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-disabled-left"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(27)">
+      <rect
+         id="rect4428"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-disabled-right"
+       transform="translate(31)">
+      <rect
+         id="rect4431"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-disabled-topleft"
+       transform="translate(29,1)">
+      <rect
+         id="rect4434"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4436"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-disabled-topright"
+       transform="translate(33,1)">
+      <rect
+         id="rect4439"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4441"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="0"
+         x="0" />
+    </g>
+    <g
+       id="menubar-disabled-bottomleft"
+       transform="translate(29,-1)">
+      <rect
+         id="rect4444"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4446"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-disabled-bottomright"
+       transform="translate(33,-1)">
+      <rect
+         id="rect4449"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#e6e6e6" />
+      <rect
+         id="rect4451"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="6"
+         x="0" />
+    </g>
+    <g
+       id="menubar-focused"
+       fill="#e6e6e6"
+       transform="translate(8)">
+      <rect
+         id="rect5162"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-pressed"
+       transform="translate(15)">
+      <rect
+         id="rect5165"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#407dec" />
+    </g>
+    <g
+       id="menubar-toggled"
+       fill="#e6e6e6"
+       transform="translate(22)">
+      <rect
+         id="rect5168"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+    <g
+       id="menubar-disabled"
+       transform="translate(29)">
+      <rect
+         id="rect5171"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#e6e6e6" />
+    </g>
+  </g> 

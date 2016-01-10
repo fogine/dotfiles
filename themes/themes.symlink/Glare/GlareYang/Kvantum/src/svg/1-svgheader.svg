@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   height="100%"
+   viewBox="0 0 7 7"
+   width="100%"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="GlareYang.svg">
+  <metadata
+     id="metadata2526">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>glare-quantum</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview137"
+     inkscape:zoom="12.839846"
+     borderopacity="1"
+     inkscape:current-layer="layer29"
+     inkscape:cx="9.1256539"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     showgrid="true"
+     inkscape:bbox-nodes="true"
+     bordercolor="#666666"
+     inkscape:window-x="0"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:window-y="25"
+     inkscape:window-width="1366"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     pagecolor="#ffffff"
+     gridtolerance="10"
+     inkscape:bbox-paths="true"
+     inkscape:cy="13.415838"
+     showguides="true"
+     inkscape:window-height="743"
+     inkscape:snap-bbox-edge-midpoints="false">
+    <inkscape:grid
+       id="grid3114"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2276">
+    <radialGradient
+       id="radialGradient8431"
+       gradientUnits="userSpaceOnUse"
+       cy="-14"
+       cx="8.5"
+       gradientTransform="matrix(1 0 0 .88889 0 -1.5556)"
+       r="4.5"
+       inkscape:collect="always">
+      <stop
+         id="stop8427"
+         offset="0" />
+      <stop
+         id="stop8429"
+         stop-opacity="0"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="0"
+       y2="9.586"
+       gradientUnits="userSpaceOnUse"
+       x2="12.855"
+       y1="6.03"
+       x1="12.927">
+      <stop
+         id="stop40572"
+         stop-color="#fff"
+         offset="0" />
+      <stop
+         id="stop40574"
+         stop-opacity="0"
+         stop-color="#fff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient40611"
+       x1="16.02"
+       gradientUnits="userSpaceOnUse"
+       y1="5.057"
+       gradientTransform="translate(10,-33)"
+       x2="16.04"
+       y2="10.979"
+       inkscape:collect="always">
+      <stop
+         id="stop40577"
+         stop-color="#d02604"
+         offset="0" />
+      <stop
+         id="stop40579"
+         stop-color="#fb6041"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient40619"
+       x1="12.927"
+       xlink:href="#0"
+       gradientUnits="userSpaceOnUse"
+       x2="12.855"
+       y1="6.03"
+       y2="9.586"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient40619-373"
+       y2="9.586"
+       gradientUnits="userSpaceOnUse"
+       y1="6.03"
+       x2="12.855"
+       x1="12.927"
+       inkscape:collect="always">
+      <stop
+         id="stop45605"
+         stop-color="#FFF"
+         offset="0" />
+      <stop
+         id="stop45607"
+         stop-opacity="0"
+         stop-color="#FFF"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient40611-61"
+       x1="16.02"
+       gradientUnits="userSpaceOnUse"
+       y1="5.057"
+       gradientTransform="translate(10,-33)"
+       x2="16.04"
+       y2="10.979"
+       inkscape:collect="always">
+      <stop
+         id="stop45611"
+         stop-color="#555"
+         offset="0" />
+      <stop
+         id="stop45613"
+         stop-color="#8b8b8b"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title5063">glare-quantum</title>

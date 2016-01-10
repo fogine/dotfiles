@@ -1,0 +1,89 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*Icons*/
+
+/*make all toolbar icons horiz*/
+toolbarbutton {
+-moz-box-orient: horizontal!important;}
+
+#feed-button {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/news-feed?size=toolbar")!important;}
+toolbar[iconsize="small"] #feed-button {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/news-feed?size=small")!important;}
+#ub-feed-button {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/news-feed?size=small")!important;}
+
+#appmenu_newTab,
+#appmenu_newTab_popup,
+#placesContext_open\:newtab,
+#placesContext_openContainer\:tabs,
+#menu_newNavigatorTab,
+#context-openlinkintab,
+#context-openframeintab {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/tab-new?size=small")!important;}
+
+#new-window-button {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/window-new?size=toolbar")!important;}
+toolbar[iconsize="small"] #new-window-button,
+#appmenu_newNavigator,
+#placesContext_open\:newwindow,
+#menu_newNavigator,
+#context-openlink,
+#context-openframe {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/window-new?size=small")!important;}
+
+/*
+#star-button {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/bookmark-add?size=small")!important;}
+*/
+
+#go-button {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/go-jump?size=small")!important;}
+
+#menu_openAddons {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/extension?size=small")!important;}
+
+/*Addons*/
+/*https everywhere*/
+#https-everywhere-button > .https-everywhere-button {
+  list-style-image: url("moz-icon://stock/security-high?size=toolbar")!important;}
+toolbar[iconsize="small"] #https-everywhere-button > .https-everywhere-button {
+  list-style-image: url("moz-icon://stock/security-high?size=small")!important;}
+
+#https-everywhere-button[status="disabled"] > .https-everywhere-button {
+  list-style-image: url("moz-icon://stock/security-low?size=toolbar")!important;}
+toolbar[iconsize="small"] #https-everywhere-button[status="disabled"] > .https-everywhere-button {
+  list-style-image: url("moz-icon://stock/security-low?size=small")!important;}
+
+#https-everywhere-button[http_nowhere="true"] > .https-everywhere-button {
+  list-style-image: url("moz-icon://stock/dialog-information?size=toolbar")!important;}
+toolbar[iconsize="small"] #https-everywhere-button[http_nowhere="true"] > .https-everywhere-button {
+  list-style-image: url("moz-icon://stock/dialog-information?size=small")!important;}
+
+/*zing*/
+#zinglocaleToolbtnSelectLocale {
+  list-style-image: url("moz-icon://stock/preferences-desktop-locale?size=toolbar")!important;}
+toolbar[iconsize="small"] #zinglocaleToolbtnSelectLocale {
+  list-style-image: url("moz-icon://stock/preferences-desktop-locale?size=small")!important;}
+
+/*abl*/
+#abp-toolbarbutton {
+  list-style-image: url("moz-icon://stock/window-apply?size=toolbar")!important;}
+toolbar[iconsize="small"] #abp-toolbarbutton {
+  list-style-image: url("moz-icon://stock/window-apply?size=small")!important;}
+
+#abp-toolbarbutton[abpstate="disabled"] {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/window-cancel?size=toolbar")!important;}
+toolbar[iconsize="small"] #abp-toolbarbutton[abpstate="disabled"] {
+-moz-image-region: auto!important;
+  list-style-image: url("moz-icon://stock/window-cancel?size=small")!important;}*/

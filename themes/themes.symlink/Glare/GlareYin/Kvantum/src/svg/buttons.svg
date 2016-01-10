@@ -1,0 +1,661 @@
+  <g
+     id="layer3"
+     inkscape:label="buttons"
+     inkscape:groupmode="layer"
+     display="none"
+     style="display:none">
+    <g
+       id="button-normal-topleft"
+       transform="translate(1,1)">
+      <path
+         id="path3034"
+         inkscape:connector-curvature="0"
+         d="m 1,-1 c -1.1,0 -2,0.9 -2,2 L 0,1 C 0,0.4 0.4,0 1,0 l 0,-1 z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <path
+         id="path3042"
+         d="M 1,0 C 0.446,0 0,0.446 0,1 L 1,1 1,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-topright">
+      <path
+         id="path3032"
+         inkscape:connector-curvature="0"
+         d="M 5,0 5,1 C 5.6,1 6,1.4 6,2 L 7,2 C 7,0.9 6.1,0 5,0 Z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <path
+         id="path56789"
+         d="M 5,1 5,2 6,2 C 6,1.446 5.554,1 5,1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-bottomleft"
+       transform="translate(1,1)">
+      <path
+         id="path3030"
+         inkscape:connector-curvature="0"
+         d="m -1,4 c 0,1.1 0.9,2 2,2 L 1,5 C 0.4,5 0,4.6 0,4 l -1,0 z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <path
+         id="path3038"
+         d="M 0,4 C 0,4.554 0.446,5 1,5 L 1,4 0,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-bottomright"
+       transform="translate(1,1)">
+      <path
+         id="path6"
+         inkscape:connector-curvature="0"
+         d="M 5,4 C 5,4.6 4.6,5 4,5 L 4,6 C 5.1,6 6,5.1 6,4 L 5,4 Z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <path
+         id="rect8"
+         d="M 4,4 4,5 C 4.554,5 5,4.554 5,4 L 4,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-left"
+       transform="translate(1,1)">
+      <path
+         id="path3064"
+         inkscape:connector-curvature="0"
+         d="M -1,2 -1,3 0,3 0,2 -1,2 Z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <rect
+         id="rect3070"
+         height="1"
+         width="1"
+         y="2"
+         x="0"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal"
+       transform="translate(1,1)">
+      <rect
+         id="rect3072"
+         height="1"
+         width="1"
+         y="2"
+         x="2"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-top"
+       transform="translate(1,1)">
+      <path
+         id="path3066"
+         inkscape:connector-curvature="0"
+         d="M 2,-1 2,0 3,0 3,-1 2,-1 Z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <rect
+         id="rect3074"
+         height="1"
+         width="1"
+         y="0"
+         x="2"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-right"
+       transform="translate(1,1)">
+      <path
+         id="path3062"
+         inkscape:connector-curvature="0"
+         d="M 5,2 5,3 6,3 6,2 5,2 Z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <rect
+         id="rect3076"
+         height="1"
+         width="1"
+         y="2"
+         x="4"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-normal-bottom"
+       transform="translate(1,1)">
+      <path
+         id="path3018"
+         inkscape:connector-curvature="0"
+         d="M 2,5 2,6 3,6 3,5 2,5 Z"
+         style="opacity:1;fill:#1e1e1e;fill-opacity:1" />
+      <rect
+         id="rect3078"
+         height="1"
+         width="1"
+         y="4"
+         x="2"
+         style="opacity:1;fill:#2e2e2e;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-top"
+       transform="translate(10,1)">
+      <path
+         id="path3039"
+         d="M 2,-1 2,0 3,0 3,-1 2,-1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <rect
+         id="rect3041"
+         height="1"
+         width="1"
+         y="0"
+         x="2"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-bottom"
+       transform="translate(10,1)">
+      <path
+         id="path3044"
+         d="M 2,5 2,6 3,6 3,5 2,5 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <rect
+         id="rect3046"
+         height="1"
+         width="1"
+         y="4"
+         x="2"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-left"
+       transform="translate(10,1)">
+      <path
+         id="path3049"
+         d="M -1,2 -1,3 0,3 0,2 -1,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <rect
+         id="rect3051"
+         height="1"
+         width="1"
+         y="2"
+         x="0"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-right"
+       transform="translate(10,1)">
+      <path
+         id="path3054"
+         d="M 5,2 5,3 6,3 6,2 5,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <rect
+         id="rect3056"
+         height="1"
+         width="1"
+         y="2"
+         x="4"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-topleft"
+       transform="translate(10,1)">
+      <path
+         id="path3059"
+         d="m 1,-1 c -1.1,0 -2,0.9 -2,2 L 0,1 C 0,0.4 0.4,0 1,0 l 0,-1 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <path
+         id="path3061"
+         d="M 1,0 C 0.446,0 0,0.446 0,1 L 1,1 1,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-topright"
+       transform="translate(9,0)">
+      <path
+         id="path3065"
+         d="M 5,0 5,1 C 5.6,1 6,1.4 6,2 L 7,2 C 7,0.9 6.1,0 5,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <path
+         id="path3067"
+         d="M 5,1 5,2 6,2 C 6,1.446 5.554,1 5,1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-bottomleft"
+       transform="translate(10,1)">
+      <path
+         id="path3070"
+         d="m -1,4 c 0,1.1 0.9,2 2,2 L 1,5 C 0.4,5 0,4.6 0,4 l -1,0 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <path
+         id="path3072"
+         d="M 0,4 C 0,4.554 0.446,5 1,5 L 1,4 0,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-focused-bottomright"
+       transform="translate(10,1)">
+      <path
+         id="path3075"
+         d="M 5,4 C 5,4.6 4.6,5 4,5 L 4,6 C 5.1,6 6,5.1 6,4 L 5,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#191919;fill-opacity:1" />
+      <path
+         id="path3077"
+         d="M 4,4 4,5 C 4.554,5 5,4.554 5,4 L 4,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-top"
+       transform="translate(19,1)">
+      <path
+         id="path3080"
+         d="M 2,-1 2,0 3,0 3,-1 2,-1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3082"
+         height="1"
+         width="1"
+         y="0"
+         x="2"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-bottom"
+       transform="translate(19,1)">
+      <path
+         id="path3085"
+         d="M 2,5 2,6 3,6 3,5 2,5 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3087"
+         height="1"
+         width="1"
+         y="4"
+         x="2"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-left"
+       transform="translate(19,1)">
+      <path
+         id="path3090"
+         d="M -1,2 -1,3 0,3 0,2 -1,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3092"
+         height="1"
+         width="1"
+         y="2"
+         x="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-right"
+       transform="translate(19,1)">
+      <path
+         id="path3095"
+         d="M 5,2 5,3 6,3 6,2 5,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3097"
+         height="1"
+         width="1"
+         y="2"
+         x="4"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-topleft"
+       transform="translate(19,1)">
+      <path
+         id="path3100"
+         d="m 1,-1 c -1.1,0 -2,0.9 -2,2 L 0,1 C 0,0.4 0.4,0 1,0 l 0,-1 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3102"
+         d="M 1,0 C 0.446,0 0,0.446 0,1 L 1,1 1,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-topright"
+       transform="translate(18,0)">
+      <path
+         id="path3105"
+         d="M 5,0 5,1 C 5.6,1 6,1.4 6,2 L 7,2 C 7,0.9 6.1,0 5,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3107"
+         d="M 5,1 5,2 6,2 C 6,1.446 5.554,1 5,1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-bottomleft"
+       transform="translate(19,1)">
+      <path
+         id="path3110"
+         d="m -1,4 c 0,1.1 0.9,2 2,2 L 1,5 C 0.4,5 0,4.6 0,4 l -1,0 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3112"
+         d="M 0,4 C 0,4.554 0.446,5 1,5 L 1,4 0,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed-bottomright"
+       transform="translate(19,1)">
+      <path
+         id="path3115"
+         d="M 5,4 C 5,4.6 4.6,5 4,5 L 4,6 C 5.1,6 6,5.1 6,4 L 5,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3117"
+         d="M 4,4 4,5 C 4.554,5 5,4.554 5,4 L 4,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-top"
+       transform="translate(28,1)">
+      <path
+         id="path3120"
+         d="M 2,-1 2,0 3,0 3,-1 2,-1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3122"
+         height="1"
+         width="1"
+         y="0"
+         x="2"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-bottom"
+       transform="translate(28,1)">
+      <path
+         id="path3125"
+         d="M 2,5 2,6 3,6 3,5 2,5 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3127"
+         height="1"
+         width="1"
+         y="4"
+         x="2"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-left"
+       transform="translate(28,1)">
+      <path
+         id="path3130"
+         d="M -1,2 -1,3 0,3 0,2 -1,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3132"
+         height="1"
+         width="1"
+         y="2"
+         x="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-right"
+       transform="translate(28,1)">
+      <path
+         id="path3135"
+         d="M 5,2 5,3 6,3 6,2 5,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <rect
+         id="rect3137"
+         height="1"
+         width="1"
+         y="2"
+         x="4"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-topleft"
+       transform="translate(28,1)">
+      <path
+         id="path3140"
+         d="m 1,-1 c -1.1,0 -2,0.9 -2,2 L 0,1 C 0,0.4 0.4,0 1,0 l 0,-1 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3142"
+         d="M 1,0 C 0.446,0 0,0.446 0,1 L 1,1 1,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-topright"
+       transform="translate(27,0)">
+      <path
+         id="path3145"
+         d="M 5,0 5,1 C 5.6,1 6,1.4 6,2 L 7,2 C 7,0.9 6.1,0 5,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3147"
+         d="M 5,1 5,2 6,2 C 6,1.446 5.554,1 5,1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-bottomleft"
+       transform="translate(28,1)">
+      <path
+         id="path3150"
+         d="m -1,4 c 0,1.1 0.9,2 2,2 L 1,5 C 0.4,5 0,4.6 0,4 l -1,0 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3152"
+         d="M 0,4 C 0,4.554 0.446,5 1,5 L 1,4 0,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled-bottomright"
+       transform="translate(28,1)">
+      <path
+         id="path3155"
+         d="M 5,4 C 5,4.6 4.6,5 4,5 L 4,6 C 5.1,6 6,5.1 6,4 L 5,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#121212;fill-opacity:1" />
+      <path
+         id="path3157"
+         d="M 4,4 4,5 C 4.554,5 5,4.554 5,4 L 4,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-disabled-top"
+       transform="translate(37,1)">
+      <path
+         id="path3160"
+         d="M 2,-1 2,0 3,0 3,-1 2,-1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <rect
+         id="rect3162"
+         height="1"
+         width="1"
+         y="0"
+         x="2"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-bottom"
+       transform="translate(37,1)">
+      <path
+         id="path3165"
+         d="M 2,5 2,6 3,6 3,5 2,5 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <rect
+         id="rect3167"
+         height="1"
+         width="1"
+         y="4"
+         x="2"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-left"
+       transform="translate(37,1)">
+      <path
+         id="path3170"
+         d="M -1,2 -1,3 0,3 0,2 -1,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <rect
+         id="rect3172"
+         height="1"
+         width="1"
+         y="2"
+         x="0"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-right"
+       transform="translate(37,1)">
+      <path
+         id="path3175"
+         d="M 5,2 5,3 6,3 6,2 5,2 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <rect
+         id="rect3177"
+         height="1"
+         width="1"
+         y="2"
+         x="4"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-topleft"
+       transform="translate(37,1)">
+      <path
+         id="path3180"
+         d="m 1,-1 c -1.1,0 -2,0.9 -2,2 L 0,1 C 0,0.4 0.4,0 1,0 l 0,-1 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <path
+         id="path3182"
+         d="M 1,0 C 0.446,0 0,0.446 0,1 L 1,1 1,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-topright"
+       transform="translate(36,0)">
+      <path
+         id="path3185"
+         d="M 5,0 5,1 C 5.6,1 6,1.4 6,2 L 7,2 C 7,0.9 6.1,0 5,0 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <path
+         id="path3187"
+         d="M 5,1 5,2 6,2 C 6,1.446 5.554,1 5,1 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-bottomleft"
+       transform="translate(37,1)">
+      <path
+         id="path3190"
+         d="m -1,4 c 0,1.1 0.9,2 2,2 L 1,5 C 0.4,5 0,4.6 0,4 l -1,0 z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <path
+         id="path3192"
+         d="M 0,4 C 0,4.554 0.446,5 1,5 L 1,4 0,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-disabled-bottomright"
+       transform="translate(37,1)">
+      <path
+         id="path3195"
+         d="M 5,4 C 5,4.6 4.6,5 4,5 L 4,6 C 5.1,6 6,5.1 6,4 L 5,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#212121;fill-opacity:1" />
+      <path
+         id="path3197"
+         d="M 4,4 4,5 C 4.554,5 5,4.554 5,4 L 4,4 Z"
+         inkscape:connector-curvature="0"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+    <g
+       id="button-focused"
+       transform="translate(10,1)">
+      <rect
+         id="rect3450"
+         height="1"
+         width="1"
+         y="2"
+         x="2"
+         style="opacity:1;fill:#333333;fill-opacity:1" />
+    </g>
+    <g
+       id="button-pressed"
+       transform="translate(19,1)">
+      <rect
+         id="rect3453"
+         height="1"
+         width="1"
+         y="2"
+         x="2"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-toggled"
+       transform="translate(28,1)">
+      <rect
+         id="rect3456"
+         height="1"
+         width="1"
+         y="2"
+         x="2"
+         style="opacity:1;fill:#242424;fill-opacity:1" />
+    </g>
+    <g
+       id="button-disabled"
+       transform="translate(37,1)">
+      <rect
+         id="rect3459"
+         height="1"
+         width="1"
+         y="2"
+         x="2"
+         style="opacity:0;fill:#5288d1" />
+    </g>
+  </g>

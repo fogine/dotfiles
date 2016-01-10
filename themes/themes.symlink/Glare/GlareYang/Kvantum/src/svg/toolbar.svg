@@ -1,0 +1,819 @@
+  <g
+     id="layer9"
+     fill="#f5f5f5"
+     inkscape:label="toolbar"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="toolbar-normal"
+       transform="translate(1)">
+      <rect
+         id="rect3221-1"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-normal-topleft"
+       transform="translate(1,1)">
+      <rect
+         id="rect3991-8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect3995-0"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-normal-bottomleft"
+       transform="translate(1,-1)">
+      <rect
+         id="rect3993-3"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect3997-9"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-normal-left"
+       inkscape:label="#toolbar-normal-left"
+       transform="translate(-1)">
+      <rect
+         id="rect4012-8"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-normal-right"
+       transform="translate(3)">
+      <rect
+         id="rect4016-8"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-normal-top"
+       transform="translate(3,1)">
+      <rect
+         id="rect4020-9"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect4022-1"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-normal-topright"
+       transform="translate(5,1)">
+      <rect
+         id="rect4026-9"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect4028-4"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-normal-bottom"
+       transform="translate(3,-1)">
+      <rect
+         id="rect4032-6"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect4034-6"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-normal-bottomright"
+       transform="translate(5,-1)">
+      <rect
+         id="rect4038-7"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect4040-0"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-focused-top"
+       transform="translate(10,1)">
+      <rect
+         id="rect6125"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6127"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-focused-bottom"
+       transform="translate(10,-1)">
+      <rect
+         id="rect6130"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6132"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-focused-left"
+       inkscape:label="#toolbar-normal-left"
+       transform="translate(6)">
+      <rect
+         id="rect6135"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-focused-right"
+       transform="translate(10)">
+      <rect
+         id="rect6138"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-focused-topleft"
+       transform="translate(8,1)">
+      <rect
+         id="rect6141"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6143"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-focused-topright"
+       transform="translate(12,1)">
+      <rect
+         id="rect6146"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6148"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-focused-bottomleft"
+       transform="translate(8,-1)">
+      <rect
+         id="rect6151"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6153"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-focused-bottomright"
+       transform="translate(12,-1)">
+      <rect
+         id="rect6156"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6158"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-pressed-top"
+       transform="translate(17,1)">
+      <rect
+         id="rect6161"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6163"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-pressed-bottom"
+       transform="translate(17,-1)">
+      <rect
+         id="rect6166"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6168"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-pressed-left"
+       inkscape:label="#toolbar-normal-left"
+       transform="translate(13)">
+      <rect
+         id="rect6171"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-pressed-right"
+       transform="translate(17)">
+      <rect
+         id="rect6174"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-pressed-topleft"
+       transform="translate(15,1)">
+      <rect
+         id="rect6177"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6179"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-pressed-topright"
+       transform="translate(19,1)">
+      <rect
+         id="rect6182"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6184"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-pressed-bottomleft"
+       transform="translate(15,-1)">
+      <rect
+         id="rect6187"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6189"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-pressed-bottomright"
+       transform="translate(19,-1)">
+      <rect
+         id="rect6192"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6194"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-toggled-top"
+       transform="translate(24,1)">
+      <rect
+         id="rect6197"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6199"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-toggled-bottom"
+       transform="translate(24,-1)">
+      <rect
+         id="rect6202"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6204"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-toggled-left"
+       inkscape:label="#toolbar-normal-left"
+       transform="translate(20)">
+      <rect
+         id="rect6207"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-toggled-right"
+       transform="translate(24)">
+      <rect
+         id="rect6210"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-toggled-topleft"
+       transform="translate(22,1)">
+      <rect
+         id="rect6213"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6215"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-toggled-topright"
+       transform="translate(26,1)">
+      <rect
+         id="rect6218"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6220"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-toggled-bottomleft"
+       transform="translate(22,-1)">
+      <rect
+         id="rect6223"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6225"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-toggled-bottomright"
+       transform="translate(26,-1)">
+      <rect
+         id="rect6228"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6230"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-disabled-top"
+       transform="translate(31,1)">
+      <rect
+         id="rect6233"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6235"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-disabled-bottom"
+       transform="translate(31,-1)">
+      <rect
+         id="rect6238"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6240"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-disabled-left"
+       inkscape:label="#toolbar-normal-left"
+       transform="translate(27)">
+      <rect
+         id="rect6243"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-disabled-right"
+       transform="translate(31)">
+      <rect
+         id="rect6246"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-disabled-topleft"
+       transform="translate(29,1)">
+      <rect
+         id="rect6249"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6251"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-disabled-topright"
+       transform="translate(33,1)">
+      <rect
+         id="rect6254"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6256"
+         opacity=".8"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         fill="#FFF" />
+    </g>
+    <g
+       id="toolbar-disabled-bottomleft"
+       transform="translate(29,-1)">
+      <rect
+         id="rect6259"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6261"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-disabled-bottomright"
+       transform="translate(33,-1)">
+      <rect
+         id="rect6264"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#f5f5f5" />
+      <rect
+         id="rect6266"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         fill="#000" />
+    </g>
+    <g
+       id="toolbar-focused"
+       transform="translate(8)">
+      <rect
+         id="rect7219"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-pressed"
+       transform="translate(15)">
+      <rect
+         id="rect7222"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-toggled"
+       transform="translate(22)">
+      <rect
+         id="rect7225"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-disabled"
+       transform="translate(29)">
+      <rect
+         id="rect7228"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         fill="#f5f5f5" />
+    </g>
+    <g
+       id="toolbar-handle">
+      <rect
+         id="rect3005"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-11"
+         x="-7" />
+      <g
+         id="g4"
+         fill-rule="evenodd"
+         transform="translate(-5,-11)">
+        <g
+           id="g6"
+           fill="#000"
+           transform="translate(1,-1043)">
+          <path
+             id="path8"
+             opacity=".3"
+             inkscape:connector-curvature="0"
+             d="m0 1044h2v1h-2z" />
+          <path
+             id="path10"
+             opacity=".3"
+             inkscape:connector-curvature="0"
+             d="m0 1047h2v1h-2z" />
+          <path
+             id="path12"
+             opacity=".3"
+             inkscape:connector-curvature="0"
+             d="m0 1050h2v1h-2z" />
+        </g>
+        <g
+           id="g14"
+           fill="#FFF">
+          <path
+             id="path16"
+             opacity=".3"
+             d="m1 2h2v1h-2z"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path18"
+             opacity=".3"
+             d="m1 5h2v1h-2z"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path20"
+             opacity=".3"
+             d="m1 8h2v1h-2z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="toolbar-separator">
+      <rect
+         id="rect5220"
+         opacity="0"
+         height="8"
+         width="9"
+         y="-11"
+         x="9" />
+      <rect
+         id="rect9750"
+         opacity=".0964"
+         height="4"
+         width="1"
+         y="-9"
+         x="13"
+         fill="#000" />
+    </g>
+  </g>

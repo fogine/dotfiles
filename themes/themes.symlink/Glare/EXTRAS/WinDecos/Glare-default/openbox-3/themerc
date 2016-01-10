@@ -1,0 +1,110 @@
+# Name: Glare-ob3
+# Author: sxsixfive <sixsixfive.deviantart.com>
+
+# Menu settings
+menu.title.bg: Flat Solid
+menu.title.bg.color: #407dec
+menu.title.text.color: #ffffff
+menu.title.text.justify: Right
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #ffffff
+menu.items.text.color: #555555
+menu.items.disabled.text.color: #dadada
+
+menu.items.active.bg: Flat Vertical
+menu.items.active.bg.color: rgb:#407dec
+menu.items.active.text.color: #fafafa
+menu.separator.color: #cccccc
+
+# Window settings (focused)
+window.active.title.bg: Flat Solid
+window.active.title.bg.color: rgb:FF/FF/FF
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: rgb:5A/5A/5A
+
+window.active.handle.bg: Flat Solid
+window.active.handle.bg.color: #ff00ff
+
+window.active.grip.bg: Flat Solid
+window.active.grip.bg.color: #ff00ff
+
+window.active.button.unpressed.bg: Flat Solid
+window.active.button.unpressed.bg.color: rgb:FF/FF/FF
+window.active.button.unpressed.image.color: rgb:5A/5A/5A
+
+window.active.button.pressed.bg: Flat Solid
+window.active.button.pressed.bg.color: rgb:FF/FF/FF
+window.active.button.pressed.image.color:rgb:#407dec
+
+window.active.button.disabled.bg: Flat Solid
+window.active.button.disabled.bg.color: rgb:FF/FF/FF
+window.active.button.disabled.image.color: rgb:99/99/99
+
+window.active.button.hover.bg: Flat Vertical
+window.active.button.hover.bg.color: rgb:FF/FF/FF
+window.active.button.hover.image.color: rgb:5A/5A/5A
+
+window.active.button.toggled.bg: Flat Solid
+window.active.button.toggled.bg.color: rgb:FF/FF/FF
+window.active.button.toggled.image.color: rgb:40/7d/ec
+
+window.active.border.color: #cccccc
+window.active.title.separator.color: #cccccc
+
+# Window settings (unfocused)
+window.inactive.title.bg: flat gradient vertical
+window.inactive.title.bg.color: #efefef
+window.inactive.title.bg.colorTo: #ffffff
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #999999
+
+window.inactive.handle.bg: Flat Solid
+window.inactive.handle.bg.color: #ff00ff
+
+window.inactive.grip.bg: Flat Solid
+window.inactive.grip.bg.color: #ff00ff
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #c2c2c2
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #c2c2c2
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #fafafa
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #c2c2c2
+
+window.inactive.button.toggled.bg: Parentrelative
+window.inactive.button.toggled.image.color: #c2c2c2
+
+window.inactive.border.color: #dbdbdb
+window.inactive.title.separator.color: #cccccc
+
+### OSD
+###make the OSD grey or dockapps look terrible
+osd.border.width:1
+osd.border.color:#555555
+
+osd.bg: flat
+osd.bg.color:#888888
+
+osd.label.bg: parentrelative
+osd.label.text.color:#333333
+
+### Everything else
+border.width: 1
+padding.width: 3
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: Right
+menu.overlap: 0
+
+### Fonts
+window.active.label.text.font:pixelsize=12:shadow=n:shadowtint=0:shadowoffset=0
+window.inactive.label.text.fontpixelsize=12:shadow=n:shadowtint=0:shadowoffset=0
+menu.title.text.fontpixelsize=1:shadow=n:shadowtint=0

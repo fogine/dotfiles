@@ -1,0 +1,160 @@
+.button{
+color:@windowtext;
+background:@btnnorbg;
+border:1px solid @genborder;
+border-radius:2px;}
+
+.button:hover,
+.toolbar .button:hover,
+.titlebar .button:hover,
+.header-bar .button:hover,
+.notebook tab .button:hover{
+border:1px solid @genborderdark;
+background:@buttonnorbg;}
+
+.button:active,
+.button:checked,
+.button:active:hover,
+.button:checked:hover,
+.button.flat:active,
+.button.flat:checked,
+.button.flat:active:hover,
+.button.flat:checked:hover,
+.titlebar .button:active,
+.titlebar .button:checked,
+.titlebar .button:active:hover,
+.titlebar .button:checked:hover,
+.toolbar .button:active,
+.toolbar .button:checked,
+.toolbar .button:active:hover,
+.toolbar .button:checked:hover,
+.header-bar .button:active,
+.header-bar .button:checked,
+.header-bar .button:active:hover,
+.header-bar .button:checked:hover,
+.notebook tab .button:active:hover,
+.notebook tab .button:checked:hover,
+*.button:checked:insensitive,
+*.button:checked:insensitive:hover,
+*.button:backdrop:checked:insensitive,
+*.button:backdrop:checked:insensitive:hover{
+background:@btnacthovbg;
+border:1px solid @genborderdark;}
+
+*.button.flat,
+*.button.flat:hover,
+*.button.flat:insensitive,
+*.button.flat:backdrop:insensitive,
+*.button.flat:backdrop:insensitive:hover,
+.toolbar .button,
+.toolbar .button:insensitive,
+.titlebar .button,
+.titlebar .button:insensitive,
+.header-bar .button
+.header-bar .button:insensitive,
+.notebook tab .button{
+background:none;
+border-color:transparent;}
+
+GtkComboBox > .button:dir(ltr),
+GtkComboBox > .button:dir(rtl){
+color:@windowtext;
+background:@btnnorbg;
+border:1px solid @genborder;}
+
+.button:backdrop:insensitive,
+.button:insensitive{
+background:@btninsbg;
+border:1px solid @genborder;}
+
+.toolbar .button:backdrop:insensitive,
+.toolbar .button:insensitive{
+background:transparent;
+border:1px solid transparent;}
+
+GtkComboBox.combobox-entry .button:last-child{
+border-left:none;
+border-top-left-radius:0px;
+border-bottom-left-radius:0px;}
+
+/*link buttons*/
+.button:link,
+.button:link:hover,
+.button:link:checked,
+.button:link:active:hover,
+.button:visited,
+.button:visited:hover,
+.button:visited:checked,
+.button:visited:active:hover{
+background:none;
+border:1px solid transparent;
+color:@url;}
+
+.button:visited,
+.button:visited:hover,
+.button:visited:checked,
+.button:visited:active:hover{
+color:@visitedurl;}
+
+/*spin buttons*/
+.spinbutton.horizontal .button,
+.spinbutton.horizontal .button:hover,
+.spinbutton.horizontal .button:checked,
+.spinbutton.horizontal .button:active,
+.spinbutton.horizontal .button:insensitive {
+border-radius:0px;
+background:none;
+border: none;}
+
+.spinbutton.vertical .button:first-child,
+.spinbutton.vertical .button:first-child:hover,
+.spinbutton.vertical .button:first-child:checked,
+.spinbutton.vertical .button:first-child:active,
+.spinbutton.vertical .button:first-child:insensitive {
+border-bottom:none;
+border-radius:0px;
+border-top-left-radius:2px;
+border-top-right-radius:2px;}
+
+.spinbutton.vertical .button:last-child,
+.spinbutton.vertical .button:last-child:hover,
+.spinbutton.vertical .button:last-child:checked,
+.spinbutton.vertical .button:last-child:active,
+.spinbutton.vertical .button:last-child:insensitive {
+border-top:none;
+border-radius:0px;
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;}
+
+/*the more weird stuff*/
+.popover .button,
+.popover .button:insensitive,
+.popover .button:checked {
+border:none;
+border-radius:0px;
+background:@basebg;}
+
+.popover .button:hover,
+.popover .button:checked:hover,
+.popover .button:active:hover {
+border:none;
+background:@hilight;
+color:@hilighttext;}
+
+.list-row.button,
+.list-row.button:insensitive,
+.list-row.button:backdrop{
+color:@windowtext;
+border-color:transparent;
+border-radius:0px;
+background:@basebg;}
+
+.list-row.button:checked,
+.list-row.button:active,
+.list-row.button:active:hover,
+.list-row.button:selected:hover,
+.list-row.button:selected:active,
+.list-row.button:selected,
+.list-row.button:selected:backdrop{
+background:@hilight;
+color:@hilighttext;}

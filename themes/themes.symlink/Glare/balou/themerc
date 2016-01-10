@@ -1,0 +1,10 @@
+[Info]
+Name=Glare
+Description=Simple Balou splash theme.
+
+[Splash Screen]
+bgcolor=#333333
+fgcolor=#fafafa
+logo=logo
+
+

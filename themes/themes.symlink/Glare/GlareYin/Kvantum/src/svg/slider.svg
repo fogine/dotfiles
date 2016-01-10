@@ -1,0 +1,431 @@
+    <g
+     id="layer31"
+     inkscape:label="slider"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="slider-normal-top"
+       transform="translate(-1)">
+      <path
+         id="path7024"
+         opacity=".35"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="slider-normal-bottom"
+       transform="translate(-1)">
+      <path
+         id="path5762"
+         opacity=".35"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal-left"
+       transform="translate(-1)">
+      <path
+         id="path7029"
+         opacity=".35"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal-right"
+       transform="translate(-1)">
+      <path
+         id="path5768"
+         opacity=".35"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal-topleft"
+       transform="translate(-1)">
+      <path
+         id="path5771"
+         opacity=".35"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal-topright"
+       transform="translate(-1)">
+      <path
+         id="path7036"
+         opacity=".35"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal-bottomleft"
+       transform="translate(-1)">
+      <path
+         id="path5777"
+         opacity=".35"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal-bottomright"
+       transform="translate(-1)">
+      <path
+         id="path7041"
+         opacity=".35"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-top"
+       transform="translate(10)">
+      <path
+         id="path5783"
+         opacity=".35"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="slider-focused-bottom"
+       transform="translate(10)">
+      <path
+         id="path5786"
+         opacity=".35"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-left"
+       transform="translate(10)">
+      <path
+         id="path5789"
+         opacity=".35"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-right"
+       transform="translate(10)">
+      <path
+         id="path5792"
+         opacity=".35"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-topleft"
+       transform="translate(10)">
+      <path
+         id="path5795"
+         opacity=".35"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-topright"
+       transform="translate(10)">
+      <path
+         id="path5798"
+         opacity=".35"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-bottomleft"
+       transform="translate(10)">
+      <path
+         id="path5801"
+         opacity=".35"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-focused-bottomright"
+       transform="translate(10)">
+      <path
+         id="path5804"
+         opacity=".35"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-top"
+       transform="translate(21)">
+      <path
+         id="path5807"
+         opacity=".35"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="slider-pressed-bottom"
+       transform="translate(21)">
+      <path
+         id="path5810"
+         opacity=".35"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-left"
+       transform="translate(21)">
+      <path
+         id="path5813"
+         opacity=".35"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-right"
+       transform="translate(21)">
+      <path
+         id="path5816"
+         opacity=".35"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-topleft"
+       transform="translate(21)">
+      <path
+         id="path5819"
+         opacity=".35"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-topright"
+       transform="translate(21)">
+      <path
+         id="path5822"
+         opacity=".35"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-bottomleft"
+       transform="translate(21)">
+      <path
+         id="path5825"
+         opacity=".35"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-pressed-bottomright"
+       transform="translate(21)">
+      <path
+         id="path5828"
+         opacity=".35"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       fill="#407dec"
+       id="g2116">
+      <g
+         id="slider-toggled-top"
+         transform="translate(32)">
+        <path
+           id="path5831"
+           d="m3-1v3h1v-3h-1z"
+           inkscape:connector-curvature="0"
+           inkscape:label="#p56565"
+           fill="#407dec" />
+      </g>
+      <g
+         id="slider-toggled-bottom"
+         transform="translate(32)">
+        <path
+           id="path5834"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m4 5h-1v3h1v-3z" />
+      </g>
+      <g
+         id="slider-toggled-left"
+         transform="translate(32)">
+        <path
+           id="path5837"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m2 4v-1h-3v1h3z" />
+      </g>
+      <g
+         id="slider-toggled-right"
+         transform="translate(32)">
+        <path
+           id="path5840"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m5 3v1h3v-1h-3z" />
+      </g>
+      <g
+         id="slider-toggled-topleft"
+         transform="translate(32)">
+        <path
+           id="path5843"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m2-1c-1.662 0-3 1.338-3 3h3v-3z" />
+      </g>
+      <g
+         id="slider-toggled-topright"
+         transform="translate(32)">
+        <path
+           id="path5846"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m5-1v3h3c0-1.662-1.338-3-3-3z" />
+      </g>
+      <g
+         id="slider-toggled-bottomleft"
+         transform="translate(32)">
+        <path
+           id="path5849"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z" />
+      </g>
+      <g
+         id="slider-toggled-bottomright"
+         transform="translate(32)">
+        <path
+           id="path5852"
+           inkscape:connector-curvature="0"
+           fill="#407dec"
+           d="m5 5v3c1.662 0 3-1.338 3-3h-3z" />
+      </g>
+    </g>
+    <g
+       id="slider-disabled-top"
+       transform="translate(43)">
+      <path
+         id="path5855"
+         opacity=".35"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="slider-disabled-bottom"
+       transform="translate(43)">
+      <path
+         id="path5858"
+         opacity=".35"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-disabled-left"
+       transform="translate(43)">
+      <path
+         id="path5861"
+         opacity=".35"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-disabled-right"
+       transform="translate(43)">
+      <path
+         id="path5864"
+         opacity=".35"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-disabled-topleft"
+       transform="translate(43)">
+      <path
+         id="path5867"
+         opacity=".35"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-disabled-topright"
+       transform="translate(43)">
+      <path
+         id="path5870"
+         opacity=".35"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-disabled-bottomleft"
+       transform="translate(43)">
+      <path
+         id="path5873"
+         opacity=".35"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-disabled-bottomright"
+       transform="translate(43)">
+      <path
+         id="path5876"
+         opacity=".35"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="slider-normal"
+       transform="translate(-1)">
+      <rect
+         id="rect9743"
+         opacity=".35"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="slider-focused"
+       transform="translate(10)">
+      <rect
+         id="rect9746"
+         opacity=".35"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="slider-pressed"
+       transform="translate(21)">
+      <rect
+         id="rect9749"
+         opacity=".35"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="slider-toggled"
+       fill="#407dec"
+       transform="translate(32)">
+      <rect
+         id="rect9752"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="slider-disabled"
+       transform="translate(43)">
+      <rect
+         id="rect9755"
+         opacity=".35"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+  </g> 

@@ -1,0 +1,12 @@
+GtkExpander{
+-GtkExpander-expander-size: 16;}
+
+*.expander {
+-gtk-icon-source: -gtk-scaled(url("images/small-expander-collapsed.svg")); }
+*.expander:checked {
+-gtk-icon-source: -gtk-scaled(url("images/small-expander-expanded.svg")); }
+
+GtkTreeView.expander {
+-gtk-icon-source: -gtk-scaled(url("images/expander-collapsed.svg")); }
+GtkTreeView.expander:checked {
+-gtk-icon-source: -gtk-scaled(url("images/expander-expanded.svg")); }

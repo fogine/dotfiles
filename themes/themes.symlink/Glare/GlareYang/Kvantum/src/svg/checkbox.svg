@@ -1,0 +1,420 @@
+<g
+     id="layer13"
+     inkscape:label="checkbox-unchecked"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="checkbox-normal">
+      <rect
+         id="rect8917"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+      <path
+         id="path8900"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path8902"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="checkbox-focused"
+       transform="translate(14)">
+      <rect
+         id="rect9602"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+      <path
+         id="path9604"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path9606"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="checkbox-pressed"
+       transform="translate(29)">
+      <rect
+         id="rect9609"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+      <path
+         id="path9611"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path9613"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="checkbox-toggled"
+       transform="translate(43)">
+      <rect
+         id="rect9616"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+      <path
+         id="path9618"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path9620"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="checkbox-disabled"
+       transform="translate(57)">
+      <rect
+         id="rect9623"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+      <path
+         id="path9625"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path9627"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="layer14"
+     inkscape:label="checkbox-checked"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="checkbox-checked-normal">
+      <path
+         id="path10426"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path10428"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path10430"
+         stroke-linejoin="round"
+         d="m3 0 3 3 4-7"
+         inkscape:connector-curvature="0"
+         stroke="#5a5a5a"
+         stroke-linecap="round"
+         stroke-width="2"
+         fill="none" />
+      <rect
+         id="rect10443"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-checked-focused"
+       transform="translate(14)">
+      <path
+         id="path12593"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path12595"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12597"
+         stroke-linejoin="round"
+         d="m3 0 3 3 4-7"
+         inkscape:connector-curvature="0"
+         stroke="#5a5a5a"
+         stroke-linecap="round"
+         stroke-width="2"
+         fill="none" />
+      <rect
+         id="rect12599"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-checked-pressed"
+       transform="translate(29)">
+      <path
+         id="path12602"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path12604"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12606"
+         stroke-linejoin="round"
+         d="m3 0 3 3 4-7"
+         inkscape:connector-curvature="0"
+         stroke="#5a5a5a"
+         stroke-linecap="round"
+         stroke-width="2"
+         fill="none" />
+      <rect
+         id="rect12608"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-checked-toggled"
+       transform="translate(43)">
+      <path
+         id="path12611"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path12613"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12615"
+         stroke-linejoin="round"
+         d="m3 0 3 3 4-7"
+         inkscape:connector-curvature="0"
+         stroke="#5a5a5a"
+         stroke-linecap="round"
+         stroke-width="2"
+         fill="none" />
+      <rect
+         id="rect12617"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-checked-disabled"
+       transform="translate(58)">
+      <path
+         id="path12620"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-3c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path12622"
+         opacity=".1"
+         d="m1.1-4c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12624"
+         stroke-linejoin="round"
+         d="m3 0 3 3 4-7"
+         inkscape:connector-curvature="0"
+         stroke="#999"
+         stroke-linecap="round"
+         stroke-width="2"
+         fill="none" />
+      <rect
+         id="rect12626"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+  </g>
+  <g
+     id="layer15"
+     inkscape:label="checkbox-tristate"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="checkbox-tristate-normal">
+      <path
+         id="path14154"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-2.9c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path14156"
+         opacity=".1"
+         d="m1.1-3.9c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path14158"
+         d="m2.7 0.1a0.80623 1.0078 0 1 0 0.2 2h5.3a0.8 1 0 0 0 0 -2h-5.3a0.8 1 0 0 0 -0.2 0z"
+         style="color:#000000"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect14171"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-tristate-focused"
+       transform="translate(14)">
+      <path
+         id="path14905"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-2.9c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path14907"
+         opacity=".1"
+         d="m1.1-3.9c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path14909"
+         d="m2.7 0.1a0.80623 1.0078 0 1 0 0.2 2h5.3a0.8 1 0 0 0 0 -2h-5.3a0.8 1 0 0 0 -0.2 0z"
+         style="color:#000000"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect14911"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-tristate-pressed"
+       transform="translate(28)">
+      <path
+         id="path14914"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-2.9c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path14916"
+         opacity=".1"
+         d="m1.1-3.9c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path14918"
+         d="m2.7 0.1a0.80623 1.0078 0 1 0 0.2 2h5.3a0.8 1 0 0 0 0 -2h-5.3a0.8 1 0 0 0 -0.2 0z"
+         style="color:#000000"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect14920"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-tristate-toggled"
+       transform="translate(42)">
+      <path
+         id="path14923"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-2.9c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path14925"
+         opacity=".1"
+         d="m1.1-3.9c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path14927"
+         d="m2.7 0.1a0.80623 1.0078 0 1 0 0.2 2h5.3a0.8 1 0 0 0 0 -2h-5.3a0.8 1 0 0 0 -0.2 0z"
+         style="color:#000000"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect14929"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="checkbox-tristate-disabled"
+       transform="translate(56)">
+      <path
+         id="path14932"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m1.1-2.9c-0.1 0-0.1 0-0.1 0.1v8.8c0 0.1 0 0.1 0.1 0.1h8.8c0.1 0 0.1 0 0.1-0.1v-8.8c0-0.1 0-0.1-0.1-0.1h-8.8z" />
+      <path
+         id="path14934"
+         opacity=".1"
+         d="m1.1-3.9c-0.6 0-1.1 0.5-1.1 1.1v8.8c0 0.6 0.5 1.1 1.1 1.1h8.8c0.6 0 1.1-0.5 1.1-1.1v-8.8c0-0.6-0.5-1.1-1.1-1.1h-8.8zm-0.1 1h8.9c0.1 0 0.1 0 0.1 0.1v8.8c0 0.1 0 0.1-0.1 0.1h-8.8c-0.1 0-0.1 0-0.1-0.1v-8.9z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path14936"
+         d="m2.7 0.1a0.80623 1.0078 0 1 0 0.2 2h5.3a0.8 1 0 0 0 0 -2h-5.3a0.8 1 0 0 0 -0.2 0z"
+         style="color:#000000"
+         fill="#999"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect14938"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+  </g>

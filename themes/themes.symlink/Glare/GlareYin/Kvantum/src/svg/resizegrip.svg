@@ -1,0 +1,50 @@
+  <g
+     id="layer16"
+     inkscape:label="resize-grip"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="resize-grip-normal">
+      <path
+         id="path15758"
+         opacity=".2"
+         d="m0 0 7-7v14h-14z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="resize-grip-focused"
+       transform="translate(16)">
+      <path
+         id="path16516"
+         opacity=".2"
+         d="m0 0 7-7v14h-14z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="resize-grip-pressed"
+       transform="translate(32)">
+      <path
+         id="path16519"
+         opacity=".2"
+         d="m0 0 7-7v14h-14z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="resize-grip-toggled"
+       transform="translate(48)">
+      <path
+         id="path16522"
+         opacity=".2"
+         d="m0 0 7-7v14h-14z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="resize-grip-disabled"
+       transform="translate(64)">
+      <path
+         id="path16525"
+         opacity=".2"
+         d="m0 0 7-7v14h-14z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>

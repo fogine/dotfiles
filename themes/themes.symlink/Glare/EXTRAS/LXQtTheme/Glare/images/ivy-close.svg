@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+<!--part of the ivy icon theme by sixsixfive released under cc_by-sa-v4-->
+ <defs>
+  <linearGradient y1="6.994" x2="0" y2="13.994" id="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d02604"/>
+   <stop offset="1" stop-color="#fd9f8c"/>
+  </linearGradient>
+  <linearGradient y1="7.994" x2="0" y2="12.994" id="1" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <path d="m 2 8 v 7 c 9 -0.006 8.93369 0 19 0 V 8 C 2 7.994 12.06631 8 2 8 z" opacity="0.1"/>
+ <path d="m 2 6.994 v 7 c 19 0 8.933687 0 19 0 v -7 c -19 0 -8.933687 0 -19 0 z" fill="url(#0)"/>
+ <g fill="none">
+  <path d="m 2.5312 7.5252 v 5.9375 h 17.9375 v -5.9375 h -17.9375 z" opacity="0.4" stroke="#000"/>
+  <path d="m 3.5312 8.5252 v 3.9375 h 15.9375 v -3.9375 h -15.9375 z" opacity="0.4" stroke="url(#1)"/>
+ </g>
+</svg>

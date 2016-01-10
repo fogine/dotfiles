@@ -1,0 +1,410 @@
+  <g
+     id="layer17"
+     inkscape:label="radiobox-unchecked"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="radiobox-normal">
+      <path
+         id="path17339"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path17341"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect17353"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-focused"
+       transform="translate(14)">
+      <path
+         id="path18121"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path18123"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect18125"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-pressed"
+       transform="translate(28)">
+      <path
+         id="path18128"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path18130"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect18132"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-toggled"
+       transform="translate(42)">
+      <path
+         id="path18135"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path18137"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect18139"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-disabled"
+       transform="translate(56)">
+      <path
+         id="path18142"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path18144"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect18146"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+  </g>
+  <g
+     id="layer18"
+     inkscape:label="radiobox-checked"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="radiobox-checked-normal">
+      <path
+         id="path18964"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path18966"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <path
+         id="path18968"
+         d="m8 1.5a2.5 2.5 0 0 1 -5 0 2.5 2.5 0 1 1 5 0z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect18981"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-checked-focused"
+       transform="translate(14)">
+      <path
+         id="path19773"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path19775"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <path
+         id="path19777"
+         d="m8 1.5a2.5 2.5 0 0 1 -5 0 2.5 2.5 0 1 1 5 0z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect19779"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-checked-pressed"
+       transform="translate(28)">
+      <path
+         id="path19782"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path19784"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <path
+         id="path19786"
+         d="m8 1.5a2.5 2.5 0 0 1 -5 0 2.5 2.5 0 1 1 5 0z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect19788"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-checked-toggled"
+       transform="translate(42)">
+      <path
+         id="path19791"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path19793"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <path
+         id="path19795"
+         d="m8 1.5a2.5 2.5 0 0 1 -5 0 2.5 2.5 0 1 1 5 0z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect19797"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-checked-disabled"
+       transform="translate(56)">
+      <path
+         id="path19800"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path19802"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <path
+         id="path19804"
+         d="m8 1.5a2.5 2.5 0 0 1 -5 0 2.5 2.5 0 1 1 5 0z"
+         fill="#999"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect19806"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+  </g>
+  <g
+     id="layer19"
+     inkscape:label="radiobox-tristate"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="radiobox-tristate-normal">
+      <path
+         id="path20669"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path20671"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect20673"
+         rx="1"
+         height="2"
+         width="5"
+         y="0"
+         x="3"
+         fill="#5a5a5a" />
+      <rect
+         id="rect20686"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-tristate-focused"
+       transform="translate(14)">
+      <path
+         id="path21504"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path21506"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect21508"
+         rx="1"
+         height="2"
+         width="5"
+         y="0"
+         x="3"
+         fill="#5a5a5a" />
+      <rect
+         id="rect21510"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-tristate-pressed"
+       transform="translate(28)">
+      <path
+         id="path21513"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path21515"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect21517"
+         rx="1"
+         height="2"
+         width="5"
+         y="0"
+         x="3"
+         fill="#5a5a5a" />
+      <rect
+         id="rect21519"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-tristate-toggled"
+       transform="translate(42)">
+      <path
+         id="path21522"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path21524"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect21526"
+         rx="1"
+         height="2"
+         width="5"
+         y="0"
+         x="3"
+         fill="#5a5a5a" />
+      <rect
+         id="rect21528"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+    <g
+       id="radiobox-tristate-disabled"
+       transform="translate(56)">
+      <path
+         id="path21531"
+         opacity=".2"
+         d="m5.5-4c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5 5.5-2.5 5.5-5.5-2.5-5.5-5.5-5.5zm0 1c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path21533"
+         opacity=".8"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m9.8 1.4a4.4 4.4 0 0 1 -8.8 0 4.4 4.4 0 1 1 8.8 0z" />
+      <rect
+         id="rect21535"
+         rx="1"
+         height="2"
+         width="5"
+         y="0"
+         x="3"
+         fill="#999" />
+      <rect
+         id="rect21537"
+         opacity="0"
+         height="13"
+         width="13"
+         y="-5"
+         x="-1" />
+    </g>
+  </g>
