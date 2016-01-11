@@ -45,8 +45,8 @@
     'ctrl-q': 'tree-view:toggle'
     'o': 'tree-view:open-selected-entry'
 
-'body':
-    ':': 'command-palette:toggle'
+#'body':
+#    ':': 'command-palette:toggle'
 
 'atom-text-editor.vim-mode:not(.insert-mode)':
   'l': 'move-to-left-and-unfold-if-folded'

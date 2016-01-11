@@ -3,14 +3,11 @@
     userId: "b94c7867-193c-60e8-1aa1-91d77bb5cde5"
   welcome:
     showOnStartup: false
-  core:
-    {}
+  core: {}
   editor:
-    invisibles:
-      {}
-  jumpy:
-    {}
-  "vim-mode":
-    {}
-  pigments:
-    {}
+    invisibles: {}
+  jumpy: {}
+  "vim-mode": {}
+  pigments: {}
+  "autocomplete-plus": {}
+  "atom-autocomplete-php": {}
