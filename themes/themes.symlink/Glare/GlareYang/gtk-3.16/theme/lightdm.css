@@ -1,0 +1,79 @@
+#panel_window,
+#panel_window .menubar,
+#panel_window .menubar > .menuitem{
+background:black;
+color: white;
+font:bold;}
+
+#panel_window .menubar > .menuitem:active,
+#panel_window .menubar > .menuitem:selected,
+#panel_window .menubar > .menuitem:hover{
+background:@hilight;
+color:white;}
+
+#login_window,
+#shutdown_dialog,
+#restart_dialog {
+border-radius:4px;
+background:black;
+padding:0px;
+margin:0px;
+border:none;
+font:bold;}
+
+.lightdm-gtk-greeter .button,
+.lightdm-gtk-greeter .button.default{
+border:1px solid transparent;
+background:black;
+padding:5px;
+font:bold;}
+
+.lightdm-gtk-greeter .button:hover,
+.lightdm-gtk-greeter GtkComboBox .button:hover,
+.lightdm-gtk-greeter .button:hover:focus{
+color:@hilightext;}
+
+.lightdm-gtk-greeter .button:active,
+.lightdm-gtk-greeter .button:active:hover:focus{
+background:@hilight;
+color:@hilighttext;}
+
+#shutdown_button.button:active,
+#shutdown_button.button:active:hover {
+background:@off;}
+
+#login_window .entry{
+background:black;
+padding:5px 3px;
+border: 1px solid @lightdmdarkborder;}
+
+#login_window .entry:focus{
+border: 1px solid @lightdmlightborder;
+color:@hilighttext;}
+
+#content_frame{
+padding-bottom:6px;}
+
+#buttonbox_frame{
+padding-top: 20px;
+padding-bottom:0px;
+border:none;}
+
+#greeter_infobar{
+border:0px;
+color:rgba(0,0,0,0.6);
+font:bold;}
+
+#user_image_border {
+border:none;}
+
+.lightdm-gtk-greeter GtkComboBox .separator.vertical{
+color:transparent;}
+
+.lightdm-gtk-greeter GtkComboBox,
+.lightdm-gtk-greeter GtkComboBox .button,
+.lightdm-gtk-greeter GtkComboBox .button:hover:focus{
+border: 1px solid @lightdmdarkborder;
+background:@hilight;
+color:@hilighttext;
+padding:5px 3px;}

@@ -1,0 +1,28 @@
+.level-bar {
+-GtkLevelBar-min-block-width: 12;
+-GtkLevelBar-min-block-height: 5; }
+.level-bar.vertical {
+-GtkLevelBar-min-block-width: 12;
+-GtkLevelBar-min-block-height: 5; }
+
+.level-bar.trough {
+border:none;
+border-radius:3px;
+color:transparent;
+background:@genborder; }
+
+.level-bar.fill-block {
+background-color:@hilight;
+border-radius:3px;}
+
+.level-bar.fill-block.indicator-discrete.horizontal{
+margin: 0px 4px;}
+.level-bar.fill-block.indicator-discrete.vertical {
+margin: 0px 4px; }
+.level-bar.fill-block.level-high {
+background-color:@hilight;}
+
+.level-bar.fill-block.level-low {
+background-color:transparent; }
+.level-bar.fill-block.empty-fill-block {
+background-color:transparent;}

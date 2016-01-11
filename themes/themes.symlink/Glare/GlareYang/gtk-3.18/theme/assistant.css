@@ -1,0 +1,11 @@
+GtkAssistant .sidebar{
+background:@basebg;
+border-left:none;
+border-top:none;
+border-bottom:none;
+font: bold;}
+GtkAssistant .sidebar GtkLabel{
+padding: 5px 3px;}
+GtkAssistant .sidebar GtkLabel.highlight {
+background:@hilight;
+color:@hilighttext;}

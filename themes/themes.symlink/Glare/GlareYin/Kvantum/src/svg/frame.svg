@@ -1,0 +1,552 @@
+  <g
+     id="layer10"
+     inkscape:label="frame"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="g708">
+      <g
+         id="frame-normal-top"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 1.7748 -98.029)">
+        <rect
+           id="rect3949"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-bottom"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 1.7748 -107.03)">
+        <rect
+           id="rect3952"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-left"
+         opacity="1.0"
+         transform="matrix(1 0 0 0.1 -9.2519 -7.1029)">
+        <rect
+           id="rect3955"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-right"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 -18.252 -7.1029)">
+        <rect
+           id="rect3958"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-topleft"
+         opacity="1.0"
+         transform="translate(-9.2519 -98.029)">
+        <rect
+           id="rect3961"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-bottomleft"
+         opacity="1.0"
+         transform="translate(-9.2519 -107.03)">
+        <rect
+           id="rect3964"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-topright"
+         opacity="1.0"
+         transform="translate(-18.252 -98.029)">
+        <rect
+           id="rect3967"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-normal-bottomright"
+         opacity="1.0"
+         transform="translate(-18.252 -107.03)">
+        <rect
+           id="rect3970"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+    </g>
+    <g
+       id="frame-normal"
+       fill="#383838"
+       transform="translate(-5 -3)">
+      <rect
+         id="rect4471"
+         height="1"
+         width="1"
+         y="6"
+         x="8"
+         fill="#383838" />
+    </g>
+    <g
+       id="g728">
+      <g
+         id="frame-focused-top"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 8.7748 -98.029)">
+        <rect
+           id="rect4980"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-bottom"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 8.7748 -107.03)">
+        <rect
+           id="rect4983"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-left"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 -2.2519 -7.1029)">
+        <rect
+           id="rect4986"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-right"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 -11.252 -7.1029)">
+        <rect
+           id="rect4989"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-topleft"
+         opacity="1.0"
+         transform="translate(-2.2519 -98.029)">
+        <rect
+           id="rect4992"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-topright"
+         opacity="1.0"
+         transform="translate(-11.252 -98.029)">
+        <rect
+           id="rect4995"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-bottomleft"
+         opacity="1.0"
+         transform="translate(-2.2519 -107.03)">
+        <rect
+           id="rect4998"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-focused-bottomright"
+         opacity="1.0"
+         transform="translate(-11.252 -107.03)">
+        <rect
+           id="rect5001"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-top"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 15.775 -98.029)">
+        <rect
+           id="rect5004"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-bottom"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 15.775 -107.03)">
+        <rect
+           id="rect5007"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-left"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 4.7481 -7.1029)">
+        <rect
+           id="rect5010"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-right"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 -4.2519 -7.1029)">
+        <rect
+           id="rect5013"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-topleft"
+         opacity="1.0"
+         transform="translate(4.7481 -98.029)">
+        <rect
+           id="rect5016"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-topright"
+         opacity="1.0"
+         transform="translate(-4.2519 -98.029)">
+        <rect
+           id="rect5019"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-bottomleft"
+         opacity="1.0"
+         transform="translate(4.7481 -107.03)">
+        <rect
+           id="rect5022"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-pressed-bottomright"
+         opacity="1.0"
+         transform="translate(-4.2519 -107.03)">
+        <rect
+           id="rect5025"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-top"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 22.775 -98.029)">
+        <rect
+           id="rect5028"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-bottom"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 22.775 -107.03)">
+        <rect
+           id="rect5031"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-left"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 11.748 -7.1029)">
+        <rect
+           id="rect5034"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-right"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 2.7481 -7.1029)">
+        <rect
+           id="rect5037"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-topleft"
+         opacity="1.0"
+         transform="translate(11.748 -98.029)">
+        <rect
+           id="rect5040"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-topright"
+         opacity="1.0"
+         transform="translate(2.7481 -98.029)">
+        <rect
+           id="rect5043"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-bottomleft"
+         opacity="1.0"
+         transform="translate(11.748 -107.03)">
+        <rect
+           id="rect5046"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-toggled-bottomright"
+         opacity="1.0"
+         transform="translate(2.7481 -107.03)">
+        <rect
+           id="rect5049"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-top"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 29.775 -98.029)">
+        <rect
+           id="rect5052"
+           height="1"
+           width="10"
+           y="99.029"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-bottom"
+         opacity="1.0"
+         transform="matrix(.1 0 0 1 29.775 -107.03)">
+        <rect
+           id="rect5055"
+           height="1"
+           width="10"
+           y="112.03"
+           x="12.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-left"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 18.748 -7.1029)">
+        <rect
+           id="rect5058"
+           height="10"
+           width="1"
+           y="101.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-right"
+         opacity="1.0"
+         transform="matrix(1 0 0 .1 9.7481 -7.1029)">
+        <rect
+           id="rect5061"
+           height="10"
+           width="1"
+           y="101.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-topleft"
+         opacity="1.0"
+         transform="translate(18.748 -98.029)">
+        <rect
+           id="rect5064"
+           height="1"
+           width="1"
+           y="99.029"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-topright"
+         opacity="1.0"
+         transform="translate(9.7481 -98.029)">
+        <rect
+           id="rect5067"
+           height="1"
+           width="1"
+           y="99.029"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-bottomleft"
+         opacity="1.0"
+         transform="translate(18.748 -107.03)">
+        <rect
+           id="rect5070"
+           height="1"
+           width="1"
+           y="112.03"
+           x="10.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+      <g
+         id="frame-disabled-bottomright"
+         opacity="1.0"
+         transform="translate(9.7481 -107.03)">
+        <rect
+           id="rect5073"
+           height="1"
+           width="1"
+           y="112.03"
+           x="23.252"
+           style="fill:#242424;opacity:1" />
+      </g>
+    </g>
+    <g
+       fill="#383838"
+       id="g794">
+      <g
+         id="frame-focused"
+         transform="translate(2 -3)">
+        <rect
+           id="rect6208"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#383838" />
+      </g>
+      <g
+         id="frame-pressed"
+         transform="translate(9 -3)">
+        <rect
+           id="rect6211"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#383838" />
+      </g>
+      <g
+         id="frame-toggled"
+         transform="translate(16 -3)">
+        <rect
+           id="rect6214"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#383838" />
+      </g>
+      <g
+         id="frame-disabled"
+         transform="translate(23 -3)">
+        <rect
+           id="rect6217"
+           height="1"
+           width="1"
+           y="6"
+           x="8"
+           fill="#383838" />
+      </g>
+    </g>
+  </g> 

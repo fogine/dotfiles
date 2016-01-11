@@ -1,0 +1,22 @@
+XfceIndicatorBox,
+XfceIndicatorBox .button,
+.xfce4-panel,
+.xfce4-panel .button,
+.xfce4-panel .button:hover,
+.xfce4-panel .button:active,
+.xfce4-panel .button:checked,
+.xfce4-panel .button:active:hover,
+.xfce4-panel .button:checked:hover,
+.xfce4-panel .button:insensitive,
+.xfce4-panel .button:insensitive:hover,
+.xfce4-panel .flat-button,
+.xfce4-panel .flat-button:hover,
+.xfce4-panel .flat-button:active,
+.xfce4-panel .flat-button:checked,
+.xfce4-panel .flat-button:active:hover,
+.xfce4-panel .flat-button:checked:hover,
+.xfce4-panel .flat-button:insensitive,
+.xfce4-panel .flat-button:insensitive:hover {
+border-radius:0px;
+border:none;
+background:black;}

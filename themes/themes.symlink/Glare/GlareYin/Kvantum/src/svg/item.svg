@@ -1,0 +1,64 @@
+  <g
+     id="layer24"
+     inkscape:label="item"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="item-normal"
+       opacity="0">
+      <rect
+         id="rect4094"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="item-focused"
+       opacity="0"
+       transform="translate(3)">
+      <rect
+         id="rect5986"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="item-pressed"
+       fill="#407dec"
+       transform="translate(6)">
+      <rect
+         id="rect5989"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="item-toggled"
+       transform="translate(9)">
+      <rect
+         id="rect5992"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+    <g
+       id="item-disabled"
+       opacity="0"
+       transform="translate(12)">
+      <rect
+         id="rect5995"
+         height="1"
+         width="1"
+         y="3"
+         x="3"
+         fill="#407dec" />
+    </g>
+  </g> 

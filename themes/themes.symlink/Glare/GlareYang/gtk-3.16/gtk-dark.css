@@ -1,0 +1,12 @@
+/*light stuff*/
+@import url("gtk.css");
+/*window colors*/
+@import url("themedark/colors.ini");
+/*image files*/
+@import url("themedark/checkbutton.css");
+@import url("themedark/radiobutton.css");
+@import url("themedark/expander.css");
+@import url("themedark/scale.css");
+@import url("themedark/paned.css");
+@import url("themedark/notebook.css");
+@import url("settings.css");

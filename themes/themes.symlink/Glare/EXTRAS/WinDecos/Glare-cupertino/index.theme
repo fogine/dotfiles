@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=Glare-cupertino
+Type=X-GNOME-Metatheme
+Comment=A bright theme for maximum battery life
+Encoding=UTF-8
+GtkTheme=Glare
+MetacityTheme=Glare-cupertino
+IconTheme=ivy-png
+CursorTheme=DMZ-Black
+CursorSize=24
+NotificationTheme=slider

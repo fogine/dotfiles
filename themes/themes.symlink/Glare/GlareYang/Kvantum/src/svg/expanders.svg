@@ -1,0 +1,216 @@
+  <g
+     id="layer6"
+     inkscape:label="expander-plus"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="arrow-plus-normal">
+      <path
+         id="path3522"
+         d="m3-1h2v8h-2z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3524"
+         d="m0 2h8v2h-8z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect7045"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+    </g>
+    <g
+       id="arrow-plus-focused"
+       transform="translate(10)">
+      <path
+         id="path7258"
+         d="m3-1h2v8h-2z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7260"
+         d="m0 2h8v2h-8z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect7262"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+    </g>
+    <g
+       id="arrow-plus-pressed"
+       transform="translate(20)">
+      <path
+         id="path7265"
+         d="m3-1h2v8h-2z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7267"
+         d="m0 2h8v2h-8z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect7269"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+    </g>
+    <g
+       id="arrow-plus-toggled"
+       transform="translate(30)">
+      <path
+         id="path7272"
+         d="m3-1h2v8h-2z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7274"
+         d="m0 2h8v2h-8z"
+         fill="#5a5a5a"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect7276"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+    </g>
+    <g
+       id="arrow-plus-disabled"
+       transform="translate(40)">
+      <path
+         id="path7279"
+         d="m3-1h2v8h-2z"
+         fill="#999"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path7281"
+         d="m0 2h8v2h-8z"
+         fill="#999"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="rect7283"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+    </g>
+  </g>
+  <g
+     id="layer7"
+     inkscape:label="expander-minus"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="arrow-minus-normal">
+      <rect
+         id="rect6552"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+      <g
+         id="g3520-2"
+         fill="#5a5a5a"
+         transform="translate(-1,-8)">
+        <path
+           id="path3524-9"
+           d="m1 10h8v2h-8z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="arrow-minus-focused"
+       transform="translate(10)">
+      <rect
+         id="rect6781"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+      <g
+         id="g6783"
+         fill="#5a5a5a"
+         transform="translate(-1,-8)">
+        <path
+           id="path6785"
+           d="m1 10h8v2h-8z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="arrow-minus-pressed"
+       transform="translate(20)">
+      <rect
+         id="rect6788"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+      <g
+         id="g6790"
+         fill="#5a5a5a"
+         transform="translate(-1,-8)">
+        <path
+           id="path6792"
+           d="m1 10h8v2h-8z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="arrow-minus-toggled"
+       transform="translate(30)">
+      <rect
+         id="rect6795"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+      <g
+         id="g6797"
+         fill="#5a5a5a"
+         transform="translate(-1,-8)">
+        <path
+           id="path6799"
+           d="m1 10h8v2h-8z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="arrow-minus-disabled"
+       transform="translate(40)">
+      <rect
+         id="rect6802"
+         opacity="0"
+         height="9"
+         width="9"
+         y="-2"
+         x="0" />
+      <g
+         id="g6804"
+         fill="#5a5a5a"
+         transform="translate(-1,-8)">
+        <path
+           id="path6806"
+           d="m1 10h8v2h-8z"
+           fill="#999"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g> 

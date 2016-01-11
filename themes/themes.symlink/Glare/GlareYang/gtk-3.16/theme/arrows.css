@@ -1,0 +1,40 @@
+/*
+still limited
+*/
+
+*{
+-GtkNotebook-arrow-spacing: 5;
+-GtkComboBox-arrow-scaling: 0.5;
+-GtkArrow-arrow-scaling: 0.5;
+-GtkMenu-arrow-scaling: 0.5;
+-GtkMenuItem-arrow-scaling: 0.5;}
+
+*.arrow,
+GtkMenuShell .arrow{
+color:@windowtext;}
+
+*.arrow:hover{
+color:@hilight;}
+
+*.arrow:active{
+color:@hilight;}
+
+*.arrow:insensitive,
+GtkMenuShell .arrow:insensitive{
+color:@inactivewindowtext;}
+
+/*use this dot for now*/
+
+*.arrow {
+color: rgba(255, 255, 255, 0.5);
+background:transparent;
+icon-shadow: none;
+-gtk-icon-source: -gtk-scaled(url("images/dot.svg"));}
+
+*.arrow:hover,
+*.arrow:active,
+GtkCalendar.button.arrow {
+color: rgba(255, 255, 255, 0.5);
+background:transparent;
+icon-shadow: none;
+-gtk-icon-source: -gtk-scaled(url("images/dot-hilight.svg"));}

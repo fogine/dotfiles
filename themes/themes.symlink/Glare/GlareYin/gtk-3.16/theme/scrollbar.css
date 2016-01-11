@@ -1,0 +1,41 @@
+GtkScrolledWindow{
+-GtkScrolledWindow-scrollbar-spacing:0;
+-GtkScrolledWindow-scrollbars-within-bevel:1;}
+
+GtkScrollbar{
+-GtkScrollbar-min_slider_length:90;
+-GtkScrollbar-has_secondary_backward_stepper:0;
+-GtkScrollbar-has_secondary_forward_stepper:0;
+-GtkScrollbar-has_backward_stepper:1;
+-GtkScrollbar-has_forward_stepper:1;
+-GtkRange-trough-under-steppers:1;
+-GtkRange-stepper-size:0;
+-GtkRange-trough-border:2;
+-GtkRange-stepper-spacing:0;}
+
+.scrollbars-junction{
+background:@scrollbar;
+border:none;}
+
+GtkScrollbar{
+background:@scrollbar;}
+
+GtkScrollbar.vertical{
+border-left:1px solid @genborder;}
+
+GtkScrollbar.horizontal{
+border-top:1px solid @genborder;}
+
+GtkScrollbar.slider{
+background:rgba(179,179,179,0.5);
+border:1px solid @genborder;}
+
+GtkScrollbar.slider:hover,
+GtkScrollbar.slider:active,
+.scrollbar.slider.fine-tune{
+background:@hilight;
+border:1px solid shade (@hilight, 0.8);}
+
+GtkScrollbar.button {
+background:transparent;
+color:transparent;}

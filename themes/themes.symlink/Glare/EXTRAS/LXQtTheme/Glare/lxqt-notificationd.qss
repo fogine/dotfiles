@@ -1,0 +1,14 @@
+Notification {
+	color:grey;
+	background:black;
+	margin:0px;}
+
+QLabel {
+	color:white;}
+
+#closeButton {
+	border: none;
+	qproperty-icon: url(images/trans.svg);}
+
+#appLabel {
+	font:bold;}

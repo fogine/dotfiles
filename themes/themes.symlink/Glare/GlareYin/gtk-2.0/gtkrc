@@ -1,0 +1,48 @@
+### this is only here because of the broken color loading in xfce-settings 4.12
+gtk-color-scheme = "bg_color:#333\nselected_bg_color:#407dec\nfg_color:#888"
+################################################################################
+### def ==> use bright theme as base
+###colors
+include "themedark/colors.ini"
+###main stuff
+include "themedark/allr.c"
+###widgets
+include "themedark/toolbarr.c"
+include "themedark/toolbarhandler.c"
+include "theme/statusbarr.c" #def
+include "themedark/buttonr.c"
+include "themedark/progressbarr.c"
+include "themedark/entryr.c"
+include "theme/scrolledwindowr.c" #def
+include "themedark/scaler.c"
+include "themedark/scrollbarr.c"
+include "theme/tootipr.c" #def
+include "themedark/framer.c"
+include "themedark/menuitemr.c"
+include "themedark/menubarr.c"
+include "theme/spinbuttonr.c" #def
+include "themedark/notebookr.c"
+include "themedark/treeviewr.c"
+include "theme/iconviewsr.c" #def
+###app specific stff
+include "theme/libappindicatorr.c" #def
+include "theme/xfwmr.c" #def
+include "theme/xfcepanelr.c" #def
+include "theme/matepanelr.c" #def
+include "theme/topmenur.c" #def
+include "theme/gimpr.c" #def
+include "theme/chromiumr.c" #def
+include "themedark/thunarr.c"
+include "theme/pcmanfmr.c" #def
+###fixes
+include "theme/mistr.c" #def
+include "theme/iconandfontfixesr.c" #def
+include "theme/mistfixesr.c" #def
+###settings
+include "settings.ini"
+###Docs
+# https://wiki.gnome.org/Attic/GnomeArt/Tutorials/GtkThemes
+# https://wiki.gnome.org/Attic/GnomeArt/Tutorials/GtkEngines/PixmapEngine
+# https://developer.gnome.org/gtk2/stable/index.html
+
+

@@ -1,0 +1,723 @@
+  <g
+     id="layer33"
+     inkscape:label="menubaritem"
+     inkscape:groupmode="layer"
+     display="none"
+     style="display:none">
+    <g
+       id="menubaritem-normal-top"
+       transform="translate(3,1)">
+      <rect
+         id="rect5321"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5323"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-normal-bottom"
+       transform="translate(3,-1)">
+      <rect
+         id="rect5326"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5328"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-normal-left"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(-1,0)">
+      <rect
+         id="rect5331"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-normal-right"
+       transform="translate(3,0)">
+      <rect
+         id="rect5334"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-normal-topleft"
+       transform="translate(1,1)">
+      <rect
+         id="rect5337"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5339"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-normal-topright"
+       transform="translate(5,1)">
+      <rect
+         id="rect5342"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5344"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-normal-bottomleft"
+       transform="translate(1,-1)">
+      <rect
+         id="rect5347"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5349"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-normal-bottomright"
+       transform="translate(5,-1)">
+      <rect
+         id="rect5352"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5354"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-focused-top"
+       transform="translate(10,1)">
+      <rect
+         id="rect5357"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5359"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-focused-bottom"
+       transform="translate(10,-1)">
+      <rect
+         id="rect5362"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5364"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-focused-left"
+       transform="translate(6,0)"
+       inkscape:label="#menubar-normal-left"
+       style="fill:#e6e6e6">
+      <rect
+         id="rect5367"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-focused-right"
+       transform="translate(10,0)"
+       style="fill:#e6e6e6">
+      <rect
+         id="rect5370"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-focused-topleft"
+       transform="translate(8,1)">
+      <rect
+         id="rect5373"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5375"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-focused-topright"
+       transform="translate(12,1)">
+      <rect
+         id="rect5378"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5380"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-focused-bottomleft"
+       transform="translate(8,-1)">
+      <rect
+         id="rect5383"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5385"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-focused-bottomright"
+       transform="translate(12,-1)">
+      <rect
+         id="rect5388"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5390"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-pressed-top"
+       transform="translate(17,1)">
+      <rect
+         id="rect5393"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#407dec" />
+      <rect
+         id="rect5395"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-pressed-bottom"
+       transform="translate(17,-1)">
+      <rect
+         id="rect5398"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#407dec" />
+      <rect
+         id="rect5400"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-pressed-left"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(13,0)">
+      <rect
+         id="rect5403"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#407dec" />
+    </g>
+    <g
+       id="menubaritem-pressed-right"
+       transform="translate(17,0)">
+      <rect
+         id="rect5406"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#407dec" />
+    </g>
+    <g
+       id="menubaritem-pressed-topleft"
+       transform="translate(15,1)">
+      <rect
+         id="rect5409"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#407dec" />
+      <rect
+         id="rect5411"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-pressed-topright"
+       transform="translate(19,1)">
+      <rect
+         id="rect5414"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#407dec" />
+      <rect
+         id="rect5416"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-pressed-bottomleft"
+       transform="translate(15,-1)">
+      <rect
+         id="rect5419"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#407dec" />
+      <rect
+         id="rect5421"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-pressed-bottomright"
+       transform="translate(19,-1)">
+      <rect
+         id="rect5424"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#407dec" />
+      <rect
+         id="rect5426"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-toggled-top"
+       transform="translate(24,1)">
+      <rect
+         id="rect5429"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5431"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-toggled-bottom"
+       transform="translate(24,-1)">
+      <rect
+         id="rect5434"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5436"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-toggled-left"
+       transform="translate(20,0)"
+       inkscape:label="#menubar-normal-left"
+       style="fill:#e6e6e6">
+      <rect
+         id="rect5439"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-toggled-right"
+       transform="translate(24,0)"
+       style="fill:#e6e6e6">
+      <rect
+         id="rect5442"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-toggled-topleft"
+       transform="translate(22,1)">
+      <rect
+         id="rect5445"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5447"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-toggled-topright"
+       transform="translate(26,1)">
+      <rect
+         id="rect5450"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5452"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-toggled-bottomleft"
+       transform="translate(22,-1)">
+      <rect
+         id="rect5455"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5457"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-toggled-bottomright"
+       transform="translate(26,-1)">
+      <rect
+         id="rect5460"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5462"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-disabled-top"
+       transform="translate(31,1)">
+      <rect
+         id="rect5465"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5467"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-disabled-bottom"
+       transform="translate(31,-1)">
+      <rect
+         id="rect5470"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5472"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-disabled-left"
+       inkscape:label="#menubar-normal-left"
+       transform="translate(27,0)">
+      <rect
+         id="rect5475"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-disabled-right"
+       transform="translate(31,0)">
+      <rect
+         id="rect5478"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-disabled-topleft"
+       transform="translate(29,1)">
+      <rect
+         id="rect5481"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5483"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-disabled-topright"
+       transform="translate(33,1)">
+      <rect
+         id="rect5486"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5488"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="opacity:0.1;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-disabled-bottomleft"
+       transform="translate(29,-1)">
+      <rect
+         id="rect5491"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5493"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-disabled-bottomright"
+       transform="translate(33,-1)">
+      <rect
+         id="rect5496"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="fill:#e6e6e6" />
+      <rect
+         id="rect5498"
+         height="1"
+         width="1"
+         y="6"
+         x="0"
+         style="opacity:0.2;fill:#000000" />
+    </g>
+    <g
+       id="menubaritem-normal"
+       transform="translate(1,0)">
+      <rect
+         id="rect9666"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-focused"
+       transform="translate(8,0)"
+       style="fill:#e6e6e6">
+      <rect
+         id="rect9669"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-pressed"
+       transform="translate(15,0)">
+      <rect
+         id="rect9672"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#407dec" />
+    </g>
+    <g
+       id="menubaritem-toggled"
+       transform="translate(22,0)"
+       style="fill:#e6e6e6">
+      <rect
+         id="rect9675"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+    <g
+       id="menubaritem-disabled"
+       transform="translate(29,0)">
+      <rect
+         id="rect9678"
+         height="1"
+         width="1"
+         y="3"
+         x="2"
+         style="fill:#e6e6e6" />
+    </g>
+  </g>

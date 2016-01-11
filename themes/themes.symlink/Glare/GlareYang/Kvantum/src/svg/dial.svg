@@ -1,0 +1,160 @@
+<g
+     id="layer36"
+     inkscape:label="dial"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="dial-notches">
+      <g
+         fill-rule="evenodd"
+         id="g2395">
+        <path
+           id="path5257"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="translate(41 -1.9997)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+        <path
+           id="path5259"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="translate(73 -1.9997)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+        <path
+           id="path5263"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="matrix(.70711 -.70711 .70711 .70711 62.536 3.9917)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+        <path
+           id="path5265"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="matrix(.70711 -.70711 .70711 .70711 85.163 -18.636)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+        <path
+           id="path5273"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="matrix(-.70711 -.70711 .70711 -.70711 87.991 -28.535)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+        <path
+           id="path5275"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="matrix(-.70711 -.70711 .70711 -.70711 65.364 -51.163)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+        <path
+           id="path5279"
+           sodipodi:rx="1"
+           sodipodi:ry="1"
+           sodipodi:type="arc"
+           d="m3-23a1 1 0 1 1 -2 0 1 1 0 1 1 2 0z"
+           opacity=".5"
+           transform="matrix(0 1 -1 0 36 -43)"
+           sodipodi:cy="-23"
+           sodipodi:cx="2" />
+      </g>
+      <rect
+         id="rect5285"
+         opacity="0"
+         height="36"
+         width="36"
+         y="-43"
+         x="41" />
+    </g>
+    <g
+       id="dial">
+      <g
+         fill-rule="evenodd"
+         id="g2406">
+        <path
+           id="path5253"
+           sodipodi:rx="4.5"
+           sodipodi:ry="4"
+           sodipodi:type="arc"
+           d="m13-14a4.5 4 0 1 1 -9 0 4.5 4 0 1 1 9 0z"
+           opacity=".1"
+           transform="matrix(4 0 0 4.5 -16 39)"
+           sodipodi:cy="-14"
+           sodipodi:cx="8.5"
+           fill="url(#radialGradient8431)" />
+        <path
+           id="path6073"
+           sodipodi:rx="4.5"
+           sodipodi:ry="4"
+           sodipodi:type="arc"
+           d="m13-14a4.5 4 0 1 1 -9 0 4.5 4 0 1 1 9 0z"
+           opacity=".1"
+           transform="matrix(3.1111 0 0 3.5 -8.4444 26)"
+           sodipodi:cy="-14"
+           sodipodi:cx="8.5" />
+        <path
+           id="path5255"
+           sodipodi:rx="4.5"
+           sodipodi:ry="4"
+           sodipodi:type="arc"
+           d="m13-14a4.5 4 0 1 1 -9 0 4.5 4 0 1 1 9 0z"
+           transform="matrix(3.1111 0 0 3.5 -8.4444 25)"
+           sodipodi:cy="-14"
+           sodipodi:cx="8.5"
+           fill="#fff" />
+      </g>
+      <path
+         id="path6071"
+         opacity=".2"
+         sodipodi:type="inkscape:offset"
+         d="m8.5-17.875c-2.4318 0-4.375 1.7335-4.375 3.875s1.9432 3.875 4.375 3.875 4.375-1.7335 4.375-3.875-1.9432-3.875-4.375-3.875z"
+         inkscape:original="M 8.5 -18 C 6.0147186 -18 4 -16.209139 4 -14 C 4 -11.790861 6.0147186 -10 8.5 -10 C 10.985281 -10 13 -11.790861 13 -14 C 13 -16.209139 10.985281 -18 8.5 -18 z "
+         transform="matrix(3.1111 0 0 3.5 -8.4444 25)"
+         stroke="#000"
+         inkscape:radius="-0.11124271"
+         stroke-width=".30305"
+         fill="none" />
+    </g>
+    <g
+       id="dial-handle">
+      <rect
+         id="rect8400"
+         opacity="0"
+         height="7"
+         width="7"
+         y="-5"
+         x="35" />
+      <path
+         id="path6075"
+         sodipodi:rx="3.5"
+         sodipodi:ry="3.5"
+         sodipodi:type="arc"
+         d="m40-1.5a3.5 3.5 0 1 1 -7 0 3.5 3.5 0 1 1 7 0z"
+         fill-rule="evenodd"
+         transform="matrix(.42857 0 0 .42857 22.857 -.85714)"
+         sodipodi:cy="-1.5"
+         sodipodi:cx="36.5"
+         fill="#5288d1" />
+    </g>
+  </g>

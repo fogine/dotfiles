@@ -1,0 +1,57 @@
+.stack-switcher > .button:first-child{
+background:@btnnorbg;
+border:1px solid @genborderdark;
+border-radius: 2px 0 0 2px;
+border-right:none;}
+
+.stack-switcher > .button{
+font-weight: bold;
+background:@btnnorbg;;
+border:1px solid @genborderdark;
+border-radius:0px;
+border-right:none;
+border-left:none;}
+
+.stack-switcher > .button:last-child{
+background:@btnnorbg;;
+border:1px solid @genborderdark;
+border-radius: 0 2px 2px 0;
+border-left:none;}
+
+.stack-switcher > .button:first-child:hover{
+border-radius: 2px 0 0 2px;
+border:1px solid @genborderdark;
+border-right:none;}
+
+.stack-switcher > .button:hover,
+.stack-switcher > .button:only-child:hover{
+background:@btnnorbg;
+border-radius:0px;
+border-right:none;
+border-left:none;}
+
+.stack-switcher > .button:last-child:hover{
+border-radius: 0 2px 2px 0;
+border:1px solid @genborderdark;
+border-left:none;}
+
+.stack-switcher > .button:first-child:checked,
+.stack-switcher > .button:first-child:checked:hover{
+border-radius: 2px 0 0 2px;
+border:1px solid @genborderdark;
+border-right:none;}
+
+.stack-switcher > .button:checked,
+.stack-switcher > .button:checked:hover{
+background:@hilight;
+color:@hilighttext;
+border:1px solid @genborderdark;
+border-radius:0px;
+border-right:none;
+border-left:none;}
+
+.stack-switcher > .button:last-child:checked,
+.stack-switcher > .button:last-child:checked:hover{
+border:1px solid @genborderdark;
+border-radius: 0 2px 2px 0;
+border-left:none;}

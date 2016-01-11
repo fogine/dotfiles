@@ -1,0 +1,177 @@
+LXQtPanel #BackgroundWidget,
+#TaskBar QToolButton,
+TrayIcon {
+	border:none;
+	background:black;
+	color:grey;
+	font:bold;
+	padding:0px;
+	margin:0px;}
+
+QToolTip {
+	border: 1px solid black;
+	background:black;
+	padding:1px;
+	margin:0px;
+	font:bold;
+	color:white;}
+
+QToolButton,
+QToolButton:pressed {
+	padding:1px;
+	border:none;}
+
+QLineEdit {
+	padding:1px;
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.01);
+	color:white;}
+
+/*menuplugin*/
+
+#MainMenu {
+	qproperty-icon: url(images/start.svg);
+	padding:5px;
+	font:bold;
+	margin:-1px;}
+
+#MainMenu QMenu{
+	font:regular;
+	color:palette(windowText);
+	border:1px solid rgba(0,0,0,0.2);}
+
+/*pager*/
+
+#DesktopSwitch {
+	padding:0px;
+	margin:0px;
+	background:rgba(255,255,255,0.1);}
+
+#DesktopSwitch DesktopSwitchButton {
+	font:bold;}
+
+#DesktopSwitch DesktopSwitchButton:on {
+	padding:5px;
+	margin:0px;
+	background:rgba(255,255,255,0.1);
+	color:white;}
+
+/*keyboardindicator*/
+
+#KbIndicator {}
+
+#Kbindicator > QLabel {
+	font:bold;
+	color:grey;}
+
+#KbIndicator QLabel:enabled {
+	color:palette(highlight);
+	font:bold;}
+
+
+/*Sensors*/
+
+#Sensors {
+	padding:3;}
+
+#Sensors ProgressBar {
+	margin:1;}
+
+/*SysStat*/
+
+#SysStat_Graph {
+	qproperty-gridColor:rgba(255,255,255,0.1);
+	qproperty-titleColor:grey;
+	qproperty-cpuSystemColor:rgb(128,0,0);
+	qproperty-cpuUserColor:rgb(0,0,128);
+	qproperty-cpuNiceColor:rgb(0,128,0);
+	qproperty-cpuOtherColor:rgb(128,128,0);
+	qproperty-frequencyColor:rgb(96,96,96);
+	qproperty-memAppsColor:rgb(0,0,128);
+	qproperty-memBuffersColor:rgb(0,128,0);
+	qproperty-memCachedColor:rgb(128,128,0);
+	qproperty-swapUsedColor:rgb(128,0,0);
+	qproperty-netReceivedColor:rgb(0,0,128);
+	qproperty-netTransmittedColor:rgb(128,128,0);}
+
+/*color picker*/
+#ColorPicker {
+	padding:0;}
+
+
+#ColorPicker QToolButton {
+	qproperty-icon: url(images/colorpicker.svg);
+	padding:0;}
+
+/*QuickLaunch*/
+#QuickLaunchPlaceHolder {
+	color:transparent;
+	background:rgba(255,255,255,0.1)}
+
+/*CPULoad*/
+#LXQtCpuLoad {
+	padding:2;
+	qproperty-fontColor:grey;}
+
+/*Mount*/
+#LXQtMountPopup {
+	border:1px solid rgba(0,0,0,0.1);
+	background:palette(base);
+
+	padding:20px;}
+
+#LXQtMountPopup QLabel,
+#LXQtMountPopup MenuDiskItem {
+	padding:5px;}
+
+#LXQtMountPopup QLabel:hover,
+#LXQtMountPopup MenuDiskItem:hover {
+	margin:1;
+	background:rgba(0,0,0,0.04)}
+
+/*Volume*/
+VolumePopup {
+	border:1px solid rgba(0,0,0,0.1);
+	background:palette(base);
+	padding:0px;}
+
+VolumePopup > QLabel{
+	color:palette(text);
+	font-size:1pt;
+	padding:0px;}
+
+/*Clocks*/
+#Clock #TimeLabel,
+#Clock #DateLabel,
+#WorldClock #WorldClockContent {
+	font:bold;
+	color:grey;
+	padding:1px;}
+
+QCalendarWidget > QWidget{
+	border:1px solid palette(light);}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+	background:palette(base);
+	color:palette(text);
+	border-bottom:none;}
+
+/*misc*/
+#PanelScreenSaver, #ShowDesktop,
+#Dom, #TrayPlugin,
+#NetworkMonitor {
+	padding:1px;
+	background:black;}
+
+/*Taskbar*/
+
+#TaskBar QToolButton:hover{
+	color:white;}
+
+#TaskBar QToolButton:on{
+	color:white;
+	background:palette(highlight);}
+
+#TaskBar LXQtGroupPopup {
+    background:black;
+    border: none;}

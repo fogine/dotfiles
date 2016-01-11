@@ -1,0 +1,18 @@
+/*.toolbar,*/
+.primary-toolbar{
+-GtkWidget-window-dragging:false;
+background:@toolbar;
+box-shadow:inset 0px 1px 0px 0px @lightborder,inset 0px -1px 0px 0px @genborder;
+padding:1px 2px;}
+
+.inline-toolbar,
+.location-bar,
+.search-bar{
+background:@window;
+padding:1px;
+box-shadow:inset 0px -1px 0px 0px @genborder;}
+
+GtkHeaderBar .primary-toolbar{
+border:none;
+box-shadow:none;
+background:@toolbar}

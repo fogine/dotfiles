@@ -1,0 +1,21 @@
+*.frame,
+*.frame:backdrop {
+border:1px solid @genborder;
+padding:0px;}
+
+GtkScrolledWindow GtkViewport.frame,
+GtkScrolledWindow GtkViewport.frame:backdrop,
+.frame.flat {
+padding:0px;
+border:0px;}
+
+.frame.action-bar{
+padding:4px;
+border-width: 1px 0 0;}
+
+GtkStatusbar .frame,
+GtkStatusbar .frame:backdrop {
+-GtkStatusbar-shadow-type:none;
+padding:0px;
+margin:0px;
+border:none;}

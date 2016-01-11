@@ -1,0 +1,603 @@
+  <g
+     id="layer35"
+     inkscape:label="dbdbdb"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="dbdbdb-normal-top"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 1.7748 -98.03)">
+      <rect
+         id="rect7245"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-normal-bottom"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 1.7748 -107.03)">
+      <rect
+         id="rect7248"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-normal-left"
+       opacity=".1">
+      <rect
+         id="rect7251"
+         y="2.9991"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7253"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-normal-right"
+       opacity=".1"
+       transform="matrix(1 0 0 .1 -18.252 -7.1039)">
+      <rect
+         id="rect7256"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-normal-topleft"
+       opacity=".1">
+      <rect
+         id="rect7259"
+         y=".99901"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7261"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="dbdbdb-normal-topright"
+       opacity=".1"
+       transform="translate(-18.252 -98.03)">
+      <rect
+         id="rect7264"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-normal-bottomleft"
+       opacity=".1">
+      <rect
+         id="rect7267"
+         y="5"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7270"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-normal-bottomright"
+       opacity=".1"
+       transform="translate(-18.252 -107.03)">
+      <rect
+         id="rect7273"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-focused-top"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 8.7748 -98.03)">
+      <rect
+         id="rect7277"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-focused-bottom"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 8.7748 -107.03)">
+      <rect
+         id="rect7280"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-focused-left"
+       opacity=".1"
+       transform="translate(7 2.207e-7)">
+      <rect
+         id="rect7284"
+         y="2.9991"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7286"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-focused-right"
+       opacity=".1"
+       transform="matrix(1 0 0 .1 -11.252 -7.1039)">
+      <rect
+         id="rect7289"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-focused-topleft"
+       opacity=".1"
+       transform="translate(7 2.207e-7)">
+      <rect
+         id="rect7292"
+         y=".99901"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7294"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="dbdbdb-focused-topright"
+       opacity=".1"
+       transform="translate(-11.252 -98.03)">
+      <rect
+         id="rect7297"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-focused-bottomleft"
+       opacity=".1"
+       transform="translate(7 2.207e-7)">
+      <rect
+         id="rect7300"
+         y="5"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7302"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-focused-bottomright"
+       opacity=".1"
+       transform="translate(-11.252 -107.03)">
+      <rect
+         id="rect7305"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-pressed-top"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 15.775 -98.03)">
+      <rect
+         id="rect7308"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-pressed-bottom"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 15.775 -107.03)">
+      <rect
+         id="rect7311"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-pressed-left"
+       opacity=".1"
+       transform="translate(14 2.207e-7)">
+      <rect
+         id="rect7314"
+         y="2.9991"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7316"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-pressed-right"
+       opacity=".1"
+       transform="matrix(1 0 0 .1 -4.2519 -7.1039)">
+      <rect
+         id="rect7319"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-pressed-topleft"
+       opacity=".1"
+       transform="translate(14 2.207e-7)">
+      <rect
+         id="rect7322"
+         y=".99901"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7324"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="dbdbdb-pressed-topright"
+       opacity=".1"
+       transform="translate(-4.2519 -98.03)">
+      <rect
+         id="rect7327"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-pressed-bottomleft"
+       opacity=".1"
+       transform="translate(14 2.207e-7)">
+      <rect
+         id="rect7330"
+         y="5"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7332"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-pressed-bottomright"
+       opacity=".1"
+       transform="translate(-4.2519 -107.03)">
+      <rect
+         id="rect7335"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-toggled-top"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 22.775 -98.03)">
+      <rect
+         id="rect7338"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-toggled-bottom"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 22.775 -107.03)">
+      <rect
+         id="rect7341"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-toggled-left"
+       opacity=".1"
+       transform="translate(21 2.207e-7)">
+      <rect
+         id="rect7344"
+         y="2.9991"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7346"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-toggled-right"
+       opacity=".1"
+       transform="matrix(1 0 0 .1 2.7481 -7.1039)">
+      <rect
+         id="rect7349"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-toggled-topleft"
+       opacity=".1"
+       transform="translate(21 2.207e-7)">
+      <rect
+         id="rect7352"
+         y=".99901"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7354"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="dbdbdb-toggled-topright"
+       opacity=".1"
+       transform="translate(2.7481 -98.03)">
+      <rect
+         id="rect7357"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-toggled-bottomleft"
+       opacity=".1"
+       transform="translate(21 2.207e-7)">
+      <rect
+         id="rect7360"
+         y="5"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7362"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-toggled-bottomright"
+       opacity=".1"
+       transform="translate(2.7481 -107.03)">
+      <rect
+         id="rect7365"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-disabled-top"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 29.775 -98.03)">
+      <rect
+         id="rect7368"
+         height="1"
+         width="10"
+         y="99.029"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-disabled-bottom"
+       opacity=".1"
+       transform="matrix(.1 0 0 1 29.775 -107.03)">
+      <rect
+         id="rect7371"
+         height="1"
+         width="10"
+         y="112.03"
+         x="12.252" />
+    </g>
+    <g
+       id="dbdbdb-disabled-left"
+       opacity=".1"
+       transform="translate(28 2.207e-7)">
+      <rect
+         id="rect7374"
+         y="2.9991"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7376"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="3"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-disabled-right"
+       opacity=".1"
+       transform="matrix(1 0 0 .1 9.7481 -7.1039)">
+      <rect
+         id="rect7379"
+         height="10"
+         width="1"
+         y="101.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-disabled-topleft"
+       opacity=".1"
+       transform="translate(28 2.207e-7)">
+      <rect
+         id="rect7382"
+         y=".99901"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7384"
+         opacity=".2"
+         height="1"
+         width="1"
+         y=".99901"
+         x="1.0001" />
+    </g>
+    <g
+       id="dbdbdb-disabled-topright"
+       opacity=".1"
+       transform="translate(9.7481 -98.03)">
+      <rect
+         id="rect7387"
+         height="1"
+         width="1"
+         y="99.029"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-disabled-bottomleft"
+       opacity=".1"
+       transform="translate(28 2.207e-7)">
+      <rect
+         id="rect7390"
+         y="5"
+         width="1"
+         height="1"
+         x="1.0001" />
+      <rect
+         id="rect7392"
+         opacity=".2"
+         height="1"
+         width="1"
+         y="5"
+         x="1" />
+    </g>
+    <g
+       id="dbdbdb-disabled-bottomright"
+       opacity=".1"
+       transform="translate(9.7481 -107.03)">
+      <rect
+         id="rect7395"
+         height="1"
+         width="1"
+         y="112.03"
+         x="23.252" />
+    </g>
+    <g
+       id="dbdbdb-normal"
+       opacity=".1"
+       transform="translate(-5 -3.001)">
+      <rect
+         id="rect11852"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="dbdbdb-focused"
+       opacity=".1"
+       transform="translate(2 -3.001)">
+      <rect
+         id="rect11855"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="dbdbdb-pressed"
+       opacity=".1"
+       transform="translate(9 -3.001)">
+      <rect
+         id="rect11858"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="dbdbdb-toggled"
+       opacity=".1"
+       transform="translate(16 -3.001)">
+      <rect
+         id="rect11861"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+    <g
+       id="dbdbdb-disabled"
+       opacity=".1"
+       transform="translate(23 -3.001)">
+      <rect
+         id="rect11864"
+         height="1"
+         width="1"
+         y="6"
+         x="8" />
+    </g>
+  </g>

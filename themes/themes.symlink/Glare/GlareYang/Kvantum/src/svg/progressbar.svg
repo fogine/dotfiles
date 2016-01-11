@@ -1,0 +1,417 @@
+  <g
+     id="layer20"
+     inkscape:label="progressbar"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="progressbar-normal-topleft">
+      <path
+         id="path3930"
+         opacity=".1"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal-topright">
+      <path
+         id="path3928"
+         opacity=".1"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal-bottomleft">
+      <path
+         id="path3926"
+         opacity=".1"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal-bottomright">
+      <path
+         id="rect3911"
+         opacity=".1"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal-top">
+      <path
+         id="p5546"
+         opacity=".1"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="progressbar-normal-right">
+      <path
+         id="path3936"
+         opacity=".1"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal-bottom">
+      <path
+         id="path3934"
+         opacity=".1"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal-left">
+      <path
+         id="rect3862"
+         opacity=".1"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-normal">
+      <rect
+         id="rect3940"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="progressbar-focused-top"
+       transform="translate(11)">
+      <path
+         id="path4815"
+         opacity=".1"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="progressbar-focused-bottom"
+       transform="translate(11)">
+      <path
+         id="path4818"
+         opacity=".1"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused-left"
+       transform="translate(11)">
+      <path
+         id="path4821"
+         opacity=".1"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused-right"
+       transform="translate(11)">
+      <path
+         id="path4824"
+         opacity=".1"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused-topleft"
+       transform="translate(11)">
+      <path
+         id="path4827"
+         opacity=".1"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused-topright"
+       transform="translate(11)">
+      <path
+         id="path4830"
+         opacity=".1"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused-bottomleft"
+       transform="translate(11)">
+      <path
+         id="path4833"
+         opacity=".1"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused-bottomright"
+       transform="translate(11)">
+      <path
+         id="path4836"
+         opacity=".1"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-top"
+       transform="translate(22)">
+      <path
+         id="path4839"
+         opacity=".1"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="progressbar-pressed-bottom"
+       transform="translate(22)">
+      <path
+         id="path4842"
+         opacity=".1"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-left"
+       transform="translate(22)">
+      <path
+         id="path4845"
+         opacity=".1"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-right"
+       transform="translate(22)">
+      <path
+         id="path4848"
+         opacity=".1"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-topleft"
+       transform="translate(22)">
+      <path
+         id="path4851"
+         opacity=".1"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-topright"
+       transform="translate(22)">
+      <path
+         id="path4854"
+         opacity=".1"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-bottomleft"
+       transform="translate(22)">
+      <path
+         id="path4857"
+         opacity=".1"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-pressed-bottomright"
+       transform="translate(22)">
+      <path
+         id="path4860"
+         opacity=".1"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-top"
+       transform="translate(33)">
+      <path
+         id="path4863"
+         opacity=".1"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="progressbar-toggled-bottom"
+       transform="translate(33)">
+      <path
+         id="path4866"
+         opacity=".1"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-left"
+       transform="translate(33)">
+      <path
+         id="path4869"
+         opacity=".1"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-right"
+       transform="translate(33)">
+      <path
+         id="path4872"
+         opacity=".1"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-topleft"
+       transform="translate(33)">
+      <path
+         id="path4875"
+         opacity=".1"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-topright"
+       transform="translate(33)">
+      <path
+         id="path4878"
+         opacity=".1"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-bottomleft"
+       transform="translate(33)">
+      <path
+         id="path4881"
+         opacity=".1"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-toggled-bottomright"
+       transform="translate(33)">
+      <path
+         id="path4884"
+         opacity=".1"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-top"
+       transform="translate(44)">
+      <path
+         id="path4887"
+         opacity=".1"
+         d="m3-1v3h1v-3h-1z"
+         inkscape:connector-curvature="0"
+         inkscape:label="#p56565" />
+    </g>
+    <g
+       id="progressbar-disabled-bottom"
+       transform="translate(44)">
+      <path
+         id="path4890"
+         opacity=".1"
+         d="m4 5h-1v3h1v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-left"
+       transform="translate(44)">
+      <path
+         id="path4893"
+         opacity=".1"
+         d="m2 4v-1h-3v1h3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-right"
+       transform="translate(44)">
+      <path
+         id="path4896"
+         opacity=".1"
+         d="m5 3v1h3v-1h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-topleft"
+       transform="translate(44)">
+      <path
+         id="path4899"
+         opacity=".1"
+         d="m2-1c-1.662 0-3 1.338-3 3h3v-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-topright"
+       transform="translate(44)">
+      <path
+         id="path4902"
+         opacity=".1"
+         d="m5-1v3h3c0-1.662-1.338-3-3-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-bottomleft"
+       transform="translate(44)">
+      <path
+         id="path4905"
+         opacity=".1"
+         d="m-1 5c0 1.662 1.338 3 3 3v-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-disabled-bottomright"
+       transform="translate(44)">
+      <path
+         id="path4908"
+         opacity=".1"
+         d="m5 5v3c1.662 0 3-1.338 3-3h-3z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="progressbar-focused"
+       transform="translate(11)">
+      <rect
+         id="rect6727"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="progressbar-pressed"
+       transform="translate(22)">
+      <rect
+         id="rect6730"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="progressbar-toggled"
+       transform="translate(33)">
+      <rect
+         id="rect6733"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+    <g
+       id="progressbar-disabled"
+       transform="translate(44)">
+      <rect
+         id="rect6736"
+         opacity=".1"
+         height="1"
+         width="1"
+         y="3"
+         x="3" />
+    </g>
+  </g>

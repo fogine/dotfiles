@@ -1,0 +1,121 @@
+  <g
+     id="layer32"
+     inkscape:label="slider-handle"
+     inkscape:groupmode="layer"
+     display="none">
+    <g
+       id="scale-slider-normal"
+       transform="translate(.0016058 -5.0752)">
+      <path
+         id="path15637"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m12 6a6 6 0 0 1 -12 0 6 6 0 1 1 12 0z" />
+      <path
+         id="path15639"
+         opacity=".3"
+         d="m5.9 0.5c-1.8 0-3.5 0.8-4.4 2.4a0.5 0.5 0 0 1 -0.1 0c-2 2.8-0.5 7.3 2.8 8.4 3.4 1.2 7.5-1.7 7.3-5.3 0-1.2-0.5-2.4-1.1-3.3-1-1.5-2.8-2.2-4.5-2.2z"
+         inkscape:connector-curvature="0"
+         stroke="#000"
+         fill="none" />
+      <path
+         id="path15641"
+         opacity=".4"
+         d="m8 6.5a2 1.5 0 1 1 -4 0 2 1.5 0 1 1 4 0z"
+         inkscape:connector-curvature="0"
+         transform="matrix(1,0,0,1.3,0,-2.7)"
+         fill="#6a6a6a" />
+    </g>
+    <g
+       id="scale-slider-focused"
+       transform="translate(15.002 -5.0752)">
+      <path
+         id="path17498"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m12 6a6 6 0 0 1 -12 0 6 6 0 1 1 12 0z" />
+      <path
+         id="path17500"
+         opacity=".3"
+         d="m5.9 0.5c-1.8 0-3.5 0.8-4.4 2.4a0.5 0.5 0 0 1 -0.1 0c-2 2.8-0.5 7.3 2.8 8.4 3.4 1.2 7.5-1.7 7.3-5.3 0-1.2-0.5-2.4-1.1-3.3-1-1.5-2.8-2.2-4.5-2.2z"
+         inkscape:connector-curvature="0"
+         stroke="#000"
+         fill="none" />
+      <path
+         id="path17502"
+         opacity=".4"
+         d="m8 6.5a2 1.5 0 1 1 -4 0 2 1.5 0 1 1 4 0z"
+         inkscape:connector-curvature="0"
+         transform="matrix(1,0,0,1.3,0,-2.7)"
+         fill="#6a6a6a" />
+    </g>
+    <g
+       id="scale-slider-pressed"
+       transform="translate(30.002 -5.0752)">
+      <path
+         id="path17505"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m12 6a6 6 0 0 1 -12 0 6 6 0 1 1 12 0z" />
+      <path
+         id="path17507"
+         opacity=".3"
+         d="m5.9 0.5c-1.8 0-3.5 0.8-4.4 2.4a0.5 0.5 0 0 1 -0.1 0c-2 2.8-0.5 7.3 2.8 8.4 3.4 1.2 7.5-1.7 7.3-5.3 0-1.2-0.5-2.4-1.1-3.3-1-1.5-2.8-2.2-4.5-2.2z"
+         inkscape:connector-curvature="0"
+         stroke="#000"
+         fill="none" />
+      <path
+         id="path17509"
+         opacity=".4"
+         d="m8 6.5a2 1.5 0 1 1 -4 0 2 1.5 0 1 1 4 0z"
+         inkscape:connector-curvature="0"
+         transform="matrix(1,0,0,1.3,0,-2.7)"
+         fill="#6a6a6a" />
+    </g>
+    <g
+       id="scale-slider-toggled"
+       transform="translate(45.002 -5.0752)">
+      <path
+         id="path17512"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m12 6a6 6 0 0 1 -12 0 6 6 0 1 1 12 0z" />
+      <path
+         id="path17514"
+         opacity=".3"
+         d="m5.9 0.5c-1.8 0-3.5 0.8-4.4 2.4a0.5 0.5 0 0 1 -0.1 0c-2 2.8-0.5 7.3 2.8 8.4 3.4 1.2 7.5-1.7 7.3-5.3 0-1.2-0.5-2.4-1.1-3.3-1-1.5-2.8-2.2-4.5-2.2z"
+         inkscape:connector-curvature="0"
+         stroke="#000"
+         fill="none" />
+      <path
+         id="path17516"
+         opacity=".4"
+         d="m8 6.5a2 1.5 0 1 1 -4 0 2 1.5 0 1 1 4 0z"
+         inkscape:connector-curvature="0"
+         transform="matrix(1,0,0,1.3,0,-2.7)"
+         fill="#6a6a6a" />
+    </g>
+    <g
+       id="scale-slider-disabled"
+       transform="translate(60.002 -5.0752)">
+      <path
+         id="path17519"
+         inkscape:connector-curvature="0"
+         fill="#FFF"
+         d="m12 6a6 6 0 0 1 -12 0 6 6 0 1 1 12 0z" />
+      <path
+         id="path17521"
+         opacity=".3"
+         d="m5.9 0.5c-1.8 0-3.5 0.8-4.4 2.4a0.5 0.5 0 0 1 -0.1 0c-2 2.8-0.5 7.3 2.8 8.4 3.4 1.2 7.5-1.7 7.3-5.3 0-1.2-0.5-2.4-1.1-3.3-1-1.5-2.8-2.2-4.5-2.2z"
+         inkscape:connector-curvature="0"
+         stroke="#000"
+         fill="none" />
+      <path
+         id="path17523"
+         opacity=".4"
+         d="m8 6.5a2 1.5 0 1 1 -4 0 2 1.5 0 1 1 4 0z"
+         inkscape:connector-curvature="0"
+         transform="matrix(1,0,0,1.3,0,-2.7)"
+         fill="#6a6a6a" />
+    </g>
+  </g> 

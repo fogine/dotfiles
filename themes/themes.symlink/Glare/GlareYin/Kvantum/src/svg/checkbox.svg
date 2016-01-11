@@ -1,0 +1,337 @@
+<g
+     style="display:none"
+     display="none"
+     id="layer13">
+    <g
+       id="checkbox-normal">
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect8917" />
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path8900" />
+      <path
+         style="opacity:0.35;fill:#000000"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path8902" />
+    </g>
+    <g
+       transform="translate(14,0)"
+       id="checkbox-focused">
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect9602" />
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path9604" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path9606" />
+    </g>
+    <g
+       transform="translate(29,0)"
+       id="checkbox-pressed">
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect9609" />
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path9611" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path9613" />
+    </g>
+    <g
+       transform="translate(43,0)"
+       id="checkbox-toggled">
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect9616" />
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path9618" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path9620" />
+    </g>
+    <g
+       transform="translate(57,0)"
+       id="checkbox-disabled">
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect9623" />
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path9625" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path9627" />
+    </g>
+  </g>
+  <g
+     style="display:none"
+     display="none"
+     id="layer14">
+    <g
+       id="checkbox-checked-normal">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path10426" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path10428" />
+      <path
+         style="fill:none;stroke:#888888;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 3,0 3,3 4,-7"
+         id="path10430" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect10443" />
+    </g>
+    <g
+       transform="translate(14,0)"
+       id="checkbox-checked-focused">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path12593" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path12595" />
+      <path
+         style="fill:none;stroke:#888888;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 3,0 3,3 4,-7"
+         id="path12597" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect12599" />
+    </g>
+    <g
+       transform="translate(29,0)"
+       id="checkbox-checked-pressed">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path12602" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path12604" />
+      <path
+         style="fill:none;stroke:#888888;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 3,0 3,3 4,-7"
+         id="path12606" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect12608" />
+    </g>
+    <g
+       transform="translate(43,0)"
+       id="checkbox-checked-toggled">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path12611" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path12613" />
+      <path
+         style="fill:none;stroke:#888888;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 3,0 3,3 4,-7"
+         id="path12615" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect12617" />
+    </g>
+    <g
+       transform="translate(58,0)"
+       id="checkbox-checked-disabled">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-3 C 1,-3 1,-3 1,-2.9 L 1,5.9 C 1,6 1,6 1.1,6 L 9.9,6 C 10,6 10,6 10,5.9 l 0,-8.8 C 10,-3 10,-3 9.9,-3 l -8.8,0 z"
+         id="path12620" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-4 C 0.5,-4 0,-3.5 0,-2.9 L 0,5.9 C 0,6.5 0.5,7 1.1,7 L 9.9,7 C 10.5,7 11,6.5 11,5.9 l 0,-8.8 C 11,-3.5 10.5,-4 9.9,-4 L 1.1,-4 Z M 1,-3 9.9,-3 c 0.1,0 0.1,0 0.1,0.1 l 0,8.8 C 10,6 10,6 9.9,6 L 1.1,6 C 1,6 1,6 1,5.9 L 1,-3 Z"
+         id="path12622" />
+      <path
+         style="fill:none;stroke:#4a4a4a;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 3,0 3,3 4,-7"
+         id="path12624" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect12626" />
+    </g>
+  </g>
+  <g
+     style="display:none"
+     display="none"
+     id="layer15">
+    <g
+       id="checkbox-tristate-normal">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-2.9 C 1,-2.9 1,-2.9 1,-2.8 L 1,6 c 0,0.1 0,0.1 0.1,0.1 l 8.8,0 C 10,6.1 10,6.1 10,6 l 0,-8.8 c 0,-0.1 0,-0.1 -0.1,-0.1 l -8.8,0 z"
+         id="path14154" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-3.9 C 0.5,-3.9 0,-3.4 0,-2.8 L 0,6 c 0,0.6 0.5,1.1 1.1,1.1 l 8.8,0 C 10.5,7.1 11,6.6 11,6 l 0,-8.8 c 0,-0.6 -0.5,-1.1 -1.1,-1.1 l -8.8,0 z m -0.1,1 8.9,0 c 0.1,0 0.1,0 0.1,0.1 L 10,6 c 0,0.1 0,0.1 -0.1,0.1 l -8.8,0 C 1,6.1 1,6.1 1,6 l 0,-8.9 z"
+         id="path14156" />
+      <path
+         style="color:#000000;fill:#888888;fill-opacity:1"
+         d="m 2.7,0.1 a 0.80623,1.0078 0 1 0 0.2,2 l 5.3,0 a 0.8,1 0 0 0 0,-2 l -5.3,0 a 0.8,1 0 0 0 -0.2,0 z"
+         id="path14158" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect14171" />
+    </g>
+    <g
+       transform="translate(14,0)"
+       id="checkbox-tristate-focused">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-2.9 C 1,-2.9 1,-2.9 1,-2.8 L 1,6 c 0,0.1 0,0.1 0.1,0.1 l 8.8,0 C 10,6.1 10,6.1 10,6 l 0,-8.8 c 0,-0.1 0,-0.1 -0.1,-0.1 l -8.8,0 z"
+         id="path14905" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-3.9 C 0.5,-3.9 0,-3.4 0,-2.8 L 0,6 c 0,0.6 0.5,1.1 1.1,1.1 l 8.8,0 C 10.5,7.1 11,6.6 11,6 l 0,-8.8 c 0,-0.6 -0.5,-1.1 -1.1,-1.1 l -8.8,0 z m -0.1,1 8.9,0 c 0.1,0 0.1,0 0.1,0.1 L 10,6 c 0,0.1 0,0.1 -0.1,0.1 l -8.8,0 C 1,6.1 1,6.1 1,6 l 0,-8.9 z"
+         id="path14907" />
+      <path
+         style="color:#000000;fill:#888888;fill-opacity:1"
+         d="m 2.7,0.1 a 0.80623,1.0078 0 1 0 0.2,2 l 5.3,0 a 0.8,1 0 0 0 0,-2 l -5.3,0 a 0.8,1 0 0 0 -0.2,0 z"
+         id="path14909" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect14911" />
+    </g>
+    <g
+       transform="translate(28,0)"
+       id="checkbox-tristate-pressed">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-2.9 C 1,-2.9 1,-2.9 1,-2.8 L 1,6 c 0,0.1 0,0.1 0.1,0.1 l 8.8,0 C 10,6.1 10,6.1 10,6 l 0,-8.8 c 0,-0.1 0,-0.1 -0.1,-0.1 l -8.8,0 z"
+         id="path14914" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-3.9 C 0.5,-3.9 0,-3.4 0,-2.8 L 0,6 c 0,0.6 0.5,1.1 1.1,1.1 l 8.8,0 C 10.5,7.1 11,6.6 11,6 l 0,-8.8 c 0,-0.6 -0.5,-1.1 -1.1,-1.1 l -8.8,0 z m -0.1,1 8.9,0 c 0.1,0 0.1,0 0.1,0.1 L 10,6 c 0,0.1 0,0.1 -0.1,0.1 l -8.8,0 C 1,6.1 1,6.1 1,6 l 0,-8.9 z"
+         id="path14916" />
+      <path
+         style="color:#000000;fill:#888888;fill-opacity:1"
+         d="m 2.7,0.1 a 0.80623,1.0078 0 1 0 0.2,2 l 5.3,0 a 0.8,1 0 0 0 0,-2 l -5.3,0 a 0.8,1 0 0 0 -0.2,0 z"
+         id="path14918" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect14920" />
+    </g>
+    <g
+       transform="translate(42,0)"
+       id="checkbox-tristate-toggled">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-2.9 C 1,-2.9 1,-2.9 1,-2.8 L 1,6 c 0,0.1 0,0.1 0.1,0.1 l 8.8,0 C 10,6.1 10,6.1 10,6 l 0,-8.8 c 0,-0.1 0,-0.1 -0.1,-0.1 l -8.8,0 z"
+         id="path14923" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-3.9 C 0.5,-3.9 0,-3.4 0,-2.8 L 0,6 c 0,0.6 0.5,1.1 1.1,1.1 l 8.8,0 C 10.5,7.1 11,6.6 11,6 l 0,-8.8 c 0,-0.6 -0.5,-1.1 -1.1,-1.1 l -8.8,0 z m -0.1,1 8.9,0 c 0.1,0 0.1,0 0.1,0.1 L 10,6 c 0,0.1 0,0.1 -0.1,0.1 l -8.8,0 C 1,6.1 1,6.1 1,6 l 0,-8.9 z"
+         id="path14925" />
+      <path
+         style="color:#000000;fill:#888888;fill-opacity:1"
+         d="m 2.7,0.1 a 0.80623,1.0078 0 1 0 0.2,2 l 5.3,0 a 0.8,1 0 0 0 0,-2 l -5.3,0 a 0.8,1 0 0 0 -0.2,0 z"
+         id="path14927" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect14929" />
+    </g>
+    <g
+       transform="translate(56,0)"
+       id="checkbox-tristate-disabled">
+      <path
+         style="opacity:0.1;fill:#000000"
+         d="M 1.1,-2.9 C 1,-2.9 1,-2.9 1,-2.8 L 1,6 c 0,0.1 0,0.1 0.1,0.1 l 8.8,0 C 10,6.1 10,6.1 10,6 l 0,-8.8 c 0,-0.1 0,-0.1 -0.1,-0.1 l -8.8,0 z"
+         id="path14932" />
+      <path
+         style="opacity:0.35"
+         d="M 1.1,-3.9 C 0.5,-3.9 0,-3.4 0,-2.8 L 0,6 c 0,0.6 0.5,1.1 1.1,1.1 l 8.8,0 C 10.5,7.1 11,6.6 11,6 l 0,-8.8 c 0,-0.6 -0.5,-1.1 -1.1,-1.1 l -8.8,0 z m -0.1,1 8.9,0 c 0.1,0 0.1,0 0.1,0.1 L 10,6 c 0,0.1 0,0.1 -0.1,0.1 l -8.8,0 C 1,6.1 1,6.1 1,6 l 0,-8.9 z"
+         id="path14934" />
+      <path
+         style="color:#000000;fill:#4a4a4a;fill-opacity:1"
+         d="m 2.7,0.1 a 0.80623,1.0078 0 1 0 0.2,2 l 5.3,0 a 0.8,1 0 0 0 0,-2 l -5.3,0 a 0.8,1 0 0 0 -0.2,0 z"
+         id="path14936" />
+      <rect
+         style="opacity:0"
+         x="-1"
+         y="-5"
+         width="13"
+         height="13"
+         id="rect14938" />
+    </g>
+  </g>

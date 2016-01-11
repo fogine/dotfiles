@@ -1,0 +1,20 @@
+GtkDialog{
+-GtkDialog-content-area-border:0px;
+-GtkDialog-action-area-border:5px;}
+
+GtkDialog .dialog-action-area .button,
+*.dialog-action-box{
+padding:5px;}
+
+*.dialog-action-area {
+border:0px;}
+
+GtkFileChooser .dialog-action-box,
+GtkFileChooser .dialog-action-box:backdrop{
+border-top:1px solid @genborderdark;
+padding:5px;}
+
+GtkFileChooser > GtkBox .frame{
+padding:5px;
+border:none;
+border-top:1px solid @genborderdark;}

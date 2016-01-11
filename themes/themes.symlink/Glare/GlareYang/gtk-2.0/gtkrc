@@ -1,0 +1,45 @@
+### this is only here because of the broken color loading in xfce-settings 4.12
+gtk-color-scheme = "bg_color:#fbfbfb\nselected_bg_color:#407dec\nfg_color:#5a5a5a"
+################################################################################
+###colors
+include "theme/colors.ini"
+###main stuff
+include "theme/allr.c"
+###widgets
+include "theme/toolbarr.c"
+include "theme/toolbarhandler.c"
+include "theme/statusbarr.c"
+include "theme/buttonr.c"
+include "theme/progressbarr.c"
+include "theme/entryr.c"
+include "theme/scrolledwindowr.c"
+include "theme/scaler.c"
+include "theme/scrollbarr.c"
+include "theme/tootipr.c"
+include "theme/framer.c"
+include "theme/menuitemr.c"
+include "theme/menubarr.c"
+include "theme/spinbuttonr.c"
+include "theme/notebookr.c"
+include "theme/treeviewr.c"
+include "theme/iconviewsr.c"
+###app specific stff
+include "theme/libappindicatorr.c"
+include "theme/xfwmr.c"
+include "theme/xfcepanelr.c"
+include "theme/matepanelr.c"
+include "theme/topmenur.c"
+include "theme/gimpr.c"
+include "theme/chromiumr.c"
+include "theme/thunarr.c"
+include "theme/pcmanfmr.c"
+###fixes
+include "theme/mistr.c"
+include "theme/iconandfontfixesr.c"
+include "theme/mistfixesr.c"
+###settings
+include "settings.ini"
+###Docs
+# https://wiki.gnome.org/Attic/GnomeArt/Tutorials/GtkThemes
+# https://wiki.gnome.org/Attic/GnomeArt/Tutorials/GtkEngines/PixmapEngine
+# https://developer.gnome.org/gtk2/stable/index.html

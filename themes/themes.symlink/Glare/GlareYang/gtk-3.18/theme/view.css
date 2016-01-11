@@ -1,0 +1,81 @@
+GtkTreeView column-header .button,
+GtkTreeView column-header .button:hover{
+background:@basebg;
+border-width:0px 1px 1px 0px;
+border-color:@genborder;
+border-style:solid;
+border-radius:0px;
+color:@inactivewindowtext;}
+
+GtkTreeView column-header:last-child .button{
+border-width:0px 0px 1px 0px;}
+
+GtkTreeView column-header .button:active,
+GtkTreeView column-header .button:checked,
+GtkTreeView column-header .button:active:focus{
+background-color:@basebg;
+border-width:0px 1px 1px 0px;
+border-color:@genborder;}
+
+GtkTreeView.dnd {
+border-color: #ff00ff;
+border-radius: 0;
+border-width: 1px;
+border-style: solid;}
+
+.view,
+.view:backdrop
+.list {
+border-width:0px;
+border-radius:0px;
+background-color: @basebg;
+color:@windowtext;}
+
+.view:selected,
+.view column:sorted row:selected,
+.list:selected,
+.list:selected:focus,
+treeview.view:selected,
+treeview.view:backdrop:selected{
+background-color:@hilight;
+color:@hilighttext;}
+
+.view column:sorted row {
+background-color: @viewcolumnsortedrow;
+color:@windowtext;}
+
+/*
+.view column:sorted row:nth-child(odd) {
+background-color: shade (@hilight, 1.25);}
+*/
+
+.view row,
+.view row:hover {
+background: @basebg;
+color: @windowtext;}
+
+.view row:nth-child(even),
+.view row:nth-child(odd) {
+/*background-color: @alternatebase;*/
+background: @basebg;
+}
+
+.view row:selected,
+.view row:selected:focus {
+background-color: @hilight;
+color: @hilighttext;}
+
+/*GtkTreeView.view.trough,
+GtkTreeView.view.trough:selected {
+color:transparent;
+background:@genborder;
+border-radius:3px;}*/
+
+GtkTreeView.view.progressbar {
+color:transparent;
+background:@hilight;
+border-radius:3px;}
+
+GtkTreeView.view.progressbar:selected {
+color:@basebg;
+background:@basebg;}

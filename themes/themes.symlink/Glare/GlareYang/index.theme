@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Glare Yang
+Comment=simple bright theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Glare Yang
+Type=X-GNOME-Metatheme
+Encoding=UTF-8
+GtkTheme=GlareYang
+MetacityTheme=Glare
+IconTheme=Ivy
+CursorTheme=Vanilla-DMZ-AA
+CursorSize=24
+ButtonLayout=:minimize,maximize,close
+

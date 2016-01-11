@@ -1,0 +1,20 @@
+GtkProgressBar,
+GtkProgressBar:backdrop{
+padding:0px;
+color:transparent;
+-GtkProgressBar-xspacing: 0;
+-GtkProgressBar-yspacing:0;
+-GtkProgressBar-min-horizontal-bar-height:7;
+-GtkProgressBar-min-vertical-bar-width:7;}
+GtkProgressBar.trough,
+GtkProgressBar.trough:backdrop{
+border:none;
+border-radius:3px;
+color:transparent;
+background:@genborder;}
+
+GtkProgressBar.progressbar{
+border-radius:3px;
+color:transparent;
+background:@hilight;}
+

@@ -1,0 +1,36 @@
+GtkSwitch{
+padding:3px;
+/*fixes right padding*/
+padding-right: 8px;
+font-weight:bold;
+/*fixed font size*/
+font-size:6pt;
+text-shadow:0px 0px 1px @textshadow;}
+
+GtkSwitch.trough{
+background:@off;
+color:@hilighttext;
+border:1px solid shade(@off,0.7);
+border-radius:2px;}
+
+GtkSwitch.trough:active{
+background:@hilight;
+border:1px solid shade(@hilight,0.7);}
+
+GtkSwitch.trough:insensitive{
+background:@menubar;
+color:@inactivewindowtext;
+text-shadow:none;
+border:1px solid shade(@menubar,0.9);
+border-radius:2px;}
+
+GtkSwitch.slider{
+background:@window;
+border:1px solid shade(@off,0.6);
+border-radius:2px}
+
+GtkSwitch.slider:active{
+border:1px solid shade(@hilight,0.6);}
+
+GtkSwitch.slider:insensitive{
+border:1px solid shade(@menubar,0.8);}

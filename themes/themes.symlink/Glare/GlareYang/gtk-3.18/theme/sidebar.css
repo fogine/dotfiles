@@ -1,0 +1,41 @@
+*.sidebar,
+*.sidebar .frame,
+*.sidebar:backdrop,
+*.sidebar .view,
+*.sidebar .view:hover,
+*.sidebar .view .image:backdrop,
+*.sidebar .view:backdrop,
+*.sidebar .view:hover:backdrop {
+border:none;
+background:@sidebarbg;}
+
+GtkFileChooser .sidebar{
+border-top:4px solid @sidebarbg;}
+
+*.sidebar:selected:backdrop:hover,
+*.sidebar:selected:backdrop,
+*.sidebar .view:backdrop:selected:hover,
+*.sidebar .view:backdrop:selected,
+.sidebar row:selected,
+.sidebar row:selected:hover,
+.sidebar row:selected:focus,
+.sidebar .view row:selected,
+.sidebar .view row:selected:hover,
+.sidebar .view row:selected:focus {
+border:none;
+background:@hilight;}
+
+*.sidebar .separator,
+*.sidebar.separator,
+.sidebar.view.separator,
+.sidebar .view.separator,
+*.sidebar .separator:hover,
+*.sidebar.separator:hover,
+*.sidebar .view.separator:hover,
+*.sidebar.view.separator:hover,
+*.sidebar .separator:backdrop,
+*.sidebar.separator:backdrop{
+-GtkWidget-wide-separators: true;
+-GtkWidget-separator-width:1px;
+color:@separator;
+background:@separator;}

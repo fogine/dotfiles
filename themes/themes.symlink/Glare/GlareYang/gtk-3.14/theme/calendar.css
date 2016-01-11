@@ -1,0 +1,19 @@
+GtkCalendar.view {
+  border-width: 1px;
+  border-style: inset;
+  padding: 1px;
+  background:@window;}
+
+GtkCalendar.view:inconsistent {
+  color: darker (@basebg);}
+
+GtkCalendar.header,
+GtkCalendar.button,
+GtkCalendar.button.arrow {
+  background: @hilight;
+  color:@hilighttext;
+  border:none;
+  border-bottom: 1px solid @genborderdark;}
+
+GtkCalendar.highlight {
+  border-width: 0;}

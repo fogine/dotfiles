@@ -1,0 +1,49 @@
+/*welcome to the kindergarten!*/
+.titlebar,
+.header-bar,
+.maximized .titlebar,
+.tiled .titlebar,
+.titlebar.default-decoration,
+.titlebar:backdrop {
+color:@windowtext;
+background:@toolbar;
+box-shadow:inset 0px 1px 0px 0px @lightborder,inset 0px -1px 0px 0px @genborder;
+border-radius:0px;
+padding:4px 2px;}
+
+.titlebar .title,
+.header-bar .title,
+.titlebar .subtitle,
+.header-bar .subtitle,
+.titlebar .title:hover,
+.header-bar .title:hover,
+.titlebar .subtitle:hover,
+.header-bar .subtitle:hover{
+color:@toolbar;}
+
+.titlebar .title.button,
+.header-bar .title.button{
+color:@windowtext}
+
+.window-frame:backdrop,
+.window-frame,
+.window-frame.tiled,
+.window-frame.popup{
+text-shadow:none;
+background:none;
+border:none;
+border-radius:0px;
+box-shadow:none;
+padding:0px;}
+
+.window-frame,
+.window-frame:backdrop {
+box-shadow: 0px 1px 0px 0px @genborderdark,-1px 0px 0px 0px @genborderdark,1px 0px 0px 0px @genborderdark,0px -1px 0px 0px @genborderdark;
+border-radius:0px;}
+
+.window-frame.tooltip.csd,
+.window-frame.popup.csd,
+.window-frame.popup {
+border-radius:0px;
+box-shadow: none;
+margin: 0px;}
