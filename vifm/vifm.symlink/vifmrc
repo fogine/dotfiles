@@ -157,6 +157,14 @@ colorscheme zenburn_1
 " %D the other window directory name.
 " %m run the command in a menu window
 
+command! blender :!blender %c %i
+command! feh :!feh -r --scale-down %f &
+command! gimp :!gimp %f &
+command! vlc :!vlc %f &
+command! inkscape :!inkscape %f &
+command! audacity :!audacity %f &
+command! fileroller :!file-roller %f &
+command! thunar :!thunar &
 command! df df -h %m 2> /dev/null
 command! diff vim -d %f %F
 command! zip zip -r %f.zip %f
@@ -167,6 +175,10 @@ command! vgrep vim "+grep %a"
 command! todo :!tudu
 command! tudu :!tudu
 command! reload :write | restart
+
+" extract selected files from archive we're exploring right now
+command! extractfiles :execute "! $VIFM/scripts/extract_files.sh" &fusehome expand('%D') expand('%f:p')
+
 command! navigation :execute '!navigation.sh' %a paneisat('top') paneisat('left') layoutis('vsplit') layoutis('hsplit')
 command! navVsplitLeft :if layoutis('vsplit') == 1 | navLeft | else | execute "!tmux_sys_win_aware_navigation.sh 'left' 'tmux-only' &" | endif
 command! navLeft :if paneisat('left') == 0 | execute "wincmd h" | else | execute "!tmux_sys_win_aware_navigation.sh 'left' 'tmux-only' &" | endif
@@ -305,15 +317,12 @@ fileviewer *.pdf pdftotext -nopgbrk %c -
 :filextype *.blend,*.blend1,*.blend2,*.blend3,*.blend4,*blend4 blender %c %i
 
 "Image
-:filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm wine "$HOME/.local/share/wineprefixes/irfanview/drive_c/Program Files (x86)/IrfanView/i_view32.exe" %f %i
+:filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm feh %f %i --scale-down
 
 "HTML
 :filextype *.html,*.htm google-chrome %c %i &
 ":fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
 "         \ /usr/local/bin/open_in_irfanview.sh %c %i
-
-" extract selected files from archive we're exploring right now
-command! extractfiles :execute "! $VIFM/scripts/extract_files.sh" &fusehome expand('%D') expand('%f:p')
 
 " ArchiveMount
 filetype *.tar,*.tar.bz2,*.tbz2,*.tgz,*.tar.gz,*.tar.xz,*.txz
