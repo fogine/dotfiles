@@ -83,7 +83,7 @@ precmd()
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( sudo  urltools web-search git git-extras jsontools laravel4 mysql-macports redis-cli last-working-dir apache2-macports atom  bower node npm pip python command-not-found composer dirhistory encode64 )
+plugins=( sudo calc zsh-navigation-tools ubuntu rsync urltools iwhois web-search git git-extras jsontools laravel4 mysql-macports redis-cli last-working-dir apache2-macports atom  bower node npm pip python command-not-found composer dirhistory encode64 )
 
 # User configuration
 #
