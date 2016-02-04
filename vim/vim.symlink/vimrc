@@ -452,6 +452,8 @@ augroup vim_autocmd_css
     autocmd BufRead,BufNewFile *.css,*.scss,*.less setlocal foldmethod=marker foldmarker={,}
 augroup END
 
+autocmd BufNewFile,BufRead fugitive://* set bufhidden=delete
+
 " PHP folding
 "autocmd BufRead,BufNewFile *.php setlocal foldmethod=marker foldmarker=#region,#endregion
 
