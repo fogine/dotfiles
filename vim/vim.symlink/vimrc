@@ -263,6 +263,12 @@ set number
 " Start searching immediately as typing start
 set incsearch
 
+" vim diff - ignore whitespace
+set diffopt+=iwhite
+
+" save file with sudo permissions
+cmap w!! w !sudo tee %
+
 " Ignore case when searching
 set ignorecase
 

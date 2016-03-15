@@ -166,7 +166,7 @@ command! audacity :!audacity %f &
 command! fileroller :!file-roller %f &
 command! thunar :!thunar &
 command! df df -h %m 2> /dev/null
-command! diff vim -d %f %F
+command! diff vim -c 'set diffopt+=iwhite' -d %f %F
 command! zip zip -r %f.zip %f
 command! run !! ./%f
 command! make !!make %a
@@ -260,9 +260,9 @@ map ym :move<cr>
 map yc :clone <cr>
 
 " trash-cli to handle trash
-nmap D :!trash-put %f & <cr>
-nmap DR :!restore-trash & <cr>
-nmap DD :!trash-empty & <cr>
+"nmap D :!trash-put %f & <cr>
+"nmap DR :!restore-trash & <cr>
+"nmap DD :!trash-empty & <cr>
 
 "Moving between panes
 "nmap <c-h> <bs>
