@@ -228,8 +228,6 @@ let $LANG = 'en_US'
 " Sets how many lines of history VIM has to remember
 set history=1000
 
-" Diff ignore whitespace
-set diffopt+=iwhite
 " Enable filetype plugins
 filetype plugin on
 " Vim indentation rules and plugins
