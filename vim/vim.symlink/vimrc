@@ -11,6 +11,22 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 "Plugin 'janko-m/vim-test'
+"Textobjects
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-indent'
+Plugin 'Julian/vim-textobj-brace'
+Plugin 'glts/vim-textobj-comment'
+Plugin 'kana/vim-textobj-diff'
+Plugin 'kana/vim-textobj-fold'
+Plugin 'kana/vim-textobj-function'
+Plugin 'kana/vim-textobj-lastpat'
+Plugin 'sgur/vim-textobj-parameter'
+Plugin 'paulhybryant/vim-textobj-path'
+Plugin 'kana/vim-textobj-syntax'
+Plugin 'Julian/vim-textobj-variable-segment'
+Plugin 'whatyouhide/vim-textobj-xmlattr'
+"Textobjects end
+Plugin 'tpope/vim-commentary'
 Plugin 'vim-scripts/SQLUtilities'
 Plugin 'vim-scripts/Align'
 Plugin 'mhinz/vim-startify'
