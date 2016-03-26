@@ -244,6 +244,9 @@ nnoremap <tab> <space>
 " show all bookmarks
 nmap bb :marks <cr>
 
+" disable da - it deletes all in current dir by default
+nmap da :<cr>
+
 " copy files to the opposite pane
 "nmap yy :!cp -r %f %D &<cr>
 map yy :copy&<cr>
