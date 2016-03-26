@@ -11,7 +11,9 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 "Plugin 'janko-m/vim-test'
+Bundle 'jistr/vim-nerdtree-tabs'
 "Textobjects
+Plugin 'Raimondi/delimitMate'
 Plugin 'kana/vim-textobj-user'
 Plugin 'kana/vim-textobj-indent'
 Plugin 'Julian/vim-textobj-brace'
@@ -33,7 +35,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/syntastic.git'
 Plugin 'Valloric/YouCompleteMe.git'
 Plugin 'fogine/ack.vim.git'
-Plugin 'jiangmiao/auto-pairs.git'
+"Plugin 'jiangmiao/auto-pairs.git'
 Plugin 'wincent/command-t.git'
 Plugin 'godlygeek/csapprox.git'
 Plugin 'mattn/emmet-vim.git'
@@ -271,8 +273,8 @@ else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
 
-" Number line side bar
-set number
+"Relative Number line side bar
+set relativenumber
 
 " Start searching immediately as typing start
 set incsearch
@@ -586,6 +588,14 @@ set laststatus=2
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
 
+
+" autocmd VimEnter *
+"             \   if !argc()
+"             \ |   Startify
+"             \ |   NERDTree
+"             \ |   wincmd w
+"             \ | endif
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => PHPCOMPLETE plugin conf
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -628,7 +638,10 @@ let g:proj_flags='gimst'
 " => NERDTree plugin  settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let NERDTreeHighlightCursorline=1
-nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
+"nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
+ nnoremap <silent> <C-n> :NERDTreeTabsToggle<cr>
+ nnoremap <silent> <C-m> :NERDTreeTabsFind<cr>
+" map <C-n> :NERDTreeTabsToggle NERDTreeTabsFind<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => CtrlP plugin settings
