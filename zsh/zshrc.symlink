@@ -22,6 +22,12 @@ stty -ixon
 #ZSH_THEME="arrow"
 #
 
+
+#<c-z> - toggle between bg and fg a current process
+_zsh_cli_fg() { fg; }
+zle -N _zsh_cli_fg
+bindkey '^Z' _zsh_cli_fg
+
 #Automatically call `nvm use` if `node` is not yet loaded and
 #cwd contains `.nvmrc` with node version to load
 autoload -U add-zsh-hook
@@ -32,11 +38,6 @@ load-nvmrc() {
   fi
 }
 add-zsh-hook chpwd load-nvmrc
-
-#<c-z> - toggle between bg and fg a current process
-_zsh_cli_fg() { fg; }
-zle -N _zsh_cli_fg
-bindkey '^Z' _zsh_cli_fg
 
 #User powerline plugin in shell
 function _update_ps1()
