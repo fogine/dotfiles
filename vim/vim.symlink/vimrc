@@ -1,3 +1,4 @@
+let $VIM_CACHE = $HOME . '/.cache/vim'
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -13,6 +14,10 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'janko-m/vim-test'
 Bundle 'jistr/vim-nerdtree-tabs'
 "Textobjects
+Plugin 'benmills/vimux'
+Plugin 'thinca/vim-qfreplace'
+Plugin 'thinca/vim-visualstar'
+Plugin 'thinca/vim-quickrun'
 Plugin 'Raimondi/delimitMate'
 Plugin 'kana/vim-textobj-user'
 Plugin 'kana/vim-textobj-indent'
@@ -20,6 +25,7 @@ Plugin 'Julian/vim-textobj-brace'
 Plugin 'glts/vim-textobj-comment'
 Plugin 'kana/vim-textobj-diff'
 Plugin 'kana/vim-textobj-fold'
+Plugin 'thinca/vim-textobj-function-javascript'
 Plugin 'kana/vim-textobj-function'
 Plugin 'kana/vim-textobj-lastpat'
 Plugin 'sgur/vim-textobj-parameter'
@@ -274,6 +280,7 @@ else
 endif
 
 "Relative Number line side bar
+set number "shows instead of zero line (current line) real, actuall line number
 set relativenumber
 
 " Start searching immediately as typing start
@@ -476,6 +483,8 @@ augroup vim_autocmd_css
     autocmd BufRead,BufNewFile *.css,*.scss,*.less setlocal foldmethod=marker foldmarker={,}
 augroup END
 
+"fix bug with triggering diff from Gstatus (fugitive) window - does not work everytime
+"though
 autocmd BufNewFile,BufRead fugitive://* set bufhidden=delete
 
 " PHP folding
@@ -639,7 +648,7 @@ let g:proj_flags='gimst'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let NERDTreeHighlightCursorline=1
 "nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
- nnoremap <silent> <C-n> :NERDTreeTabsToggle<cr>
+ nnoremap <silent> <C-n> :NERDTreeMirrorToggle<cr>
  nnoremap <silent> <C-m> :NERDTreeTabsFind<cr>
 " map <C-n> :NERDTreeTabsToggle NERDTreeTabsFind<CR>
 
@@ -672,6 +681,12 @@ nnoremap <leader>d :call pdv#DocumentWithSnip()<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>zc <Esc>:EnablePHPFolds<Cr>
 map <leader>zo <Esc>:DisablePHPFolds<Cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Fugitive
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+command Gps Gpush
+command Gpl Gpull
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Cscope settings
@@ -737,6 +752,24 @@ au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:U
 " and close the selection list, same as other IDEs.
 " CONFLICT with some plugins like tpope/Endwise
 ":inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Quickrun plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if !exists('g:quickrun_config')
+    let g:quickrun_config={}
+endif
+
+" javascript {{{4
+  call extend(g:quickrun_config, {
+  \ 'javascript' : {
+  \    'exec':  'node --debug %S > /tmp/nodedebug',
+  \    'command': '',
+  \    'cmdopt': '',
+  \    'outputter/buffer/append': 1,
+  \ }
+  \ })
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Surround plugin settings
