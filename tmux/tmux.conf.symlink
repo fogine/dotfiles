@@ -116,6 +116,12 @@ bind-key v split-window -h
 bind-key s split-window
 bind-key q kill-pane
 
+
+bind-key o resize-pane -Z
+
+# show session list
+bind-key S choose-tree
+
 # Moving with tabs/windows
 bind-key j previous-window
 bind-key k next-window
@@ -131,7 +137,7 @@ bind-key C-a send-prefix #send key to underlying program (so vim can used it too
 
 # Activity monitoring
 setw -g monitor-activity on
-set -g visual-activity on
+set -g visual-activity off
 
 # Start numbering at 1
 set -g base-index 1
@@ -154,16 +160,20 @@ set-option -g status-right-length 90
 #set-option -g status-right "#(~/.tmux/tmux-powerline/powerline.sh right)"
 
 #Restore these programs with tmux session
-set -g @resurrect-processes 'ssh mysql sqlite3 vifm'
+set -g @resurrect-processes 'node "~kpcli" ssh mysql sqlite3 vifm'
 set -g @resurrect-strategy-vim 'session' #automatically restore vim session
 
 run-shell "powerline-daemon -q"
 source "$HOME/.local/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf"
+
+set -g pane-border-fg default
+set -g pane-active-border-fg colour249
+set -g pane-active-border-bg default
 #
 # List of plugins
 # Supports `github_username/repo` or full git repo URLs
 set -g @tpm_plugins '              \
-  tmux-plugins/tpm                 \
+  tmux-plugins/tpm/tpm             \
   tmux-plugins/tmux-sensible       \
   tmux-plugins/tmux-resurrect      \
   tmux-plugins/tmux-open           \
