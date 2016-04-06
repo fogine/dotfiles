@@ -148,7 +148,7 @@ if [[ -n ${TMUX} && -n ${commands[tmux]} ]];then
         esac
 fi
 #<c-z> - toggle between bg and fg a current process
-_zsh_cli_fg() { fg; echo "shclifgcalled\n" >> /tmp/zshtest }
+_zsh_cli_fg() { fg;}
 zle -N _zsh_cli_fg
 bindkey '^Z' _zsh_cli_fg
 
