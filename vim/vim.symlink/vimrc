@@ -12,7 +12,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 "Plugin 'janko-m/vim-test'
-Bundle 'jistr/vim-nerdtree-tabs'
+"Plugin 'jistr/vim-nerdtree-tabs'
 "Textobjects
 Plugin 'benmills/vimux'
 Plugin 'thinca/vim-qfreplace'
@@ -647,9 +647,9 @@ let g:proj_flags='gimst'
 " => NERDTree plugin  settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let NERDTreeHighlightCursorline=1
-"nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
- nnoremap <silent> <C-n> :NERDTreeMirrorToggle<cr>
- nnoremap <silent> <C-m> :NERDTreeTabsFind<cr>
+nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
+ "nnoremap <silent> <C-n> :NERDTreeTabsToggle<cr>
+ "nnoremap <silent> <C-m> :NERDTreeTabsFind<cr>
 " map <C-n> :NERDTreeTabsToggle NERDTreeTabsFind<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
