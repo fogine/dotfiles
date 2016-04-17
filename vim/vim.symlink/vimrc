@@ -477,6 +477,20 @@ augroup vim_autocmd_js
     "imap <c-space> <c-x><c-o>
     "Ternjs go to definition
     autocmd FileType javascript nnoremap gd :TernDef<CR>
+    function! JavaScriptFold()
+        setl foldmethod=syntax
+        setl foldlevelstart=1
+        syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
+
+
+        function! FoldText()
+            return substitute(getline(v:foldstart), '{.*', '{...}', '')
+        endfunction
+        setl foldtext=FoldText()
+    endfunction
+
+    au FileType javascript call JavaScriptFold()
+    au FileType javascript setl fen
 augroup END
 
 augroup vim_autocmd_css
