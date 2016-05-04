@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 
 "Plugin 'janko-m/vim-test'
 "Plugin 'jistr/vim-nerdtree-tabs'
+"Plugin 'fogine/vim-align-equal-sign'
 "Textobjects
 Plugin 'wellle/targets.vim'
 Plugin 'benmills/vimux'
