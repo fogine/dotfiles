@@ -14,6 +14,8 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'janko-m/vim-test'
 "Plugin 'jistr/vim-nerdtree-tabs'
 "Plugin 'fogine/vim-align-equal-sign'
+Plugin 'idanarye/vim-yankitute'
+Plugin 'idanarye/vim-merginal'
 "Textobjects
 Plugin 'wellle/targets.vim'
 Plugin 'kana/vim-textobj-line'
