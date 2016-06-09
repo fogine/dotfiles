@@ -1,0 +1,662 @@
+#!/bin/sh
+':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
+
+var fs    = require('fs');
+var path  = require('path');
+var util  = require('util');
+var spawn = require('child_process').spawn;
+var exec  = require('child_process').exec;
+
+var env             = process.env;
+var $HOME           = env.HOME;
+var $XDG_CACHE_HOME = env.XDG_CACHE_HOME;
+
+var app            = path.basename(__filename);
+var cacheDirPath   = $XDG_CACHE_HOME || $HOME + "/.cache/" + app + '/';
+var cacheFilePath  = cacheDirPath + 'cache';
+var configDirPath  = $HOME + '/.config/' + app;
+var configFilePath = configDirPath + '/config';
+var fileCollection = [];
+var USING_CACHED_DATA   = false;
+
+init();
+
+//defaults - will be joined with config file options if found
+var options = {
+    dmenu: ['dmenu', '-q', '-b', '-z'],
+    paths: [$HOME + '/.local/bin', '/usr/local/bin', '/usr/bin'],
+    defaultWebCmd: 'google-chrome "%b"',
+    commands: {}
+};
+
+try {
+    var config = fs.readFileSync(configFilePath);
+    assign(options, JSON.parse(config));
+} catch(e) {
+    if (e.name == 'SyntaxError') {
+        checkForError(e);
+    }
+}
+
+//Main
+getFileOptions(function(err, result) {
+    checkForError(err);
+
+    if (process.argv.indexOf('--update-cache') !== -1 && USING_CACHED_DATA === true) {
+        updateCache(result, function(err, result) {
+            checkForError(err);
+
+            initDmenu(result);
+        });
+    } else {
+        initDmenu(result);
+    }
+
+    function initDmenu(result) {
+        getSelection(result, function(err, selection) {
+            checkForError(err);
+
+            var commands = expandCommandAliases(options.commands);
+            var notInCache = false;
+
+            if (!_isPlainObject(selection)) {
+                var cacheCandidate = getFirstWord(selection).trim();
+
+                selectionCandidate = result.find(function(entity) {
+                    return entity.file.trim() == cacheCandidate;
+                });
+
+                if (_isPlainObject(selectionCandidate)) {
+                    selectionCandidate.file = selection;
+                    selection = selectionCandidate;
+                } else {
+                    notInCache = true;
+                    selection = {
+                        file: selection,
+                        path: '',
+                        frequency: 0,
+                        stat: {}
+                    };
+                }
+            }
+
+            var commandCandidate = getFirstWord(selection.file);
+            if (commands.hasOwnProperty(commandCandidate)) {
+                var opt = commands[commandCandidate];
+                runCustomCommand(commandCandidate, selection.file.substr(commandCandidate.length), opt);
+
+                if (notInCache) {
+                    if (opt.cache === 'alias') {
+                        selection.file = commandCandidate;
+                        result.push(selection);
+                    } else if (opt.cache === 'all') {
+                        result.push(selection);
+                    }
+                }
+            } else {
+                runCommand(selection.file);
+            }
+
+            //update usage metadate for selected option
+            selection.frequency = (selection.frequency && ++selection.frequency) || 1;
+            selection.stat.ctime = Date.now();
+
+            sortFileOptions(result);
+            saveCache(cacheFilePath, result);
+        })
+    }
+});
+
+/**
+ * getFileOptions
+ *
+ * @callback(err, array)
+ * @return {undefined}
+ */
+function getFileOptions(callback) {
+    if (fs.existsSync(cacheFilePath)) {
+        var data = JSON.parse(fs.readFileSync(cacheFilePath));
+        USING_CACHED_DATA = true;
+        return callback(undefined, data);
+    } else {
+        searchFiles(options.paths, function(err, result) {
+            return callback(err, result);
+        });
+    }
+}
+
+
+/**
+ * runCustomCommand
+ *
+ * @param {string} command - first word of stdout from dmenu
+ * @param {string} args - parsed command args from dmenu stdout
+ * @param {Object} opt - options object of command from config file
+ * @param {string} opt.type - type of custom command - possible values (web|terminal)
+ * @param {string} [opt.url] - when `type=web` expanded url will be given to `cmd`
+ * @param {string} [opt.cmd] - when specified it will overwrite default behavior
+ * @param {string} [opt.cache] - possible values (all|alias|false),
+ *                              all = stdout from dmenu will be cached,
+ *                              alias = custom command alias from stdout will be parsed and cached,
+ *                              false = no cache
+ *
+ * @return {undefined}
+ */
+function runCustomCommand(command, args, opt) {
+    if (opt.type === 'web') {
+
+        var cmd = opt.cmd || options.defaultWebCmd;
+
+        var offset = opt.url.indexOf('%s');
+        var pre = opt.url.substr(0, offset);
+        var match = encodeRFC5987ValueChars(args.trim());
+        var post = opt.url.substr(offset+2);
+        url = pre + match + post;
+
+        cmd = expandCommand(cmd, url);
+        runCommand(cmd);
+
+    } else if (opt.type === 'terminal') {
+        var cmd = opt.cmd;
+
+        cmd = expandCommand(cmd, '"' + args.trim() + '"');
+        runCommand(cmd);
+    } else {
+        console.error('unsupported custom command type: ' + opt.type);
+    }
+
+    function expandCommand(command, arg) {
+        var offset = command.indexOf('%b');
+        var pre = command.substr(0, offset);
+        var match = arg;
+        var post = command.substr(offset+2);
+        return pre + match + post;
+        //return command.replace(/^.*(%b).*$/, function(match, p1, offset, command) {
+            //return command.substr(0, offset) + arg + command.substr(offset+match.length);
+        //});
+    }
+}
+
+
+/**
+ * runCommand
+ *
+ * @param {string} command - stdout from dmenu
+ *
+ * @return {undefined}
+ */
+function runCommand(command) {
+
+    exec(command, function(error, stdout, stderr) {
+        if (stderr) {
+            console.error(command + ' errror: ' + stderr.toString());
+        }
+
+        if (error) {
+            console.error(error);
+        }
+    });
+}
+
+
+/**
+ * getFirstWord
+ *
+ * @param {String} command
+ *
+ * @return {String}
+ */
+function getFirstWord(command) {
+    return command.trim().split(' ').shift();
+}
+
+/**
+ * expandCommandAliases
+ *
+ * transforms input:
+ *     {
+ *         "google,g": {}
+ *     }
+ *
+ * into output:
+ *     {
+ *         "google": {},
+ *         "g": {}
+ *     }
+ *
+ * @param {Object} commands
+ *
+ * @return {Object}
+ */
+function expandCommandAliases(commands) {
+    var out = {};
+
+    var aliases = Object.keys(commands).forEach(function(cmdAliases) {
+        var collection = cmdAliases.split(',');
+        collection.forEach(function(alias) {
+            out[alias] = commands[cmdAliases];
+        })
+    });
+
+    return out;
+}
+
+/**
+ * updateCache
+ *
+ * @param {Array} currentCache - currently cached file records
+ *
+ * @callback(err, array)
+ * @return {undefined}
+ */
+function updateCache(currentCache, callback) {
+    var currentCacheList = convertFilesToList(currentCache);
+    searchFiles(options.paths, function(err, newCache) {
+        if (err) {
+            return callback(err);
+        }
+
+        var newCacheList = convertFilesToList(newCache);
+        merge(currentCacheList, newCacheList);
+
+        var cache = convertToCollection(currentCacheList);
+        saveCache(cacheFilePath, cache);
+
+        return callback(undefined, cache);
+    });
+}
+
+/**
+ * sortFileOptions
+ *
+ * @param {Array<Object>} files
+ * @param {Object}        files[].stat
+ * @param {integer}       files[].stat.ctime
+ * @param {integer}       files[].frequency
+ *
+ * @return {Array}
+ */
+function sortFileOptions(files) {
+
+    //sort by filename length
+    files = files.sort(function(a, b) {
+        var aLen = a.file.length;
+        var bLen = b.file.length;
+
+        var aIndex;
+        var bIndex;
+
+        if (aLen < 8) {
+            aIndex = 8 % aLen;
+        } else {
+            aIndex = aLen % 8;
+        }
+
+        if (bLen < 8) {
+            bIndex = 8 % bLen;
+        } else {
+            bIndex = bLen % 8;
+        }
+
+        return aIndex - bIndex;
+    });
+
+    //short by data/meta modification timestamp
+    files = files.sort(function(a, b) {
+        var aTime = a.stat.ctime || 0;
+        var bTime = b.stat.ctime || 0;
+        return bTime - aTime;
+    });
+
+    //sort by path index
+    files = files.sort(function(a, b) {
+        var aPathIndex = options.paths.indexOf(a.path);
+        var bPathIndex = options.paths.indexOf(b.path);
+        return  aPathIndex - bPathIndex;
+    });
+
+    return files.sort(function(a, b) {
+        var aFreq = a.frequency || 0;
+        var bFreq = b.frequency || 0;
+        return bFreq - aFreq;
+    });
+}
+
+
+/**
+ * getSelection
+ *
+ * @param {Array} files
+ *
+ * @callback(err, selectedFileObj)
+ * @return {undefined}
+ */
+function getSelection(files, callback) {
+    var list = files.map(function(file) {
+        return file.file;
+    });
+
+    var out;
+    var dmenu = spawn(options.dmenu[0], options.dmenu.slice(1));
+
+    dmenu.stdin.write(list.join('\n'));
+    dmenu.stdin.end();
+
+    dmenu.stdout.on('data', function (data) {    // register one or more handlers
+        var stdout = data.toString().trim();
+        var index = list.indexOf(stdout);
+        if (index !== -1) {
+            out = files[index];
+        } else {
+            out = stdout;
+        }
+    });
+
+    dmenu.stderr.on('data', function (data) {
+        console.error('dmenu errror: ' + data.toString());
+    });
+
+    dmenu.on('exit', function (code) {
+        if (code !== 0) {
+            console.error('dmenu returned with code ' + code);
+            return callback(code);
+        }
+        return callback(undefined, out);
+    });
+}
+
+/**
+ * saveConfig
+ *
+ * @param {Object} data
+ *
+ * @return {undefined}
+ */
+function saveConfig(data) {
+    if (!fs.existsSync(configDirPath)) {
+        fs.mkdirSync(configDirPath);
+    }
+    fs.writeFileSync(configFilePath, JSON.stringify(data, null, 4), 'utf-8');
+}
+
+/**
+ * saveCache
+ *
+ * @param {string} path - config file path
+ *
+ * @return {undefined}
+ */
+function saveCache(path, data) {
+    if (!fs.existsSync(cacheDirPath)) {
+        fs.mkdirSync(cacheDirPath);
+    }
+    fs.writeFileSync(path, JSON.stringify(data), 'utf-8');
+}
+
+/**
+ * searchFiles
+ *
+ * @param {Array} paths - directories from which executables will be loaded from
+ *
+ * @callback(err, Object)
+ * @return {undefined}
+ */
+function searchFiles(paths, callback) {
+    var out = {
+        files: [],
+        meta: {}
+    };
+
+    //load files from dirs
+    async(paths.map(function(path) {
+        return function(cb) {
+            fs.readdir(path, function(err, files) {
+                return cb(err, {path: path, files: files});
+            });
+        }
+    }), function(err, results) {
+        if (err) {
+            return callback(err);
+        }
+
+        return getStatsOfFiles(results, callback);
+    });
+
+    /**
+     * getStatsOfFiles
+     *
+     * @param {Array<Object>} batches
+     * @param {String} batches[].path
+     * @param {Array<String>} batches[].files
+     *
+     * @callback(err, {Object<filename, Object})
+     * @return {undefined}
+     */
+    function getStatsOfFiles(batches, cbMain) {
+        async(batches.map(function(batch) {
+            return function(cb) {
+                async(batch.files.map(function(file) {
+                    return function(cbStat) {
+                        var path  = batch.path + '/' + file;
+                        fs.stat(path, function(err, stat) {
+                            if (err) {
+                                console.warn('Can not load stat data for ' + path);
+                            }
+
+                            return cbStat(undefined, {
+                                file: file,
+                                path: batch.path,
+                                stat: {
+                                    ctime: stat && stat.ctime.getTime(),
+                                }
+                            });
+                        });
+                    }
+                }), function(err, stats) {
+                    if (err) {
+                        return cb(err);
+                    }
+
+                    return cb(undefined, stats);
+                });
+            }
+        }), function(err, results) {
+            var out = [];
+
+            results.forEach(function(batch) {
+                out = out.concat(batch);
+            });
+
+            return cbMain(err, out);
+        });
+    }
+}
+
+/**
+ * convertFilesToList
+ *
+ * @param {Array} files
+ *
+ * @return {Array}
+ */
+function convertFilesToList(files) {
+    var out = {};
+
+    for (var i = 0, len = files.length; i < len; i++) {
+        var file = files[i];
+        out[file.path + file.file] = file;
+    }
+    return out;
+}
+
+/**
+ * convertToCollection
+ *
+ * @param {Array} files
+ *
+ * @return {Array}
+ */
+function convertToCollection(obj) {
+    var out = [];
+
+    Object.keys(obj).forEach(function(key) {
+        out.push(obj[key]);
+    });
+
+    return out;
+}
+
+
+/**
+ * assign
+ *
+ * assignes enumerable properties from source object into target object
+ * mutates target object
+ *
+ * @param {Object} target
+ * @param {Object} source
+ *
+ * @return {Object}
+ */
+function assign(target, source) {
+    Object.keys(source).forEach(function(prop) {
+        target[prop] = source[prop];
+    })
+
+    return assign;
+}
+
+/**
+ * merge
+ *
+ * merges enumerable properties of source object into target object
+ * mutates target object
+ *
+ * @param {Object} target
+ * @param {Object} source
+ *
+ * @return {Object}
+ */
+function merge(target, source) {
+
+    if (_isPlainObject(target) && _isPlainObject(source)) {
+        Object.keys(source).forEach(function(prop) {
+            if (_isPlainObject(target[prop]) && _isPlainObject(source[prop])) {
+                merge(target[prop], source[prop]);
+            } else if (source[prop] !== undefined) {
+                target[prop] = source[prop];
+            }
+        })
+    }
+}
+
+
+/**
+ * _isPlainObject
+ *
+ * @param {mixed} candidate
+ *
+ * @return {boolean}
+ */
+function _isPlainObject(candidate) {
+    if (typeof candidate !== 'object' || candidate === null) {
+        return false;
+    }
+    return Object.getPrototypeOf(candidate) === Object.prototype;
+}
+
+/**
+ * async
+ *
+ * runs pool of async function in paralel
+ *
+ * @param {Array} pool
+ *
+ * @callback(err, results)
+ * @return {undefined}
+ */
+function async(pool, callback) {
+    var poolLen = pool.length;
+    var num = 0;
+    var failed = false;
+    var results = [];
+
+    pool.forEach(function(fn) {
+        fn(function(err, data) {
+            if (err && !failed) {
+                failed = true;
+                return callback(err);
+            }
+
+            num++;
+            results.push(data);
+            if (num == poolLen) {
+                return callback(undefined, results);
+            }
+        })
+    });
+}
+
+
+/**
+ * checkForError
+ *
+ * @param {Error} err
+ *
+ * @return {undefined}
+ */
+function checkForError(err) {
+    if (err) {
+        console.error(err.stack);
+        process.exit(1);
+    }
+}
+
+/**
+ * encodeRFC5987ValueChars
+ *
+ * @param {string} str
+ * @return {string}
+ */
+function encodeRFC5987ValueChars(str) {
+    return encodeURIComponent(str).
+        // Note that although RFC3986 reserves "!", RFC5987 does not,
+        // so we do not need to escape it
+        replace(/['()]/g, escape). // i.e., %27 %28 %29
+        replace(/\*/g, '%2A').
+            // The following are not required for percent-encoding per RFC5987, 
+            // so we can allow for a little better readability over the wire: |`^
+            replace(/%(?:7C|60|5E)/g, unescape);
+}
+
+
+
+/**
+ * init
+ *
+ * @return {undefined}
+ */
+function init() {
+    if (!Array.prototype.find) {
+        Array.prototype.find = function(predicate) {
+            if (this === null) {
+                throw new TypeError('Array.prototype.find called on null or undefined');
+            }
+            if (typeof predicate !== 'function') {
+                throw new TypeError('predicate must be a function');
+            }
+            var list = Object(this);
+            var length = list.length >>> 0;
+            var thisArg = arguments[1];
+            var value;
+
+            for (var i = 0; i < length; i++) {
+                value = list[i];
+                if (predicate.call(thisArg, value, i, list)) {
+                    return value;
+                }
+            }
+            return undefined;
+        };
+    }
+}
