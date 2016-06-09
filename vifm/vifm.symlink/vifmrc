@@ -256,7 +256,7 @@ map yy :copy&<cr>
 
 "synchronize panes
 map s :sync!<cr>
-map <c-s> :sync!<cr>
+map ss :sort<cr>
 
 " move files to the opposite pane
 "nmap ym :!mv %f %D<cr>
