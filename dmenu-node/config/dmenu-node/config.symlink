@@ -8,7 +8,58 @@
     "commands": {
         "js": {
             "type": "web",
-            "url": "https://google.com/search?q=%s%20site%3Ahttps%3A%2F%2Fdeveloper.mozilla.org&btnI",
+            "url": "https://google.com/search?q=%s%20site%3Ahttps%3A%2F%2Fdeveloper.mozilla.org&btnI"
+        },
+        "g": {
+            "type": "web",
+            "url": "https://google.com/search?q=%s"
+        },
+        "gt": {
+            "type": "web",
+            "url": "https://translate.google.cz/?hl=en#en/cs/%s"
+        },
+        "l": {
+            "type": "web",
+            "url": "https://google.com/search?q=%s&btnI"
+        },
+        "googlemap,gm": {
+            "type": "web",
+            "url": "https://www.google.com/maps?q=%s",
+            "cache": "alias"
+        },
+        "duckduckgo,d": {
+            "type": "web",
+            "url": "https://duckduckgo.com/?q=%s",
+            "cache": "alias"
+        },
+        "amazon,az": {
+            "type": "web",
+            "url": "http://www.amazon.com/s/?field-keywords=%s",
+            "cache": "alias"
+        },
+        "csfd,cfd": {
+            "type": "web",
+            "url": "http://www.csfd.cz/hledat/?q=%s",
+            "cache": "alias"
+        },
+        "y,yt,youtube": {
+            "type": "web",
+            "url": "https://www.youtube.com/results?search_query=%s",
+            "cache": "alias"
+        },
+        "gh,gith,github": {
+            "type": "web",
+            "url": "https://github.com/?q=%s",
+            "cache": "alias"
+        },
+        "heureka": {
+            "type": "web",
+            "url": "http://www.heureka.cz/?h%5Bfraze%5D=%s",
+            "cache": "alias"
+        },
+        "seznam": {
+            "type": "web",
+            "url": "http://www.seznam.cz",
             "cache": "alias"
         },
         "edna": {
