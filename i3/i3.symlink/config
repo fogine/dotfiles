@@ -39,36 +39,10 @@ bindsym $mod+Return exec i3-sensible-terminal
 # bindsym $mod+Shift+q kill
 bindsym $mod+q kill
 
-# change focus
-#bindsym Control+h exec "i3_tmux_vim_focus left"
-#bindsym Control+j exec "i3_tmux_vim_focus down"
-#bindsym Control+k exec "i3_tmux_vim_focus up"
-#bindsym Control+l exec "i3_tmux_vim_focus right"
-
-# alternatively, you can use the cursor keys:
-#bindsym $mod+Left  exec "i3_vim_focus left"
-#bindsym $mod+Down  exec "i3_vim_focus down"
-#bindsym $mod+Up    exec "i3_vim_focus up"
-#bindsym $mod+Right exec "i3_vim_focus right"
-
-# start dmenu (a program launcher)
-# bindsym $mod+d exec dmenu_run
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
-# j4-dmenu-desktop -- A faster replacement for i3-dmenu-desktop
-# https://github.com/enkore/j4-dmenu-desktop
-# https://aur.archlinux.org/packages/j4-dmenu-desktop-git/
-# bindsym $mod+space exec --no-startup-id j4-dmenu-desktop
-bindsym $mod+semicolon exec --no-startup-id dmenu-custom --dmenu="dmenu -i -fn 'DejaVu Sans-10' -l 20"
+#dmenu
+bindsym $mod+semicolon exec --no-startup-id dmenu-node
 
 # change focus
-# bindsym $mod+j focus left
-# bindsym $mod+k focus down
-# bindsym $mod+l focus up
-# bindsym $mod+semicolon focus right
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
@@ -81,20 +55,12 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window (Super+Alt+vimkeys)
-# bindsym $mod+Shift+j move left
-# bindsym $mod+Shift+k move down
-# bindsym $mod+Shift+l move up
-# bindsym $mod+Shift+semicolon move right
 bindsym $mod+mod1+h move left
 bindsym $mod+mod1+j move down
 bindsym $mod+mod1+k move up
 bindsym $mod+mod1+l move right
 
 # alternatively, you can use the cursor keys:
-# bindsym $mod+Shift+Left move left
-# bindsym $mod+Shift+Down move down
-# bindsym $mod+Shift+Up move up
-# bindsym $mod+Shift+Right move right
 bindsym $mod+mod1+Left move left
 bindsym $mod+mod1+Down move down
 bindsym $mod+mod1+Up move up
@@ -122,49 +88,49 @@ bindsym $mod+e layout toggle split
 bindsym $mod+mod1+space floating toggle
 
 # change focus between tiling / floating windows
-# bindsym $mod+space focus mode_toggle
- # bindsym $mod+d focus mode_toggle
+# bindsym $mod+d focus mode_toggle
+bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
+set $workspace5 "5"
+set $workspace6 "6"
+set $workspace7 "7"
+set $workspace8 "8"
+set $workspace9 "9"
+set $workspace10 "10"
 
 # switch to workspace
 # https://github.com/redhat69/dotfiles/blob/master/.i3/config
-bindsym $mod+1 workspace 1:DEV
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8:NET
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace10
 
 # move focused container to workspace
-# bindsym $mod+Shift+1 move container to workspace 1
-# bindsym $mod+Shift+2 move container to workspace 2
-# bindsym $mod+Shift+3 move container to workspace 3
-# bindsym $mod+Shift+4 move container to workspace 4
-# bindsym $mod+Shift+5 move container to workspace 5
-# bindsym $mod+Shift+6 move container to workspace 6
-# bindsym $mod+Shift+7 move container to workspace 7
-# bindsym $mod+Shift+8 move container to workspace 8
-# bindsym $mod+Shift+9 move container to workspace 9
-# bindsym $mod+Shift+0 move container to workspace 10
-bindsym $mod+mod1+1 move container to workspace 1:DEV
-bindsym $mod+mod1+2 move container to workspace 2
-bindsym $mod+mod1+3 move container to workspace 3
-bindsym $mod+mod1+4 move container to workspace 4
-bindsym $mod+mod1+5 move container to workspace 5
-bindsym $mod+mod1+6 move container to workspace 6
-bindsym $mod+mod1+7 move container to workspace 7
-bindsym $mod+mod1+8 move container to workspace 8:NET
-bindsym $mod+mod1+9 move container to workspace 9
-bindsym $mod+mod1+0 move container to workspace 10
+bindsym $mod+mod1+1 move container to workspace $workspace1
+bindsym $mod+mod1+2 move container to workspace $workspace2
+bindsym $mod+mod1+3 move container to workspace $workspace3
+bindsym $mod+mod1+4 move container to workspace $workspace4
+bindsym $mod+mod1+5 move container to workspace $workspace5
+bindsym $mod+mod1+6 move container to workspace $workspace6
+bindsym $mod+mod1+7 move container to workspace $workspace7
+bindsym $mod+mod1+8 move container to workspace $workspace8
+bindsym $mod+mod1+9 move container to workspace $workspace9
+bindsym $mod+mod1+0 move container to workspace $workspace10
 
 # reload the configuration file
 # bindsym $mod+Shift+c reload
@@ -173,21 +139,12 @@ bindsym $mod+mod1+r reload
 # bindsym $mod+Shift+r restart
 #bindsym $mod+mod1+r restart
 # exit i3 (logs you out of your X session)
-# bindsym $mod+Shift+e exec "i2-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
-
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        # bindsym j resize shrink width 10 px or 10 ppt
-        # bindsym k resize grow height 10 px or 10 ppt
-        # bindsym l resize shrink height 10 px or 10 ppt
-        # bindsym semicolon resize grow width 10 px or 10 ppt
+        #
         bindsym h resize shrink width 10 px or 10 ppt
         bindsym j resize grow height 10 px or 10 ppt
         bindsym k resize shrink height 10 px or 10 ppt
@@ -223,7 +180,7 @@ set $id     #666666
 set $ce     #ceecee
 
 # set some nice colors      border  background  text    indicator
-client.focused              $hi     $bg2         $tx     $id
+client.focused              $hi     $bg2        $tx     $id
 client.unfocused            $bg     $bg         $ia     $id
 client.focused_inactive     $hi     $bg         $ac     $id
 client.urgent               $yw     $rd         $tx     $id
@@ -239,27 +196,14 @@ client.urgent               $yw     $rd         $tx     $id
 #}
 
 
+exec qmenu_registrar
+bindsym $mod+x exec qmenu_hud
+#exec_always compton
+
 # My stuff
 
 #Set background
-exec --no-startup-id feh --bg-fill ~/Pictures/mybackground.jpg
-#exec --no-startup-id blueman-applet
-#exec --no-startup-id /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
-#exec --no-startup-id /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
-#exec --no-startup-id /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
-#exec --no-startup-id nm-applet
-#exec --no-startup-id /etc/nomouseacc.sh
-#exec --no-startup-id parcellite
-#exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
-#exec --no-startup-id xfce4-power-manager
-#exec --no-startup-id system-config-printer-applet
-#exec --no-startup-id start-pulseaudio-x11
-#exec --no-startup-id update-notifier
-#exec --no-startup-id xfce4-volumed
-#exec --no-startup-id xfsettingsd
-#exec --no-startup-id zeitgeist-datahub
-#exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh
-# auto enable floating mode
+exec_always --no-startup-id feh --bg-fill ~/Pictures/mybackground.jpg
 # class is usually 1st letter Capitalize and everything else lowercase
 # use 'xprop' or 'xwininfo' to get window information
 # for_window [class="(?i)dolphin"] floating enable
@@ -269,18 +213,10 @@ for_window [class="Xfce4-notifyd"] floating enable
 for_window [title="Whisker Menu"] floating enable
 #for_window [title="Tilda"] floating enable
 for_window [title="Panel"] floating enable
-
-## quick terminal
-#exec tilda -c dropdown -p dropdown -T "Dropdown tilda" -H --geometry=300x300
-#for_window [class="Dropdown tilda" instance="dropdown"] floating enable
-exec tilda
-for_window [instance="tilda"] floating enable;
-for_window [instance="tilda"] move scratchpad; [instance="tilda"] scratchpad show; move position 0px 23px; resize shrink height 300; resize grow width 300; move scratchpad
-bindsym $mod+t [instance="tilda"] scratchpad show
 # assign program to specific workspace
-#assign [class="Mcomix"] 8: manga
-#assign [class="Calibre"] 8: manga
+assign [class="Thunderbird"] $workspace9
 
+bindsym $mod+i exec rofi-pass
 
 # sound control
 # https://faq.i3wm.org/question/125/how-to-change-the-systems-volume/?answer=249#post-id-249
@@ -302,31 +238,23 @@ bindsym $mod+o workspace back_and_forth
 for_window [title="Hangouts"] floating enable
 for_window [title="Hangouts"] border none
 
-# autostart apps
-# http://i3wm.org/docs/userguide.html#_automatically_starting_applications_on_i3_startup
-#exec i3-msg 'workspace 8:NET; exec /usr/bin/google-chrome --class="chrome_autostart"'
-#exec --no-startup-id i3-msg 'workspace 1:DEV; exec /usr/bin/x-terminal-emulator'
-#for_window [class="chrome_autostart"] move workspace number 1
+# restore layouts on workspaces
+exec --no-startup-id "i3-msg 'workspace 3; append_layout ~/.i3/workspace-3.json'"
+exec --no-startup-id "i3-msg 'workspace 8; append_layout ~/.i3/workspace-8.json'"
+exec --no-startup-id "i3-msg 'workspace 9; append_layout ~/.i3/workspace-9.json'"
+exec xfce4-terminal
+exec google-chrome --no-startup-id
+exec thunderbird --no-startup-id
 
-#exec --no-startup-id xfce4-panel --disable-wm-check
-#exec --no-startup-id nm-applet
-#exec --no-startup-id /usr/libexec/mate-panel/notification-area-applet
-#exec parcellite
-#exec xmodmap ~/.Xmodmap
+#exec "sleep 5; xdotool key --window '$(xdotool search --name tmux | head -n 1 )' 'Control_L+a+r'"
+# http://i3wm.org/docs/userguide.html#_automatically_starting_applications_on_i3_startup
+
 # xfce4-notify
 for_window [class="Xfce4-notifyd"] floating enable;border none; focus mode_toggle
 # shutdown menu
 bindsym $mod+mod1+e exec xfce4-session-logout
 # xfce settings
 bindsym $mod+mod1+s exec xfce4-settings-manager
-
-#exec xcompmgr
-#exec ~/.scripts/feh-wallpaper-changer.sh
-#exec sleep 3 && guake
-# credit @SardemFF7 from #i3 irc
-# exec i3-msg 'workspace 9: web; exec chromium; workspace back_and_forth'
-#exec i3-msg 'workspace 9: web; exec chromium'
-
 
 # Colors
 # https://github.com/Gravemind/ArchLinux/blob/master/.i3/config

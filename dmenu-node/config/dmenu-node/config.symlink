@@ -1,0 +1,25 @@
+{
+    "paths": [
+        "/home/fogine/.local/bin",
+        "/usr/local/bin",
+        "/usr/bin"
+    ],
+    "defaultWebCmd": "exec i3-msg 'workspace 8' &>/dev/null && google-chrome '%b'",
+    "commands": {
+        "js": {
+            "type": "web",
+            "url": "https://google.com/search?q=%s%20site%3Ahttps%3A%2F%2Fdeveloper.mozilla.org&btnI",
+            "cache": "alias"
+        },
+        "edna": {
+            "type": "web",
+            "url": "http://www.edna.cz/%s",
+            "cache": "all"
+        },
+        "=": {
+            "type": "terminal",
+            "cmd": "notify-send $(echo \"%b\" | bc -l) -t 3000",
+            "cache": "alias"
+        }
+    }
+}

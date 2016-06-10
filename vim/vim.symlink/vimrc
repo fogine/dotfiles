@@ -11,6 +11,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'nelstrom/vim-markdown-folding'
 "Plugin 'janko-m/vim-test'
 "Plugin 'jistr/vim-nerdtree-tabs'
 "Plugin 'fogine/vim-align-equal-sign'
