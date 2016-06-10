@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'fogine/vim-align-equal-sign'
 Plugin 'idanarye/vim-yankitute'
 Plugin 'idanarye/vim-merginal'
+Plugin 'tommcdo/vim-exchange'
 "Textobjects
 Plugin 'wellle/targets.vim'
 Plugin 'kana/vim-textobj-line'
