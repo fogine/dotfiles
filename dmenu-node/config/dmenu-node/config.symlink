@@ -1,4 +1,5 @@
 {
+    "dmenu": ["dmenu", "-q", "-b", "-t"],
     "paths": [
         "/home/fogine/.local/bin",
         "/usr/local/bin",
@@ -17,6 +18,10 @@
         "gt": {
             "type": "web",
             "url": "https://translate.google.cz/?hl=en#en/cs/%s"
+        },
+        "syn": {
+            "type": "web",
+            "url": "http://www.thesaurus.com/browse/%s?s=t"
         },
         "l": {
             "type": "web",
@@ -49,7 +54,7 @@
         },
         "gh,gith,github": {
             "type": "web",
-            "url": "https://github.com/?q=%s",
+            "url": "https://github.com/search?q=%s",
             "cache": "alias"
         },
         "heureka": {
@@ -69,8 +74,13 @@
         },
         "=": {
             "type": "terminal",
-            "cmd": "notify-send $(echo \"%b\" | bc -l) -t 3000",
-            "cache": "alias"
+            "cmd": "result=$(echo \"%b\" | bc -l) && notify-send \"$result\" -t 3000 ; echo \"$result\" | xclip -i ; exit 0",
+            "cache": "single"
+        },
+        "td": {
+            "type": "terminal",
+            "cmd": "dmenu-node-task '%b'",
+            "cache": "echo $(echo ' %b ' | awk 'BEGIN{RS=\" \"} /\\/$/{print \"td \" $1}')"
         }
     }
 }
