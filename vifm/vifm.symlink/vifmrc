@@ -222,6 +222,11 @@ nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cW
 
+nnoremap ,t :TabVim<cr>
+nnoremap ,s :SplitVim<cr>
+nnoremap ,d :DiffVim<cr>
+nnoremap ,v :VsplitVim<cr>
+
 " Open vim to edit vifmrc and apply settings after returning to vifm
 nnoremap ,c :write | execute ':!vim $MYVIFMRC' | restart<cr>
 " Open gvim to edit vifmrc
@@ -282,7 +287,9 @@ nmap <c-l> :navVsplitRight <cr>
 nmap <c-j> :navSplitDown<cr>
 nmap <c-k> :navSplitUp<cr>
 " Open console in current directory
-nnoremap ,t :!xterm &<cr>
+nnoremap ,st :!tmux split-window<cr>
+nnoremap ,vt :!tmux split-window -h<cr>
+nnoremap ,tt :!tmux new-window <cr>
 
 "Open folder under cursor with vlc
 "nmap <F4> :!vlc %f & %i<CR>
