@@ -11,7 +11,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'google/vim-searchindex'
 Plugin 'nelstrom/vim-markdown-folding'
+Plugin 'sickill/vim-pasta'
+Plugin 'suan/vim-instant-markdown'
+"Plugin 'jelera/vim-javascript-syntax'
 "Plugin 'janko-m/vim-test'
 "Plugin 'jistr/vim-nerdtree-tabs'
 "Plugin 'fogine/vim-align-equal-sign'
