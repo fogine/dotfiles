@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'vifm/vifm.vim'
+Plugin 'nvie/vim-flake8'
 Plugin 'google/vim-searchindex'
 Plugin 'nelstrom/vim-markdown-folding'
 Plugin 'sickill/vim-pasta'
