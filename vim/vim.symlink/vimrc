@@ -11,6 +11,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'GutenYe/json5.vim'
+Plugin 'pangloss/vim-javascript'
 Plugin 'vifm/vifm.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'google/vim-searchindex'
@@ -486,9 +488,11 @@ augroup END
 
 augroup vim_autocmd_js
     autocmd!
+
     "imap <c-space> <c-x><c-o>
     "Ternjs go to definition
     autocmd FileType javascript nnoremap gd :TernDef<CR>
+
     function! JavaScriptFold()
         setl foldmethod=syntax
         setl foldlevelstart=1
@@ -649,7 +653,7 @@ set t_Co=256
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 " Snippets are separated from the engine. Add this if you want them:
 
-let g:snips_author="David"
+let g:snips_author=""
 "let g:UltiSnipsJumpForwardTrigger="<c-b>"
 "let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
