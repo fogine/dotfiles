@@ -374,6 +374,11 @@ nnoremap <C-right> 5<C-w>>
 nnoremap <C-up> 5<C-w>-
 nnoremap <C-down> 5<C-w>+
 
+"Ack plugin settings
+
+" use the the_silver_searcher aka "Ag" instead of Ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 " Open Quickfig window for the last search
 "nnoremap <silent><leader>/ :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 
