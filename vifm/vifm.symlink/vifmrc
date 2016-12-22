@@ -261,7 +261,7 @@ map yy :copy&<cr>
 
 "synchronize panes
 map s :sync!<cr>
-map ss :sort<cr>
+map <c-s> :sort<cr>
 
 " move files to the opposite pane
 "nmap ym :!mv %f %D<cr>
@@ -320,7 +320,7 @@ nmap <c-q> ZZ
 fileviewer *.zip,*.jar,*.war,*.ear,*.oxt zip -sf %c
 
 " Pdf
-filextype *.pdf apvlv %c, zathura %c %i &, xpdf %c
+filextype *.pdf apvlv %c %i, zathura %c %i &, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
 
 "Video/mp3
@@ -328,6 +328,9 @@ fileviewer *.pdf pdftotext -nopgbrk %c -
 
 "Blender
 :filextype *.blend,*.blend1,*.blend2,*.blend3,*.blend4,*blend4 blender %c %i
+
+"SVG
+:filextype *.svg inkscape %f %i
 
 "Image
 :filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm sxiv %f %i
