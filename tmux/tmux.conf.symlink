@@ -116,6 +116,10 @@ bind-key v split-window -h
 bind-key s split-window
 bind-key q kill-pane
 
+# rate limiting for a pane, prevents fast terminal output overwhelming
+set -g c0-change-trigger 150
+set -g c0-change-interval 100
+
 
 bind-key o resize-pane -Z
 
