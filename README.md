@@ -47,3 +47,6 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
+## notes
+
+* tiny `lxappearance` app generates gtk2.x & gtk3.x config files. Searches for themes in `~/.themes`
