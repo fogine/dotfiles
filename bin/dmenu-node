@@ -1,12 +1,6 @@
 #!/bin/sh
 ':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
 
-console.log('*********************');
-
-process.on('uncaughtException', function(err) {
-    console.error('***********$$$$*****');
-    console.error(err);
-})
 var fs    = require('fs');
 var path  = require('path');
 var util  = require('util');
@@ -46,7 +40,6 @@ try {
 
 //Main
 getFileOptions(function(err, result) {
-console.log('==================');
     checkForError(err);
 
     if (process.argv.indexOf('--update-cache') !== -1 && USING_CACHED_DATA === true) {
@@ -121,27 +114,14 @@ console.log('==================');
  * @return {undefined}
  */
 function getFileOptions(callback) {
-    try{
-        if (fs.existsSync(cacheFilePath)) {
-            console.log('FILE EXISTS');
-            var data = JSON.parse(fs.readFileSync(cacheFilePath));
-            USING_CACHED_DATA = true;
-            return callback(undefined, data);
-        } else {
-        console.log('searching for files');
-        console.log(options.paths);
-            searchFiles(options.paths, function(err, result) {
-                if (err) {
-                    console.error('ERROR');
-                    process.exit(1);
-                    return;
-                }
-                console.log('result');
-                return callback(err, result);
-            });
-        }
-    } catch(e) {
-        console.log('FFFFFFFFFFFFFFFFFFf');
+    if (fs.existsSync(cacheFilePath)) {
+        var data = JSON.parse(fs.readFileSync(cacheFilePath));
+        USING_CACHED_DATA = true;
+        return callback(undefined, data);
+    } else {
+        searchFiles(options.paths, function(err, result) {
+            return callback(err, result);
+        });
     }
 }
 
@@ -431,16 +411,11 @@ function searchFiles(paths, callback) {
     async(paths.map(function(path) {
         return function(cb) {
             fs.readdir(path, function(err, files) {
-                console.log('readdir');
-                console.log(path);
                 return cb(err, {path: path, files: files});
             });
         }
     }), function(err, results) {
-        console.log('done');
-        console.log(err);
         if (err) {
-            console.log('error');
             return callback(err);
         }
 
@@ -460,7 +435,6 @@ function searchFiles(paths, callback) {
     function getStatsOfFiles(batches, cbMain) {
         async(batches.map(function(batch) {
             return function(cb) {
-                console.log('batch');
                 async(batch.files.map(function(file) {
                     return function(cbStat) {
                         var path  = batch.path + '/' + file;
@@ -480,23 +454,18 @@ function searchFiles(paths, callback) {
                     }
                 }), function(err, stats) {
                     if (err) {
-                        console.log('getstats errro');
-                        console.log(err);
                         return cb(err);
                     }
 
-                    console.log('getstats calling next');
                     return cb(undefined, stats);
                 });
             }
         }), function(err, results) {
-            console.log('PRE getstats calling next');
             var out = [];
 
             results.forEach(function(batch) {
                 out = out.concat(batch);
             });
-            console.log('getstats results...:');
 
             return cbMain(err, out);
         });
@@ -639,7 +608,6 @@ function async(pool, callback) {
 function checkForError(err) {
     if (err) {
         console.error(err.stack);
-        console.error('FFFFFFFAAAAAKKKKKK');
         process.exit(1);
     }
 }
