@@ -1,10 +1,10 @@
+! ------------------------------------------------------------------------------
+! xterm settings
+! ------------------------------------------------------------------------------
 ! Use a nice truetype font and size by default...
 UXTerm*faceName:DejaVu Sans Mono for Powerline
 XTerm*faceName:DejaVu Sans Mono for Powerline
 UXTerm*faceSize: 9
-
-URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=13,xft:PowerlineSymbols:pixelsize=13
-!URxvt*font: xft:PowerlineSymbols:pixelsize=13
 
 ! I like a LOT of scrollback...
 xterm*savelines: 16384
@@ -17,6 +17,19 @@ xterm*scrollTtyOutput: false
 
 ! copy and paste with keyboard
 xterm -xrm '*VT100*translations: #override \n Shift Ctrl <Key>C: select-end(CLIPBOARD, CUT_BUFFER0) \n Shift Ctrl <Key>V: insert-selection(PRIMARY, CUT_BUFFER0)'
+
+
+! ------------------------------------------------------------------------------
+! urxvt settings
+! ------------------------------------------------------------------------------
+URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=13,xft:PowerlineSymbols:pixelsize=13
+URxvt.scrollBar: false
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+!URxvt*font: xft:PowerlineSymbols:pixelsize=13
+
+
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
