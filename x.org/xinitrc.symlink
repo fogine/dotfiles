@@ -1,0 +1,11 @@
+#fix keyboard keys
+xmodmap ~/.Xmodmap &
+
+#Merge ~/.Xresources configuration
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+
+#fonts are not loaded recursively in the fonts directory
+xset +fp ~/.local/share/fonts/dejavu/
+
+exec i3
+#exec i3 -V >> /home/fogine/i3log-$(date + '%F-%k-%M-%S') 2>&1
