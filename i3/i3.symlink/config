@@ -199,6 +199,7 @@ client.urgent               $yw     $rd         $tx     $id
 exec qmenu_registrar
 bindsym $mod+x exec qmenu_hud
 #exec_always compton
+exec --no-startup-id compton --config ~/.config/compton.conf -b
 
 # My stuff
 

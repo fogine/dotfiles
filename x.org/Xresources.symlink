@@ -3,6 +3,9 @@ UXTerm*faceName:DejaVu Sans Mono for Powerline
 XTerm*faceName:DejaVu Sans Mono for Powerline
 UXTerm*faceSize: 9
 
+URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=13,xft:PowerlineSymbols:pixelsize=13
+!URxvt*font: xft:PowerlineSymbols:pixelsize=13
+
 ! I like a LOT of scrollback...
 xterm*savelines: 16384
 
@@ -39,3 +42,43 @@ rofi.kb-move-word-forward:Alt+w
 !rofi.scroll-method: 0
 !rofi.separator-style: none
 !rofi.hide-scrollbar: true
+!
+!
+
+
+! special
+*.foreground:   #cecece
+*.background:   #262626
+*.cursorColor:  #c0c5ce
+
+! black
+*.color0:       #2b303b
+*.color8:       #65737e
+
+! red
+*.color1:       #bf616a
+*.color9:       #ebb74d
+
+! green
+*.color2:       #95be73
+*.color10:      #96b5b4
+
+! yellow
+*.color3:       #95be73
+*.color11:      #ebc372
+
+! blue
+*.color4:       #8fa1b3
+*.color12:      #8fa1b3
+
+! magenta
+*.color5:       #b48ead
+*.color13:      #b48ead
+
+! cyan
+*.color6:       #96b5b4
+*.color14:      #96b5b4
+
+! white
+*.color7:       #c0c5ce
+*.color15:      #eff1f5

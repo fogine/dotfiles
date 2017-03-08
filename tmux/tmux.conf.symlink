@@ -6,13 +6,13 @@ bind-key      Space next-layout
 bind-key          ! break-pane
 bind-key          '"' split-window
 bind-key          '#' list-buffers
-bind-key          '$' command-prompt -I #S "rename-session '%%'"
+bind-key          '$' command-prompt -I S "rename-session '%%'"
 bind-key          % split-window -h
 bind-key          & confirm-before -p "kill-window #W? (y/n)" kill-window
 bind-key          "\'" command-prompt -p index "select-window -t ':%%'"
 bind-key          ( switch-client -p
 bind-key          ) switch-client -n
-bind-key          , command-prompt -I #W "rename-window '%%'"
+bind-key          , command-prompt -I W "rename-window '%%'"
 bind-key          - delete-buffer
 bind-key          . command-prompt "move-window -t '%%'"
 bind-key          0 select-window -t :0
@@ -117,8 +117,9 @@ bind-key s split-window
 bind-key q kill-pane
 
 # rate limiting for a pane, prevents fast terminal output overwhelming
-set -g c0-change-trigger 150
-set -g c0-change-interval 100
+#these option were unfortunately removed in tmux@2.1
+#set -g c0-change-trigger 150
+#set -g c0-change-interval 100
 
 
 bind-key o resize-pane -Z
@@ -156,7 +157,6 @@ set-option -g display-panes-colour colour166 #orange
 # Powerline plugin settings
 set-option -g status on
 set-option -g status-interval 2
-set-option -g status-utf8 on
 set-option -g status-justify "centre"
 set-option -g status-left-length 60
 set-option -g status-right-length 90
@@ -164,11 +164,13 @@ set-option -g status-right-length 90
 #set-option -g status-right "#(~/.tmux/tmux-powerline/powerline.sh right)"
 
 #Restore these programs with tmux session
-set -g @resurrect-processes 'node "~kpcli" ssh mysql sqlite3 vifm'
+set -g @resurrect-processes 'ssh mysql sqlite3 vifm'
 set -g @resurrect-strategy-vim 'session' #automatically restore vim session
 
 run-shell "powerline-daemon -q"
-source "$HOME/.local/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf"
+source "/usr/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf"
+
+
 
 set -g pane-border-fg default
 set -g pane-active-border-fg colour249
