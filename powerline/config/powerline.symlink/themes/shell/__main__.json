@@ -1,0 +1,17 @@
+{
+	"segment_data": {
+        "mode": {
+            "args": {
+                "override": {
+                    "vicmd": "C",
+                    "viins": "I"
+                }
+            }
+        },
+        "cwd": {
+            "args": {
+                "use_path_separator": true
+            }
+        }
+	}
+}

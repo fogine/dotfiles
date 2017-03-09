@@ -1,0 +1,20 @@
+{
+	"name": "Default color scheme for shell prompts",
+	"groups": {
+		"hostname":         { "fg": "brightyellow", "bg": "mediumorange", "attrs": [] },
+		"environment":      { "fg": "white", "bg": "darkestgreen", "attrs": [] },
+		"mode":             { "fg": "darkestcyan", "bg": "gray9", "attrs": ["bold"] },
+		"attached_clients": { "fg": "white", "bg": "darkestgreen", "attrs": [] },
+        "exit_fail"       : { "fg": "white", "bg": "gray1", "attrs": [] },
+		"cwd":                        "branch",
+		"cwd:current_folder":         "branch",
+		"cwd:divider":                "branch"
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": {"fg": "darkestcyan", "bg": "gray9", "attrs": ["bold"]}
+			}
+		}
+	}
+}
