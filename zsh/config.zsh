@@ -1,11 +1,14 @@
-if [[ -n $SSH_CONNECTION ]]; then
-  export PS1='%m:%3~$(git_info_for_prompt)%# '
-else
-  export PS1='%3~$(git_info_for_prompt)%# '
-fi
-
-export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
+export EDITOR='vim'
+export LANG=en_US.UTF-8
+export NVM_DIR=$HOME/.nvm
+export XDG_CACHE_HOME=$HOME/.cache
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PATH:$PYENV_ROOT/bin:$HOME/.dotfiles/bin
+
+if [ -d "$HOME/.local/bin" ]; then
+    export PATH=$PATH:$HOME/.local/bin
+fi
 
 fpath=($ZSH/functions $fpath)
 
@@ -26,7 +29,6 @@ setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
 setopt CORRECT
 setopt COMPLETE_IN_WORD
-setopt IGNORE_EOF
 
 setopt APPEND_HISTORY # adds history
 setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share it across sessions
@@ -39,10 +41,7 @@ setopt complete_aliases
 
 zle -N newtab
 
-bindkey '^[^[[D' backward-word
-bindkey '^[^[[C' forward-word
-bindkey '^[[5D' beginning-of-line
-bindkey '^[[5C' end-of-line
-bindkey '^[[3~' delete-char
-bindkey '^[^N' newtab
-bindkey '^?' backward-delete-char
+#Disable stty start so shortcut <C-q> can be used
+stty start undef
+#After this, shortcut <C-s> can be used
+stty -ixon

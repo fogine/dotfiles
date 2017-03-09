@@ -1,90 +1,9 @@
-# Path to your oh-my-zsh installation.
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# shortcut to this dotfiles path is $ZSH
+export ZSH=$HOME/.dotfiles
 
-#Disable stty start so shortcut <C-q> can be used
-stty start undef
-#After this, shortcut <C-s> can be used
-stty -ixon
+# your project folder that we can `c [tab]` to
+export PROJECTS=~/Projects
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-#ZSH_THEME="arrow"
-#
-
-#Automatically call `nvm use` if `node` is not yet loaded and
-#cwd contains `.nvmrc` with node version to load
-autoload -U add-zsh-hook
-load-nvmrc() {
-  isNodeLoaded=$(which node)
-  if [[ $isNodeLoaded = "node not found" && -f .nvmrc && -r .nvmrc ]]; then
-    nvm use
-  fi
-}
-add-zsh-hook chpwd load-nvmrc
-
-#User powerline plugin in shell
-function _update_ps1()
-{
-    error=$?
-    if [[ -s "/usr/local/bin/pypy" ]]; then
-        export PROMPT="$(pypy ~/.oh-my-zsh/plugins/powerline-zsh/powerline-zsh.py $error)"
-    else
-        export PROMPT="$(~/.oh-my-zsh/plugins/powerline-zsh/powerline-zsh.py  $error)"
-    fi
-}
-precmd()
-{
-    _update_ps1
-}
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
- DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
- #ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(gulp nvm fasd sudo calc zsh-navigation-tools ubuntu rsync urltools iwhois web-search git git-extras jsontools laravel4 mysql-macports redis-cli apache2-macports atom  bower node npm pip python command-not-found composer encode64 )
-
-# User configuration
-#
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
 # you'll have access to them in your scripts.
@@ -93,50 +12,35 @@ then
   source ~/.localrc
 fi
 
-source $ZSH/oh-my-zsh.sh
+# all of our zsh files (exclude vim/ directory)
+typeset -U config_files
+setopt EXTENDED_GLOB
+config_files=($ZSH/(^vim/)#*.zsh)
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+# load the path files
+for file in ${(M)config_files:#*/path.zsh}
+do
+  source $file
+done
 
-#Edit current command in $EDITOR
-#autoload -U edit-command-line
-#zle -N edit-command-line
-#bindkey -M vicmd v edit-command-line
+# load everything but the path and completion files
+for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}
+do
+  source $file
+done
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+# initialize autocomplete here, otherwise functions won't be loaded
+autoload -U compinit
+compinit
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# load every completion after autocomplete loads
+for file in ${(M)config_files:#*/completion.zsh}
+do
+  source $file
+done
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-#
-## workaround for handling TERM variable in multiple tmux sessions properly from http://sourceforge.net/p/tmux/mailman/message/32751663/ by Nicholas Marriott
-if [[ -n ${TMUX} && -n ${commands[tmux]} ]];then
-        case $(tmux showenv TERM 2>/dev/null) in
-                *256color) ;&
-                TERM=fbterm)
-                        TERM=screen-256color ;;
-                *)
-                        TERM=screen
-        esac
-fi
-#<c-z> - toggle between bg and fg a current process
-_zsh_cli_fg() { fg;}
-zle -N _zsh_cli_fg
-bindkey '^Z' _zsh_cli_fg
+unsetopt EXTENDED_GLOB
+unset config_files
 
 # If not running interactively, do not do anything else run tmux
 # Must be at the end of file!
