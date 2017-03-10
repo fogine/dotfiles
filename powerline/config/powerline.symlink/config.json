@@ -10,6 +10,11 @@
 				"continuation": "continuation",
 				"select": "select"
 			}
+		},
+		"wm": {
+			"colorscheme": "default",
+			"theme": "custom"
 		}
+
 	}
 }

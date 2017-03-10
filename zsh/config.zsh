@@ -41,6 +41,16 @@ setopt complete_aliases
 
 zle -N newtab
 
+# bind UP and DOWN arrow keys
+zmodload zsh/terminfo
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# bind k and j for VI mode
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
+
 #Disable stty start so shortcut <C-q> can be used
 stty start undef
 #After this, shortcut <C-s> can be used
