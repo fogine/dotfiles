@@ -16,7 +16,8 @@
 
 set $mod Mod4
 #run system-wide status bar
-exec python2 /usr/lib/python2.7/site-packages/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 --height=10 --interval=2 --bar-command=lemonbar
+
+#exec python2 /usr/lib/python2.7/site-packages/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 --height=15 --interval=2 --bar-command=lemonbar -- -f "DejaVu Sans Mono for Powerline:size=13" -f "PowerlineSymbols:size=10" -f "FontAwesome:size=10" -f "DejaVu Sans Mono"
 
 # Disable titlebar completely
 new_window 1pixel

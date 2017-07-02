@@ -1,8 +1,30 @@
 {
 	"segments": {
+        "left": [
+            {
+                "type": "segment_list",
+                "function": "powerline.listers.i3wm.workspace_lister",
+                "segments": [
+                    {
+                        "function": "powerline.segments.i3wm.scratchpad",
+                        "display": true
+                    }
+                ]
+            }
+        ],
 		"right": [
             {
-                "function": "powerline.segments.common.time.date"
+                "type": "segment_list",
+                "function": "powerline.listers.i3wm.workspace_lister",
+                "segments": [
+                    {
+                        "function": "powerline.segments.i3wm.workspace"
+                    }
+                ]
+            },
+            {
+                "function": "powerline.segments.common.time.date",
+                "display": true
             },
             {
                 "function": "powerline.segments.common.time.date",
@@ -14,6 +36,7 @@
             },
             {
                 "function": "powerline.segments.common.mail.email_imap_alert",
+                "display": false,
                 "priority": 10,
                 "args": {
                     "username": "",
