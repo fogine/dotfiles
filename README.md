@@ -50,3 +50,6 @@ There's a few special files in the hierarchy.
 ## notes
 
 * tiny `lxappearance` app generates gtk2.x & gtk3.x config files. Searches for themes in `~/.themes`
+* QT5: yaourt -S qt5ct kvantum-tools-qt5-svn qt5-style-kvantum-svn (exports kvantummanager executable)
+
+

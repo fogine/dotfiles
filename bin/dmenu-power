@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# rofi-power
+# Use rofi to call systemctl for shutdown, reboot, etc
+
+# 2016 Oliver Kraitschy - http://okraits.de
+# modified by fogine
+
+OPTIONS="Suspend\nExit wm\nReboot\nPower-off\nHibernate"
+
+LAUNCHER="rofi -dmenu -i -no-custom -theme $HOME/.dotfiles/rofi/dmenu_theme.css"
+USE_LOCKER="true"
+LOCKER="i3lock"
+
+option=`echo -e $OPTIONS | $LAUNCHER | awk '{print $1}' | tr -d '\r\n'`
+
+
+confirmation() {
+    themePath="$HOME/.dotfiles/rofi/dmenu_theme_with_prompt.css"
+    echo "yes" | rofi -dmenu -no-custom -p "Realy $1? >" -theme "$themePath" 
+}
+
+if [ ${#option} -gt 0 ]
+then
+    case $option in
+      Exit)
+        confirmation "$option" && i3-msg exit
+        ;;
+      Reboot)
+        confirmation "$option" && systemctl reboot
+        ;;
+      Power-off)
+        confirmation "$option" && systemctl poweroff
+        ;;
+      Suspend)
+        $($USE_LOCKER) && "$LOCKER"; systemctl suspend
+        ;;
+      Hibernate)
+        $($USE_LOCKER) && "$LOCKER"; systemctl hibernate
+        ;;
+      *)
+        ;;
+    esac
+fi

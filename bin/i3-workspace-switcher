@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rofi -show window -theme $HOME/.dotfiles/rofi/dmenu_vertical_theme.css

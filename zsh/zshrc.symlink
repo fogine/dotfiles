@@ -36,10 +36,19 @@ do
   source $file
 done
 
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
+#antigen - zsh plugin manager
+antigen bundles <<EOBUNDLES
+  zsh-users/zsh-syntax-highlighting
+  zsh-users/zsh-completions
+  #zsh-users/zsh-syntax-autosuggestions
+EOBUNDLES
+#antigen apply
+
 unsetopt EXTENDED_GLOB
 unset config_files
 
 # If not running interactively, do not do anything else run tmux
 # Must be at the end of file!
 [[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux new-session -A -s main
+#[[ -z "$TMUX" ]] && exec tmux new-session -A -s main

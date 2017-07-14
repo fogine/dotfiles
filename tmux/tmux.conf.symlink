@@ -104,11 +104,34 @@ set-option -g set-titles on
 set-option -g set-titles-string 'tmux #S:#I.#P #W'
 set-window-option -g automatic-rename on
 
-# Set vim mode for tmux
-setw -g mode-keys vi
-bind-key -t vi-copy 'v' begin-selection
+#bind-key -t vi-copy 'v' begin-selection
 #bind-key -t vi-copy 'y' copy-selection
-bind -t vi-copy y copy-pipe 'xclip -in -selection clipboard'
+#bind -t vi-copy y copy-pipe 'xclip -in -selection clipboard'
+#bind-key -T copy-mode-vi 'v' send-keys -X begin-selection
+#bind-key -T copy-mode-vi 'y' send-keys -X copy-pipe-and-cancel 'reattach-to-user-namespace pbcopy'
+
+# ------ This section of hotkeys mainly work in copy mode and no where else ----
+
+# vim keys in copy and choose mode
+set-window-option -g mode-keys vi
+
+# vim copy mode rebinds for (tmux 2.4+)
+# https://shapeshed.com/custom-vim-bindings-in-tmux-2-4/
+# https://github.com/tmux/tmux/issues/754#issuecomment-303156000
+# https://stackoverflow.com/a/40902312
+# Note: rectangle-toggle (aka Visual Block Mode) > hit v then C-v to trigger it
+bind-key -T copy-mode-vi v send-keys -X begin-selection; \
+bind-key -T copy-mode-vi V send-keys -X select-line; \
+bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle; \
+bind-key -T choice-mode-vi h send-keys -X tree-collapse ; \
+bind-key -T choice-mode-vi l send-keys -X tree-expand ; \
+bind-key -T choice-mode-vi H send-keys -X tree-collapse-all ; \
+bind-key -T choice-mode-vi L send-keys -X tree-expand-all ; \
+#copy selection to tmux buffer and system clipboard then quit selection mode
+bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -in -selection clipboard"
+
+# ------------------------------------------------------------------------------
+
 #
 bind-key b set status off
 # set window split

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec urxvt -e bash -c "tmux -q has-session -t $1 && exec tmux attach-session -t $1 || exec tmux new-session -s $1"

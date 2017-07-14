@@ -1,0 +1,3 @@
+#!/bin/sh
+
+CM_LAUNCHER="rofi" clipmenu -dmenu -theme "$HOME/.dotfiles/rofi/dmenu_vertical_theme.css"

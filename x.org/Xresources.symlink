@@ -24,9 +24,10 @@ xterm -xrm '*VT100*translations: #override \n Shift Ctrl <Key>C: select-end(CLIP
 ! ------------------------------------------------------------------------------
 URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=13,xft:PowerlineSymbols:pixelsize=13
 URxvt.scrollBar: false
-URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.perl-ext-common: default
 URxvt.iso14755: False
-URxvt.perl-ext-common: default,clipboard
 !URxvt*font: xft:PowerlineSymbols:pixelsize=13
 
 
@@ -38,13 +39,13 @@ rofi.color-window: #262626, #262626, #268bd2
 rofi.color-normal: #262626, #ffffff, #262626, #005577, #ffffff
 rofi.color-active: #262626, #005577, #262626, #005577, #38a8f2
 rofi.color-urgent: #262626, #f3843d, #262626, #005577, #f3843d
-rofi.kb-accept-entry:Control+m,Return,KP_Enter
-rofi.kb-row-down:Control+j,Down,Control+n
-rofi.kb-row-up:Control+k,Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab
-rofi.kb-remove-word-back:Control+w
-rofi.kb-page-prev:Page_Up,Control+u
-rofi.kb-page-next:Page_Down,Control+d
-rofi.kb-move-word-forward:Alt+w
+!rofi.kb-accept-entry:Control+m,Return,KP_Enter
+!rofi.kb-row-down:Control+j,Down,Control+n
+!rofi.kb-row-up:Control+k,Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab
+!rofi.kb-remove-word-back:Control+w
+!rofi.kb-page-prev:Page_Up,Control+u
+!rofi.kb-page-next:Page_Down,Control+d
+!rofi.kb-move-word-forward:Alt+w
 !rofi.width: 100
 !rofi.location: 6
 !rofi.padding: 0
@@ -67,6 +68,9 @@ rofi.kb-move-word-forward:Alt+w
 ! black
 *.color0:       #2b303b
 *.color8:       #65737e
+
+! grey
+*.color234:     #262626
 
 ! red
 *.color1:       #bf616a

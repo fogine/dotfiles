@@ -99,7 +99,7 @@ getFileOptions(function(err, result) {
                 runCustomCommand(commandCandidate, selection.file.substr(commandCandidate.length), opt);
                 if (notInCache) {
                     selection.file = getCacheString(opt, selection.file);
-                    if (selection.file !== null) {
+                    if (selection.file !== null && selection.file !== undefined) {
                         selection.file = selection.file.trim();
                         result.push(selection);
                     }

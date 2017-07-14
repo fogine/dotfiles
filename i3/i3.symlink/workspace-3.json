@@ -1,20 +1,20 @@
-// vim:ts=4:sw=4:et
 {
     "border": "pixel",
     "current_border_width": 1,
-    "floating": "auto_off",
+    "floating": "user_off",
     "geometry": {
-       "height": 362,
-       "width": 562,
+       "height": 412,
+       "width": 644,
        "x": 0,
        "y": 0
     },
-    "name": "Terminal - tmux main:3.0 i3-save-tree",
+    "name": "tmux main:1.0 zsh",
     "percent": 1,
     "swallows": [
        {
-       "class": "^Xfce4\\-terminal$",
-       "instance": "^xfce4\\-terminal$"
+       "class": "^URxvt$",
+       "instance": "^urxvt$",
+       "transient_for": "^$"
        }
     ],
     "type": "con"

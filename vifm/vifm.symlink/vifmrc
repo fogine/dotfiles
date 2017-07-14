@@ -139,6 +139,7 @@ colorscheme zenburn_1
  mark v $HOME/.vim ../
  mark h ~
  mark t /tmp
+ mark m /media
  mark D ~/Documents
  mark d ~/Downloads
  mark c ~/.dotfiles
@@ -262,6 +263,7 @@ map yy :copy&<cr>
 "synchronize panes
 map s :sync!<cr>
 map <c-s> :sort<cr>
+map S :shell<cr>
 
 " move files to the opposite pane
 "nmap ym :!mv %f %D<cr>
@@ -276,13 +278,13 @@ map yc :clone <cr>
 "nmap DD :!trash-empty & <cr>
 
 "Moving between panes
-"nmap <c-h> <bs>
+nmap <c-h> <bs>
 "nmap <c-h> <c-w>h
 "nmap <c-l> <c-w>l
 "nmap <c-j> <c-w>j
 "nmap <c-k> <c-w>k
 
-nmap <c-h> :navVsplitLeft <cr>
+nmap <bs> :navVsplitLeft <cr>
 nmap <c-l> :navVsplitRight <cr>
 nmap <c-j> :navSplitDown<cr>
 nmap <c-k> :navSplitUp<cr>
@@ -338,7 +340,7 @@ fileviewer *.pdf pdftotext -nopgbrk %c -
 "HTML
 :filextype *.html,*.htm google-chrome %c %i &
 ":fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-"         \ /usr/local/bin/open_in_irfanview.sh %c %i
+         "\ /usr/local/bin/open_in_irfanview.sh %c %i
 
 " ArchiveMount
 filetype *.tar,*.tar.bz2,*.tbz2,*.tgz,*.tar.gz,*.tar.xz,*.txz
@@ -377,9 +379,10 @@ filextype */
         \ Thunar %f &,
 fileviewer .*/,*/ tree %f
 
-
 :fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
          \ vifm-w3mimgdisplay %px %py %pw %ph %c
+         \ %pc
+         \ clear-background %px %py %pw %ph
 "
 " :filetype extensions FUSE_MOUNT2|some_mount_command using %PARAM and %DESTINATION_DIR variables
 " %PARAM and %DESTINATION_DIR are filled in by vifm at runtime.

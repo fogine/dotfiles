@@ -1,6 +1,12 @@
 #start notification daemon
 dunst &
 
+#auto device mount daemon
+udiskie &
+
+#clipboard manager daemon
+clipmenud &
+
 #fix keyboard keys
 xmodmap ~/.Xmodmap &
 
@@ -10,5 +16,11 @@ xmodmap ~/.Xmodmap &
 #fonts are not loaded recursively in the fonts directory
 xset +fp ~/.local/share/fonts/dejavu/
 
+#qt5
+QT_QPA_PLATFORMTHEME=qt5ct
+#should be exported globally, independent on any shell
+export QT_STYLE_OVERRIDE=kvantum
+
 exec i3
+#exec i3 --shmlog-size=26214400
 #exec i3 -V >> /home/fogine/i3log-$(date + '%F-%k-%M-%S') 2>&1

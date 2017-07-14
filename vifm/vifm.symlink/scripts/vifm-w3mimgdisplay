@@ -3,8 +3,10 @@
 # Based on script by z3bra -- 2014-01-21
 
 W3MIMGDISPLAY="/usr/lib/w3m/w3mimgdisplay"
-FONTH=15 # Size of one terminal row
-FONTW=7 # Size of one terminal column
+
+# assumes screen resolution 1920x1080
+FONTH=16 # Size of one terminal row: 1080 / $(tput lines)
+FONTW=8 # Size of one terminal column: 1920 / $(tput cols)
 
 X=$1
 Y=$2

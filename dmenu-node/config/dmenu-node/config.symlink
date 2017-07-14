@@ -1,11 +1,11 @@
 {
-    "dmenu": ["dmenu", "-q", "-b", "-t"],
+    "dmenu": ["rofi", "-dmenu", "-theme", "/home/fogine/.dotfiles/rofi/dmenu_theme.css"],
     "paths": [
         "/home/fogine/.local/bin",
         "/usr/local/bin",
         "/usr/bin"
     ],
-    "defaultWebCmd": "exec i3-msg 'workspace 8' &>/dev/null && google-chrome '%b'",
+    "defaultWebCmd": "i3-msg 'workspace 8' &>/dev/null && google-chrome-stable '%b'",
     "commands": {
         "js": {
             "type": "web",
@@ -74,7 +74,7 @@
         },
         "=": {
             "type": "terminal",
-            "cmd": "result=$(echo \"%b\" | bc -l) && notify-send \"$result\" -t 3000 ; echo \"$result\" | xclip -i ; exit 0",
+            "cmd": "result=$(genius --exec=\"$(echo \"%b\")\") && notify-send \"$result\" -t 3000 ; echo \"$result\" | xclip -i ; exit 0",
             "cache": "single"
         },
         "td": {
