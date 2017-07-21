@@ -66,7 +66,8 @@ rofi.color-urgent: #262626, #f3843d, #262626, #005577, #f3843d
 *.cursorColor:  #c0c5ce
 
 ! black
-*.color0:       #2b303b
+*.color0:       #262626
+!*.color0:       #2b303b
 *.color8:       #65737e
 
 ! grey
