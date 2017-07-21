@@ -77,6 +77,11 @@
             "cmd": "result=$(genius --exec=\"$(echo \"%b\")\") && notify-send \"$result\" -t 3000 ; echo \"$result\" | xclip -i ; exit 0",
             "cache": "single"
         },
+        "base64": {
+            "type": "terminal",
+            "cmd": "xdotool type $(echo -n '%b' | base64)",
+            "cache": "single"
+        },
         "td": {
             "type": "terminal",
             "cmd": "dmenu-node-task '%b'",
