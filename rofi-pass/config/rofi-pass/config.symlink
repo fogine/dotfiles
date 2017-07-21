@@ -3,7 +3,7 @@
 
 # rofi command. Make sure to have "$@" as last argument
 _rofi () {
-    rofi -columns 1 -lines 2 -width 100 -location 6 -padding 0 -i -fuzzy -font "Dejavu Sans Mono 10" -bw 0 -scroll-method 0 -separator-style none -hide-scrollbar "$@"
+    rofi -dmenu -i -theme "$HOME/.dotfiles/rofi/dmenu_vertical_theme.css" "$@"
 }
 
 
