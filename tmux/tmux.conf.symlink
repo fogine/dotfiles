@@ -132,8 +132,8 @@ bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -in -selecti
 
 # ------------------------------------------------------------------------------
 
-#
-bind-key b set status off
+# toggle tmux status bar on/off
+bind-key b set status
 # set window split
 bind-key v split-window -h
 bind-key s split-window
@@ -187,7 +187,7 @@ set-option -g status-right-length 90
 #set-option -g status-right "#(~/.tmux/tmux-powerline/powerline.sh right)"
 
 #Restore these programs with tmux session
-set -g @resurrect-processes 'ssh mysql sqlite3 vifm'
+#set -g @resurrect-processes 'ssh mysql sqlite3 vifm'
 set -g @resurrect-strategy-vim 'session' #automatically restore vim session
 
 run-shell "powerline-daemon -q"
