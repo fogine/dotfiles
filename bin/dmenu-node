@@ -13,7 +13,7 @@ var $HOME           = env.HOME;
 var $XDG_CACHE_HOME = env.XDG_CACHE_HOME;
 
 var app            = path.basename(__filename);
-var cacheDirPath   = $XDG_CACHE_HOME || $HOME + "/.cache/" + app + '/';
+var cacheDirPath   = ($XDG_CACHE_HOME || ($HOME + "/.cache")) + '/' + app + '/';
 var cacheFilePath  = cacheDirPath + 'cache';
 var configDirPath  = $HOME + '/.config/' + app;
 var configFilePath = configDirPath + '/config';
