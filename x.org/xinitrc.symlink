@@ -1,3 +1,6 @@
+#turn off the beep pc speaker
+xset -b
+
 #start notification daemon
 dunst &
 
@@ -20,6 +23,11 @@ xset +fp ~/.local/share/fonts/dejavu/
 QT_QPA_PLATFORMTHEME=qt5ct
 #should be exported globally, independent on any shell
 export QT_STYLE_OVERRIDE=kvantum
+
+#start gnome-keyring daemon
+dbus-update-activation-environment --systemd DISPLAY
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
 
 exec i3
 #exec i3 --shmlog-size=26214400
