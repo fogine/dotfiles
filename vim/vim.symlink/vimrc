@@ -361,6 +361,14 @@ noremap gh :tabfirst<CR>
 "move to last tab
 noremap gl :tablast<CR>
 
+" Dont show `Press ENTER or type command to continue` message
+nnoremap <leader>ga :Git add %:p<CR><CR>
+nnoremap <leader>gl :silent! Glog<CR>:bot copen<CR>
+nnoremap <leader>gp :Ggrep<Space>
+nnoremap <leader>gm :Gmove<Space>
+nnoremap <leader>gb :Git branch<Space>
+nnoremap <leader>go :Git checkout<Space>
+
 " Shorter shortcuts for moving between windows
 "nmap <C-h> <C-w>h
 "nmap <C-j> <C-w>j
@@ -547,14 +555,14 @@ map <c-w><c-o> :MaximizerToggle<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Tmux navigator plugin settngs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"It must here!
+"It must be here!
 au FocusGained * silent redraw!
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startify plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:startify_bookmarks = [ '~/.vim/vimrc', '~/.vifm/vifmrc', '~/.tmux.conf', '~/.bashrc', '~/.zshrc', '~/.i3/config', '~/.profile', '/etc/php5/apache2/php.ini' ]
+let g:startify_bookmarks = [ '~/.vim/vimrc', '~/.vifm/vifmrc', '~/.tmux.conf', '~/.bashrc', '~/.zshrc', '~/.i3/config', '~/.Xresources', '/etc/php5/apache2/php.ini', '.xinitrc', 'Xmodmap' ]
 let g:startify_session_autoload = 1
 let g:startify_session_delete_buffers = 1
 
