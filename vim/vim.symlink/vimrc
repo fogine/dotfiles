@@ -335,7 +335,7 @@ map <leader>cd :cd %:p:h<cr>:pwd<cr>
 "map <leader>rm :call delete(expand('%'))
 
 " Remember info about open buffers on close
-set viminfo^=%
+"set viminfo^=%
 
 " Do not store global and local values in a session
 set ssop-=options
