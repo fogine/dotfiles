@@ -1,0 +1,33 @@
+set editing-mode vi
+set bell-style none
+
+# Show all completions as soon as I press tab, even if there's more than one
+set show-all-if-ambiguous on
+
+# Ignore case
+set completion-ignore-case on
+
+# on menu-complete, first display the common prefix, then cycle through the 
+# options when hitting TAB
+menu-complete-display-prefix on
+
+$if mode=vi
+   set keymap vi-command
+   "jj": vi-insertion-mode
+   "gg": beginning-of-history
+   "G": end-of-history
+
+   set keymap vi-insert
+   "jj": vi-movement-mode
+   "\C-w": backward-kill-word
+   "\C-r": history-search-backward
+   "\C-a": beginning-of-line
+   "\C-h": backward-char
+   "\C-e": end-of-line
+   "\C-l": forward-char
+   # Pressing tab will list all completions & select the first one. Pressing it 
+   # again will cycle through available completions.
+   TAB: menu-complete
+   # Shift-TAB cycles completions backward
+   "\e[Z": menu-complete-backward
+$endif
