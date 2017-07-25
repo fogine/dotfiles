@@ -3,5 +3,5 @@ if [ -z "$2" ]
 then
     exec urxvt -e bash -c "tmux -q has-session -t $1 && exec tmux attach-session -t $1 || exec tmux new-session -s $1"
 else
-    exec urxvt -e bash -c "tmux -q has-session -t $1 && exec tmux attach-session -t $1 || exec tmux new-session -s $1 $2"
+    exec urxvt -e bash -c "tmux -q has-session -t $1 && exec tmux attach-session -t $1 || exec tmux new-session -s $1 \"$2\""
 fi
