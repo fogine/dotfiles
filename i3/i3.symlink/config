@@ -208,10 +208,13 @@ for_window [title="Panel"] floating enable
 # assign program to specific workspace
 assign [class="Thunderbird"] $workspace9
 
-bindsym $mod+i exec rofi-pass
-bindsym $mod+c exec --no-startup-id clipmenu-wrapper
-bindsym $mod+m exec --no-startup-id udiskie-dmenu-wrapper
-bindsym $mod+g exec --no-startup-id i3-workspace-switcher
+bindsym Print       exec teiler
+bindsym $mod+i      exec rofi-pass
+bindsym $mod+c      exec --no-startup-id clipmenu-wrapper
+bindsym $mod+m      exec --no-startup-id udiskie-dmenu-wrapper
+bindsym $mod+g      exec --no-startup-id i3-workspace-switcher
+#used by special mouse button
+bindsym $mod+mod1+g exec --no-startup-id i3-workspace-switcher clickable
 # shutdown menu
 bindsym $mod+mod1+e exec --no-startup-id dmenu-power
 
