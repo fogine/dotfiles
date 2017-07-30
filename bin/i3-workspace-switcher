@@ -1,3 +1,12 @@
 #!/bin/sh
 
-rofi -show window -theme $HOME/.dotfiles/rofi/dmenu_vertical_theme.css
+case "$1" in
+"clickable")
+    theme="$HOME/.dotfiles/rofi/clickable.css"
+    ;;
+*)
+    theme="$HOME/.dotfiles/rofi/dmenu_vertical_theme.css"
+    ;;
+esac
+
+rofi -show window -theme "$theme"
