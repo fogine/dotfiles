@@ -146,6 +146,7 @@ colorscheme zenburn_1
  mark s ~/.ssh
  mark p ~/Projects
  mark P ~/Pictures
+ mark V ~/Videos
 
 " :com[mand] command_name action
 " The following macros can be used in a command
