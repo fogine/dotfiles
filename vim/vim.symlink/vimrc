@@ -772,6 +772,10 @@ nmap <F4> :!start ctags --fields=+l -R . <CR>
 "let g:ycm_collect_identifiers_from_tags_files = 0
 "let g:ycm_autoclose_preview_window_after_completion = 1
 "let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" fix vim's ^X completion mode when youcompleteme has auto trigger option
+" enabled
+inoremap <C-X><C-L> <C-O>:let g:ycm_auto_trigger = 0<CR><C-X><C-L><C-O>:let g:ycm_auto_trigger = 1<CR>
 let g:ycm_complete_in_comments = 1
 let g:ycm_semantic_triggers = {}
 let g:ycm_semantic_triggers.php =
