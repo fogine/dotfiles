@@ -6,9 +6,11 @@ export XDG_CACHE_HOME=$HOME/.cache
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PATH:$PYENV_ROOT/bin:$HOME/.dotfiles/bin
 
-if [ -d "$HOME/.local/bin" ]; then
-    export PATH=$PATH:$HOME/.local/bin
-fi
+# Set GPG TTY
+export GPG_TTY=$(tty)
+# Refresh gpg-agent tty in case user switches into an X session
+gpg-connect-agent updatestartuptty /bye >/dev/null
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 
 fpath=($ZSH/functions $fpath)
 

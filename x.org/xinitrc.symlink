@@ -24,9 +24,10 @@ QT_QPA_PLATFORMTHEME=qt5ct
 #should be exported globally, independent on any shell
 export QT_STYLE_OVERRIDE=kvantum
 
-#start gnome-keyring daemon
+#start keyring daemon, the following configuration needed by i3wm
 dbus-update-activation-environment --systemd DISPLAY
-eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+# gnome-keyring-daemon is used only for storing secrets, not for ssh or pkcs11
+eval $(/usr/bin/gnome-keyring-daemon --start --components=secrets)
 export SSH_AUTH_SOCK
 
 exec i3
