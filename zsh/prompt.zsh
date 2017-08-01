@@ -24,4 +24,4 @@ bindkey '^Z' _zsh_cli_fg
 # 'jj' goes to command mode
 bindkey -M viins 'jj' vi-cmd-mode
 
-bindkey -M viins '^i' end-of-line
+#bindkey -M viins '^i' end-of-line
