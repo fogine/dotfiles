@@ -134,6 +134,7 @@ colorscheme zenburn_1
 
  mark r /
  mark u /usr
+ mark e /etc
  mark h $HOME ../
  mark V $HOME/.vifm ../
  mark v $HOME/.vim ../
