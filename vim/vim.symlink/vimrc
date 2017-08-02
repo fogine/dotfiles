@@ -459,6 +459,10 @@ set showcmd
 
 " Show autocomplete menus.
 set wildmenu
+" `k` - look at the spell dictionary
+" `kspell` - look at the spell dictionary
+" only when the "spell" option is enabled
+set complete+=k
 
 " Show editing mode
 set showmode
@@ -665,6 +669,7 @@ set t_Co=256
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
+let g:UltiSnipsSnippetsDir='~/.vim/bundle/vim-snippets/snippets/'
 " Snippets are separated from the engine. Add this if you want them:
 
 let g:snips_author=""
