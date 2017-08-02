@@ -12,6 +12,7 @@ export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
 export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 # required by cutom "smart-pinentry" script
+# the script is then used by gpg-agent.conf: pinentry-program /path/to/smart-pinentry
 export PINENTRY_USER_DATA=tty
 
 fpath=($ZSH/functions $fpath)
