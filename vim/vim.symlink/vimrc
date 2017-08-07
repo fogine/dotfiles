@@ -302,6 +302,10 @@ set relativenumber
 " Start searching immediately as typing start
 set incsearch
 
+" \v - everything is special unless escaped
+nnoremap / /\v
+vnoremap / /\v
+
 " vim diff - ignore whitespace
 set diffopt+=iwhite
 
