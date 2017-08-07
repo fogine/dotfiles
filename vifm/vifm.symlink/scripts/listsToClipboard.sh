@@ -7,4 +7,4 @@ list="$(
         sed "s/\[:SPACE:\]/ /g"
     )"
 )"
-echo -e "$list" | xclip -in -selection clipboard
+echo -e -n "$list" | xclip -in -selection clipboard
