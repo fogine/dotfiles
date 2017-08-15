@@ -6,11 +6,14 @@
 # 2016 Oliver Kraitschy - http://okraits.de
 # modified by fogine
 
-OPTIONS="Suspend\nExit wm\nReboot\nPower-off\nHibernate"
+OPTIONS="Lock\nSuspend\nExit wm\nReboot\nPower-off\nHibernate"
 
 LAUNCHER="rofi -dmenu -i -no-custom -theme $HOME/.dotfiles/rofi/dmenu_theme.css"
 USE_LOCKER="true"
-LOCKER="i3lock"
+
+locker() {
+    i3lock -i "$HOME/Pictures/background.png"
+}
 
 option=`echo -e $OPTIONS | $LAUNCHER | awk '{print $1}' | tr -d '\r\n'`
 
@@ -32,11 +35,14 @@ then
       Power-off)
         confirmation "$option" && systemctl poweroff
         ;;
+      Lock)
+        locker
+        ;;
       Suspend)
-        $($USE_LOCKER) && "$LOCKER"; systemctl suspend
+        $($USE_LOCKER) && locker; systemctl suspend
         ;;
       Hibernate)
-        $($USE_LOCKER) && "$LOCKER"; systemctl hibernate
+        $($USE_LOCKER) && locker; systemctl hibernate
         ;;
       *)
         ;;
