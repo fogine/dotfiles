@@ -101,7 +101,7 @@ set incsearch
 colorscheme Default
 
 " Don't do too many requests to slow file systems
-set slowfs=curlftpfs
+"set slowfs=curlftpfs
 
 " The FUSE_HOME directory will be used as a root dir for all FUSE mounts.
 " Unless it exists with write/exec permissions set, vifm will attempt to
@@ -114,9 +114,7 @@ set fusehome=/tmp/vifm_FUSE
 :filetype *.ssh FUSE_MOUNT2|sshfs %PARAM %DESTINATION_DIR %CLEAR
 
 " FtpMount
-filetype *.ftp
-       \ {Mount with CurlFtpFS}
-       \ FUSE_MOUNT2|curlftpfs -o ftp_port=-,,disable_eprt %PARAM %DESTINATION_DIR %CLEAR,
+filetype *.ftp FUSE_MOUNT2|curlftpfs -o ftp_port=-,,disable_eprt %PARAM %DESTINATION_DIR %CLEAR,
 
 " Format for displaying time in file list. For example:
 " set timefmt=%m/%d-%H:%M
