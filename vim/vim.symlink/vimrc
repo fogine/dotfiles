@@ -124,7 +124,7 @@ filetype plugin indent on    " required"
 " properly set to work with the Vim-related packages available in Debian.
 set cryptmethod=blowfish     "blowfis2 -> best  (requires Vim version 7.4.399 or higher)
 set backspace=2 " make backspace work like most other apps
-runtime! debian.vim
+runtime! archlinux.vim
 
 let g:netrw_browsex_viewer = 'google-chrome'
 set clipboard=unnamed
