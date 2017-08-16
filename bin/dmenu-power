@@ -12,7 +12,7 @@ LAUNCHER="rofi -dmenu -i -no-custom -theme $HOME/.dotfiles/rofi/dmenu_theme.css"
 USE_LOCKER="true"
 
 locker() {
-    i3lock -i "$HOME/Pictures/background.png"
+    i3lock -t -i "$HOME/Pictures/background.png"
 }
 
 option=`echo -e $OPTIONS | $LAUNCHER | awk '{print $1}' | tr -d '\r\n'`
