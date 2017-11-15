@@ -80,7 +80,7 @@
         "base64": {
             "type": "terminal",
             "cmd": "xdotool type $(echo -n '%b' | base64)",
-            "cache": "single"
+            "cache": "all"
         },
         "td": {
             "type": "terminal",
