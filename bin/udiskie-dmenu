@@ -12,7 +12,6 @@ var $LOGNAME  = env.LOGNAME;
 var $LAUNCHER = env.UDISKIE_DMENU_LAUNCHER || 'dmenu';
 var MOUNT_DIR = `/run/media/${$LOGNAME}`;
 
-
 main();
 
 function main() {
@@ -23,7 +22,7 @@ function main() {
 
         var options = parseUdiskieInfo(blockDevices);
 
-        getSelection(prettyPrint(options), function(err, selection) {
+        getSelection(prettyPrint(options), function(err, selection, code) {
 
             if (err) {
                 console.error(err);
@@ -45,17 +44,17 @@ function main() {
             });
 
             targets.forEach(function(device) {
-                var udiskieOpt = '';
+                var udiskieOpt = code === 10 ? '--detach' : '';
 
                 if (device.mountPath) {
                     if (device.isLuks) {
-                        udiskieOpt = '--force';
+                        udiskieOpt += '--force';
                     }
                     //
                     return runCommand(`udiskie-umount ${udiskieOpt} "${device.mountPath}"`, notifyIfErr);
                 } else if (device.label) {
                     if (device.isLuks) {
-                        udiskieOpt = '--recursive';
+                        udiskieOpt += '--recursive';
                     }
                     //
                     return runCommand(`udiskie-mount ${udiskieOpt} "${device.devPath}"`, notifyIfErr);
@@ -66,7 +65,6 @@ function main() {
         });
     });
 }
-
 
 /**
  * @param {Object} parsedUdiskieInfo - output of parseUdiskieInfo
@@ -79,6 +77,7 @@ function prettyPrint(parsedUdiskieInfo) {
     Object.keys(parsedUdiskieInfo).forEach(function(devPath) {
         var device = parsedUdiskieInfo[devPath];
 
+        //align first column to the left side
         if (devPath.length < 9) {
             devPath = stretchStr(devPath, 9);
         }
@@ -95,7 +94,6 @@ function prettyPrint(parsedUdiskieInfo) {
         return str;
     }
 }
-
 
 /**
  * @param {Error} err
@@ -117,7 +115,6 @@ function notifyIfErr(err) {
     });
 }
 
-
 /**
  * @param {String} str
  * @return {Object}
@@ -130,10 +127,11 @@ function parseUdiskieInfo(str) {
             return;
         }
 
-        var data, labelOrMountPath, mountPath, label;
+        var data, labelOrMountPath, mountPath, label, deviceInfo;
         data = JSON.parse(`{${device}}`);
-        data.devPath = data.label.split(':')[0].trim();
-        data.label = data.label.split(':')[1].trim();
+        deviceInfo = data.label.split(':');
+        data.devPath = (deviceInfo.shift() || '').trim();
+        data.label = (deviceInfo.shift() || '').trim();
         data.isLuks = data.isLuks && JSON.parse(data.isLuks.toLowerCase());
 
         var key = data.devPath.trim();
@@ -196,8 +194,6 @@ function runCommand(command, callback) {
     });
 }
 
-
-
 /**
  * getSelection
  *
@@ -209,7 +205,7 @@ function runCommand(command, callback) {
 function getSelection(data, callback) {
     var stdout;
     var stderr
-    var dmenu = spawn($LAUNCHER, process.argv.slice(1));
+    var dmenu = spawn($LAUNCHER, process.argv.slice(2));
 
     dmenu.stdin.write(data);
     dmenu.stdin.end();
@@ -224,10 +220,11 @@ function getSelection(data, callback) {
     });
 
     dmenu.on('exit', function (code) {
-        if (code !== 0 && (stdout || stderr)) {
+        //status: 10 => custom keybinding for --detach option
+        if (code !== 0 && code !== 10 && (stdout || stderr)) {
             console.error('dmenu returned with code ' + code);
             return callback(code);
         }
-        return callback(undefined, stdout);
+        return callback(undefined, stdout, code);
     });
 }
