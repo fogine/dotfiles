@@ -1,6 +1,11 @@
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PATH:$PYENV_ROOT/bin
 
+# disable anoying pinentry password popups
+export PINENTRY_USER_DATA="USE_CURSES=1"
+unset GPG_AGENT_INFO
+unset SSH_ASKPASS
+
 if [ -d "$HOME/.local/bin" ]; then
     export PATH=$PATH:$HOME/.local/bin
 fi

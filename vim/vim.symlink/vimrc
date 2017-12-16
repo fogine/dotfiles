@@ -11,6 +11,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'chrisbra/vim-diff-enhanced'
+Plugin 'Shougo/vinarise.vim'
 Plugin 'GutenYe/json5.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vifm/vifm.vim'
@@ -565,6 +567,11 @@ map <c-w><c-o> :MaximizerToggle<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "It must be here!
 au FocusGained * silent redraw!
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Instant Markdown plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:instant_markdown_autostart = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startify plugin settings

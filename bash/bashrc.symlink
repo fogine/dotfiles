@@ -1,12 +1,16 @@
-#Make bash aliases available from vim or vifm etc..
-shopt -s expand_aliases
 export BASH_ENV="$HOME/.bash_noninteractive"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
       *) return;;
 esac
+
+#Make bash aliases available from vim or vifm etc..
+shopt -s expand_aliases
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
@@ -26,5 +30,5 @@ HISTFILESIZE=20000
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# added by travis gem
+[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
