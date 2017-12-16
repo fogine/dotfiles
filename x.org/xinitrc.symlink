@@ -19,6 +19,9 @@ xmodmap ~/.Xmodmap &
 #fonts are not loaded recursively in the fonts directory
 xset +fp ~/.local/share/fonts/dejavu/
 
+#toggle keyboard layout
+setxkbmap -model pc105 -layout us,cz -option grp:alt_shift_toggle
+
 #qt5
 QT_QPA_PLATFORMTHEME=qt5ct
 #should be exported globally, independent on any shell
