@@ -326,7 +326,7 @@ filextype *.pdf apvlv %c %i, zathura %c %i &, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
 
 "Video/mp3
-:filextype *.avi,*.mp4,*.mpg,*.mp3,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v vlc %c %i
+:filextype *.avi,*.flac,*.mp4,*.mpg,*.mp3,*.opus,*.ogg,*.aac,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v vlc %c %i
 
 "Blender
 :filextype *.blend,*.blend1,*.blend2,*.blend3,*.blend4,*blend4 blender %c %i
