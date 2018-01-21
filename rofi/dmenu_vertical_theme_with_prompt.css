@@ -1,0 +1,43 @@
+* {
+    background:      #262626;
+    foreground:      White;
+    font:            "DejaVu Sans Mono For Powerline 10";
+
+}
+
+#window {
+    anchor:     south;
+    location:   south;
+}
+
+#window box {
+    width:      100%;
+    padding:    0px;
+    children:   [ horibox ];
+}
+
+#window horibox box {
+    orientation: vertical;
+    children:   [ prompt, entry, listview ];
+}
+
+#window horibox listview box {
+    layout:     vertical;
+    spacing:    0px;
+    dynamic:    false;
+    fixed-height: false;
+    lines:      5;
+}
+
+#window horibox entry {
+    expand:     false;
+    padding: 1px 4px;
+    width:      10em;
+}
+
+#window horibox listview element {
+    padding: 1px 5px;
+}
+#window horibox listview element selected {
+    background: #0F5470;
+}
