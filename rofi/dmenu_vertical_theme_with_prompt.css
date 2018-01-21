@@ -1,27 +1,26 @@
 * {
-    background:      #262626;
-    foreground:      White;
-    font:            "DejaVu Sans Mono For Powerline 10";
+    background-color : #262626;
+    text-color       : White;
+    font             : "DejaVu Sans Mono For Powerline 10";
+}
 
+configuration {
 }
 
 #window {
     anchor:     south;
     location:   south;
-}
-
-#window box {
     width:      100%;
     padding:    0px;
     children:   [ horibox ];
 }
 
-#window horibox box {
+#horibox {
     orientation: vertical;
-    children:   [ prompt, entry, listview ];
+    children:   [prompt, entry, listview ];
 }
 
-#window horibox listview box {
+#listview {
     layout:     vertical;
     spacing:    0px;
     dynamic:    false;
@@ -29,15 +28,16 @@
     lines:      5;
 }
 
-#window horibox entry {
+#entry {
     expand:     false;
+    width:      20em;
     padding: 1px 4px;
-    width:      10em;
 }
 
-#window horibox listview element {
+#element {
     padding: 1px 5px;
 }
-#window horibox listview element selected {
-    background: #0F5470;
+
+#element selected {
+    background-color: #0F5470;
 }
