@@ -42,6 +42,7 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-completions
   robbyrussell/oh-my-zsh plugins/zsh-navigation-tools
+  robbyrussell/oh-my-zsh plugins/extract
   #zsh-users/zsh-syntax-autosuggestions
 EOBUNDLES
 #antigen apply
@@ -53,3 +54,6 @@ unset config_files
 # Must be at the end of file!
 [[ $- != *i* ]] && return
 #[[ -z "$TMUX" ]] && exec tmux new-session -A -s main
+
+# added by travis gem
+[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh

@@ -1,0 +1,50 @@
+{
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 100,
+               "width": 240,
+               "x": 1920,
+               "y": 0
+            },
+            "name": "fogine - Skype™",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Skype$",
+               "instance": "^skype$",
+               "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "user_off",
+            "geometry": {
+               "height": 412,
+               "width": 644,
+               "x": 0,
+               "y": 0
+            },
+            "name": "tmux xmpp:1.0 profanity",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+               "instance": "^urxvt$",
+               "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

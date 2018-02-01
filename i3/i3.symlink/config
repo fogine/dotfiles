@@ -111,6 +111,17 @@ set $workspace8 "8"
 set $workspace9 "9"
 set $workspace10 "10"
 
+workspace $workspace1 output "DVI-D-0"
+workspace $workspace2 output "DVI-D-0"
+workspace $workspace3 output "DVI-D-0"
+workspace $workspace4 output "DVI-D-0"
+workspace $workspace5 output "DVI-D-0"
+workspace $workspace6 output "DVI-I-1"
+workspace $workspace7 output "DVI-I-1"
+workspace $workspace8 output "DVI-I-1"
+workspace $workspace9 output "DVI-I-1"
+workspace $workspace10 output "DVI-I-1"
+
 # switch to workspace
 # https://github.com/redhat69/dotfiles/blob/master/.i3/config
 bindsym $mod+1 workspace $workspace1
@@ -214,7 +225,7 @@ bindsym $mod+c      exec --no-startup-id clipmenu-wrapper
 bindsym $mod+m      exec --no-startup-id udiskie-dmenu-wrapper
 bindsym $mod+g      exec --no-startup-id i3-workspace-switcher
 bindsym $mod+mod1+g exec --no-startup-id i3-workspace-switcher clickable
-bindsym mod1+Control+Delete exec "i3lock -i ~/Pictures/background.png"
+bindsym mod1+Control+Delete exec "i3lock -t -i ~/Pictures/background.png"
 # shutdown menu
 bindsym $mod+mod1+e exec --no-startup-id dmenu-power
 
@@ -250,8 +261,12 @@ exec --no-startup-id i3-msg 'workspace 5; exec urxvt-with-tmux "scratch" -name s
 # restore layouts on workspaces
 exec --no-startup-id "i3-msg 'workspace 3; append_layout ~/.i3/workspace-3.json'"
 exec --no-startup-id "i3-msg 'workspace 8; append_layout ~/.i3/workspace-8.json'"
+exec --no-startup-id "i3-msg 'workspace 9; append_layout ~/.i3/workspace-9.json'"
+exec --no-startup-id "i3-msg 'workspace 10; append_layout ~/.i3/workspace-10.json'"
 exec --no-startup-id i3-msg 'workspace $workspace3; exec urxvt-with-tmux "main" -name main; workspace $workspace3'
 exec --no-startup-id i3-msg 'workspace $workspace8; exec google-chrome-stable; workspace $workspace8'
+exec --no-startup-id i3-msg 'workspace $workspace9; exec thunderbird; workspace $workspace9'
+exec --no-startup-id i3-msg 'workspace $workspace10; exec urxvt-with-tmux xmpp "tmux set-option status off && profanity"; exec skype; workspace $workspace10'
 #
 #exec thunderbird --no-startup-id
 #exec "sleep 5; xdotool key --window '$(xdotool search --name tmux | head -n 1 )' 'Control_L+a+r'"
