@@ -16,14 +16,16 @@ configuration {
 }
 
 #horibox {
-    orientation: horizontal;
-    children:   [ entry, listview ];
+    orientation: vertical;
+    children:   [prompt, entry, listview ];
 }
 
 #listview {
-    layout:     horizontal;
+    layout:     vertical;
     spacing:    0px;
-    lines:      25;
+    dynamic:    false;
+    fixed-height: false;
+    lines:      5;
 }
 
 #entry {
