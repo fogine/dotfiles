@@ -1,0 +1,6 @@
+xkb_symbols "xcape-special" {
+    key <HYPR>  { [ Hyper_R ] };
+    //Numpad Enter should bahave like normal Enter
+    key <KPEN>  { [ Return ] };
+    modifier_map Control { <HYPR> };
+};

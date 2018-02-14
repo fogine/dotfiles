@@ -1,3 +1,7 @@
+XKB_DIR="$HOME/.config/xkb"
+XKB_SYMBOL_FILE="custom-symbols"
+XKB_KEYCODE_FILE="custom-keycodes"
+
 #turn off the beep pc speaker
 xset -b
 
@@ -10,15 +14,19 @@ udiskie &
 #clipboard manager daemon
 clipmenud &
 
-#toggle keyboard layout
+#loads custom keyboard configuration from $HOME/.config/xkb
+#and sets up keyboard layout toggle (alt+shift)
 #MUST BE CALLED BEFORE xmodmap & xcape bindings are sourced
-setxkbmap -model pc105 -layout us,cz -option grp:alt_shift_toggle
 
-#fix keyboard keys
-xmodmap ~/.Xmodmap
-#When Control_R & Caps_Lock are tapped (pressed and immediatelly released,
-#make it behave like caps lock toggle
-xcape -e 'Control_R=Caps_Lock'
+setxkbmap -model pc105 -layout "us+$XKB_SYMBOL_FILE(xcape-special),cz" \
+    -keycodes "evdev+$XKB_KEYCODE_FILE(xcape-special)" \
+    -option "grp:alt_shift_toggle" -print \
+    | xkbcomp -I"$XKB_DIR" - "${DISPLAY%%.*}" >/dev/null 2>&1
+
+#When Caps_Lock is tapped (pressed and immediatelly released,
+#make it behave like caps lock toggle, when it's pressed with another key
+#it functions as a "Control" modifier
+xcape -e 'Hyper_R=Caps_Lock'
 
 #custom touchpad gestrures
 libinput-gestures-setup start
