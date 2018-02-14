@@ -1,5 +1,5 @@
 
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "/usr/share/nvm/nvm.sh" ] && . "/usr/share/nvm/nvm.sh"  # This loads nvm
 
 #Automatically call `nvm use` if `node` is not yet loaded and
 #cwd contains `.nvmrc` with node version to load
