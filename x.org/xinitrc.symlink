@@ -10,17 +10,24 @@ udiskie &
 #clipboard manager daemon
 clipmenud &
 
+#toggle keyboard layout
+#MUST BE CALLED BEFORE xmodmap & xcape bindings are sourced
+setxkbmap -model pc105 -layout us,cz -option grp:alt_shift_toggle
+
 #fix keyboard keys
-xmodmap ~/.Xmodmap &
+xmodmap ~/.Xmodmap
+#When Control_R & Caps_Lock are tapped (pressed and immediatelly released,
+#make it behave like caps lock toggle
+xcape -e 'Control_R=Caps_Lock'
+
+#custom touchpad gestrures
+libinput-gestures-setup start
 
 #Merge ~/.Xresources configuration
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 #fonts are not loaded recursively in the fonts directory
 xset +fp ~/.local/share/fonts/dejavu/
-
-#toggle keyboard layout
-setxkbmap -model pc105 -layout us,cz -option grp:alt_shift_toggle
 
 #qt5
 QT_QPA_PLATFORMTHEME=qt5ct
