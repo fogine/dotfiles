@@ -28,6 +28,9 @@ setxkbmap -model pc105 -layout "us+$XKB_SYMBOL_FILE(xcape-special),cz" \
 #it functions as a "Control" modifier
 xcape -e 'Hyper_R=Caps_Lock'
 
+#configure multimedia keys
+xbindkeys -p
+
 #custom touchpad gestrures
 libinput-gestures-setup start
 
