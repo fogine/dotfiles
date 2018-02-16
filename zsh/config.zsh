@@ -34,6 +34,9 @@ setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
 setopt CORRECT
 setopt COMPLETE_IN_WORD
+setopt AUTO_PUSHD       # pushes the old directory onto the stack
+setopt PUSHD_MINUS      # exchange the meanings of '+' and '-'
+setopt CDABLE_VARS      # expand the expression (allows 'cd -2/tmp')
 
 setopt APPEND_HISTORY # adds history
 setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share it across sessions
