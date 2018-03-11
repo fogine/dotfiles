@@ -783,6 +783,8 @@ nmap <F4> :!start ctags --fields=+l -R . <CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteme plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ycm_server_python_interpreter = 'python2'
+let g:ycm_python_binary_path = 'python'
 "let g:ycm_server_keep_logfiles = 0
 "let g:ycm_server_log_level = 'debug'
 "let g:ycm_collect_identifiers_from_tags_files = 0

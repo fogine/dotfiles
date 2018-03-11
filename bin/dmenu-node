@@ -96,7 +96,7 @@ getFileOptions(function(err, result) {
             var commandCandidate = getFirstWord(selection.file);
             if (commands.hasOwnProperty(commandCandidate)) {
                 var opt = commands[commandCandidate];
-                runCustomCommand(commandCandidate, selection.file.substr(commandCandidate.length), opt);
+                runCustomCommand(commandCandidate, selection.file.substr(commandCandidate.length), opt, resolve);
                 if (notInCache) {
                     selection.file = getCacheString(opt, selection.file);
                     if (selection.file !== null && selection.file !== undefined) {
@@ -123,17 +123,19 @@ getFileOptions(function(err, result) {
                     }
                 }
             } else {
-                runCommand(selection.file);
+                runCommand(selection.file, resolve);
             }
 
-            //update usage metadate for selected option
-            selection.frequency = (selection.frequency && ++selection.frequency) || 1;
-            selection.stat.ctime = Date.now();
+            function resolve() {
+                //update usage metadate for selected option
+                selection.frequency = (selection.frequency && ++selection.frequency) || 1;
+                selection.stat.ctime = Date.now();
 
-            sortFileOptions(result);
-            saveCache(cacheFilePath, result);
+                sortFileOptions(result);
+                saveCache(cacheFilePath, result);
 
-            process.exit(0);
+                process.exit(0);
+            }
         })
     }
 });
@@ -199,10 +201,11 @@ function getFileOptions(callback) {
  *                              all = stdout from dmenu will be cached,
  *                              alias = custom command alias from stdout will be parsed and cached,
  *                              false = no cache
+ * @param {Function} cb
  *
  * @return {undefined}
  */
-function runCustomCommand(command, args, opt) {
+function runCustomCommand(command, args, opt, cb) {
     if (opt.type === 'web') {
 
         var cmd = opt.cmd || options.defaultWebCmd;
@@ -214,16 +217,23 @@ function runCustomCommand(command, args, opt) {
         url = pre + match + post;
 
         cmd = expandCommand(cmd, url);
-        runCommand(cmd);
+        runCommand(cmd, cb);
 
     } else if (opt.type === 'terminal') {
         var cmd = opt.cmd;
 
         cmd = expandCommand(cmd, args.trim());
-        runCommand(cmd);
+        runCommand(cmd, cb);
     } else {
-        console.error('unsupported custom command type: ' + opt.type);
+        logger('unsupported custom command type: ' + opt.type);
+        cb();
     }
+
+}
+
+function logger(message) {
+    message = '[dmenu-node] ' + message;
+    execSync('logger', {input: message});
 
 }
 
@@ -245,19 +255,23 @@ function expandCommand(command, arg) {
  * runCommand
  *
  * @param {string} command - stdout from dmenu
+ * @param {Function} cb
  *
  * @return {undefined}
  */
-function runCommand(command) {
+function runCommand(command, cb) {
 
     exec(command, function(error, stdout, stderr) {
         if (stderr) {
+            logger(stderr.toString());
             console.error(command + ' errror: ' + stderr.toString());
         }
 
         if (error) {
+            logger(error.toString());
             console.error(error);
         }
+        return cb();
     });
 }
 

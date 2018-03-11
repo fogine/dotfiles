@@ -5,6 +5,7 @@ export NVM_DIR=$HOME/.nvm
 export XDG_CACHE_HOME=$HOME/.cache
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PATH:$PYENV_ROOT/bin:$HOME/.dotfiles/bin
+export VIRTUAL_ENV_DISABLE_PROMPT=1 # do NOT fuck up my prompt
 
 # Set GPG TTY
 export GPG_TTY=$(tty)
