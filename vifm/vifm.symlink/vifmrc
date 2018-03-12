@@ -219,6 +219,7 @@ map yF :!echo %f:gs? ?[:SPACE:]? | $VIFM/scripts/listsToClipboard.sh %i<cr>
 
 
 " Mappings for faster renaming
+nnoremap vii :select *<cr>
 nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cW
