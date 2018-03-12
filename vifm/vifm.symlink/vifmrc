@@ -163,6 +163,7 @@ command! blender :!blender %c %i
 command! feh :!feh -r --scale-down %f &
 command! gimp :!gimp %f &
 command! vlc :!vlc %f &
+command! mvp :!mvp %f &
 command! inkscape :!inkscape %f &
 command! audacity :!audacity %f &
 command! fileroller :!file-roller %f &
@@ -294,10 +295,6 @@ nnoremap ,st :!tmux split-window<cr>
 nnoremap ,vt :!tmux split-window -h<cr>
 nnoremap ,tt :!tmux new-window <cr>
 
-"Open folder under cursor with vlc
-"nmap <F4> :!vlc %f & %i<CR>
-nmap iv :!vlc %f & %i<CR>
-nmap isv :!vlc %f && sudo shutdown -h now & %i <CR>
 map ig :!gimp %f %i<CR>
 
 " quicker quitting program; it will resume where you left off
@@ -327,7 +324,7 @@ filextype *.pdf apvlv %c %i, zathura %c %i &, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
 
 "Video/mp3
-:filextype *.avi,*.flac,*.mp4,*.mpg,*.mp3,*.opus,*.ogg,*.aac,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v vlc %c %i
+:filextype *.avi,*.flac,*.mp4,*.mpg,*.mp3,*.opus,*.ogg,*.aac,*.mkv,*.wmv,*.dat,*.3gp,*.ogv,*.vob,*.flv,*.m2v,*.mov,*.webm,*.ts,*m4v mpv %c %i &
 
 "Blender
 :filextype *.blend,*.blend1,*.blend2,*.blend3,*.blend4,*blend4 blender %c %i
