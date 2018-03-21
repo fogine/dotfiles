@@ -11,6 +11,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'Chun-Yang/vim-textobj-chunk' "ac/ic for all the lines contain one of {}, [], or () pairs
+Plugin 'bps/vim-textobj-python' "af/if ac/ic for python function/classes
+Plugin 'junegunn/vim-after-object'
 Plugin 'chrisbra/vim-diff-enhanced'
 Plugin 'Shougo/vinarise.vim'
 Plugin 'GutenYe/json5.vim'
@@ -62,7 +65,7 @@ Plugin 'fogine/ack.vim.git'
 "Plugin 'jiangmiao/auto-pairs.git'
 Plugin 'wincent/command-t.git'
 Plugin 'godlygeek/csapprox.git'
-Plugin 'mattn/emmet-vim.git'
+Plugin 'mattn/emmet-vim.git' "expands eg.: ul>li*>a  to proper html
 Plugin 'sjl/gundo.vim.git'
 Plugin 'othree/html5.vim.git'
 Plugin 'Keithbsmiley/investigate.vim.git'
@@ -556,6 +559,12 @@ abbrev sdb !php artisan db:seed
 abbrev rbdb !php artisan migrate:rollback
 abbrev mdb !php artisan migrate
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-after-object plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Maximize plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -836,11 +845,9 @@ endif
 
 " javascript {{{4
   call extend(g:quickrun_config, {
-  \ 'javascript' : {
-  \    'exec':  'node --debug %S > /tmp/nodedebug',
-  \    'command': '',
-  \    'cmdopt': '',
+  \ '*' : {
   \    'outputter/buffer/append': 1,
+  \    'outputter/buffer/split': ':10split',
   \ }
   \ })
 
