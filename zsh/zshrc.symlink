@@ -42,7 +42,7 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-completions
   robbyrussell/oh-my-zsh plugins/zsh-navigation-tools
-  #zsh-users/zsh-syntax-autosuggestions
+  zsh-users/zsh-autosuggestions
 EOBUNDLES
 #antigen apply
 
