@@ -1,4 +1,4 @@
-*.check:insensitive{
+*.check:disabled{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_unchecked_disabled.svg"));}
 
@@ -10,7 +10,7 @@ background:transparent;
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_unchecked.svg"));}
 
-*.check:checked:insensitive{
+*.check:checked:disabled{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_checked_disabled.svg"));}
 
@@ -22,14 +22,14 @@ background:transparent;
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_checked.svg"));}
 
-*.check:inconsistent:insensitive{
+*.check:indeterminate:disabled{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_tristate_disabled.svg"));}
 
-*.check:inconsistent{
+*.check:indeterminate{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_tristate.svg"));}
 
-*.check:inconsistent:hover{
+*.check:indeterminate:hover{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/checkbox_tristate.svg"));}

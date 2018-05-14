@@ -6,7 +6,7 @@ background:@menubar;
 padding:0px 0px;}
 
 .menubar>.menuitem{
-font:bold;
+font:normal normal bold normal 12px Arial;
 padding:2px 2px;
 padding-right:4px;}
 
@@ -15,4 +15,4 @@ color:@hilighttext;
 background:@hilight;}
 
 .menubar>.menuitem .menu{
-font:regular;}
+font:normal normal bold normal 12px Arial;}

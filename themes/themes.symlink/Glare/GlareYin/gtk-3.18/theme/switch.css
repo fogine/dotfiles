@@ -15,7 +15,7 @@ GtkSwitch.trough:active{
 background:@hilight;
 border:1px solid shade(@hilight,0.7);}
 
-GtkSwitch.trough:insensitive{
+GtkSwitch.trough:disabled{
 background:@menubar;
 color:@inactivewindowtext;
 text-shadow:none;
@@ -30,5 +30,5 @@ border-radius:2px}
 GtkSwitch.slider:active{
 border:1px solid shade(@hilight,0.6);}
 
-GtkSwitch.slider:insensitive{
+GtkSwitch.slider:disabled{
 border:1px solid shade(@menubar,0.8);}

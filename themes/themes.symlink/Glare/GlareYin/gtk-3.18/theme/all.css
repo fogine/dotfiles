@@ -11,8 +11,8 @@ background: @window;}
 background: @window;
 color: @windowtext;}
 
-*:insensitive {
--gtk-image-effect:dim;
+*:disabled {
+-gtk-icon-effect:dim;
 color: @inactivewindowtext;}
 
 *:selected,

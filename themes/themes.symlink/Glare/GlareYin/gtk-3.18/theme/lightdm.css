@@ -3,7 +3,7 @@
 #panel_window .menubar > .menuitem{
 background:black;
 color: white;
-font:bold;}
+font:normal normal bold normal;}
 
 #panel_window .menubar > .menuitem:active,
 #panel_window .menubar > .menuitem:selected,
@@ -19,14 +19,14 @@ background:black;
 padding:0px;
 margin:0px;
 border:none;
-font:bold;}
+font:normal normal bold normal;}
 
 .lightdm-gtk-greeter .button,
 .lightdm-gtk-greeter .button.default{
 border:1px solid transparent;
 background:black;
 padding:5px;
-font:bold;}
+font:normal normal bold normal;}
 
 .lightdm-gtk-greeter .button:hover,
 .lightdm-gtk-greeter GtkComboBox .button:hover,
@@ -62,7 +62,7 @@ border:none;}
 #greeter_infobar{
 border:0px;
 color:rgba(0,0,0,0.6);
-font:bold;}
+font:normal normal bold normal;}
 
 #user_image_border {
 border:none;}

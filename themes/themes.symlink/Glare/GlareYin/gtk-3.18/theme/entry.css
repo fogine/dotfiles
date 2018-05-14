@@ -11,7 +11,7 @@ border:1px solid @genborderdark;}
 
 .entry:selected,
 .entry:active,
-.entry:selected:focused,
+.entry:selected:focus,
 .entry.progressbar{
 background:@hilight;
 color:@hilighttext;

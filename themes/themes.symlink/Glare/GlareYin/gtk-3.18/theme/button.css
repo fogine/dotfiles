@@ -34,24 +34,24 @@ background:@buttonnorbg;}
 .header-bar .button:checked:hover,
 .notebook tab .button:active:hover,
 .notebook tab .button:checked:hover,
-*.button:checked:insensitive,
-*.button:checked:insensitive:hover,
-*.button:backdrop:checked:insensitive,
-*.button:backdrop:checked:insensitive:hover{
+*.button:checked:disabled,
+*.button:checked:disabled:hover,
+*.button:backdrop:checked:disabled,
+*.button:backdrop:checked:disabled:hover{
 background:@btnacthovbg;
 border:1px solid @genborderdark;}
 
 *.button.flat,
 *.button.flat:hover,
-*.button.flat:insensitive,
-*.button.flat:backdrop:insensitive,
-*.button.flat:backdrop:insensitive:hover,
+*.button.flat:disabled,
+*.button.flat:backdrop:disabled,
+*.button.flat:backdrop:disabled:hover,
 .toolbar .button,
-.toolbar .button:insensitive,
+.toolbar .button:disabled,
 .titlebar .button,
-.titlebar .button:insensitive,
+.titlebar .button:disabled,
 .header-bar .button
-.header-bar .button:insensitive,
+.header-bar .button:disabled,
 .notebook tab .button{
 background:none;
 border-color:transparent;}
@@ -62,13 +62,13 @@ color:@windowtext;
 background:@btnnorbg;
 border:1px solid @genborder;}
 
-.button:backdrop:insensitive,
-.button:insensitive{
+.button:backdrop:disabled,
+.button:disabled{
 background:@btninsbg;
 border:1px solid @genborder;}
 
-.toolbar .button:backdrop:insensitive,
-.toolbar .button:insensitive{
+.toolbar .button:backdrop:disabled,
+.toolbar .button:disabled{
 background:transparent;
 border:1px solid transparent;}
 
@@ -101,7 +101,7 @@ color:@visitedurl;}
 .spinbutton.horizontal .button:hover,
 .spinbutton.horizontal .button:checked,
 .spinbutton.horizontal .button:active,
-.spinbutton.horizontal .button:insensitive {
+.spinbutton.horizontal .button:disabled {
 border-radius:0px;
 background:none;
 border: none;}
@@ -110,7 +110,7 @@ border: none;}
 .spinbutton.vertical .button:first-child:hover,
 .spinbutton.vertical .button:first-child:checked,
 .spinbutton.vertical .button:first-child:active,
-.spinbutton.vertical .button:first-child:insensitive {
+.spinbutton.vertical .button:first-child:disabled {
 border-bottom:none;
 border-radius:0px;
 border-top-left-radius:2px;
@@ -120,7 +120,7 @@ border-top-right-radius:2px;}
 .spinbutton.vertical .button:last-child:hover,
 .spinbutton.vertical .button:last-child:checked,
 .spinbutton.vertical .button:last-child:active,
-.spinbutton.vertical .button:last-child:insensitive {
+.spinbutton.vertical .button:last-child:disabled {
 border-top:none;
 border-radius:0px;
 border-bottom-left-radius:2px;
@@ -128,7 +128,7 @@ border-bottom-right-radius:2px;}
 
 /*the more weird stuff*/
 .popover .button,
-.popover .button:insensitive,
+.popover .button:disabled,
 .popover .button:checked {
 border:none;
 border-radius:0px;
@@ -142,7 +142,7 @@ background:@hilight;
 color:@hilighttext;}
 
 .list-row.button,
-.list-row.button:insensitive,
+.list-row.button:disabled,
 .list-row.button:backdrop{
 color:@windowtext;
 border-color:transparent;

@@ -8,7 +8,7 @@ color: white;
 
 MatePanelApplet{
 border:none;
-font: bold;}
+font: normal normal bold normal;}
 
 MatePanelAppletFrameDBus PanelSeparator,
 PanelSeparator,
@@ -32,7 +32,7 @@ border:none;
 border-radius:0px;
 padding:0px;
 margin:0px;
-font:bold;}
+font:normal normal bold normal;}
 
 WnckTasklist .button:hover,
 WnckTasklist .button.flat:hover {
@@ -68,7 +68,7 @@ color:@hilighttext;}
 ClockBox,
 .mate-panel-menu-bar.menubar,
 MatePanelApplet > GtkMenuBar.menubar {
-font:bold;}
+font:normal normal bold normal;}
 
 NaTrayApplet {
 -NaTrayApplet-icon-padding: 12px;

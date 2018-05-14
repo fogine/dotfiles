@@ -12,8 +12,8 @@ background-color: @error_bg_color;}
 
 GtkInfoBar {
 color:@infobar_fg_color;
-font:bold;}
+font:normal normal bold normal;}
 
 GtkInfoBar .button {
 color:@infobar_fg_color;
-font:regular;}
+font:normal normal bold normal;}

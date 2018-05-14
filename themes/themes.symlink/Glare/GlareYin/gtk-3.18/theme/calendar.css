@@ -4,7 +4,7 @@ GtkCalendar.view {
   padding: 1px;
   background:@window;}
 
-GtkCalendar.view:inconsistent {
+GtkCalendar.view:indeterminate {
   color: darker (@basebg);}
 
 GtkCalendar.header,

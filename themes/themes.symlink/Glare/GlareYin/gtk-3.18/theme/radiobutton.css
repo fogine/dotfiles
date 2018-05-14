@@ -1,4 +1,4 @@
-*.radio:insensitive{
+*.radio:disabled{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_unchecked_disabled.svg"));}
 
@@ -10,7 +10,7 @@ background:transparent;
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_unchecked.svg"));}
 
-*.radio:checked:insensitive{
+*.radio:checked:disabled{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_checked_disabled.svg"));}
 
@@ -22,14 +22,14 @@ background:transparent;
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_checked.svg"));}
 
-*.radio:inconsistent:insensitive{
+*.radio:indeterminate:disabled{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_tristate_disabled.svg"));}
 
-*.radio:inconsistent{
+*.radio:indeterminate{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_tristate.svg"));}
 
-*.radio:inconsistent:hover{
+*.radio:indeterminate:hover{
 background:transparent;
 -gtk-icon-source: -gtk-scaled(url("images/radiobox_tristate.svg"));}
