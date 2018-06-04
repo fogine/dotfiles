@@ -261,17 +261,25 @@ function expandCommand(command, arg) {
  */
 function runCommand(command, cb) {
 
-    exec(command, function(error, stdout, stderr) {
-        if (stderr) {
-            logger(stderr.toString());
-            console.error(command + ' errror: ' + stderr.toString());
-        }
+    var p = spawn(command, [], {shell: true});
+    var stderr = '';
 
-        if (error) {
-            logger(error.toString());
-            console.error(error);
+    p.stderr.on('data', function(data) {
+        console.log(data.toString());
+        stderr += data.toString();
+    });
+
+    //we have to consume the data
+    //as some programs such as inkscape expect as to process stdout
+    p.stdout.resume();
+
+    p.on('close', function(code) {
+        if (code !== 0) {
+            logger(data.toString());
+            return cb(new Error(stderr));
+        } else {
+            return cb();
         }
-        return cb();
     });
 }
 
