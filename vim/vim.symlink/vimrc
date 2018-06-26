@@ -11,10 +11,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+"Plugin 'airblade/vim-gitgutter' "adds +/- signs to the left column for lines which were added or removed (diff against index or branch)
 Plugin 'Chun-Yang/vim-textobj-chunk' "ac/ic for all the lines contain one of {}, [], or () pairs
 Plugin 'bps/vim-textobj-python' "af/if ac/ic for python function/classes
 Plugin 'junegunn/vim-after-object'
-Plugin 'chrisbra/vim-diff-enhanced'
+"Plugin 'chrisbra/vim-diff-enhanced'
 Plugin 'Shougo/vinarise.vim'
 Plugin 'GutenYe/json5.vim'
 Plugin 'pangloss/vim-javascript'
@@ -134,7 +135,7 @@ runtime! archlinux.vim
 let g:netrw_browsex_viewer = 'google-chrome'
 set clipboard=unnamed
 colorscheme sonofobs256
-set mouse=a		" Enable mouse usage (all modes)
+"set mouse=a		" Enable mouse usage (all modes)
 "Inject pathogen plugin for plugings management
 "runtime bundle/vim-pathogen/autoload/pathogen.vim
 "execute pathogen#infect()
@@ -289,6 +290,10 @@ set undodir=$HOME/.vim/undo//
 
 " Set to auto read when a file is changed from the outside
 set autoread
+
+" If this many milliseconds nothing is typed the swap file will be
+" written to disk (see |crash-recovery|).  Also used for the
+set updatetime=500
 
 " Height of the command bar
 set cmdheight=1
@@ -561,6 +566,13 @@ abbrev mdb !php artisan migrate
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => gitgutter plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" https://github.com/airblade/vim-gitgutter/issues/502
+" workaround for refreshing signs after a commit is done via fugitive
+"autocmd BufWritePost * GitGutter
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-after-object plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
@@ -792,7 +804,7 @@ nmap <F4> :!start ctags --fields=+l -R . <CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteme plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:ycm_server_python_interpreter = 'python2'
+"let g:ycm_server_python_interpreter = 'python2'
 let g:ycm_python_binary_path = 'python'
 "let g:ycm_server_keep_logfiles = 0
 "let g:ycm_server_log_level = 'debug'
@@ -843,8 +855,13 @@ if !exists('g:quickrun_config')
     let g:quickrun_config={}
 endif
 
+" make globaly installed npm packages available for quickrun scripts
 " javascript {{{4
   call extend(g:quickrun_config, {
+  \ 'javascript': {
+  \    'exec': '%c -c "export NODE_PATH=\"$(realpath $(which npm) | sed ''s/\(.*node_modules\).*/\1/'')\" ; cat %s | node -p"',
+  \    'command': '/bin/bash'
+  \ },
   \ '*' : {
   \    'outputter/buffer/append': 1,
   \    'outputter/buffer/split': ':10split',
