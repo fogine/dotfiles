@@ -36,9 +36,20 @@ function main() {
             var targets = [];
 
             Object.keys(selection).forEach(function(path) {
-                Object.keys(options).forEach(function(p) {
-                    if (~p.indexOf(path) && p.match(/^\/dev\/sd[a-z]{1}\d{1}$/)) {
-                        targets.push(options[p]);
+                Object.keys(options).forEach(function(p, index, keys) {
+                    var isTheOnlyDevPath = keys.reduce(function(outcome, key, i) {
+                        if (!outcome) return outcome;
+                        if (~p.indexOf(path) && i !== index) return false;
+
+                        return true;
+                    }, true);
+
+                    if (~p.indexOf(path)) {
+                        if (p.match(/^\/dev\/sd[a-z]{1}\d{1}$/)
+                            || isTheOnlyDevPath
+                        ) {
+                            targets.push(options[p]);
+                        }
                     }
                 });
             });
@@ -160,8 +171,7 @@ function parseSelection(str) {
         var devicePath = data[0];
         var labelOrMountPath = data[1];
 
-        var re = devicePath.trim().match(/^\/dev\/sd[a-z]{1}\d{0,1}$/i);
-        var found = devicePath.trim().match(re);
+        var found = devicePath.trim().match(/^\/dev\/sd[a-z]{1}\d{0,1}$/i);
 
         if (found) {
             out[devicePath.trim()] = labelOrMountPath.trim();
