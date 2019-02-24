@@ -11,6 +11,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'ap/vim-css-color'
+Plugin 'HerringtonDarkholme/yats.vim' "typescript syntax
 "Plugin 'airblade/vim-gitgutter' "adds +/- signs to the left column for lines which were added or removed (diff against index or branch)
 Plugin 'Chun-Yang/vim-textobj-chunk' "ac/ic for all the lines contain one of {}, [], or () pairs
 Plugin 'bps/vim-textobj-python' "af/if ac/ic for python function/classes
@@ -18,6 +20,7 @@ Plugin 'junegunn/vim-after-object'
 "Plugin 'chrisbra/vim-diff-enhanced'
 Plugin 'Shougo/vinarise.vim'
 Plugin 'GutenYe/json5.vim'
+Plugin 'mxw/vim-jsx' " react jsx syntax highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'vifm/vifm.vim'
 Plugin 'nvie/vim-flake8' "static syntax and style checker for Python
@@ -564,6 +567,10 @@ abbrev sdb !php artisan db:seed
 abbrev rbdb !php artisan migrate:rollback
 abbrev mdb !php artisan migrate
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => mxw/vim-jsx
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:jsx_ext_required = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => gitgutter plugin settings
