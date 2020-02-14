@@ -74,7 +74,7 @@
         },
         "=": {
             "type": "terminal",
-            "cmd": "result=$(genius --exec=\"$(echo \"%b\")\") && notify-send \"$result\" -t 3000 ; echo \"$result\" | xclip -i ; exit 0",
+            "cmd": "result=$(genius --floatresult --exec=\"$(echo \"%b\")\") && notify-send \"$result\" -t 3000 ; echo \"$result\" | xclip -i ; exit 0",
             "cache": "single"
         },
         "base64": {
