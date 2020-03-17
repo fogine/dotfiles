@@ -26,7 +26,7 @@ URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=13,xft:PowerlineSymbols
 URxvt.scrollBar: false
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
-URxvt.perl-ext-common: default
+URxvt.perl-ext-common: default,resize-font
 URxvt.iso14755: False
 !URxvt*font: xft:PowerlineSymbols:pixelsize=13
 
