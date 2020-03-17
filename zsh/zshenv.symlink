@@ -2,5 +2,14 @@ export EDITOR='vim'
 export LANG=en_US.UTF-8
 export NVM_DIR=$HOME/.nvm
 export XDG_CACHE_HOME=$HOME/.cache
+#qt5 themes
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+export CLICOLOR=true
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PATH:$PYENV_ROOT/bin:$HOME/.dotfiles/bin:$HOME/.gem/ruby/2.7.0/bin
+export VIRTUAL_ENV_DISABLE_PROMPT=1 # do NOT fuck up my prompt
+
+
 
 eval "$(pyenv init -)"
