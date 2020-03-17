@@ -11,8 +11,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'calviken/vim-gdscript3'
 Plugin 'ap/vim-css-color'
-Plugin 'HerringtonDarkholme/yats.vim' "typescript syntax
+Plugin 'leafgarland/typescript-vim' "typescript syntax
+Plugin 'peitalin/vim-jsx-typescript' "react jsx typescript syntax
 "Plugin 'airblade/vim-gitgutter' "adds +/- signs to the left column for lines which were added or removed (diff against index or branch)
 Plugin 'Chun-Yang/vim-textobj-chunk' "ac/ic for all the lines contain one of {}, [], or () pairs
 Plugin 'bps/vim-textobj-python' "af/if ac/ic for python function/classes
@@ -116,6 +118,8 @@ Plugin 'fogine/vim-snippets'
 Plugin 'fogine/vim-syntaxattr'
 Plugin 'fogine/vim-dragvisuals'
 Plugin 'fogine/phpfolding.vim'
+Plugin 'tyru/open-browser.vim'
+
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 
@@ -135,13 +139,15 @@ set cryptmethod=blowfish     "blowfis2 -> best  (requires Vim version 7.4.399 or
 set backspace=2 " make backspace work like most other apps
 runtime! archlinux.vim
 
-let g:netrw_browsex_viewer = 'google-chrome'
+let g:netrw_browsex_viewer = 'google-chrome-stable'
 set clipboard=unnamed
-colorscheme sonofobs256
+colorscheme sonofobsidian
 "set mouse=a		" Enable mouse usage (all modes)
-"Inject pathogen plugin for plugings management
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
-"execute pathogen#infect()
+
+" Open browser - since vim version 8.1.1755 broke default gx behavior
+let g:netrw_nogx = 1 " disable netrw's gx mapping.
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
 
 "Following alows c-space to work in terminal vim
 "nnoremap <C-Space> :
@@ -167,10 +173,6 @@ if has("syntax")
   syntax on
 endif
 
-" If using a dark background within the editing area and syntax highlighting
-" turn on this option as well
-"set background=dark
-
 "Jump to the last position when
 " reopening a file
 if has("autocmd")
@@ -191,8 +193,6 @@ if has("multi_byte")
   "setglobal bomb
   set fileencodings=ucs-bom,utf-8,latin1
 endif
-"Use old regexp engine instead of new one which came with 7.4
-"set regexpengine=1
 "No column highlighting on cusor position
 set nocursorcolumn
 "No line highlighting on cusor position
@@ -204,45 +204,12 @@ imap ;; <ESC>
 vmap ;; <ESC>
 imap jj <ESC>
 cmap jj <C-C>
-"nmap ; :
-
-"Engances ci(, ci[, ci', ci" commands:
-
-"nnoremap ci( :call New_cib()<CR>
-
-"nnoremap cib :call New_cib()<CR>
-
-"nnoremap ci[ :call New_cisquerebracket()<CR>
 
 onoremap in :<c-u>call <SID>NextTextObject('i', 'f')<cr>
 xnoremap in :<c-u>call <SID>NextTextObject('i', 'f')<cr>
 
 onoremap il :<c-u>call <SID>NextTextObject('i', 'F')<cr>
 xnoremap il :<c-u>call <SID>NextTextObject('i', 'F')<cr>
-
-"function New_cib()
-    "if search("(","bn") == line(".")
-        "sil exe "normal! f)ci("
-        "sil exe "normal! l"
-        "startinsert
-    "else
-        "sil exe "normal! f(ci("
-        "sil exe "normal! l"
-        "startinsert
-    "endif
-"endfunction
-
-"function New_cisquerebracket()
-    "if search("[","bn") == line(".")
-        "sil exe "normal! f]ci["
-        "sil exe "normal! l"
-        "startinsert
-    "else
-        "sil exe "normal! f[ci["
-        "sil exe "normal! l"
-        "startinsert
-    "endif
-"endfunction
 
 function! s:NextTextObject(motion, dir)
     let c = nr2char(getchar())
@@ -334,9 +301,6 @@ set hlsearch
 " Show matching brackets when text indicator is over them
 set showmatch
 
-"Toogle fullScreen window
-"map <F12> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
-
 "Search within current line
 nmap // /\%<c-r>=line('.')<cr>l
 
@@ -347,12 +311,6 @@ map [] k$][%?}<CR>
 
 " Switch CWD to the directory of the open buffer
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
-
-" Romove current file
-"map <leader>rm :call delete(expand('%'))
-
-" Remember info about open buffers on close
-"set viminfo^=%
 
 " Do not store global and local values in a session
 set ssop-=options
@@ -387,10 +345,6 @@ nnoremap <leader>gb :Git branch<Space>
 nnoremap <leader>go :Git checkout<Space>
 
 " Shorter shortcuts for moving between windows
-"nmap <C-h> <C-w>h
-"nmap <C-j> <C-w>j
-"nmap <C-k> <C-w>k
-"nmap <C-l> <C-w>l
 nmap <C-q> <C-w>q
 
 " Window resizing
@@ -446,27 +400,11 @@ set tabstop=4
 set expandtab
 set smarttab
 
-" Run PHPUnit tests
-"nmap <leader>t yiw:!phpunit --filter "<cr>
-"map <leader>tt :!phpunit %<cr>
-"map <leader>T :!phpunit app/tests/<cr>
-"nmap <leader>t :TestNearest<cr>
-"nmap <leader>tl :TestLast<cr>
-"nmap <leader>tv :TestVisit<cr>
-"map <leader>tt :TestFile<cr>
-"map <leader>T :TestSuite<cr>
-
 " Minimal number of screen lines to keep above and below the cursor.
 set scrolloff=999
 
-" Format the status line
-"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
-
 " Jump from outside of pairts: [], {}, (), '', ""
 imap <C-l> <ESC>la
-"imap <C-l> <ESC>f"a
-"imap <C-l> <ESC>f]a
-"imap <C-l> <ESC>f)a
 
 " Show line number, cursor position.
 set ruler
@@ -484,25 +422,16 @@ set complete+=k
 " Show editing mode
 set showmode
 
+set anti enc=utf-8
+set guifont=Source\ Code\ Pro\ 10
+
+
 " No Error bells, no beeps occur anymore!
 augroup no_vim_sound
     autocmd!
     autocmd GUIEnter * set vb t_vb= " for your GUI
     autocmd VimEnter * set vb t_vb=
 augroup END
-
-" Font. Very important.
-if has('win32') || has('win64')
-    " set guifont=Monaco:h10
-    "set guifont=Consolas:h10:cANSI
-    "set guifont="Source Code Pro:h10"
-elseif has('unix')
-    "set guifont=Consolas:h10:cANSI
-    "set guifont=Consolas\ 10
-    set anti enc=utf-8
-    set guifont=Source\ Code\ Pro\ 10
-    "let &guifont="Monospace 10"
-endif
 
 augroup vim_autocmd_vifm
     autocmd!
@@ -553,20 +482,6 @@ augroup END
 "though
 autocmd BufNewFile,BufRead fugitive://* set bufhidden=delete
 
-" PHP folding
-"autocmd BufRead,BufNewFile *.php setlocal foldmethod=marker foldmarker=#region,#endregion
-
-"Abbreviations
-abbrev gm !php artisan generate:model
-abbrev gc !php artisan generate:controller
-abbrev gr !php artisan generate:resource
-abbrev gv !php artisan generate:view
-abbrev gs !php artisan generate:seed
-abbrev gmig !php artisan generate:migration
-abbrev sdb !php artisan db:seed
-abbrev rbdb !php artisan migrate:rollback
-abbrev mdb !php artisan migrate
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => mxw/vim-jsx
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -587,7 +502,6 @@ autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Maximize plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <F12> :MaximizerToggle<CR>
 map <c-w><c-o> :MaximizerToggle<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -610,25 +524,7 @@ let g:startify_session_autoload = 1
 let g:startify_session_delete_buffers = 1
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Auto completion popup menu  settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"snipMate plugin auto popup enable
-"let g:acp_behaviorSnipmateLength = 1
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Auto completion popup menu  settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"imap <a>j <Plug>snipMateNextOrTrigger
-"smap <a>j <Plug>snipMateNextOrTrigger
-"smap <a>k <Plug>snipMateBack
-
 "Plugin settings
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => CSApprox plugin settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:CSApprox_loaded = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Easymotion plugin settings
@@ -640,24 +536,6 @@ let g:EasyMotion_do_mapping = 0
 " => Repeat.vim plugin setting
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Syntastic plugin settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_php_checkers = ['php']
-let g:syntastic_javascript_checkers = ['standard']
-let g:syntastic_quiet_messages = { "type": "style", "level": "warnings" }
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_auto_jump = 2
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => i3_vim_focus plugin
@@ -677,7 +555,7 @@ let g:yankring_replace_n_pkey = '<leader>p'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "let g:airline#extensions#whitespace#enabled = 0
 "let g:Powerline_symbols = 'fancy'
-set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings//vim/
+set rtp+=/usr/lib/python3.8/site-packages/powerline/bindings//vim/
 
 
 " Always show statusline
@@ -685,23 +563,6 @@ set laststatus=2
 
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
-
-
-" autocmd VimEnter *
-"             \   if !argc()
-"             \ |   Startify
-"             \ |   NERDTree
-"             \ |   wincmd w
-"             \ | endif
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => PHPCOMPLETE plugin conf
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"let g:phpcomplete_index_composer_command = 'composer'
-"augroup vim_autocmd phpCompletion
-    "autocmd!
-    "autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
-"augroup END
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ultisnips plugin  settings
@@ -734,15 +595,6 @@ let g:proj_window_increment=25
 let g:proj_flags='gimst'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => NERDTree plugin  settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"let NERDTreeHighlightCursorline=1
-"nnoremap <silent> <C-n> :ProjectRootExe NERDTreeFind<cr>
- "nnoremap <silent> <C-n> :NERDTreeTabsToggle<cr>
- "nnoremap <silent> <C-m> :NERDTreeTabsFind<cr>
-" map <C-n> :NERDTreeTabsToggle NERDTreeTabsFind<CR>
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vifm plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  nnoremap <silent> <C-n> :EditVifm<cr>
@@ -758,14 +610,6 @@ let g:ctrlp_extensions = ['buffertag', 'rtscript', 'tag']
 let g:ctrlp_working_path_mode = 'r'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Tagbar plugin settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:tagbar_ctags_bin='c:\Program Files (x86)\ctags58\ctags.exe'
-nnoremap <silent> <F9> :TagbarToggle<CR>
-let g:tagbar_left = 1
-map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => PHP Documentator plugin 2 settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:pdv_template_dir = $VIM ."/vimfiles/bundle/pdv/templates_snip"
@@ -776,12 +620,6 @@ nnoremap <leader>d :call pdv#DocumentWithSnip()<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>zc <Esc>:EnablePHPFolds<Cr>
 map <leader>zo <Esc>:DisablePHPFolds<Cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Fugitive
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-command Gps Gpush
-command Gpl Gpull
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Cscope settings
@@ -795,18 +633,6 @@ nmap <F3> :!start find . -iname '*.php' > cscope.files<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set tags=./tags,tags;$HOME
 nmap <F4> :!start ctags --fields=+l -R . <CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => ConqueTerm plugin settings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"let g:ConqueTerm_FastMode = 1
-"let g:ConqueTerm_PyVersion = 3
-"let g:ConqueTerm_InsertOnEnter = 1
-"let g:ConqueTerm_CWInsert = 1
-"nmap <leader><leader>c :call conque_term#open('cmd.exe', ['split', 'resize 1']) <CR>
-"nmap <leader>c :call conque_term#open('cmd.exe', ['split', 'resize 20']) <CR>
-"nmap <leader>cv :ConqueTermVSplit cmd.exe<CR>
-"nmap <leader>ct :ConqueTermTab cmd.exe<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteme plugin settings
@@ -826,6 +652,15 @@ let g:ycm_complete_in_comments = 1
 let g:ycm_semantic_triggers = {}
 let g:ycm_semantic_triggers.php =
 \ ['->', '::', '(', 'use ', 'namespace ', '\']
+let g:ycm_semantic_triggers.gdscript3 = [
+    \'re!\w+',
+    \'.',
+    \'re!\bextends\s+',
+    \'re!\bexport\(',
+    \'re!\bfunc\s+',
+    \'re!"res://[^"]*'
+    \]
+
 "let g:ycm_add_preview_to_completeopt = 0
 "let g:ycm_key_detailed_diagnostics = '<leader>ycmd'
 "let g:ycm_path_to_python_interpreter = 'c:\Python27\'
