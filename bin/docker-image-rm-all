@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# remove all docker images
+
+docker image rm $(docker images -q)

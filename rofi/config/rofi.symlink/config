@@ -1,0 +1,19 @@
+rofi.color-enabled: true
+rofi.color-window: #262626, #262626, #268bd2
+rofi.color-normal: #262626, #ffffff, #262626, #005577, #ffffff
+rofi.color-active: #262626, #005577, #262626, #005577, #38a8f2
+rofi.color-urgent: #262626, #f3843d, #262626, #005577, #f3843d
+rofi.kb-clear-line:
+rofi.kb-accept-entry:Return,KP_Enter
+rofi.kb-remove-to-eol:
+rofi.kb-row-tab:
+rofi.kb-row-down:Control+j,Tab,Down,Control+n
+rofi.kb-row-up:Control+k,Up,Control+p,ISO_Left_Tab
+rofi.kb-remove-word-back:Control+w
+rofi.kb-move-char-forward:Right
+rofi.kb-move-char-back:Left
+rofi.kb-page-prev:Page_Up,Control+b
+rofi.kb-page-next:Page_Down,Control+f
+rofi.kb-remove-char-back:BackSpace
+rofi.kb-move-word-back:Control+h
+rofi.kb-move-word-forward:Control+l

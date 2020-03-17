@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rofi -show calc -modi calc -no-show-match -no-sort -theme $HOME/.dotfiles/rofi/calc_theme.css
